@@ -207,7 +207,8 @@ export const content = {
     compensationSubtitle:
       "Compensation from a mesothelioma lawsuit can help cover: ",
 
-    realStoriesTitle: "Real Stories Behind Mesothelioma Lawsuits",
+    // realStoriesTitle: "Real Stories Behind Mesothelioma Lawsuits",
+
 
     stepsTitle: "How to File a Mesothelioma Lawsuit with Connect2Attorney?",
     stepsParagraph:
@@ -264,10 +265,10 @@ const MESOTHELIOMA_TOC = [
     label: "Mesothelioma Compensation & Settlements: What You Can Expect",
     id: content.sectionIds.compensationTitle,
   },
-  {
-    label: "Real Stories Behind Mesothelioma Lawsuits",
-    id: content.sectionIds.realStoriesTitle,
-  },
+  // {
+  //   label: "Real Stories Behind Mesothelioma Lawsuits",
+  //   id: content.sectionIds.realStoriesTitle,
+  // },
   {
     label: "How to File a Mesothelioma Lawsuit with Connect2Attorney?",
     id: content.sectionIds.stepsTitle,
