@@ -23,7 +23,7 @@ export const sendWithEmailJS = async (apiBody: any) => {
     description: data.description,
 
     ip_address: data.ipAddress,
-    source_url: apiBody.sourceUrl,
+    source_url: data.pageSource,
     submission_date: data.submissionDate,
 
     trusted_form_cert_url: data.trustedFormCertUrl,

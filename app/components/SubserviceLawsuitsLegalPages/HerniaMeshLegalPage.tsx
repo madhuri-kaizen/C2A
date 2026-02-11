@@ -11,94 +11,139 @@ export const content = {
     mainTitle: "main-title",
     allegationsTitle: "allegations-title",
     healthRisksTitle: "health-risks-title",
-    whoQualifiesTitle: "who-qualifies-title",
-    compensationTitle: "compensation-title",
-    mdllitigationTitle: "mdl-litigation-title",
-    currentTitle: "current-title",
     helpTitle: "help-title",
-    realStoriesTitle: "real-stories-title",
+    mdllitigationTitle: "mdl-litigation-title",
+    findRightTitle: "find-right-title",
+    settlementsTitle: "settlements-title",
     stepsTitle: "steps-title",
   },
 
   realStories: [
     {
-      name: "Tabatha Means",
+      name: "Mae Moore",
       story:
-        " She filed a lawsuit against Lyft after her driver allegedly sexually abused her during a rideshare trip.",
+        "The family of Mae Moore sued Johnson & Johnson following her death from mesothelioma. The jury awarded $966 million to the family as compensation for their loss. ",
+    },
+    {
+      name: "Darlene Coker",
+      story:
+        "Coker was diagnosed with mesothelioma, which she alleged was caused by her long-term use of Johnson & Johnson’s talcum powder. .",
     },
   ],
 
   eligibilityPoints: [
     {
-      title: "Failure to Warn of Gastroparesis:",
       description:
-        "You were prescribed Ozempic for diabetes or off-label weight loss",
+        "Your initial hernia repair involving mesh was performed on or after January 1, 2006. ",
     },
     {
-      title: "Misleading Marketing and Safety Claims:",
       description:
-        "You experienced severe or persistent gastrointestinal side effects ",
+        "You developed serious complications more than 30 days after surgery, such as adhesions, hernia recurrence, bowel/intestinal blockage, mesh migration, organ perforation, or infection. ",
     },
     {
-      title: "Omission of Vision Loss Warnings:",
       description:
-        "You were diagnosed with conditions such as gastroparesis, intestinal blockage, or severe vomiting ",
+        "You required a revision hernia repair or additional surgery due to mesh-related complications. ",
     },
     {
-      title: "Ignoring Critical Safety Signals:",
       description:
-        "Your injuries required medical treatment, hospitalization, or surgery\nEligibility depends on medical records, duration of use, and severity of injuries.",
+        "A doctor recommended surgery to address complications, but you cannot undergo the procedure because of other medical conditions.  ",
     },
   ],
 
   healthRisks: [
     {
-      number: "01",
-      title: "Emotional and Psychological Impact",
+      title: "Severe Infection & Abscess  ",
       description:
-        "Victims may suffer from anxiety, depression, or post-traumatic stress following an assault.",
+        "Mesh-related infections may become persistent, resistant to antibiotics, or spread to surrounding tissue, sometimes requiring drainage, hospitalization, or surgical removal of the implant. ",
+    },
+    {
+      title: "Chronic Pain & Nerve Injury",
+      description:
+        "Patients report burning, stabbing, or constant pain that interferes with walking, working, sleeping, or daily movement, especially when the mesh contracts, scars in, or irritates nerves. ",
+    },
+    {
+      title: "Mesh Migration, Shrinkage & Adhesions  ",
+      description:
+        "In some cases, mesh may shift from where it was placed, fold, shrink, or adhere to nearby organs. This can trigger inflammation, restricted movement, and severe abdominal discomfort. ",
+    },
+    {
+      title: "Bowel Obstruction, Perforation & Fistulas  ",
+      description:
+        "When mesh erodes into tissue or attaches to organs, it can contribute to intestinal blockages or perforations, serious events that may require emergency surgery. ",
+    },
+    {
+      title: "Hernia Recurrence & Revision Surgery  ",
+      description:
+        "A recurring hernia after mesh repair can mean additional procedures, longer recovery, and increased risk of complications, especially if mesh must be removed and replaced. ",
+    },
+    {
+      title: "Seromas ",
+      description:
+        "Fluid-filled pockets can form around the surgical site and may require drainage or treatment. ",
+    },
+  ],
+  otherRisks: [
+    {
+      number: "01",
+      title: "Exposure to Inappropriate Content",
+      description:
+        "Users may encounter violent, sexual, or otherwise harmful material despite moderation efforts.  ",
     },
     {
       number: "02",
-      title: "Financial Burden",
+      title: "Online Predators",
       description:
-        "Medical bills, therapy costs, and lost wages can add significant financial stress to survivors. ",
+        "Children may be targeted by strangers using the platform’s social features to communicate and manipulate. ",
     },
     {
       number: "03",
-      title: "Company Accountability",
+      title: "Excessive Screen Time",
       description:
-        "Questions arise over whether rideshare platforms took sufficient measures to prevent assaults. ",
+        "Extended gameplay can disrupt sleep, physical activity, and academic performance.  ",
     },
     {
       number: "04",
-      title: "Public Safety Concerns",
+      title: "Financial Risks",
       description:
-        "Incidents raise awareness of potential risks in rideshare travel, affecting overall trust in the service. ",
+        " In-game purchases can add to unanticipated costs for families. ",
     },
     {
       number: "05",
-      title: " Legal and Reporting Challenges",
+      title: " Privacy Concern",
       description:
-        "Victims may face difficulties handling the reporting process or pursuing legal action.  ",
+        "Personal information and activity data may be collected and misused without clear disclosure. ",
+    },
+  ],
+  whoQualifies: [
+    {
+      description: "In-game currency (Robux) encouraging repeated purchases ",
+    },
+    {
+      description:
+        "Reward loops and leveling systems designed to keep users engaged ",
+    },
+    {
+      description:
+        "Social pressure from multiplayer interactions and virtual status ",
+    },
+    {
+      description: "Continuous updates and events that promote daily logins ",
     },
   ],
 
-  whoQualifies: [
+  mainPoints: [
     {
-      description: "You were sexually assaulted by a rideshare driver",
+      description: "Obsessive gameplay",
+    },
+    {
+      description: "Withdrawal symptoms when not playing",
+    },
+    {
+      description: "Neglect of school, sleep, or family life ",
     },
     {
       description:
-        "The assault occurred during or shortly after a rideshare trip",
-    },
-    {
-      description:
-        "You were a passenger using apps like Uber, Lyft, or similar services ",
-    },
-    {
-      description:
-        "The incident caused physical injury, emotional trauma, or financial losses ",
+        "Emotional dependence on in-game rewards and social interaction",
     },
   ],
 
@@ -106,128 +151,148 @@ export const content = {
     {
       title: "Medical Expenses",
       description:
-        "Coverage for treatment, therapy, and other healthcare costs related to the assault. ",
+        "Covers hospital bills, treatments, medications, and ongoing care costs. ",
     },
     {
       title: "Lost Wages",
       description:
-        "Compensation for income lost due to recovery time or inability to work.  ",
+        "Compensation for income lost due to illness or time away from work. ",
     },
     {
       title: "Pain and Suffering",
       description:
-        "Monetary recognition for emotional distress, trauma, and mental anguish caused by the incident. ",
+        "For physical pain, mental anguish, and reduced quality of life.",
     },
     {
       title: "Punitive Damages",
       description:
-        "Additional compensation intended to punish the responsible party and deter similar behavior in the future. ",
+        "Support for spouses or family members affected by the victim’s condition. ",
     },
     {
-      title: "Legal Costs",
+      title: "Other Related Costs",
       description:
-        "Reimbursement for attorney fees, court costs, and other expenses associated with pursuing the lawsuit. ",
+        "For families who lost a loved one due to talcum powder–related cancer. ",
     },
   ],
 
   mdllitigationPoints: [
     {
-      description: "Uber, the largest rideshare company in the United States ",
+      title: "C.R. Bard / Becton Dickinson (MDL 2846) ",
+      description: [
+        "More than 23,700 cases are pending in federal court in Ohio. ",
+        "After multiple bellwether trials, including a $4.8 million plaintiff verdict (2022) and a $500,000 verdict (2023), a broader settlement framework is being finalized to resolve most remaining claims. ",
+      ],
     },
     {
-      description: "Lyft, another widely used platform ",
+      title: "Covidien (MDL 3029) ",
+      description: [
+        "Roughly 2,260 cases are pending involving Parietex and Symbotex mesh products. ",
+        "Bellwether trials are scheduled for 2026 to help shape settlement ranges and case valuation. ",
+      ],
     },
     {
-      description: "Other regional or app-based rideshare services  ",
+      title: "Atrium (MDL 2753) ",
+      description:
+        "300+ cases remain pending, focusing on C-Qur mesh allegations. ",
+    },
+    {
+      title: "Ethicon (Physiomesh) ",
+      description: [
+        "Earlier claims were largely resolved through confidential settlements or dismissals. ",
+        "The MDL currently shows 0 cases pending, indicating the federal docket has been cleared, even though the broader litigation history remains relevant.  ",
+      ],
     },
   ],
 
   helpPoints: [
     {
-      description: "Investigate the incident and preserve evidence ",
+      description:
+        "Confirm what mesh was used (brand/model) using operative records and device labels  ",
     },
     {
-      description: "Handle communications with rideshare companies  ",
+      description:
+        "Screen for eligibility based on injuries, revision surgery history, and legal deadlines ",
     },
     {
-      description: "File claims within legal deadlines ",
+      description:
+        "Build evidence (medical records, timeline, expert review, damages documentation)  ",
     },
     {
-      description: "File claims within legal deadlines ",
+      description:
+        "File your claim correctly and keep it compliant with MDL/court requirements  ",
     },
     {
-      description: "Pursue maximum compensation through settlement or trial ",
+      description:
+        "Negotiate compensation while protecting your rights through each litigation phase ",
+    },
+  ],
+
+  settlementsPoints: [
+    {
+      title: "Medical Expenses",
+      description:
+        "Surgery bills, hospital stays, imaging, prescriptions, specialist care, and future treatment",
+    },
+    {
+      title: "Lost Wages",
+      description: "Missed work, reduced earning capacity, job disruption ",
+    },
+    {
+      title: "Pain and Suffering",
+      description: "Chronic pain, emotional distress, loss of normal activity",
+    },
+    {
+      title: "Future Care Costs",
+      description: "Ongoing treatment, rehabilitation, long-term complications",
+    },
+    {
+      title: "Out-of-Pocket Costs",
+      description: "Travel for care, home support, medical devices",
+    },
+    {
+      title: "Punitive Damages (in some cases)",
+      description:
+        "When conduct is proven especially reckless under applicable law ",
     },
   ],
 
   pageContent: {
-    mainTitle: "What is Rideshare Sexual Assault Lawsuit?",
+    mainTitle: "What is the Hernia Mesh Lawsuit?",
     mainParagraphs: [
-      "Rideshare services like Uber and Lyft are meant to offer safe, convenient transportation. However, thousands of passengers across the United States have reported sexual assault during rideshare trips, leading to growing litigation against these companies. A Rideshare Sexual Assault Lawsuit allows survivors to seek justice, accountability, and financial compensation for the harm they suffered.",
-      "If you or a loved one experienced sexual assault while using a rideshare app, you may have legal options. ",
-      "A Rideshare Sexual Assault Lawsuit is a civil legal claim filed by passengers who were sexually assaulted by rideshare drivers or, in some cases, other passengers, while using platforms like Uber or Lyft. These lawsuits allege that rideshare companies failed to take reasonable steps to protect users, such as proper background checks, driver monitoring, or safety controls. ",
-      "Unlike criminal cases, these lawsuits focus on financial compensation and corporate accountability, not criminal punishment. ",
-      "About Rideshare Sexual Assault ",
-      "Rideshare sexual assault refers to unwanted sexual contact, harassment, or violence that occurs during or immediately after a rideshare trip. Incidents may include groping, forced sexual acts, attempted rape, or other forms of sexual misconduct. ",
-      "Many survivors report that the assault occurred when they were alone with the driver, intoxicated, asleep, or otherwise vulnerable, raising serious concerns about rideshare safety policies. ",
+      "Hernia mesh lawsuits are legal claims filed by patients who say a hernia mesh implant was defectively designed, poorly manufactured, or did not come with adequate warnings about serious risks. Many lawsuits allege the mesh could shrink, stiffen, tear, migrate, or trigger chronic inflammation, leading to complications that require emergency care or repeat surgery. These cases are typically filed as product liability claims against major manufacturers.",
+      "If your hernia mesh implant had complications and led to a revision/removal surgery, you may be eligible to file a hernia mesh lawsuit and pursue compensation. Start a free, confidential case review to see if you qualify in minutes. ",
+      "What is Hernia Mesh? ",
+      "Hernia mesh is a surgical implant used to reinforce weakened tissue during hernia repair (often inguinal or ventral/incisional hernias). It’s commonly made from synthetic materials (like polypropylene) or composite materials, and it may be placed through open surgery or laparoscopic repair. ",
+      "For many people, mesh works as intended. But when a mesh fails or the body reacts poorly, patients can face complications that don’t resolve without additional medical intervention. ",
     ],
 
     allegationsTitle: "Who is Eligible to File a Claim? ",
-    allegationsParagraph:
-      "Survivors do not need a criminal conviction to file a civil lawsuit. Even if the assault was never reported to police, you may still have a valid legal claim. ",
-    allegationsSubtitle:
-      "You may be eligible to file a rideshare sexual assault lawsuit if:   ",
 
-    healthRisksTitle:
-      "Rideshare Safety Risks: Sexual Assault and Passenger Protection",
+    allegationsSubtitle: "Eligibility usually depends on: ",
+
+    healthRisksTitle: "Hernia Mesh Side Effects & Complications Explained   ",
     healthRisksParagraph:
-      "Rideshare sexual assault cases often raise broader concerns beyond the immediate harm to victims. Survivors may experience emotional trauma, financial strain, and fear of using shared transportation in the future.  ",
-    healthRisksSubtitle: "Other issues related to rideshare sexual assault: ",
+      "Some discomfort after hernia repair can be normal. But ongoing pain, repeated infections, or worsening symptoms may signal a mesh complication that needs immediate evaluation. Common complications reported in hernia mesh claims include: ",
 
-    whoQualifiesTitle:
-      "How Can an Ozempic Lawyer Help You Recover Compensation? ",
-    whoQualifiesParagraph:
-      "Many users of Ozempic or similar drugs have developed severe digestive issues like gastroparesis after using them for weight loss or diabetes. Lawsuits claim that manufacturers like Novo Nordisk and Eli Lilly failed to warn about these risks",
-    whoQualifiesSubtitle: "An experienced Ozempic lawyer can help you: ",
     mdllitigationTitle:
-      "Common Rideshare Platforms Involved: Uber, Lyft & Others   ",
+      "Hernia Mesh Lawsuit Update: MDL Status & Current Developments   ",
 
-    mdllitigationSubtitle:
-      "Most rideshare sexual assault lawsuits focus on major transportation apps, including: ",
+    mdllitigationParagraph:
+      "As of February 2026, there are more than 26,000 hernia mesh lawsuits consolidated in federal Multidistrict Litigation (MDL), largely centered on mesh products made by Bard, Covidien, and Atrium. Many of these cases are moving closer to broader settlement discussions. C.R. Bard is working through settlement efforts for a large portion of its docket, while Covidien cases are advancing toward bellwether trials in 2026, with allegations tied to polypropylene mesh injuries such as chronic pain and organ damage. ",
 
-    mdllitigationParagraph: [
-      "Both Uber and Lyft have publicly acknowledged that sexual assault incidents occur on their platforms.  ",
-      "According to Uber’s own safety reports, the company disclosed nearly 6,000 alleged sexual assaults in 2017–2018, 3,824 in 2019–2020, and 2,717 in 2021–2022, totaling over 12,500 reported incidents between 2017 and 2022. ",
-      "Lyft’s safety transparency reports show more than 4,000 sexual assault incidents from 2017–2019 and about 2,651 during 2020–2022. Together, these figures suggest tens of thousands of reported sexual assault incidents over several years on U.S. rideshare trips.",
-      "These published figures likely understate the real totals, as many victims never report assaults to police or rideshare companies, and litigation claims suggest the numbers could be much higher when including unreported cases. ",
-    ],
+    mdllitigationSubtitle: "MDL Status and Key Developments  ",
 
-    currentTitle:
-      "Rideshare Sexual Assault Lawsuit Update: Current Legal Developments  ",
+    helpTitle: "How a Hernia Mesh Lawyer Can Help?  ",
+    helpSubtitle: "A hernia mesh lawyer can help you: ",
+    helpParagraph:
+      "Most hernia mesh cases are handled on a contingency fee, meaning you typically pay nothing upfront. ",
 
-    currentParagraph: [
-      "As of January 2026, over 3,000 Uber sexual assault lawsuits were pending in federal court, claiming the company failed to provide adequate safety measures, leading to incidents of sexual assault or harassment. Related cases are also coordinated in California courts. ",
-      "A bellwether trial in Arizona began in January 2026, serving as a test case that could influence thousands of similar lawsuits. An adverse verdict for Uber may encourage settlements in other cases. ",
-      "Lyft faces over 100 sexual assault lawsuits in California, with a motion filed in October 2025 to consolidate potentially hundreds more into a separate MDL. Both Uber and Lyft have been repeatedly sued for creating unsafe rideshare conditions, putting passengers at risk",
-    ],
+    settlementsTitle: "Hernia Mesh Settlements & Compensation Overview  ",
+    settlementsParagraph: "If eligible, compensation may include: ",
 
-    helpTitle: "How a Rideshare Sexual Assault Lawyer Can Help Your Case? ",
-    helpSubtitle:
-      "A qualified sexual assault lawyer can guide survivors through the legal process with sensitivity and confidentiality. An experienced attorney can: ",
-
-    compensationTitle:
-      "Compensation & Settlements in Rideshare Assault Cases  ",
-    compensationParagraph:
-      "Victims of rideshare sexual assault often face physical injuries, emotional trauma, and financial burdens. The aftermath can include medical bills, therapy costs, lost wages, and ongoing stress. ",
-
-    compensationSubtitle: "Types of compensation you may be eligible for:  ",
-
-    realStoriesTitle: "Real Stories Behind Lawsuit",
-
-    stepsTitle:
-      "How to File a Rideshare Sexual Assault Lawsuit with Connect2Attorney? ",
+    stepsTitle: "How to File a Hernia Mesh Lawsuit with Connect2Attorney? ",
     stepsParagraph:
-      "Connect2Attorney guides you through the process of filing a rideshare sexual assault lawsuit against the responsible party, in just three simple steps:  ",
+      "Connect2Attorney guides you through the process of filing a hernia mesh lawsuit against the responsible party in just three simple steps: ",
   },
 
   ctaContent: {
@@ -258,38 +323,27 @@ export const content = {
   ],
 };
 const TALCUM_TOC = [
-  { label: "What is Rideshare Sexual Assault Lawsuit?", id: "main-title" },
+  { label: "What is the Hernia Mesh Lawsuit?   ", id: "main-title" },
   { label: "Who is Eligible to File a Claim?", id: "allegations-title" },
   {
-    label: "Rideshare Safety Risks: Sexual Assault and Passenger Protection   ",
+    label: "Hernia Mesh Side Effects & Complications Explained",
     id: "health-risks-title",
   },
   {
-    label: "Common Rideshare Platforms Involved: Uber, Lyft & Others ",
+    label: "Hernia Mesh Lawsuit Update: MDL Status & Current Developments   ",
     id: "mdl-litigation-title",
   },
   {
-    label:
-      "Rideshare Sexual Assault Lawsuit Update: Current Legal Developments   ",
-    id: "current-title",
-  },
-  {
-    label: "How a Rideshare Sexual Assault Lawyer Can Help Your Case?   ",
+    label: "How a Hernia Mesh Lawyer Can Help?",
     id: "help-title",
   },
   {
-    label: "Compensation & Settlements in Rideshare Assault Cases ",
-    id: "compensation-title",
+    label: "Hernia Mesh Settlements & Compensation Overview",
+    id: "settlements-title",
   },
-  { label: "Real Stories Behind the Lawsuit", id: "real-stories-title" },
   {
-    label: "How to File a Rideshare Sexual Assault Lawsuit",
+    label: "How to File a Hernia Mesh Lawsuit with Connect2Attorney?    ",
     id: "steps-title",
-  },
-  { label: "Get Legal Support from Connect2Attorney", id: "get-legal-support" },
-  {
-    label: "Rideshare Sexual Assualt Lawsuit Timeline",
-    id: "timeline-section",
   },
   { label: "FAQs", id: "faqs" },
 ];
@@ -418,33 +472,24 @@ const LawsuitsLegalPage = () => {
             >
               {content.pageContent.mainTitle}
             </h1>
-            <div className="mb-10 font-urbanist font-medium text-[#425777] text-[16px] lg:text-[18px] leading-[27px] space-y-1 capitalize">
+            <div className="mb-5 font-urbanist font-medium text-[#425777] text-[16px] lg:text-[18px] leading-[30px] space-y-1 ">
               <p>{content.pageContent.mainParagraphs[0]}</p>
               <br />
 
               <p>{content.pageContent.mainParagraphs[1]}</p>
               <br />
 
-              <p>{content.pageContent.mainParagraphs[2]}</p>
-
+              <h3 className=" font-bold">
+                {content.pageContent.mainParagraphs[2]}
+              </h3>
               <p>{content.pageContent.mainParagraphs[3]}</p>
-
-              <br />
-              <p className="font-bold">
-                {content.pageContent.mainParagraphs[4]}
-              </p>
-
               <br />
 
-              <p>{content.pageContent.mainParagraphs[5]}</p>
+              <p>{content.pageContent.mainParagraphs[4]}</p>
               <br />
-              <p>{content.pageContent.mainParagraphs[6]}</p>
             </div>
 
-            {/* <Ozempicfreecasecard /> */}
-
-            {/* <Ozempicfreecasecard /> */}
-            <div className="bg-[#162766] text-[#FFF] rounded-xl p-4 sm:p-6 w-full  mb-16">
+            <div className="bg-[#162766] text-[#FFF] rounded-xl p-4 sm:p-6 w-full  mb-12">
               <h2
                 id={content.sectionIds.allegationsTitle}
                 className="font-noto-serif font-normal capitalize text-[#FFF] text-[24px] sm:text-[32px] lg:text-[40px] leading-[32px] sm:leading-[42px] lg:leading-[50px] mb-4"
@@ -459,8 +504,7 @@ const LawsuitsLegalPage = () => {
                   .slice(3)
                   .join(" ")}
               </h2>
-
-              <p className="mb-4 font-urbanist font-bold   text-[#F9F9F9] text-[16px] sm:text-[18px] leading-[24px] sm:leading-[27px]">
+              <p className="mb-4 font-urbanist   text-[#F9F9F9] text-[16px] sm:text-[18px] leading-[24px] sm:leading-[27px]">
                 {content.pageContent.allegationsSubtitle}
               </p>
 
@@ -492,10 +536,6 @@ const LawsuitsLegalPage = () => {
                   </li>
                 ))}
               </ul>
-
-              <p className="mb-4 font-urbanist   text-[#F9F9F9] text-[16px] sm:text-[18px] leading-[24px] sm:leading-[27px]">
-                {content.pageContent.allegationsParagraph}
-              </p>
             </div>
 
             {/* ==================== HEALTH RISKS SECTION ==================== */}
@@ -510,131 +550,8 @@ const LawsuitsLegalPage = () => {
               <p className="mb-4 font-urbanist font-normal text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
                 {content.pageContent.healthRisksParagraph}
               </p>
-
-              <div className="space-y-4 w-full mb-16">
-                {content.healthRisks.map((item, index) => (
-                  <div
-                    key={index}
-                    className=" bg-[#F4F6F8] rounded-lg px-4 sm:px-6 py-5"
-                  >
-                    {/* Title + Number */}
-                    <h4 className="font-noto-serif text-[#162766] text-[20px] sm:text-[24px] font-medium leading-normal mb-2">
-                      {item.number} - {item.title}
-                    </h4>
-
-                    {/* Description */}
-                    <p className="font-urbanist text-[#425777] text-[16px] sm:text-[18px] font-medium leading-[24px] sm:leading-[27px] capitalize">
-                      {item.description}
-                    </p>
-                  </div>
-                ))}
-              </div>
-
-              <h2
-                id={content.sectionIds.mdllitigationTitle}
-                className="font-noto-serif font-normal capitalize text-[#162766] text-[24px] sm:text-[32px] lg:text-[40px] leading-[32px] sm:leading-[42px] lg:leading-[50px] mb-4"
-              >
-                {content.pageContent.mdllitigationTitle}
-              </h2>
-
-              <p className="mb-4 font-poppins font-normal text-[#425777] text-[16px] leading-[27px]">
-                {content.pageContent.mdllitigationSubtitle}
-              </p>
-
-              <div className="space-y-4 w-full mb-5">
-                <ul className="space-y-4">
-                  {content.mdllitigationPoints.map((item, index) => (
-                    <li key={index} className="flex items-start gap-3">
-                      {/* Bullet */}
-                      <span className=" text-[#162766] text-[16px]">•</span>
-
-                      {/* Text */}
-                      <p className="font-urbanist font-bold text-[#425777] text-[14px] sm:text-[16px] leading-[20px] sm:leading-[24px]">
-                        {item.description}
-                      </p>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <p className="mb-4 font-poppins font-normal text-[#425777] text-[16px] leading-[27px]">
-                {content.pageContent.mdllitigationParagraph[0]}
-              </p>
-
-              <p className="mb-4 font-poppins font-normal text-[#425777] text-[16px] leading-[27px]">
-                {content.pageContent.mdllitigationParagraph[1]}
-              </p>
-
-              <p className="mb-4 font-poppins font-normal text-[#425777] text-[16px] leading-[27px]">
-                {content.pageContent.mdllitigationParagraph[2]}
-              </p>
-
-              <p className="mb-4 font-poppins font-normal text-[#425777] text-[16px] leading-[27px]">
-                {content.pageContent.mdllitigationParagraph[3]}
-              </p>
-
-              <h2
-                id={content.sectionIds.currentTitle}
-                className="font-noto-serif mt-10 font-normal text-[#162766] text-[28px] sm:text-[34px] lg:text-[40px] leading-[36px] sm:leading-[44px] lg:leading-[50px] capitalize mb-4"
-              >
-                {content.pageContent.currentTitle}
-              </h2>
-              <p className="mb-4 font-urbanist font-normal text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
-                {content.pageContent.currentParagraph[0]}
-              </p>
-
-              <p className="mb-4 font-urbanist font-normal text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
-                {content.pageContent.currentParagraph[1]}
-              </p>
-
-              <p className="mb-4 font-urbanist font-normal text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
-                {content.pageContent.currentParagraph[2]}
-              </p>
-
-              <h2
-                id={content.sectionIds.helpTitle}
-                className="font-noto-serif mt-10 font-normal text-[#162766] text-[28px] sm:text-[34px] lg:text-[40px] leading-[36px] sm:leading-[44px] lg:leading-[50px] capitalize mb-4"
-              >
-                {content.pageContent.helpTitle}
-              </h2>
-
-              <p className="mb-4 font-urbanist font-normal text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
-                {content.pageContent.helpSubtitle}
-              </p>
-
-              <div className="space-y-4 w-full mb-5">
-                <ul className="space-y-4">
-                  {content.helpPoints.map((item, index) => (
-                    <li key={index} className="flex items-start gap-3">
-                      {/* Bullet */}
-                      <span className=" text-[#162766] text-[16px]">•</span>
-
-                      {/* Text */}
-                      <p className="font-urbanist font-bold text-[#425777] text-[14px] sm:text-[16px] leading-[20px] sm:leading-[24px]">
-                        {item.description}
-                      </p>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <h2
-                id={content.sectionIds.compensationTitle}
-                className="font-noto-serif mt-10 font-normal text-[#162766] text-[28px] sm:text-[34px] lg:text-[40px] leading-[36px] sm:leading-[44px] lg:leading-[50px] capitalize mb-4"
-              >
-                {content.pageContent.compensationTitle}
-              </h2>
-
-              <p className="mb-4 font-urbanist font-normal text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
-                {content.pageContent.compensationParagraph}
-              </p>
-
-              <p className="mb-4 font-urbanist font-bold text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
-                {content.pageContent.compensationSubtitle}
-              </p>
-
               <div className="space-y-4 sm:space-y-5 w-full mb-16">
-                {content.compensation.map((item, index) => (
+                {content.healthRisks.map((item, index) => (
                   <div
                     key={index}
                     className="
@@ -682,31 +599,192 @@ const LawsuitsLegalPage = () => {
                 ))}
               </div>
 
-              <div className="bg-[#F4F6F8] rounded-lg px-4 sm:px-8 py-6">
-                {/* Section Title */}
-                <h3
-                  id={content.sectionIds.realStoriesTitle}
-                  className="font-noto-serif text-[#162766] text-[20px] sm:text-[22px] font-medium mb-4"
-                >
-                  {content.pageContent.realStoriesTitle}
-                </h3>
+              <h2
+                id={content.sectionIds.mdllitigationTitle}
+                className="font-noto-serif font-normal text-[#162766] text-[28px] sm:text-[34px] lg:text-[40px] leading-[36px] sm:leading-[44px] lg:leading-[50px] capitalize mb-4"
+              >
+                {content.pageContent.mdllitigationTitle}
+              </h2>
 
-                {/* Stories */}
-                <ul className="space-y-4">
-                  {content.realStories.map((item, index) => (
-                    <li key={index} className="flex items-start gap-3">
-                      
-                    
-                      {/* Text */}
-                      <p className="font-urbanist text-[#425777] text-[14px] sm:text-[16px] leading-[20px] sm:leading-[24px]">
-                        <strong className="font-semibold text-[#162766]">
-                          {item.name}:
-                        </strong>{" "}
-                        {item.story}
-                      </p>
-                    </li>
-                  ))}
-                </ul>
+              <p className="mb-4 font-urbanist font-normal text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
+                {content.pageContent.mdllitigationParagraph}
+              </p>
+
+              <p className="mb-4 font-urbanist font-bold text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
+                {content.pageContent.mdllitigationSubtitle}
+              </p>
+
+              <div className="space-y-4 sm:space-y-5 w-full mb-16">
+                {content.mdllitigationPoints.map((item, index) => (
+                  <div
+                    key={index}
+                    className="
+        flex
+        flex-col
+        items-start
+        gap-[10px]
+        self-stretch
+        p-[20px]
+        rounded-[10px]
+        bg-[#F0F2F4]
+      "
+                  >
+                    {/* Title */}
+                    <h4
+                      className="
+          text-[#162766]
+          font-noto-serif
+          text-[20px]
+          sm:text-[22px]
+          lg:text-[24px]
+          font-medium
+          leading-normal
+        "
+                    >
+                      {item.title}
+                    </h4>
+
+                    {/* Description as Bullet Points */}
+                    <ul
+                      className="
+          list-disc
+          pl-5
+          space-y-2
+          text-[#425777]
+          font-urbanist
+          text-[16px]
+          sm:text-[17px]
+          lg:text-[18px]
+          font-medium
+          leading-[27px]
+        "
+                    >
+                      {Array.isArray(item.description) ? (
+                        item.description.map((point, idx) => (
+                          <li key={idx}>{point}</li>
+                        ))
+                      ) : (
+                        <li>{item.description}</li>
+                      )}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+
+              <h2
+                id={content.sectionIds.helpTitle}
+                className="font-noto-serif font-normal capitalize text-[#162766] text-[24px] sm:text-[32px] lg:text-[40px] leading-[32px] sm:leading-[42px] lg:leading-[50px] mb-4"
+              >
+                {content.pageContent.helpTitle}
+              </h2>
+              <p className="mb-4 font-urbanist   text-[#425777] text-[16px] sm:text-[18px] leading-[24px] sm:leading-[27px]">
+                {content.pageContent.helpSubtitle}
+              </p>
+
+              <div className="space-y-4 sm:space-y-5 w-full mb-12">
+                {content.helpPoints.map((item, index) => (
+                  <div key={index} className="flex items-start gap-3">
+                    {/* Bullet */}
+                    <span className="mt-[6px] flex-shrink-0">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                      >
+                        <ellipse
+                          cx="6.83621"
+                          cy="6.9697"
+                          rx="6.83621"
+                          ry="6.9697"
+                          fill="#162766"
+                        />
+                      </svg>
+                    </span>
+
+                    {/* Description */}
+                    <p
+                      className="
+          text-[#425777]
+          font-urbanist
+          text-[16px]
+          sm:text-[17px]
+          lg:text-[18px]
+          font-bold
+          leading-[27px]
+          capitalize
+        "
+                    >
+                      {item.description}
+                    </p>
+                  </div>
+                ))}
+              </div>
+
+              <p className="mb-4 font-urbanist  text-[#425777] text-[16px] sm:text-[18px] leading-[24px] sm:leading-[27px]">
+                {content.pageContent.helpParagraph}
+              </p>
+
+              {/* Section Title */}
+              <h3
+                id={content.sectionIds.settlementsTitle}
+                className="font-noto-serif text-[#162766] text-[20px] sm:text-[22px] lg:text-[40px] font-medium mb-2"
+              >
+                {content.pageContent.settlementsTitle}
+              </h3>
+
+              <p className="mb-4 font-urbanist font-bold text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
+                {content.pageContent.settlementsParagraph}
+              </p>
+
+              <div className="space-y-4 sm:space-y-5 w-full mb-16">
+                {content.settlementsPoints.map((item, index) => (
+                  <div
+                    key={index}
+                    className="
+                                  flex
+                                  flex-col
+                                  items-start
+                                  gap-[10px]
+                                  self-stretch
+                                  p-[20px]
+                                  rounded-[10px]
+                                  bg-[#F0F2F4]
+                                "
+                  >
+                    {/* Title */}
+                    <h4
+                      className="
+                                    text-[#162766]
+                                    font-noto-serif
+                                    text-[20px]
+                                    sm:text-[22px]
+                                    lg:text-[24px]
+                                    font-medium
+                                    leading-normal
+                                  "
+                    >
+                      {item.title}
+                    </h4>
+
+                    {/* Description */}
+                    <p
+                      className="
+                                    text-[#425777]
+                                    font-urbanist
+                                    text-[16px]
+                                    sm:text-[17px]
+                                    lg:text-[18px]
+                                    font-medium
+                                    leading-[27px]
+                                    capitalize
+                                  "
+                    >
+                      {item.description}
+                    </p>
+                  </div>
+                ))}
               </div>
             </div>
 

@@ -11,6 +11,10 @@ const MASS_TORT_LAWSUIT_TYPES = [
   { name: "Depo-Provera Lawsuit", href: "/mass-tort/depo-provera-lawsuit" },
   { name: "Roundup Cancer Lawsuit", href: "/mass-tort/roundup-lawsuit" },
   { name: "Talcum Powder Lawsuit", href: "/mass-tort/talcum-powder-lawsuit" },
+    { name: "Roblox Addiction Lawsuit", href: "/mass-tort/roblox-addiction-lawsuit" },
+    {
+      name:"Herna Mesh Lawsuit", href: "/mass-tort/hernia-mesh-lawsuit"
+    },
 ];
 
 const CLASS_ACTION_LAWSUIT_TYPES = [

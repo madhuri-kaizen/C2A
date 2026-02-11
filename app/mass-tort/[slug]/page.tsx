@@ -14,6 +14,8 @@ const VALID_SLUGS = [
   "depo-provera-lawsuit",
   "roundup-lawsuit",
   "talcum-powder-lawsuit",
+  "roblox-addiction-lawsuit",
+  "hernia-mesh-lawsuit",
 ];
 
 export default async function Page({ params }: PageProps) {
@@ -42,6 +44,10 @@ export async function generateMetadata(
       "Roundup Lawsuit – Cancer Claims & Settlements",
     "talcum-powder-lawsuit":
       "Talcum Powder Lawsuit – Ovarian Cancer Claims",
+      "roblox-addiction-lawsuit":
+      "Roblox Addiction Lawsuit",
+      "hernia-mesh-lawsuit":
+      "Hernia Mesh Lawsuit",
      
   };
 

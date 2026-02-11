@@ -11,10 +11,11 @@ export const content = {
     mainTitle: "main-title",
     allegationsTitle: "allegations-title",
     healthRisksTitle: "health-risks-title",
+    otherRisksTitle: "other-risks-title",
     whoQualifiesTitle: "who-qualifies-title",
-    compensationTitle: "compensation-title",
     mdllitigationTitle: "mdl-litigation-title",
-    realStoriesTitle: "real-stories-title",
+    findRightTitle: "find-right-title",
+    settlementsTitle: "settlements-title",
     stepsTitle: "steps-title",
   },
 
@@ -33,69 +34,98 @@ export const content = {
 
   eligibilityPoints: [
     {
-      title: "Failure to Warn of Gastroparesis:",
       description:
-        "You were prescribed Ozempic for diabetes or off-label weight loss",
+        "Your child spent excessive time playing Roblox over an extended period ",
     },
     {
-      title: "Misleading Marketing and Safety Claims:",
       description:
-        "You experienced severe or persistent gastrointestinal side effects ",
+        "A doctor or mental health professional diagnosed gaming addiction, anxiety, depression, or related conditions ",
     },
     {
-      title: "Omission of Vision Loss Warnings:",
       description:
-        "You were diagnosed with conditions such as gastroparesis, intestinal blockage, or severe vomiting ",
+        "Roblox use caused academic decline, social withdrawal, or behavioral problems  ",
     },
     {
-      title: "Ignoring Critical Safety Signals:",
-      description:
-        "Your injuries required medical treatment, hospitalization, or surgery\nEligibility depends on medical records, duration of use, and severity of injuries.",
+      description: "You incurred therapy, counseling, or treatment expenses ",
     },
   ],
 
   healthRisks: [
     {
+      description: "Anxiety, depression, and mood swings ",
+    },
+    {
+      description: "Sleep disorders and chronic fatigue ",
+    },
+    {
+      description: "Poor academic performance ",
+    },
+    {
+      description: "Social isolation and reduced real-world interaction ",
+    },
+  ],
+  otherRisks: [
+    {
       number: "01",
-      title: "Breathing Problems",
+      title: "Exposure to Inappropriate Content",
       description:
-        "Inhalation of talc particles can cause coughing, wheezing, or shortness of breath, particularly in infants and those with respiratory conditions. ",
+        "Users may encounter violent, sexual, or otherwise harmful material despite moderation efforts.  ",
     },
     {
       number: "02",
-      title: "Talc Pneumoconiosis",
+      title: "Online Predators",
       description:
-        "Prolonged exposure to talc dust, often in industrial settings, can lead to lung inflammation and scarring. ",
+        "Children may be targeted by strangers using the platform’s social features to communicate and manipulate. ",
     },
     {
       number: "03",
-      title: "Skin Irritation",
+      title: "Excessive Screen Time",
       description:
-        "Frequent use may cause rashes or allergic reactions in people with sensitive skin. ",
+        "Extended gameplay can disrupt sleep, physical activity, and academic performance.  ",
     },
     {
       number: "04",
-      title: "Lung Cancer",
+      title: "Financial Risks",
       description:
-        "Workers exposed to asbestos-contaminated talc may face a higher risk of mesothelioma or lung cancer. ",
+        " In-game purchases can add to unanticipated costs for families. ",
+    },
+    {
+      number: "05",
+      title: " Privacy Concern",
+      description:
+        "Personal information and activity data may be collected and misused without clear disclosure. ",
+    },
+  ],
+  whoQualifies: [
+    {
+      description: "In-game currency (Robux) encouraging repeated purchases ",
+    },
+    {
+      description:
+        "Reward loops and leveling systems designed to keep users engaged ",
+    },
+    {
+      description:
+        "Social pressure from multiplayer interactions and virtual status ",
+    },
+    {
+      description: "Continuous updates and events that promote daily logins ",
     },
   ],
 
-  whoQualifies: [
+  mainPoints: [
     {
-      description:
-        "Used talcum powder or baby powder regularly over several years.",
+      description: "Obsessive gameplay",
     },
     {
-      description: "Was diagnosed with ovarian cancer or mesothelioma.",
+      description: "Withdrawal symptoms when not playing",
     },
     {
-      description:
-        "Has medical records linking the diagnosis to talcum powder exposure.",
+      description: "Neglect of school, sleep, or family life ",
     },
     {
       description:
-        "Is filing on behalf of a deceased family member (wrongful death claim).",
+        "Emotional dependence on in-game rewards and social interaction",
     },
   ],
 
@@ -129,57 +159,123 @@ export const content = {
 
   mdllitigationPoints: [
     {
+      title: "Rising number of lawsuits",
       description:
-        "As of December 2025, over 90,000 talcum powder claims have been filed against manufacturers and sellers of talc-based products.",
+        "Hundreds of claims now allege Roblox failed to protect minors from addiction and online harm. ",
     },
     {
+      title: "Focus on vulnerable children",
       description:
-        "As of December 2025, more than 67,600 talcum powder lawsuits have been brought against Johnson & Johnson (J&J) and grouped into a consolidated multidistrict litigation (MDL). ",
+        "Complaints emphasize harm to minors with ADHD, anxiety, and behavioral challenges linked to excessive gameplay. ",
     },
     {
+      title: "Allegations of profit-driven design",
       description:
-        "In December 2025, a jury awarded $40 million to two women who developed ovarian cancer after long-term use of Johnson & Johnson talc products. ",
+        "Lawsuits claim Roblox used addictive features to increase engagement and revenue at the expense of child safety. ",
     },
     {
+      title: "Compensation sought",
       description:
-        "In October 2025, a court ordered the company to pay $966 million to the family of a California woman who had passed away. ",
+        "Families are pursuing damages for mental health treatment, academic setbacks, and emotional distress. ",
     },
     {
+      title: "Age verification measures introduced",
       description:
-        "Also, a Minnesota jury awarded $65.5 million to a 37-year-old woman. ",
+        "Roblox announced facial recording technology through third-party software to verify user age before enabling certain chat features. ",
+    },
+  ],
+
+  findRight: [
+    {
+      description:
+        "Specialize in gaming addiction or technology-related litigation ",
+    },
+    {
+      description: "Have experience with child injury or mental health claims ",
+    },
+    {
+      description: "Offer free consultations and work on contingency fees ",
+    },
+    {
+      description: "Understand emerging digital addiction laws ",
+    },
+  ],
+
+  settlementsPoints: [
+    {
+      title: "Medical and Therapy Costs",
+      description:
+        "Expenses for mental health treatment, counseling, or rehabilitation related to gaming addiction. ",
+    },
+    {
+      title: "Emotional and Psychological Harm",
+      description:
+        "Compensation for anxiety, depression, and other emotional distress caused by excessive gameplay. ",
+    },
+    {
+      title: "Academic or Career Impact",
+      description:
+        "Reimbursement for disruptions to schooling, educational opportunities, or future earning potential. ",
+    },
+    {
+      title: "Loss of Quality of Life",
+      description:
+        "Recognition of reduced social interaction, personal development, and overall well-being.",
+    },
+    {
+      title: "Punitive Damages",
+      description:
+        "Additional compensation in cases where the company’s conduct is deemed intentional or egregious.",
     },
   ],
 
   pageContent: {
-    mainTitle: "What is the Talcum Powder Lawsuit? ",
+    mainTitle: "What is Roblox Addiction Lawsuit?",
     mainParagraphs: [
-      "Thousands of individuals and families have filed a talcum powder lawsuit after developing serious cancers linked to long-term use of talcum powder and baby powder products. In recent years, asbestos-contaminated talcum powder has been linked to ovarian cancer in women who used it for daily feminine hygiene. Connect 2 Attorney helps you connect with experienced talcum powder lawyers ",
-      "to explore your legal options quickly and confidentially. The talcum powder lawsuit involves legal claims against manufacturers of talcum powder and baby powder products, including Johnson & Johnson. Plaintiffs allege that these companies knowingly sold talcum powder contaminated with asbestos and failed to provide adequate cancer warnings, putting millions of consumers at risk",
-      "About Talcum Powder ",
-      "Talcum powder is made from talc, a naturally occurring mineral used for its moisture-absorbing properties. For decades, talcum powder and baby powder were marketed as safe for daily hygiene use, including feminine hygiene and infant care. However, talc is often found near asbestos deposits, increasing the risk of contamination during mining.",
+      "Roblox has become one of the most widely played online gaming platforms among children and teens. Along with other major companies, it has been named in Roblox addiction lawsuits alleging that its design encourages addictive behavior.",
+      "Studies show that 85% of teens spend hours on video games, and excessive play has been linked to increased anxiety, depression, and other mental health issues in children.",
+      "If your child has suffered psychological or emotional harm due to gaming addiction, you may have grounds to seek compensation. We can help you hold companies accountable for negligence and the harm caused",
+      "The Roblox addiction lawsuit refers to legal claims filed by parents and guardians alleging that Roblox’s design and monetization features encourage compulsive gaming behavior in children and teens. These lawsuits argue that Roblox failed to warn users about addiction risks and used reward systems, in-game purchases, and social mechanics that promote excessive screen time.",
+      "Plaintiffs claim that prolonged exposure to Roblox led to emotional distress, behavioral changes, declining academic performance, and mental health issues. The goal of a Roblox lawsuit is to hold the company accountable and seek compensation for medical expenses, therapy costs, and related damages",
+      "What is Roblox Addiction?",
+      "Roblox addiction is a form of gaming disorder where a child becomes unable to control the amount of time spent playing on the Roblox platform. It often involves:",
+      "Medical experts increasingly recognize gaming addiction as a serious behavioral health condition, especially in children and adolescents. ",
     ],
 
     allegationsTitle: "Who is Eligible to File a Claim? ",
     allegationsParagraph:
-      "Many individuals have come forward claiming that long-term use of talcum powder led to ovarian cancer or other health complications. You may qualify to file a talcum powder lawsuit if you or a loved one: ",
-    allegationsSubtitle: "You may qualify if:  ",
+      "Parents or legal guardians typically file these claims on behalf of minors affected by Roblox addiction. ",
+    allegationsSubtitle:
+      "You may qualify to file a Roblox addiction lawsuit if:",
 
-    healthRisksTitle: "Talcum Powder, Baby Powder & Cancer Risk Explained",
+    healthRisksTitle: "Roblox Addiction: Effects on Children & Mental Health ",
     healthRisksParagraph:
-      "Beyond its link to ovarian cancer, talcum powder exposure has been associated with several other serious health conditions. These risks arise primarily from inhaling talc particles or exposure to asbestos-contaminated products. Other health risks include:  ",
-    healthRisksSubtitle: "Health Risks Linked to Ozempic Use ",
-    healthRisksSubtitle2:
-      "Reported health risks associated with Ozempic include: ",
-    whoQualifiesTitle:
-      "How Can an Ozempic Lawyer Help You Recover Compensation? ",
+      "Roblox addiction can significantly affect a child’s emotional, cognitive, and social development. Reported impacts include: ",
+
+    otherRiskstitle: "What are the Other Risks of Roblox? ",
+    otherRisksParagraph:
+      "Parents and experts have raised concerns about exposure to inappropriate content, online predators, and excessive screen time. These risks can impact mental health, social development, and overall safety. ",
+    otherRisksSubtitle: "Other risks commonly cited include: ",
+    whoQualifiesTitle: "Roblox Features Linked to Addiction and Legal Claims  ",
     whoQualifiesParagraph:
-      "Many users of Ozempic or similar drugs have developed severe digestive issues like gastroparesis after using them for weight loss or diabetes. Lawsuits claim that manufacturers like Novo Nordisk and Eli Lilly failed to warn about these risks",
-    whoQualifiesSubtitle: "An experienced Ozempic lawyer can help you: ",
-    mdllitigationTitle:
-      "Talcum Powder Lawsuit Updates: Latest Court Decisions & Case Status ",
+      "Plaintiffs argue these mechanics intentionally maximize engagement and spending, increasing addiction risks in young users. ",
+    whoQualifiesSubtitle:
+      "Several Roblox platform features are central to addiction-related legal claims, including:  ",
+
+    mdllitigationTitle: "Roblox Lawsuit Updates: Current Legal Developments   ",
 
     mdllitigationParagraph:
-      "Thousands of claims remain active as courts evaluate liability, scientific evidence, and corporate conduct. Several verdicts have resulted in multi-million-dollar awards for victims, while appeals and settlement negotiations continue. ",
+      "Legal actions involving Roblox continue to evolve as families pursue accountability for alleged harms linked to excessive gameplay. Ongoing court activity reflects increasing scrutiny of how gaming platforms engage young users and address child safety concerns. ",
+
+    mdllitigationSubtitle: "Key Updates & Legal Developments ",
+
+    findRightTitle: "Roblox Lawsuit Lawyers: How to Find the Right Attorney? ",
+    findRightSubtitle:
+      "Choosing the right lawyer is critical for a successful Roblox addiction claim. Look for attorneys who: ",
+
+    settlementsTitle: "Roblox Lawsuit Settlements & Payouts ",
+    settlementsParagraph:
+      "Harm caused by Roblox addiction may entitle you to seek compensation for emotional, psychological, and financial impacts. Payouts can range from $50,000 to $2 million, depending on the severity of the harm and the supporting evidence. Compensation can cover several key areas: ",
 
     compensationTitle:
       "Talcum Powder Settlements & Compensation: What You Can Expect ",
@@ -189,9 +285,9 @@ export const content = {
 
     realStoriesTitle: "Real Stories Behind Lawsuit",
 
-    stepsTitle: "How to File a Talcum Powder Lawsuit with Connect2Attorney? ",
+    stepsTitle: "How to File a Roblox Addiction Lawsuit with Connect2Attorney?",
     stepsParagraph:
-      "Connect2Attorney guides you through the process of filing a Talcum Powder lawsuit against the responsible party, in just three simple steps: ",
+      "Connect2Attorney guides you through the process of filing a Paragard IUD breakage lawsuit against the responsible party, in just three simple steps:  ",
   },
 
   ctaContent: {
@@ -222,24 +318,28 @@ export const content = {
   ],
 };
 const TALCUM_TOC = [
-  { label: "What is the Talcum Powder Lawsuit?", id: "main-title" },
+  { label: "What is Roblox Addiction Lawsuit?", id: "main-title" },
   { label: "Who is Eligible to File a Claim?", id: "allegations-title" },
   {
-    label: "Talcum Powder, Baby Powder & Cancer Risk Explained",
+    label: "Roblox Addiction: Effects on Children & Mental Health",
     id: "health-risks-title",
   },
+  { label: "What are the Other Risks of Roblox?", id: "other-risks-title" },
   {
-    label: "Talcum Powder Lawsuit Updates & MDL Status",
+    label: "Roblox Features Linked to Addiction and Legal Claims",
+    id: "who-qualifies-title",
+  },
+  {
+    label: "Roblox Lawsuit Updates: Current Legal Developments",
     id: "mdl-litigation-title",
   },
   {
-    label: "Talcum Powder Settlements & Compensation",
-    id: "compensation-title",
+    label: "Roblox Lawsuit Lawyers: How to Find the Right Attorney?",
+    id: "find-right-title",
   },
-  { label: "Real Stories Behind the Lawsuit", id: "real-stories-title" },
-  { label: "How to File a Talcum Powder Lawsuit", id: "steps-title" },
-  { label: "Get Legal Support from Connect2Attorney", id: "get-legal-support" },
-  { label: " Talcum Lawsuit Timeline", id: "timeline-section" },
+  { label: "Roblox Lawsuit Settlements & Payouts", id: "settlements-title" },
+  { label: "How to File a Roblox Addiction Lawsuit", id: "steps-title" },
+  { label: "Roblox Addiction Lawsuit Timeline", id: "timeline-section" },
   { label: "FAQs", id: "faqs" },
 ];
 
@@ -296,7 +396,7 @@ const LawsuitsLegalPage = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-    const scrollToNextSection = () => {
+  const scrollToNextSection = () => {
     const el = document.getElementById("stepper-form");
     if (!el) return;
 
@@ -367,24 +467,49 @@ const LawsuitsLegalPage = () => {
             >
               {content.pageContent.mainTitle}
             </h1>
-            <div className="mb-10 font-urbanist font-medium text-[#425777] text-[16px] lg:text-[18px] leading-[27px] space-y-1 capitalize">
+            <div className="mb-5 font-urbanist font-medium text-[#425777] text-[16px] lg:text-[18px] leading-[30px] space-y-1 capitalize">
               <p>{content.pageContent.mainParagraphs[0]}</p>
-              <br className="lg:hidden" />
+              <br />
 
               <p>{content.pageContent.mainParagraphs[1]}</p>
               <br />
 
-              <h3 className=" font-bold">
-                {content.pageContent.mainParagraphs[2]}
-              </h3>
+              <p>{content.pageContent.mainParagraphs[2]}</p>
+              <br />
 
               <p>{content.pageContent.mainParagraphs[3]}</p>
+              <br />
+
+              <p>{content.pageContent.mainParagraphs[4]}</p>
+              <br />
+
+              <h3 className=" font-bold">
+                {content.pageContent.mainParagraphs[5]}
+              </h3>
+              <br />
+
+              <p>{content.pageContent.mainParagraphs[6]}</p>
+
+              <p>{content.pageContent.mainParagraphs[7]}</p>
+              <br />
+
+              <ul className="list-disc pl-6 space-y-2">
+                {content.mainPoints.map((item, index) => (
+                  <li key={index}>
+                    <div className="flex items-start gap-3">
+                      <p className="font-urbanist text-[#425777] font-bold text-[14px] sm:text-[16px] leading-[20px] sm:leading-[24px]">
+                        {item.description}
+                      </p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+
+              <p>{content.pageContent.mainParagraphs[8]}</p>
+              <br />
             </div>
 
-            {/* <Ozempicfreecasecard /> */}
-
-            {/* <Ozempicfreecasecard /> */}
-            <div className="bg-[#162766] text-[#FFF] rounded-xl p-4 sm:p-6 w-full  mb-16">
+            <div className="bg-[#162766] text-[#FFF] rounded-xl p-4 sm:p-6 w-full  mb-12">
               <h2
                 id={content.sectionIds.allegationsTitle}
                 className="font-noto-serif font-normal capitalize text-[#FFF] text-[24px] sm:text-[32px] lg:text-[40px] leading-[32px] sm:leading-[42px] lg:leading-[50px] mb-4"
@@ -400,11 +525,9 @@ const LawsuitsLegalPage = () => {
                   .join(" ")}
               </h2>
               <p className="mb-4 font-urbanist   text-[#F9F9F9] text-[16px] sm:text-[18px] leading-[24px] sm:leading-[27px]">
-                {content.pageContent.allegationsParagraph}
-              </p>
-              <p className="mb-4 font-urbanist font-bold   text-[#F9F9F9] text-[16px] sm:text-[18px] leading-[24px] sm:leading-[27px]">
                 {content.pageContent.allegationsSubtitle}
               </p>
+
               <ul className="space-y-5 mb-2">
                 {content.whoQualifies.map((item, index) => (
                   <li key={index} className="flex items-start gap-3">
@@ -433,6 +556,9 @@ const LawsuitsLegalPage = () => {
                   </li>
                 ))}
               </ul>
+              <p className="mb-4 mt-2 font-urbanist font-bold   text-[#F9F9F9] text-[16px] sm:text-[18px] leading-[24px] sm:leading-[27px]">
+                {content.pageContent.allegationsParagraph}
+              </p>
             </div>
 
             {/* ==================== HEALTH RISKS SECTION ==================== */}
@@ -454,13 +580,8 @@ const LawsuitsLegalPage = () => {
                     key={index}
                     className=" bg-[#F4F6F8] rounded-lg px-4 sm:px-6 py-5"
                   >
-                    {/* Title + Number */}
-                    <h4 className="font-noto-serif text-[#162766] text-[20px] sm:text-[24px] font-medium leading-normal mb-2">
-                      {item.title}
-                    </h4>
-
                     {/* Description */}
-                    <p className="font-urbanist text-[#425777] text-[16px] sm:text-[18px] font-medium leading-[24px] sm:leading-[27px] capitalize">
+                    <p className="font-noto-serif text-[#162766] text-[16px] sm:text-[18px]  lg:text-[24px] font-medium leading-[24px] sm:leading-[27px] capitalize">
                       {item.description}
                     </p>
                   </div>
@@ -468,18 +589,52 @@ const LawsuitsLegalPage = () => {
               </div>
 
               <h2
-                id={content.sectionIds.mdllitigationTitle}
-                className="font-noto-serif font-normal capitalize text-[#162766] text-[24px] sm:text-[32px] lg:text-[40px] leading-[32px] sm:leading-[42px] lg:leading-[50px] mb-4"
+                id={content.sectionIds.otherRisksTitle}
+                className="font-noto-serif font-normal text-[#162766] text-[28px] sm:text-[34px] lg:text-[40px] leading-[36px] sm:leading-[44px] lg:leading-[50px] capitalize mb-4"
               >
-                {content.pageContent.mdllitigationTitle}
+                {content.pageContent.otherRiskstitle}
               </h2>
 
-              <p className="mb-4 font-poppins font-normal text-[#425777] text-[16px] leading-[27px]">
-                {content.pageContent.mdllitigationParagraph}
+              <p className="mb-4 font-urbanist font-normal text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
+                {content.pageContent.otherRisksParagraph}
+              </p>
+
+              <p className="mb-4 font-urbanist font-normal text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
+                {content.pageContent.otherRisksSubtitle}
               </p>
 
               <div className="space-y-4 w-full mb-16">
-                {content.mdllitigationPoints.map((item, index) => (
+                {content.otherRisks.map((item, index) => (
+                  <div
+                    key={index}
+                    className="bg-[#F4F6F8] rounded-lg px-4 sm:px-6 py-5"
+                  >
+                    {/* Title + Number */}
+                    <h4 className="font-noto-serif text-[#162766] text-[20px] sm:text-[24px] font-medium leading-normal mb-2">
+                      {item.number} - {item.title}
+                    </h4>
+
+                    {/* Description */}
+                    <p className="font-urbanist text-[#425777] text-[16px] sm:text-[18px] font-medium leading-[24px] sm:leading-[27px]">
+                      {item.description}
+                    </p>
+                  </div>
+                ))}
+              </div>
+
+              <h2
+                id={content.sectionIds.whoQualifiesTitle}
+                className="font-noto-serif font-normal capitalize text-[#162766] text-[24px] sm:text-[32px] lg:text-[40px] leading-[32px] sm:leading-[42px] lg:leading-[50px] mb-4"
+              >
+                {content.pageContent.whoQualifiesTitle}
+              </h2>
+
+              <p className="mb-4 font-poppins font-normal text-[#425777] text-[16px] leading-[27px]">
+                {content.pageContent.whoQualifiesSubtitle}
+              </p>
+
+              <div className="space-y-4 w-full mb-12">
+                {content.whoQualifies.map((item, index) => (
                   <div
                     key={index}
                     className="bg-[#F4F6F8] rounded-lg px-4 sm:px-6 py-5"
@@ -492,23 +647,27 @@ const LawsuitsLegalPage = () => {
                 ))}
               </div>
 
+              <p className="mb-4 font-poppins font-normal text-[#425777] text-[16px] leading-[27px]">
+                {content.pageContent.whoQualifiesParagraph}
+              </p>
+
               <h2
-                id={content.sectionIds.compensationTitle}
+                id={content.sectionIds.mdllitigationTitle}
                 className="font-noto-serif font-normal text-[#162766] text-[28px] sm:text-[34px] lg:text-[40px] leading-[36px] sm:leading-[44px] lg:leading-[50px] capitalize mb-4"
               >
-                {content.pageContent.compensationTitle}
+                {content.pageContent.mdllitigationTitle}
               </h2>
 
               <p className="mb-4 font-urbanist font-normal text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
-                {content.pageContent.compensationParagraph}
+                {content.pageContent.mdllitigationParagraph}
               </p>
 
               <p className="mb-4 font-urbanist font-bold text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
-                {content.pageContent.compensationSubtitle}
+                {content.pageContent.mdllitigationSubtitle}
               </p>
 
               <div className="space-y-4 sm:space-y-5 w-full mb-16">
-                {content.compensation.map((item, index) => (
+                {content.mdllitigationPoints.map((item, index) => (
                   <div
                     key={index}
                     className="
@@ -556,34 +715,119 @@ const LawsuitsLegalPage = () => {
                 ))}
               </div>
 
-              <div className="bg-[#F4F6F8] rounded-lg px-4 sm:px-8 py-6">
-                {/* Section Title */}
-                <h3
-                  id={content.sectionIds.realStoriesTitle}
-                  className="font-noto-serif text-[#162766] text-[20px] sm:text-[22px] font-medium mb-4"
+              <div className="bg-[#162766] text-[#FFF] rounded-xl p-4 sm:p-6 w-full  mb-16">
+                <h2
+                  id={content.sectionIds.findRightTitle}
+                  className="font-noto-serif font-normal capitalize text-[#FFF] text-[24px] sm:text-[32px] lg:text-[40px] leading-[32px] sm:leading-[42px] lg:leading-[50px] mb-4"
                 >
-                  {content.pageContent.realStoriesTitle}
-                </h3>
+                  <span className="">
+                    {content.pageContent.findRightTitle.split(" ")[0]}{" "}
+                    {content.pageContent.findRightTitle.split(" ")[1]}{" "}
+                    {content.pageContent.findRightTitle.split(" ")[2]}
+                  </span>{" "}
+                  <span className="text-[#FCCB48]">
+                    {content.pageContent.findRightTitle
+                      .split(" ")
+                      .slice(3)
+                      .join(" ")}
+                  </span>
+                </h2>
+                <p className="mb-4 font-urbanist   text-[#F9F9F9] text-[16px] sm:text-[18px] leading-[24px] sm:leading-[27px]">
+                  {content.pageContent.findRightSubtitle}
+                </p>
 
-                {/* Stories */}
-                <ul className="space-y-4">
-                  {content.realStories.map((item, index) => (
+                <ul className="space-y-5 mb-2">
+                  {content.findRight.map((item, index) => (
                     <li key={index} className="flex items-start gap-3">
-                      {/* Bullet */}
-                      <span className="mt-[6px] text-[#162766] text-[16px]">
-                        •
+                      {/* Yellow Bullet */}
+                      <span className="mt-[6px] flex-shrink-0">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="14"
+                          height="14"
+                          viewBox="0 0 14 14"
+                          fill="none"
+                        >
+                          <ellipse
+                            cx="6.83621"
+                            cy="6.9697"
+                            rx="6.83621"
+                            ry="6.9697"
+                            fill="#F2C438"
+                          />
+                        </svg>
                       </span>
-
                       {/* Text */}
-                      <p className="font-urbanist text-[#425777] text-[14px] sm:text-[16px] leading-[20px] sm:leading-[24px]">
-                        <strong className="font-semibold text-[#162766]">
-                          {item.name}:
-                        </strong>{" "}
-                        {item.story}
+                      <p className="font-urbanist text-[#F9F9F9] text-[16px] sm:text-[18px] font-medium leading-[24px] sm:leading-[27px]">
+                        {item.description}
                       </p>
                     </li>
                   ))}
                 </ul>
+                <p className="mb-4 font-urbanist font-bold   text-[#F9F9F9] text-[16px] sm:text-[18px] leading-[24px] sm:leading-[27px]">
+                  {content.pageContent.allegationsParagraph}
+                </p>
+              </div>
+
+              {/* Section Title */}
+              <h3
+                id={content.sectionIds.settlementsTitle}
+                className="font-noto-serif text-[#162766] text-[20px] sm:text-[22px] lg:text-[40px] font-medium"
+              >
+                {content.pageContent.settlementsTitle}
+              </h3>
+
+              <p className="mb-4 font-urbanist font-normal text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
+                {content.pageContent.mdllitigationParagraph}
+              </p>
+
+              <div className="space-y-4 sm:space-y-5 w-full mb-16">
+                {content.settlementsPoints.map((item, index) => (
+                  <div
+                    key={index}
+                    className="
+                                  flex
+                                  flex-col
+                                  items-start
+                                  gap-[10px]
+                                  self-stretch
+                                  p-[20px]
+                                  rounded-[10px]
+                                  bg-[#F0F2F4]
+                                "
+                  >
+                    {/* Title */}
+                    <h4
+                      className="
+                                    text-[#162766]
+                                    font-noto-serif
+                                    text-[20px]
+                                    sm:text-[22px]
+                                    lg:text-[24px]
+                                    font-medium
+                                    leading-normal
+                                  "
+                    >
+                      {item.title}
+                    </h4>
+
+                    {/* Description */}
+                    <p
+                      className="
+                                    text-[#425777]
+                                    font-urbanist
+                                    text-[16px]
+                                    sm:text-[17px]
+                                    lg:text-[18px]
+                                    font-medium
+                                    leading-[27px]
+                                    capitalize
+                                  "
+                    >
+                      {item.description}
+                    </p>
+                  </div>
+                ))}
               </div>
             </div>
 
@@ -636,11 +880,13 @@ const LawsuitsLegalPage = () => {
                   <p className="text-[#F9F9F9] font-urbanist font-medium text-center text-[16px] leading-normal mb-6">
                     {content.ctaContent.description}
                   </p>
-              
-                    <button onClick={scrollToNextSection} className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors duration-200">
-                      {content.ctaContent.buttonText}
-                    </button>
-               
+
+                  <button
+                    onClick={scrollToNextSection}
+                    className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors duration-200"
+                  >
+                    {content.ctaContent.buttonText}
+                  </button>
                 </div>
               </div>
               <div className="mb-8">

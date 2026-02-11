@@ -66,7 +66,7 @@ const TimeLineCard = ({
     "backdrop-blur-md bg-white/10 border border-white/25 shadow-[inset_0_1px_0_rgba(255,255,255,0.25)] hover:bg-white/15 hover:border-white/40 transition-all duration-300";
 
   return (
-    <section className="w-full bg-[#0E1B4D] text-white overflow-hidden">
+    <section id="timeline-section" className="w-full bg-[#0E1B4D] text-white overflow-hidden">
       {/* ================= HEADER ================= */}
       <div className="relative bg-[#162766] border-b border-white/10 p-6 sm:p-10">
         <h2 className="font-noto-serif text-[24px] sm:text-[28px] font-medium mb-5">

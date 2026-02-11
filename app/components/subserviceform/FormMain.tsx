@@ -22,6 +22,8 @@ const CASES = [
   "Depo-Provera Lawsuit",
   "Roundup Cancer Lawsuit",
   "Talcum Powder Lawsuit",
+  "Roblox Addiction Lawsuit",
+  "Hernia Mesh Lawsuit",
   "Tesla Autopilot Recall Lawsuit",
   "MacLaren Sexual Abuse Lawsuit",
   "Sexual Abuse Lawsuit",
@@ -36,6 +38,8 @@ const SLUG_TO_CASE_MAP: Record<string, string> = {
   "mesothelioma-lawsuit": "Mesothelioma Lawsuit",
   "depo-provera-lawsuit": "Depo-Provera Lawsuit",
   "roundup-lawsuit": "Roundup Cancer Lawsuit",
+  "roblox-addiction-lawsuit": "Roblox Addiction Lawsuit",
+  "hernia-mesh-lawsuit":"Hernia Mesh Lawsuit",
   "talcum-powder-lawsuit": "Talcum Powder Lawsuit",
   "tesla-autopilot-recall-lawsuit": "Tesla Autopilot Recall Lawsuit",
   "maclaren-hall-sex-abuse-lawsuit": "MacLaren Sexual Abuse Lawsuit",
@@ -51,7 +55,7 @@ const SLUG_TO_CASE_MAP: Record<string, string> = {
 let initialLandingUrl: string | null = null;
 
 const getSourceUrl = () => {
-  if (typeof window === "undefined") return "Unknown";
+  if (typeof window === "undefined") return "";
 
   if (!initialLandingUrl) {
     initialLandingUrl = window.location.href;
@@ -897,7 +901,7 @@ export default function Form() {
             trustedFormCertUrl: certId || "",
             trustedFormToken: tokenUrl || "",
             trustedFormPingUrl: pingUrl || "",
-            sourceUrl: window.location.href,
+            pageSource: getSourceUrl(),
           },
         };
 
@@ -1095,7 +1099,7 @@ export default function Form() {
         trustedFormCertUrl: certId || "",
         trustedFormToken: tokenUrl || "",
         trustedFormPingUrl: pingUrl || "",
-        sourceUrl: window.location.href,
+        pageSource: getSourceUrl(),
       },
     };
 
@@ -1138,14 +1142,14 @@ export default function Form() {
           phone: `+1${normalizePhone(form.phone)}`,
           email: form.email,
           zip: form.zip,
-          category: caseType,
+          caseType: caseType,
           description: description,
           ipAddress: await getIPAddress(),
           submissionDate: new Date().toISOString(),
           trustedFormCertUrl: certId || "",
           trustedFormToken: tokenUrl || "",
           trustedFormPingUrl: pingUrl || "",
-          sourceUrl: window.location.href,
+          pageSource: getSourceUrl(),
         },
       };
 

@@ -13,7 +13,8 @@ import MesoLawsuitsLegalPage from "../../components/SubserviceLawsuitsLegalPages
 import DepoLawsuitsLegalPage from "../../components/SubserviceLawsuitsLegalPages/DepoLawsuitsLegalPage";
 import RoundupLawsuitsLegalPage from "../../components/SubserviceLawsuitsLegalPages/RoundupLawsuitsLegalPage";
 import TalcumLawsuitsLegalPage from "../../components/SubserviceLawsuitsLegalPages/TalcumLawsuitsLegalPage";
-import RideshareSexualLawsuitsLegalPage from "../../components/SubserviceLawsuitsLegalPages/RideshareSexualLawsuitsLegalPage";
+import RobloxAddictionLegalPage from "../../components/SubserviceLawsuitsLegalPages/RobloxAddictionLegalPage";
+import HerniaMeshLegalPage from "../../components/SubserviceLawsuitsLegalPages/HerniaMeshLegalPage";
 
 import { ozempicTimelineData } from "../../components/timelines/ozempicTimelineData";
 
@@ -21,7 +22,7 @@ import { TimelineData } from "@/app/components/timelineTypes";
 import { depoTimelineData } from "@/app/components/timelines/depoTimelineData";
 import { talcumTimelineData } from "@/app/components/timelines/talcumTimelineData";
 import { roundupTimelineData } from "@/app/components/timelines/roundupTimelineData";
-import { rideshareTimelineData } from "@/app/components/timelines/rideshareTimelineData";
+import { robloxTimelineData } from "@/app/components/timelines/robloxTimelineData";
 
 type Props = {
   slug: string;
@@ -43,6 +44,10 @@ const HERO_TITLES: Record<string, string> = {
 
   "talcum-powder-lawsuit":
     "Talcum Powder Lawsuit: Baby Powder Cancer Claims & Legal Updates",
+
+  "roblox-addiction-lawsuit":
+    "Roblox Addiction Lawsuit: Claims, Payouts & Mental Health Risks ",
+  "hernia-mesh-lawsuit": "Hernia Mesh Lawsuit: Injury Claims, Settlements & Legal Updates",
 };
 /* ================= FAQ DATA ================= */
 const FAQ_BY_SLUG: Record<string, { question: string; answer: string }[]> = {
@@ -190,7 +195,65 @@ const FAQ_BY_SLUG: Record<string, { question: string; answer: string }[]> = {
         "Proof may include work records, receipts, personal use history, or witness statements.",
     },
   ],
-
+  "roblox-addiction-lawsuit": [
+    {
+      question: "What is a Roblox addiction lawsuit?",
+      answer:
+        "It is a legal claim against Roblox for allegedly causing addictive behavior and related emotional or psychological harm to users.",
+    },
+    {
+      question: "Who can file a Roblox addiction lawsuit?",
+      answer:
+        "Minors who experienced harm or their parents can file claims seeking compensation for emotional, mental, or social impacts.",
+    },
+    {
+      question: "What are the allegations against Roblox?",
+      answer:
+        "The platform is accused of encouraging excessive play, failing to protect minors, and contributing to mental health issues.",
+    },
+    {
+      question: "What other risks does Roblox pose?",
+      answer:
+        "Users may face exposure to inappropriate content, online predators, excessive screen time, financial loss, and privacy concerns.",
+    },
+    {
+      question: "What compensation can be recovered?",
+      answer:
+        "Payouts can cover therapy costs, emotional harm, academic disruption, and loss of quality of life.",
+    },
+    {
+      question: "What evidence is needed to file a lawsuit?",
+      answer:
+        "Evidence may include medical records, therapy reports, device activity, gameplay history, and expert evaluations linking harm to Roblox use.",
+    },
+  ],
+  "hernia-mesh-lawsuit": [
+    {
+      question: "How much compensation can I get for a hernia mesh lawsuit?",
+      answer:
+        "Compensation depends on the severity of your complications, whether you required revision or removal surgery, your medical expenses, lost wages, and the long-term impact on your quality of life. Severe cases involving infection, bowel obstruction, organ damage, or multiple surgeries typically result in higher case values.",
+    },
+    {
+      question: "What year was the hernia mesh recall?",
+      answer:
+        "There is no single year for a hernia mesh recall. Different manufacturers have recalled or withdrawn specific mesh products at various times. If you are unsure which product was used in your surgery, your operative report or hospital records can usually confirm the brand and model.",
+    },
+    {
+      question: "Has anyone received a large payout in a hernia mesh lawsuit?",
+      answer:
+        "Yes, some cases have resulted in substantial verdicts or settlements, particularly where strong evidence showed serious complications such as organ injury, obstruction, infection, or multiple revision surgeries. However, outcomes vary significantly, and past results do not guarantee future compensation.",
+    },
+    {
+      question: "How do I know which hernia mesh brand was used in my surgery?",
+      answer:
+        "Your surgical records, including the operative report, implant sticker, or hospital device log, typically list the manufacturer and product name. If you do not have access to these documents, an attorney can often assist in obtaining them.",
+    },
+    {
+      question: "How long do I have to file a hernia mesh lawsuit?",
+      answer:
+        "The deadline to file a claim varies by state and often depends on when you first discovered—or reasonably should have discovered—that your injuries may be linked to the mesh. If you are experiencing ongoing complications or require revision surgery, it is important to evaluate your eligibility as soon as possible.",
+    },
+  ],
 };
 
 export default function MassTortClient({ slug }: Props) {
@@ -231,7 +294,10 @@ export default function MassTortClient({ slug }: Props) {
       title: "Talcum Powder Lawsuit Timeline",
       data: talcumTimelineData,
     },
-   
+    "roblox-addiction-lawsuit": {
+      title: "Roblox Addiction Lawsuit Timeline",
+      data: robloxTimelineData,
+    },
   };
 
   const faqData = FAQ_BY_SLUG[slug] ?? [
@@ -247,6 +313,8 @@ export default function MassTortClient({ slug }: Props) {
     "depo-provera-lawsuit": "/depo_bg_dark.png",
     "roundup-lawsuit": "/roundup_bg_dark.png",
     "talcum-powder-lawsuit": "/talc_bg_dark.png",
+    "roblox-addiction-lawsuit": "/roblox_bg_dark.png",
+    "hernia-mesh-lawsuit": "/hernia_bg_dark.png",
   };
 
   const LEGAL_PAGE_BY_SLUG: Record<string, ReactNode> = {
@@ -255,6 +323,8 @@ export default function MassTortClient({ slug }: Props) {
     "depo-provera-lawsuit": <DepoLawsuitsLegalPage />,
     "roundup-lawsuit": <RoundupLawsuitsLegalPage />,
     "talcum-powder-lawsuit": <TalcumLawsuitsLegalPage />,
+    "roblox-addiction-lawsuit": <RobloxAddictionLegalPage />,
+    "hernia-mesh-lawsuit": <HerniaMeshLegalPage />,
   };
   const timelineConfig = TIMELINE_BY_SLUG[slug];
   const heroImage = HERO_IMAGE_BY_SLUG[slug] ?? "/default_hero_bg.png";
@@ -292,7 +362,17 @@ export default function MassTortClient({ slug }: Props) {
       description:
         "You are not alone in this fight. If talcum powder has caused you ovarian cancer or any other health problem, Connect2Attorney can help you:",
     },
-  
+
+    "roblox-addiction-lawsuit": {
+      title: "Get Legal Support from Connect2Attorney",
+      description:
+        "You don’t have to fight this battle alone. If Roblox addiction caused you any harm, Connect2Attorney can help you: ",
+    },
+    "hernia-mesh-lawsuit": {
+      title: "Get Legal Support from Connect2Attorney",
+      description:
+        "You don’t have to fight this battle alone. If Roblox addiction caused you any harm, Connect2Attorney can help you: ",
+    },
   };
 
   const supportData = SUPPORT_BY_SLUG[slug];

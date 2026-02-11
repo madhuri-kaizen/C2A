@@ -11,11 +11,13 @@ export const content = {
     mainTitle: "main-title",
     allegationsTitle: "allegations-title",
     healthRisksTitle: "health-risks-title",
+
     whoQualifiesTitle: "who-qualifies-title",
     compensationTitle: "compensation-title",
     mdllitigationTitle: "mdl-litigation-title",
+    currentTitle:"current-title",
+    settlementTitle: "settlements-title",
     stepsTitle: "steps-title",
-    realStoriesTitle: "real-stories-title",
   },
 
   realStories: [
@@ -275,7 +277,7 @@ const MESOTHELIOMA_TOC = [
     label: "Get Legal Support from Connect2Attorney ",
     id: "get-legal-support",
   },
-  { label: "FAQs", id: "faq-section" },
+  { label: "FAQs", id: "faqs" },
 ];
 
 const LawsuitsLegalPage = () => {

@@ -265,7 +265,7 @@ const ROUNDUP_TOC = [
   { label: "How to File a Roundup Cancer Lawsuit", id: "steps-title" },
   { label: "Get Legal Support from Connect2Attorney", id: "get-legal-support" },
   { label: " Roundup Lawsuit Timeline", id: "timeline-section" },
-  { label: "FAQs", id: "faq-section" },
+  { label: "FAQs", id: "faqs" },
 ];
 
 const LawsuitsLegalPage = () => {

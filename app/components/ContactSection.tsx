@@ -510,7 +510,7 @@ const ContactSection = () => {
       brandName: "C2A",
       websiteName: "Connect 2 Attorney",
       formname: "Contact Section Form",
-      sourceUrl: window.location.href,
+      pageSource: window.location.href,
       vertical:'General',
       formPath:'https://connect2attorney.com/',
       data: {
@@ -539,7 +539,7 @@ const ContactSection = () => {
       brandName: "C2A",
       websiteName: "Connect 2 Attorney",
       formname: "Contact Section Form",
-      sourceUrl: window.location.href,
+      pageSource: window.location.href,
       vertical:'General',
       formPath:'https://connect2attorney.com/',
       data: {
@@ -800,7 +800,7 @@ const ContactSection = () => {
         brandName: "C2A",
         websiteName: "Connect 2 Attorney",
         formname: "Contact Section Form",
-        sourceUrl: window.location.href,
+        pageSource: window.location.href,
         vertical:'General',
         formPath:'https://connect2attorney.com/',
         finalSubmit: true,
@@ -816,7 +816,7 @@ const ContactSection = () => {
           trustedFormPingUrl: trustedFormData.pingUrl,
 
           submissionDate: new Date().toISOString(),
-          sourceUrl: window.location.href,
+          pageSource: window.location.href,
         },
       };
 

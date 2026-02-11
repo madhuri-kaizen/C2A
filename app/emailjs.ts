@@ -20,7 +20,7 @@ export const sendWithEmailJS = async (apiBody: any) => {
     case_type: d.caseType || "N/A",
     description: d.description || "N/A",
     ip_address: d.ipAddress,
-    source_url: apiBody.sourceUrl,
+    source_url: d.pageSource,
     submission_date: d.submissionDate,
     trusted_form_cert_url: d.trustedFormCertUrl,
     trusted_form_ping_url: d.trustedFormPingUrl,
