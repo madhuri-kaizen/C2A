@@ -1512,8 +1512,7 @@ const handleEmailChange = useCallback((value: string) => {
                   trustedFormToken: submitData.tokenUrl,
                   trustedFormPingUrl: submitData.pingUrl,
                   submissionDate: new Date().toISOString(),
-                  sourceUrl: getSourceUrl(),
-                },
+                  sourceUrl: window.location.href,                },
               }),
             }
           );
@@ -1556,8 +1555,7 @@ const handleEmailChange = useCallback((value: string) => {
                     trustedFormToken: submitData.tokenUrl,
                     trustedFormPingUrl: submitData.pingUrl,
                     submissionDate: new Date().toISOString(),
-                    sourceUrl: getSourceUrl(),
-                  },
+                    sourceUrl: window.location.href,                  },
                 }),
               }
             );

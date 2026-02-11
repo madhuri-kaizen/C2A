@@ -901,7 +901,7 @@ export default function Form() {
             trustedFormCertUrl: certId || "",
             trustedFormToken: tokenUrl || "",
             trustedFormPingUrl: pingUrl || "",
-            pageSource: getSourceUrl(),
+            pageSource: window.location.href,
           },
         };
 
@@ -1099,7 +1099,7 @@ export default function Form() {
         trustedFormCertUrl: certId || "",
         trustedFormToken: tokenUrl || "",
         trustedFormPingUrl: pingUrl || "",
-        pageSource: getSourceUrl(),
+        pageSource: window.location.href,
       },
     };
 
@@ -1149,7 +1149,7 @@ export default function Form() {
           trustedFormCertUrl: certId || "",
           trustedFormToken: tokenUrl || "",
           trustedFormPingUrl: pingUrl || "",
-          pageSource: getSourceUrl(),
+          pageSource: window.location.href,
         },
       };
 
