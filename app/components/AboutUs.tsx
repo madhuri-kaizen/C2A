@@ -45,7 +45,7 @@ const AboutUs = () => {
 
       {/* 3. Left-Center Text Content */}
       <div className="absolute top-[1%] md:top-[15%] left-[3%] md:left-[5%] z-20 max-w-[90%] md:max-w-[600px] w-[94%] md:w-[90%] px-2 md:px-0 pl-[20px]">
-        <h1
+        <h2
           className="font-noto-serif font-normal capitalize  md:mb-6 text-[30px] md:text-[60px] lg:text-[60px] xl:text-[60px] 2xl:text-[80px]"
           style={{
             lineHeight: "70px",
@@ -54,14 +54,14 @@ const AboutUs = () => {
         >
           <span className="text-[#162766]">About</span>{" "}
           <span className="text-[#F2C438]">Us</span>
-        </h1>
+        </h2>
         <p className="font-urbanist font-normal text-[#162766] mb-3 md:mb-4  text-[12px] min-[360px]:text-[14px] min-[375px]:text-[16px] md:text-[18px] lg:text-[18px] 2xl:text-[18px] leading-[24px] 2xl:leading-[30px] ">
           Free, confidential case reviews. Serving all 50 states. No fees unless
           you win. Understand Your Rights in Minutes Your Bridge To Trusted
           Legal Solutions
         </p>
         <p className="font-urbanist font-normal text-[#162766] text-[12px] min-[360px]:text-[14px] min-[375px]:text-[16px] md:text-[18px] lg:text-[18px] 2xl:text-[18px] leading-[24px] 2xl:leading-[30px] ">
-          C2A bridges the gap between victims seeking justice and the right
+          Connect2Attorney bridges the gap between victims seeking justice and the right
           legal experts they need. We transform overwhelming choices into
           tailored connections, isolated clients into empowered voices, and
           complex legal challenges into clear, guided pathways toward

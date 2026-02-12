@@ -9,31 +9,32 @@ import Footer from "../components/Footer";
 import MassTortLegalPage from "../components/MassTortLegalPage";
 const faqData = [
   {
-    question: "How much does it cost to start a case?",
+    question: "What affects my settlement amounts?",
     answer:
-      "Starting a case with us is completely free. We work on a contingency fee basis, meaning we only get paid if we win your case. There are no upfront legal fees.",
+      "Your settlement depends on how serious your injury is, your medical bills, lost income, and how your life has been impacted.",
   },
   {
-    question: "Who will handle my case?",
+    question: "Is there a standard payout for mass tort cases?",
     answer:
-      "Your case will be assigned to a dedicated attorney specializing in your specific type of claim, supported by a team of paralegals and legal assistants to ensure you get full attention.",
+      "No, there isn’t a fixed amount. Each person’s payout is based on their unique injuries and circumstances.",
   },
   {
-    question: "Is my information confidential?",
+    question: "Can I get a settlement if my injury is minor?",
     answer:
-      "Absolutely. All communications between you and our firm are protected by attorney-client privilege. We adhere to strict privacy policies to keep your data secure.",
+      "Yes, you can still get a settlement. The amount may be lower, but you may still be entitled to compensation.",
   },
   {
-    question: "How long will my case take?",
+    question: "How are punitive damages decided?",
     answer:
-      "Every case is unique. Simple settlements may take a few months, while complex litigation can take a year or more. We will provide a timeline estimate during your consultation.",
+      "Punitive damages are awarded when the company or person acted in a reckless or harmful way. A judge or jury decides the amount.",
   },
   {
-    question: "What kinds of cases do we accept?",
+    question: "When will I know the estimated value of my case?",
     answer:
-      "We specialize in personal injury, worker's compensation, and medical malpractice. If you aren't sure if your case qualifies, give us a call for a free evaluation.",
+      "You’ll usually get an estimate after your attorney reviews your medical records, injury details, and how the harm has affected your life.",
   },
 ];
+
 
 export const metadata = {
   title: "Mass Tort",

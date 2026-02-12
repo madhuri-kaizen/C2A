@@ -102,9 +102,9 @@ const MassTortLegalPage = () => {
         <div className="flex flex-col lg:flex-row gap-12">
           {/* ================= LEFT CONTENT ================= */}
           <div className="flex-1 max-w-[946px]">
-            <h1 className="font-noto-serif text-[#162766] text-[30px] md:text-[40px] mb-4">
+            <h2 className="font-noto-serif text-[#162766] text-[30px] md:text-[40px] mb-4">
               What Is A Mass Tort?
-            </h1>
+            </h2>
 
             <p className="mb-10 font-urbanist text-[#425777] text-[18px] leading-[27px]">
               Mass torts cases are civil lawsuits filed by victims against a
@@ -131,7 +131,9 @@ const MassTortLegalPage = () => {
             <ol className="list-decimal ml-5 text-[18px] font-normal font-urbanist space-y-3 mb-16 text-[#425777] leading-[27px]">
               {eligibilityPoints.map((item, index) => (
                 <li key={index}>
-                  {item.title} {item.description}
+                  <h3>
+                    <strong>{item.title}</strong> {item.description}
+                  </h3>
                 </li>
               ))}
             </ol>
@@ -161,17 +163,17 @@ const MassTortLegalPage = () => {
                     <circle cx="5" cy="5" r="5" fill="#162766" />
                   </svg>
 
-                  <span>
+                  <h3>
                     <strong>{item.title}</strong> {item.description}
-                  </span>
+                  </h3>
                 </li>
               ))}
             </ul>
 
             <h2 className="font-noto-serif font-normal text-[#162766] text-[30px] md:text-[40px] capitalize mb-4">
-              How Can Connect2Attorney{" "}<br/>
+              How Can Connect2Attorney <br />
               <span className="text-[#F2C438]">Help You File</span> A Mass Tort
-               Lawsuit?
+              Lawsuit?
             </h2>
 
             <p className="mb-8 font-urbanist font-medium text-[#425777] text-[18px] leading-[27px]">
@@ -192,8 +194,8 @@ const MassTortLegalPage = () => {
                 isAtBottom
                   ? "absolute bottom-12"
                   : isFixed
-                  ? "fixed top-23"
-                  : "relative"
+                    ? "fixed top-23"
+                    : "relative"
               }`}
             >
               <div className="bg-[#162766] rounded-lg shadow-xl">
@@ -215,11 +217,10 @@ const MassTortLegalPage = () => {
                     evaluation today.
                   </p>
                   <Link href="/contact-us">
-                   <button className="w-full bg-[#fccb48] text-[#162766] font-semibold uppercase py-3 rounded">
-                    Get a Free Case Review
-                  </button>
+                    <button className="w-full bg-[#fccb48] text-[#162766] font-semibold uppercase py-3 rounded">
+                      Get a Free Case Review
+                    </button>
                   </Link>
-                 
                 </div>
               </div>
             </div>
@@ -296,7 +297,7 @@ const StepsComponent = () => {
             </div>
 
             {/* TITLE */}
-            <h4
+            <h3
               className=" w-[130px]
               font-urbanist
               font-semibold
@@ -307,7 +308,7 @@ const StepsComponent = () => {
             "
             >
               {item.title}
-            </h4>
+            </h3>
           </div>
 
           {/* DESCRIPTION (BELOW BOTH, INSIDE BLUE BOX) */}

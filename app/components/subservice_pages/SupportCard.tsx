@@ -98,7 +98,7 @@ const SupportCard = ({ title, description }: SupportCardProps) => {
     "
           style={{ backgroundImage: "url('/bgmobilecompletecard.svg')" }}
         >
-          <h1
+          <h2
             className="
         font-noto-serif
         text-[#F2C438]
@@ -109,7 +109,7 @@ const SupportCard = ({ title, description }: SupportCardProps) => {
       "
           >
             {title}
-          </h1>
+          </h2>
 
           {/* Paragraph */}
           <p
@@ -177,7 +177,7 @@ const SupportCard = ({ title, description }: SupportCardProps) => {
 
           {/* Content */}
           <div className="relative z-20 w-full md:w-[80%] lg:w-[68%] xl:w-[60%] px-6 md:px-8 lg:px-10 xl:px-12 py-5 md:py-6 lg:py-7">
-            <h1
+            <h2
               className="
     font-noto-serif
     text-white
@@ -196,7 +196,7 @@ const SupportCard = ({ title, description }: SupportCardProps) => {
   "
             >
               {title}
-            </h1>
+            </h2>
 
             <p
               className="

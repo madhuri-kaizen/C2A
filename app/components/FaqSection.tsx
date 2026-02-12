@@ -88,7 +88,7 @@ const FaqSection: React.FC<FaqSectionProps> = ({ faqData }) => {
                 {/* Content */}
                 <div className="flex flex-col px-2">
                   {/* Question */}
-                  <p
+                  <h3
                     className="font-noto-serif m-0 transition-colors duration-200 text-[18px] md:text-[20px]"
                     style={{
                       color: isActive ? "#F2C438" : "#FFFFFF",
@@ -96,7 +96,7 @@ const FaqSection: React.FC<FaqSectionProps> = ({ faqData }) => {
                     }}
                   >
                     {item.question}
-                  </p>
+                  </h3>
 
                   {/* Answer */}
                   <div

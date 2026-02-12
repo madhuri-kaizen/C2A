@@ -461,12 +461,12 @@ const LawsuitsLegalPage = () => {
         <div className="flex flex-col lg:flex-row gap-12">
           {/* Left Content Column */}
           <div className="flex-1 max-w-[946px]">
-            <h1
+            <h2
               id={content.sectionIds.mainTitle}
               className="font-noto-serif font-normal capitalize text-[#162766] text-[30px] md:text-[40px] leading-[36px] mb-6"
             >
               {content.pageContent.mainTitle}
-            </h1>
+            </h2>
             <div className="mb-5 font-urbanist font-medium text-[#425777] text-[16px] lg:text-[18px] leading-[30px] space-y-1 capitalize">
               <p>{content.pageContent.mainParagraphs[0]}</p>
               <br />
@@ -510,7 +510,7 @@ const LawsuitsLegalPage = () => {
             </div>
 
             <div className="bg-[#162766] text-[#FFF] rounded-xl p-4 sm:p-6 w-full  mb-12">
-              <h2
+              <h3
                 id={content.sectionIds.allegationsTitle}
                 className="font-noto-serif font-normal capitalize text-[#FFF] text-[24px] sm:text-[32px] lg:text-[40px] leading-[32px] sm:leading-[42px] lg:leading-[50px] mb-4"
               >
@@ -523,7 +523,7 @@ const LawsuitsLegalPage = () => {
                   .split(" ")
                   .slice(3)
                   .join(" ")}
-              </h2>
+              </h3>
               <p className="mb-4 font-urbanist   text-[#F9F9F9] text-[16px] sm:text-[18px] leading-[24px] sm:leading-[27px]">
                 {content.pageContent.allegationsSubtitle}
               </p>
@@ -588,12 +588,12 @@ const LawsuitsLegalPage = () => {
                 ))}
               </div>
 
-              <h2
+              <h3
                 id={content.sectionIds.otherRisksTitle}
                 className="font-noto-serif font-normal text-[#162766] text-[28px] sm:text-[34px] lg:text-[40px] leading-[36px] sm:leading-[44px] lg:leading-[50px] capitalize mb-4"
               >
                 {content.pageContent.otherRiskstitle}
-              </h2>
+              </h3>
 
               <p className="mb-4 font-urbanist font-normal text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
                 {content.pageContent.otherRisksParagraph}
@@ -770,12 +770,12 @@ const LawsuitsLegalPage = () => {
               </div>
 
               {/* Section Title */}
-              <h3
+              <h2
                 id={content.sectionIds.settlementsTitle}
                 className="font-noto-serif text-[#162766] text-[20px] sm:text-[22px] lg:text-[40px] font-medium"
               >
                 {content.pageContent.settlementsTitle}
-              </h3>
+              </h2>
 
               <p className="mb-4 font-urbanist font-normal text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
                 {content.pageContent.mdllitigationParagraph}
@@ -968,7 +968,7 @@ const StepsComponent = () => {
             </div>
 
             {/* TITLE */}
-            <h4
+            <h3
               className="
                 font-urbanist
                 font-bold
@@ -979,7 +979,7 @@ const StepsComponent = () => {
               "
             >
               {item.title}
-            </h4>
+            </h3>
           </div>
 
           {/* DESCRIPTION */}

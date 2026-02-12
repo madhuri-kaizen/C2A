@@ -72,6 +72,30 @@ const estimationItems = [
     title: "Level of negligence involved",
   },
 ];
+
+const estimationRange = [
+  {
+    title: "Minor injury cases:",
+    description: "May settle for",
+    range: "$5,000 – $50,000",
+  },
+  {
+    title: "Moderate injuries:",
+    description: "May reach",
+    range: "$50,000 – $250,000",
+  },
+  {
+    title: "Severe injuries or permanent disability:",
+    description: "Can exceed",
+    range: "$500,000 – $1 million+",
+  },
+  {
+    title: "Wrongful death cases:",
+    description: "Often exceed",
+    range: "$1 million+",
+  },
+];
+
 const PersonalInjuryLegalPage: React.FC = () => {
   const wrapperRef = useRef<HTMLDivElement | null>(null);
   const ctaRef = useRef<HTMLDivElement | null>(null);
@@ -162,8 +186,12 @@ const PersonalInjuryLegalPage: React.FC = () => {
             <ol className="list-none font-normal font-poppins text-[18px] space-y-3 mb-6 text-[#425777] leading-[27px]">
               {eligibilityPoints.map((item, index) => (
                 <li key={index}>
-                  <strong className="text-[#425777]">{item.title}</strong>{" "}
-                  <br /> {item.description}
+                  <h3>
+                    <strong className="text-[#425777]">
+                      {item.title}
+                    </strong>{" "}
+                  </h3>
+                  {item.description}
                 </li>
               ))}
             </ol>
@@ -198,9 +226,11 @@ const PersonalInjuryLegalPage: React.FC = () => {
                     <circle cx="5" cy="5" r="5" fill="#162766" />
                   </svg>
 
-                  <span>
-                    <strong>{item.title}</strong> {item.description}
-                  </span>
+                  <h3>
+                    <span>
+                      <strong>{item.title}</strong> {item.description}
+                    </span>
+                  </h3>
                 </li>
               ))}
             </ul>
@@ -232,6 +262,22 @@ const PersonalInjuryLegalPage: React.FC = () => {
                 </li>
               ))}
             </ul>
+
+            <ul className="list-none pl-0 space-y-3 mb-12 font-urbanist text-[18px] text-[#425777] leading-[27px]">
+              {estimationRange.map((item, index) => (
+                <li key={index} className="flex items-start gap-3">
+                  <span>
+                    <strong>{item.title}</strong> {item.description}{" "}
+                    <strong>{item.range}</strong>
+                  </span>
+                </li>
+              ))}
+            </ul>
+
+            <p className="mb-8 font-urbanist font-medium text-[#425777] text-[18px] leading-[27px]">
+              Your attorney will help determine the most accurate estimate based
+              on your specific circumstances.
+            </p>
             <h2 className="font-noto-serif font-normal text-[#162766] text-[30px] md:text-[40px]  capitalize mb-4">
               How Can Connect2Attorney{" "}
               <span className="text-[#F2C438]">Help You File</span> A Class
@@ -256,8 +302,8 @@ const PersonalInjuryLegalPage: React.FC = () => {
                 isAtBottom
                   ? "absolute bottom-12"
                   : isFixed
-                  ? "fixed top-23"
-                  : "relative"
+                    ? "fixed top-23"
+                    : "relative"
               }`}
             >
               <div className="bg-[#162766] rounded-lg shadow-xl">
@@ -282,9 +328,9 @@ const PersonalInjuryLegalPage: React.FC = () => {
                   </p>
 
                   <Link href="/contact-us">
-                  <button className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors duration-200">
-                    Get a Free Case Review
-                  </button>
+                    <button className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors duration-200">
+                      Get a Free Case Review
+                    </button>
                   </Link>
                 </div>
               </div>
@@ -320,7 +366,7 @@ const StepsComponent = () => {
   ];
 
   return (
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
       {steps.map((item) => (
         <div
           key={item.step}
@@ -362,7 +408,7 @@ const StepsComponent = () => {
             </div>
 
             {/* TITLE */}
-            <h4
+            <h3
               className=" w-[130px]
               font-urbanist
               font-semibold
@@ -373,7 +419,7 @@ const StepsComponent = () => {
             "
             >
               {item.title}
-            </h4>
+            </h3>
           </div>
 
           {/* DESCRIPTION (BELOW BOTH, INSIDE BLUE BOX) */}

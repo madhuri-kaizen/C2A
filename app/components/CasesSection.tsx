@@ -316,9 +316,9 @@ const CasesSectionCompact: React.FC = () => {
       >
         {/* Header */}
         <div className="flex flex-col lg:items-start items-center mt-4 md:mt-6 lg:m-0 lg:pl-10">
-          <h1 className="font-noto-serif font-normal text-[30px] md:text-[44px] text-white mb-2 md:mb-5 md:mt-0 xl:mb-10 xl:mt-10 text-center lg:text-left leading-[50px] md:leading-[52px] lg:leading-[70px] capitalize">
+          <h2 className="font-noto-serif font-normal text-[30px] md:text-[44px] text-white mb-2 md:mb-5 md:mt-0 xl:mb-10 xl:mt-10 text-center lg:text-left leading-[50px] md:leading-[52px] lg:leading-[70px] capitalize">
             <span className="text-[#fcc030]">Cases</span> We Handle
-          </h1>
+          </h2>
 
           {/* Tabs */}
           <div className="relative rounded-full inline-flex border border-1 border-white h-[50px] mb-10">
@@ -481,9 +481,9 @@ const CasesSectionExpanded: React.FC = () => {
       >
         {/* Header */}
         <div className="flex flex-col lg:items-start items-center mt-4 md:mt-6 lg:m-0  lg:pl-10">
-          <h1 className="font-noto-serif font-normal text-[30px] md:text-[44px] lg:text-[55px] lg:mt-4 xl:mt-10 xl:mb-10 text-white mb-2 md:mb-4 text-center lg:text-left leading-[50px] md:leading-[52px] lg:leading-[70px] capitalize">
+          <h2 className="font-noto-serif font-normal text-[30px] md:text-[44px] lg:text-[55px] lg:mt-4 xl:mt-10 xl:mb-10 text-white mb-2 md:mb-4 text-center lg:text-left leading-[50px] md:leading-[52px] lg:leading-[70px] capitalize">
             <span className="text-[#fcc030]">Cases</span> We Handle
-          </h1>
+          </h2>
 
           {/* Tabs */}
           <div className="relative rounded-full inline-flex border border-1 border-white h-[50px] lg:mb-8 lg:mt-2">

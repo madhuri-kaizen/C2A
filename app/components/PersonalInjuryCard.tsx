@@ -51,9 +51,9 @@ const MassTortCard = () => {
         leading-[1.45]
       "
     >
-      <h1 className="font-urbanist text-[18px] md:text-[35px] font-normal capitalize">
+      <h2 className="font-urbanist text-[18px] md:text-[35px] font-normal capitalize">
 We handle personal injury cases, helping people who were hurt because someone else acted carelessly or failed to keep them safe.  
-      </h1>
+      </h2>
      
     </div>
 
@@ -140,9 +140,9 @@ We handle personal injury cases, helping people who were hurt because someone el
               leading-[1.35]
             "
           >
-            <h1 className="font-urbanist  font-normal capitalize">
+            <h2 className="font-urbanist  font-normal capitalize">
 We handle personal injury cases, helping people who were hurt because someone else acted carelessly or failed to keep them safe.  
-      </h1>
+      </h2>
           </div>
 
           {/* PATTERN */}

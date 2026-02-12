@@ -445,12 +445,12 @@ const LawsuitsLegalPage = () => {
         <div className="flex flex-col lg:flex-row gap-12">
           {/* Left Content Column */}
           <div className="flex-1 max-w-[946px]">
-            <h1
+            <h2
               id={content.sectionIds.mainTitle}
               className="font-noto-serif font-normal capitalize text-[#162766] text-[30px] md:text-[40px] leading-[36px] mb-6"
             >
               {content.pageContent.mainTitle}
-            </h1>
+            </h2>
             <div className="mb-10 font-urbanist font-medium text-[#425777] text-[16px] lg:text-[18px] leading-[27px] space-y-1">
               <p>{content.pageContent.mainParagraphs[0]}</p>
 
@@ -468,7 +468,7 @@ const LawsuitsLegalPage = () => {
             </div>
 
             <div className="bg-[#162766] text-[#FFF] rounded-xl p-4 sm:p-6 w-full  mb-16">
-              <h2
+              <h3
                 id={content.sectionIds.eligibleTitle}
                 className="font-noto-serif font-normal capitalize text-[#FFF] text-[24px] sm:text-[32px] lg:text-[40px] leading-[32px] sm:leading-[42px] lg:leading-[50px] mb-4"
               >
@@ -481,7 +481,7 @@ const LawsuitsLegalPage = () => {
                   .split(" ")
                   .slice(3)
                   .join(" ")}
-              </h2>
+              </h3>
 
               <p className="mb-4 font-urbanist  font-bold text-[#F9F9F9] text-[16px] sm:text-[18px] leading-[24px] sm:leading-[27px]">
                 {content.pageContent.eligibleParagraph}
@@ -612,9 +612,9 @@ const LawsuitsLegalPage = () => {
               <p className="mb-6 font-poppins font-normal text-[#425777] text-[16px] lg:text-[18px] leading-[30px]">
                 {content.pageContent.updateParagraph}
               </p>
-              <p className="mb-6 font-poppins font-bold text-[#425777] text-[18px] leading-[30px]">
+              <h3 className="mb-6 font-poppins font-bold text-[#425777] text-[18px] leading-[30px]">
                 {content.pageContent.updatesubtitle}
-              </p>
+              </h3>
               <ul className="space-y-5 mb-8">
                 {content.updatePoints.map((item, index) => (
                   <li key={index} className="flex items-start gap-3">
@@ -681,12 +681,12 @@ const LawsuitsLegalPage = () => {
               {/* ==================== LAWSUIT UPDATE SECTION ==================== */}
               {/* ==================== SETTLEMENT IMPACT SECTION ==================== */}
               <div className="mb-10">
-                <h2
+                <h3
                   id={content.sectionIds.settlementImpactTitle}
                   className="font-noto-serif font-normal text-[#162766] text-[40px] leading-[50px] capitalize mb-4"
                 >
                   {content.pageContent.settlementImpactTitle}
-                </h2>
+                </h3>
 
                 <p className="mb-6 font-poppins font-normal text-[#425777] text-[16px] lg:text-[18px] leading-[30px]">
                   {content.pageContent.settlementImpactParagraph}
@@ -748,12 +748,12 @@ const LawsuitsLegalPage = () => {
               </div>
               <div className="bg-[#F4F6F8] rounded-lg px-4 sm:px-8 py-6">
                 {/* Section Title */}
-                <h3
+                <h2
                   id={content.sectionIds.realStoriesTitle}
                   className="font-noto-serif text-[#162766] text-[20px] sm:text-[22px] font-medium mb-6"
                 >
                   {content.pageContent.realStoriesTitle}
-                </h3>
+                </h2>
 
                 {/* Stories */}
                 <div className="space-y-5">
@@ -938,7 +938,7 @@ const StepsComponent = () => {
             </div>
 
             {/* TITLE */}
-            <h4
+            <h3
               className="
                 font-urbanist
                 font-bold
@@ -949,7 +949,7 @@ const StepsComponent = () => {
               "
             >
               {item.title}
-            </h4>
+            </h3>
           </div>
 
           {/* DESCRIPTION */}

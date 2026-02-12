@@ -63,10 +63,10 @@ const CasesSection2: React.FC = () => {
       <div className="md:hidden bg-[#fff] px-4 py-10">
         {/* Header */}
         <div className="mb-8 text-left">
-          <h1 className="font-noto-serif font-normal text-[#162766] text-[28px] leading-[36px]">
+          <h2 className="font-noto-serif font-normal text-[#162766] text-[28px] leading-[36px]">
             Together in{" "}
             <span className="text-[#F2C438]">{totalCases} Class Action</span>
-          </h1>
+          </h2>
 
           <h2 className="font-noto-serif font-normal text-[#162766] text-[28px] leading-[36px]">
             Lawsuits to Demand Accountability.
@@ -93,7 +93,7 @@ const CasesSection2: React.FC = () => {
         <div className="max-w-[1400px] mx-auto">
           {/* Header */}
           <div className="mb-12 text-left">
-            <h1
+            <h2
               className="font-noto-serif font-normal capitalize text-white mb-2"
               style={{
                 fontSize: "clamp(36px, 5vw, 60px)",
@@ -105,7 +105,7 @@ const CasesSection2: React.FC = () => {
                 {totalCases} Class Action
               </span>{" "}
               Lawsuits
-            </h1>
+            </h2>
 
             <h2
               className="font-noto-serif font-normal capitalize text-white"

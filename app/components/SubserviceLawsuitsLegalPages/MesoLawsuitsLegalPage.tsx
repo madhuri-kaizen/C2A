@@ -400,13 +400,13 @@ const LawsuitsLegalPage = () => {
         <div className="flex flex-col lg:flex-row gap-12">
           {/* Left Content Column */}
           <div className="flex-1 max-w-[946px]">
-            <h1
+            <h2
               id={content.sectionIds.mainTitle}
               className="font-noto-serif font-normal capitalize text-[#162766] text-[30px] md:text-[40px] leading-[36px] mb-6"
             >
               {content.pageContent.mainTitle}
-            </h1>
-            <div className="mb-10 font-urbanist font-medium text-[#425777] text-[16px] lg:text-[18px] leading-[27px] space-y-1">
+            </h2>
+            <div className="mb-10 font-urbanist font-medium text-[#425777] text-[16px] lg:text-[18px] leading-[30px] space-y-1">
               <p>{content.pageContent.mainParagraphs[0]}</p>
               <br className="lg:hidden" />
 
@@ -414,9 +414,9 @@ const LawsuitsLegalPage = () => {
 
               <p>{content.pageContent.mainParagraphs[2]}</p>
               <br />
-              <p className="font-bold">
+              <h3 className="font-bold">
                 {content.pageContent.mainParagraphs[3]}
-              </p>
+              </h3>
               <p>{content.pageContent.mainParagraphs[4]}</p>
               <br />
               <p className="font-bold">
@@ -786,7 +786,7 @@ const StepsComponent = () => {
             </div>
 
             {/* TITLE */}
-            <h4
+            <h3
               className="
                 font-urbanist
                 font-bold
@@ -797,7 +797,7 @@ const StepsComponent = () => {
               "
             >
               {item.title}
-            </h4>
+            </h3>
           </div>
 
           {/* DESCRIPTION */}

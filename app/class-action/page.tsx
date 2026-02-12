@@ -8,31 +8,32 @@ import ContactCard from "../components/ContactCard";
 import Footer from "../components/Footer";
 const faqData = [
   {
-    question: "How much does it cost to start a case?",
+    question: "How do I know if I qualify for a class action lawsuit?",
     answer:
-      "Starting a case with us is completely free. We work on a contingency fee basis, meaning we only get paid if we win your case. There are no upfront legal fees.",
+      "You may qualify if you were harmed in the same way as a group of other people by a company, product, or service.",
   },
   {
-    question: "Who will handle my case?",
+    question: "Can I join a class action if my loss is small?",
     answer:
-      "Your case will be assigned to a dedicated attorney specializing in your specific type of claim, supported by a team of paralegals and legal assistants to ensure you get full attention.",
+      "Yes. Even if your loss is small, you can join because class actions help many people with similar problems.",
   },
   {
-    question: "Is my information confidential?",
+    question: "Do I have to pay to join a class action?",
     answer:
-      "Absolutely. All communications between you and our firm are protected by attorney-client privilege. We adhere to strict privacy policies to keep your data secure.",
+      "No. You don’t pay anything unless the attorney wins the case and you receive money.",
   },
   {
-    question: "How long will my case take?",
+    question: "How is compensation decided in class action lawsuits?",
     answer:
-      "Every case is unique. Simple settlements may take a few months, while complex litigation can take a year or more. We will provide a timeline estimate during your consultation.",
+      "Once a case settles, the total amount is divided among all qualifying members. Payouts depend on the size of the group and the extent of each member’s losses.",
   },
   {
-    question: "What kinds of cases do we accept?",
+    question: "How much money can I get from a class action?",
     answer:
-      "We specialize in personal injury, worker's compensation, and medical malpractice. If you aren't sure if your case qualifies, give us a call for a free evaluation.",
+      "It depends on the case and how many people join. Sometimes the individual payout is smaller, but participating in a class action helps hold companies accountable for wrongdoing.",
   },
 ];
+
 
 export const metadata = {
   title: "Class Action",

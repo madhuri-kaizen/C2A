@@ -289,7 +289,7 @@ const CasesSection2: React.FC = () => {
 
           {/* Header */}
           <div className="mb-12 text-left">
-            <h1
+            <h2
               className="font-noto-serif font-normal capitalize text-[#fcc030] mb-2"
               style={{
                 fontSize: "clamp(28px, 6vw, 60px)",
@@ -297,7 +297,7 @@ const CasesSection2: React.FC = () => {
               }}
             >
               {totalCases} Mass Tort  <span className='text-[#162766]'> Battles  ,</span> 
-            </h1>
+            </h2>
 
             <h2
               className="font-noto-serif font-normal capitalize text-[#162766]>"
@@ -358,7 +358,7 @@ const CasesSection2: React.FC = () => {
 
           {/* Header */}
           <div className="mb-16 text-left">
-            <h1
+            <h2
               className="font-noto-serif font-normal capitalize text-[#fcc030] mb-2"
               style={{
                 fontSize: "clamp(36px, 5vw, 60px)",
@@ -366,7 +366,7 @@ const CasesSection2: React.FC = () => {
               }}
             >
               {totalCases} Mass Tort Battles,
-            </h1>
+            </h2>
 
             <h2
               className="font-noto-serif font-normal capitalize text-white"

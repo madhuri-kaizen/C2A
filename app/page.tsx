@@ -36,7 +36,7 @@ const faqData = [
   },
 ];
 export const metadata = {
-  title: "Home",
+  title: "Connect2Attorney",
   alternates: {
     canonical: "https://connect2attorney.com/",
   },

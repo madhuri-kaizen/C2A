@@ -364,12 +364,12 @@ const LawsuitsLegalPage = () => {
         <div className="flex flex-col lg:flex-row gap-12">
           {/* Left Content Column */}
           <div className="flex-1 max-w-[946px]">
-            <h1
+            <h2
               id={content.sectionIds.mainTitle}
               className="font-noto-serif font-normal capitalize text-[#162766] text-[30px] md:text-[40px] leading-[36px] mb-6"
             >
               {content.pageContent.mainTitle}
-            </h1>
+            </h2>
             <div className="mb-10 font-urbanist font-medium text-[#425777] text-[18px] leading-[27px] space-y-1">
               <p>{content.pageContent.mainParagraphs[0]}</p>
               <br />
@@ -377,17 +377,17 @@ const LawsuitsLegalPage = () => {
               <br />
               <p>{content.pageContent.mainParagraphs[2]}</p>
               <br />
-              <h4 className="font-bold">
+              <h3 className="font-bold">
                 {content.pageContent.mainParagraphs[3]}
-              </h4>
+              </h3>
 
               <p>{content.pageContent.mainParagraphs[4]}</p>
             </div>
 
             <div className="bg-[#162766] text-[#FFF] rounded-xl p-4 sm:p-6 w-full  mb-16">
-              <h2 className="font-noto-serif font-normal capitalize text-[#FFF] text-[24px] sm:text-[32px] lg:text-[40px] leading-[32px] sm:leading-[42px] lg:leading-[50px] mb-4">
+              <h3 className="font-noto-serif font-normal capitalize text-[#FFF] text-[24px] sm:text-[32px] lg:text-[40px] leading-[32px] sm:leading-[42px] lg:leading-[50px] mb-4">
                 {content.pageContent.allegationsTitle}
-              </h2>
+              </h3>
 
               <p className="mb-4 font-urbanist font-bold text-[#F9F9F9] text-[16px] sm:text-[18px] leading-[24px] sm:leading-[27px]">
                 {content.pageContent.allegationsSubtitle}
@@ -422,7 +422,7 @@ const LawsuitsLegalPage = () => {
                       </p>
                     </li>
 
-                    {/* 👇 Paragraph after 4th point */}
+                    {/* Paragraph after 4th point */}
                     {index === 3 && (
                       <p className="mb-4 font-urbanist font-bold text-[#F9F9F9] text-[16px] sm:text-[18px] leading-[24px] sm:leading-[27px]">
                         {content.pageContent.allegationsParagraph}
@@ -453,9 +453,9 @@ const LawsuitsLegalPage = () => {
                     className="bg-[#F4F6F8] rounded-lg px-4 sm:px-6 py-5"
                   >
                     {/* Title + Number */}
-                    <h4 className="font-noto-serif text-[#162766] text-[20px] sm:text-[24px] font-medium leading-normal mb-2">
+                    <h3 className="font-noto-serif text-[#162766] text-[20px] sm:text-[24px] font-medium leading-normal mb-2">
                       {item.title}
-                    </h4>
+                    </h3>
 
                     {/* Description */}
                     <p className="font-urbanist text-[#425777] text-[16px] sm:text-[18px] font-medium leading-[24px] sm:leading-[27px]">
@@ -501,9 +501,9 @@ const LawsuitsLegalPage = () => {
                   className="bg-[#F4F6F8] rounded-lg px-4 sm:px-6 py-5"
                 >
                   {/* Title + Number */}
-                  <h4 className="font-noto-serif text-[#162766] text-[20px] sm:text-[24px] font-medium leading-normal mb-2">
+                  <h3 className="font-noto-serif text-[#162766] text-[20px] sm:text-[24px] font-medium leading-normal mb-2">
                     {item.title}
-                  </h4>
+                  </h3>
 
                   {/* Description */}
                   <p className="font-urbanist text-[#425777] text-[16px] sm:text-[18px] font-medium leading-[24px] sm:leading-[27px]">
@@ -560,23 +560,23 @@ const LawsuitsLegalPage = () => {
                   {content.pageContent.settlementParagraph[0]}
                 </p>
 
-                <p className="font-urbanist font-bold text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
+                <h4 className="font-urbanist font-bold text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
                   {content.pageContent.settlementParagraph[1]}
-                </p>
+                </h4>
                 <p className="mb-4 font-urbanist font-normal text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
                   {content.pageContent.settlementParagraph[2]}
                 </p>
                 <br />
-                <p className="font-urbanist font-bold text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
+                <h4 className="font-urbanist font-bold text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
                   {content.pageContent.settlementParagraph[3]}
-                </p>
+                </h4>
                 <p className="mb-4 font-urbanist font-normal text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
                   {content.pageContent.settlementParagraph[4]}
                 </p>
                 <br />
-                <p className="font-urbanist font-bold text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
+                <h4 className="font-urbanist font-bold text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
                   {content.pageContent.settlementParagraph[5]}
-                </p>
+                </h4>
                 <p className="mb-4 font-urbanist font-normal text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
                   {content.pageContent.settlementParagraph[6]}
                 </p>
@@ -785,7 +785,7 @@ const StepsComponent = () => {
             </div>
 
             {/* TITLE */}
-            <h4
+            <h3
               className="
                 font-urbanist
                 font-bold
@@ -796,7 +796,7 @@ const StepsComponent = () => {
               "
             >
               {item.title}
-            </h4>
+            </h3>
           </div>
 
           {/* DESCRIPTION */}

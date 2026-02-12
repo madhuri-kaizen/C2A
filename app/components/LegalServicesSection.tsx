@@ -48,7 +48,7 @@ const LegalServicesSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
           {/* --- LEFT COLUMN --- */}
           <div className="flex flex-col">
-            <h1
+            <h2
               className="
                 font-noto-serif font-normal capitalize
                 text-[#1B264F]
@@ -63,7 +63,7 @@ const LegalServicesSection = () => {
               "
             >
               <span className="text-[#F2C037]">What Sets</span> Us Apart
-            </h1>
+            </h2>
 
             <div className="grid grid-cols-2 gap-3 xs:gap-4 sm:gap-6 lg:auto-rows-fr">
               {cards.map((card, index) => (

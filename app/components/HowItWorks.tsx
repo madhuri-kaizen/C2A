@@ -8,9 +8,9 @@ const HowItWorks: React.FC = () => {
 
       <header className="flex flex-col md:flex-row justify-between items-start mb-[30px] gap-[30px] lg:px-[30px]">
         <div className="max-w-2xl">
-          <h1 className="font-noto-serif font-normal text-[30px] md:text-[40px] lg:text-[60px] mb-[10px] leading-[70px] tracking-[0px] align-middle capitalize">
+          <h2 className="font-noto-serif font-normal text-[30px] md:text-[40px] lg:text-[60px] mb-[10px] leading-[70px] tracking-[0px] align-middle capitalize">
             How It <span className="text-[#F2C438]">Works</span>
-          </h1>
+          </h2>
 
           <p className="font-urbanist font-normal text-[16px] lg:text-[18px] leading-[25px] tracking-[0px]  text-slate-500">
             Free, confidential case reviews. Serving all 50 states. No fees

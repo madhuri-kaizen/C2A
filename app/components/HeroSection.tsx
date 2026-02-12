@@ -327,6 +327,7 @@ const ClearBarChart = ({ config }: { config: ChartConfig }) => {
 
 const StatisticsCard = ({ chartConfig }: { chartConfig: ChartConfig }) => {
   const totalStats = chartConfig.bars.reduce((sum, val) => sum + val, 0);
+
   return (
     <div
       className="
@@ -344,10 +345,10 @@ const StatisticsCard = ({ chartConfig }: { chartConfig: ChartConfig }) => {
       <div className="flex justify-between items-start mb-2">
         <div className="flex-1 min-w-0">
           <h3 className="text-[#162766] font-bold font-urbanist text-[15px]">
-            Case Closure Statistics
+            Annual Case Counts
           </h3>
           <p className="text-[#808080] text-[10px] font-urbanist mt-1">
-            MDL Cases (2025)
+            Claims Filed (2023-2025)
           </p>
         </div>
 
@@ -588,7 +589,7 @@ const MobileLanding = ({
       id: 1,
       type: "chart",
       title: "Case Closure Statistics",
-      subtitle: "MDL Cases (2025)",
+      subtitle: "Claims Filed (2023 - 2025)",
       value: formattedTotal,
     },
     {
@@ -688,9 +689,9 @@ const MobileLanding = ({
             <h1 className="font-noto-serif text-[#f2c94c] text-[26px] min-[375px]:text-[35px] sm:text-[40px] leading-tight">
               Justice
             </h1>
-            <h2 className="font-noto-serif text-white text-[26px] min-[375px]:text-[35px] sm:text-[40px] leading-tight mb-4">
+            <h1 className="font-noto-serif text-white text-[26px] min-[375px]:text-[35px] sm:text-[40px] leading-tight mb-4">
               Starts Here
-            </h2>
+            </h1>
             <p className="text-[#d0d5e2] font-urbanist text-[11px] min-[375px]:text-[14px] sm:text-[18px] font-light leading-relaxed mb-2">
               Free, confidential case reviews.
               <br />
@@ -814,7 +815,7 @@ const MobileLanding = ({
 
                       {slide.type === "stats" && (
                         <div className="grid grid-cols-3 gap-2 sm:gap-3 p-2.5 sm:p-3 rounded-2xl md:hidden">
-                          {selectedLawsuit.dataGrid.map((item:any) => (
+                          {selectedLawsuit.dataGrid.map((item: any) => (
                             <div
                               key={item.label}
                               className="bg-white/70 p-2.5 sm:p-3 rounded-xl border border-white/60 shadow-sm min-h-[129px] sm:min-h-[92px] flex flex-col justify-between"
@@ -1060,7 +1061,7 @@ const TabletLanding = ({
 
             {/* RIGHT — DATA CARDS */}
             <div className="flex flex-col gap-4  w-[277px]">
-              {selectedLawsuit.dataGrid.map((item:any) => (
+              {selectedLawsuit.dataGrid.map((item: any) => (
                 <div
                   key={item.label}
                   className="bg-white rounded-xl p-4 shadow-md"
@@ -2099,21 +2100,20 @@ const LandingPage = () => {
 
   const [open, setOpen] = useState(false);
 
-  
   const CHART_CONFIGS: ChartConfig = {
-  title: "Talcum Powder Pending MDL Cases",
-  xAxisLabel: "Month (2025)",
-  yAxisLabel: "# of Pending Cases",
-  xLabels: ["Apr", "Jul", "Sept"],
-  yTicks: [10000, 30000, 60000, 90000],
-  maxY: 90000,
-  bars: [58208, 63693, 66910],
-  stats: {
-    averageSettlement: "$100K – $1M",
-    settlementTime: "18–30 months",
-    courtTime: "4–5 weeks",
-  },
-};
+    title: "Talcum Powder Pending MDL Cases",
+    xAxisLabel: "Month (2025)",
+    yAxisLabel: "# of Pending Cases",
+    xLabels: ["Apr", "Jul", "Sept"],
+    yTicks: [10000, 30000, 60000, 90000],
+    maxY: 90000,
+    bars: [58208, 63693, 66910],
+    stats: {
+      averageSettlement: "$100K – $1M",
+      settlementTime: "18–30 months",
+      courtTime: "4–5 weeks",
+    },
+  };
 
   const configsToUse = chartConfigs.length > 0 ? chartConfigs : CHART_CONFIGS;
 
@@ -2181,7 +2181,7 @@ const LandingPage = () => {
     if (selectedIndex >= chartConfigs.length && chartConfigs.length > 0) {
       setSelectedIndex(0);
     }
-  }, [chartConfigs.length,selectedIndex]);
+  }, [chartConfigs.length, selectedIndex]);
 
   /* PREVENT HYDRATION / FLASH */
   if (isDesktop === null) {
@@ -2200,7 +2200,6 @@ const LandingPage = () => {
       { label: "Time in Court", value: c.stats.courtTime },
     ],
   }));
-
 
   return (
     <>

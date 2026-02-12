@@ -4,7 +4,6 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 
-
 const eligibilityPoints = [
   {
     title: "Shared Harm:",
@@ -121,9 +120,9 @@ const ClassActionLegalPage: React.FC = () => {
         <div className="flex flex-col lg:flex-row gap-12">
           {/* Left Content Column */}
           <div className="flex-1 max-w-[946px]">
-            <h1 className="font-noto-serif font-normal capitalize text-[#162766] text-[30px] md:text-[40px] leading-[36px] mb-4">
+            <h2 className="font-noto-serif font-normal capitalize text-[#162766] text-[30px] md:text-[40px] leading-[36px] mb-4">
               What Is A Class Action?
-            </h1>
+            </h2>
 
             <p className="mb-10 font-urbanist font-medium text-[#425777] text-[18px] leading-[27px]">
               A class action is a lawsuit where a group of people with the same
@@ -149,7 +148,9 @@ const ClassActionLegalPage: React.FC = () => {
             <ol className="list-decimal ml-5 font-normal text-[18px] font-urbanist space-y-3 mb-16 text-[#425777] leading-[27px]">
               {eligibilityPoints.map((item, index) => (
                 <li key={index}>
-                  {item.title} {item.description}
+                  <h3>
+                    <strong>{item.title}</strong> {item.description}
+                  </h3>
                 </li>
               ))}
             </ol>
@@ -181,9 +182,11 @@ const ClassActionLegalPage: React.FC = () => {
                     <circle cx="5" cy="5" r="5" fill="#162766" />
                   </svg>
 
-                  <span>
-                    <strong>{item.title}</strong> {item.description}
-                  </span>
+                  <h3>
+                    <span>
+                      <strong>{item.title}</strong> {item.description}
+                    </span>
+                  </h3>
                 </li>
               ))}
             </ul>
@@ -213,15 +216,19 @@ const ClassActionLegalPage: React.FC = () => {
                     <circle cx="5" cy="5" r="5" fill="#162766" />
                   </svg>
 
-                  <span>
-                    <strong>{item.title}</strong> {item.description}
-                  </span>
+                  <h3>
+                    <span>
+                      <strong>{item.title}</strong> {item.description}
+                    </span>
+                  </h3>
                 </li>
               ))}
             </ul>
 
             <h2 className="font-noto-serif font-normal text-[#162766] text-[30px] md:text-[40px]  capitalize mb-4">
-              How Can Connect2Attorney <span className="text-[#F2C438]">Help You File</span> A Class Action Lawsuit?
+              How Can Connect2Attorney{" "}
+              <span className="text-[#F2C438]">Help You File</span> A Class
+              Action Lawsuit?
             </h2>
 
             <p className="mb-8 font-urbanist font-medium text-[#425777] text-[18px] leading-[27px]">
@@ -241,8 +248,8 @@ const ClassActionLegalPage: React.FC = () => {
                 isAtBottom
                   ? "absolute bottom-12"
                   : isFixed
-                  ? "fixed top-23"
-                  : "relative"
+                    ? "fixed top-23"
+                    : "relative"
               }`}
             >
               <div className="bg-[#162766] rounded-lg shadow-xl">
@@ -265,11 +272,11 @@ const ClassActionLegalPage: React.FC = () => {
                     Don’t wait to protect your rights. Get a free case
                     evaluation today.
                   </p>
-                  
-                   <Link href="/contact-us">
-                  <button className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors duration-200">
-                    Get a Free Case Review
-                  </button>
+
+                  <Link href="/contact-us">
+                    <button className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors duration-200">
+                      Get a Free Case Review
+                    </button>
                   </Link>
                 </div>
               </div>
@@ -305,7 +312,7 @@ const StepsComponent = () => {
   ];
 
   return (
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
       {steps.map((item) => (
         <div
           key={item.step}
@@ -347,7 +354,7 @@ const StepsComponent = () => {
             </div>
 
             {/* TITLE */}
-            <h4
+            <h3
               className=" w-[130px]
               font-urbanist
               font-semibold
@@ -358,7 +365,7 @@ const StepsComponent = () => {
             "
             >
               {item.title}
-            </h4>
+            </h3>
           </div>
 
           {/* DESCRIPTION (BELOW BOTH, INSIDE BLUE BOX) */}

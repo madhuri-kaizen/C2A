@@ -466,12 +466,12 @@ const LawsuitsLegalPage = () => {
         <div className="flex flex-col lg:flex-row gap-12">
           {/* Left Content Column */}
           <div className="flex-1 max-w-[946px]">
-            <h1
+            <h2
               id={content.sectionIds.mainTitle}
               className="font-noto-serif font-normal capitalize text-[#162766] text-[30px] md:text-[40px] leading-[36px] mb-6"
             >
               {content.pageContent.mainTitle}
-            </h1>
+            </h2>
             <div className="mb-5 font-urbanist font-medium text-[#425777] text-[16px] lg:text-[18px] leading-[30px] space-y-1 ">
               <p>{content.pageContent.mainParagraphs[0]}</p>
               <br />
@@ -490,7 +490,7 @@ const LawsuitsLegalPage = () => {
             </div>
 
             <div className="bg-[#162766] text-[#FFF] rounded-xl p-4 sm:p-6 w-full  mb-12">
-              <h2
+              <h3
                 id={content.sectionIds.allegationsTitle}
                 className="font-noto-serif font-normal capitalize text-[#FFF] text-[24px] sm:text-[32px] lg:text-[40px] leading-[32px] sm:leading-[42px] lg:leading-[50px] mb-4"
               >
@@ -503,7 +503,7 @@ const LawsuitsLegalPage = () => {
                   .split(" ")
                   .slice(3)
                   .join(" ")}
-              </h2>
+              </h3>
               <p className="mb-4 font-urbanist   text-[#F9F9F9] text-[16px] sm:text-[18px] leading-[24px] sm:leading-[27px]">
                 {content.pageContent.allegationsSubtitle}
               </p>
@@ -566,7 +566,7 @@ const LawsuitsLegalPage = () => {
                                 "
                   >
                     {/* Title */}
-                    <h4
+                    <h3
                       className="
                                     text-[#162766]
                                     font-noto-serif
@@ -578,7 +578,7 @@ const LawsuitsLegalPage = () => {
                                   "
                     >
                       {item.title}
-                    </h4>
+                    </h3>
 
                     {/* Description */}
                     <p
@@ -610,9 +610,9 @@ const LawsuitsLegalPage = () => {
                 {content.pageContent.mdllitigationParagraph}
               </p>
 
-              <p className="mb-4 font-urbanist font-bold text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
+              <h3 className="mb-4 font-urbanist font-bold text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
                 {content.pageContent.mdllitigationSubtitle}
-              </p>
+              </h3>
 
               <div className="space-y-4 sm:space-y-5 w-full mb-16">
                 {content.mdllitigationPoints.map((item, index) => (
@@ -727,12 +727,12 @@ const LawsuitsLegalPage = () => {
               </p>
 
               {/* Section Title */}
-              <h3
+              <h2
                 id={content.sectionIds.settlementsTitle}
                 className="font-noto-serif text-[#162766] text-[20px] sm:text-[22px] lg:text-[40px] font-medium mb-2"
               >
                 {content.pageContent.settlementsTitle}
-              </h3>
+              </h2>
 
               <p className="mb-4 font-urbanist font-bold text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
                 {content.pageContent.settlementsParagraph}
@@ -925,7 +925,7 @@ const StepsComponent = () => {
             </div>
 
             {/* TITLE */}
-            <h4
+            <h3
               className="
                 font-urbanist
                 font-bold
@@ -936,7 +936,7 @@ const StepsComponent = () => {
               "
             >
               {item.title}
-            </h4>
+            </h3>
           </div>
 
           {/* DESCRIPTION */}
