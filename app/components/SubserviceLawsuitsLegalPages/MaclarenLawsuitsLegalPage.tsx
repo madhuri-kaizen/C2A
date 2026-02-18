@@ -668,9 +668,9 @@ const LawsuitsLegalPage = () => {
                     className="bg-[#F4F6F8] rounded-lg px-4 sm:px-6 py-5"
                   >
                     {/* Title + Number */}
-                    <h4 className="font-noto-serif text-[#162766] text-[20px] sm:text-[24px] font-medium leading-normal mb-2">
+                    <h3 className="font-noto-serif text-[#162766] text-[20px] sm:text-[24px] font-medium leading-normal mb-2">
                       {item.title}
-                    </h4>
+                    </h3>
                   </div>
                 ))}
                 <p className="mb-4 font-urbanist  text-[#425777] text-[16px] sm:text-[17px] lg:text-[18px] leading-[24px] sm:leading-[26px] lg:leading-[27px]">
@@ -760,9 +760,9 @@ const LawsuitsLegalPage = () => {
                   {content.realStories.map((item, index) => (
                     <div key={index} className=" rounded-md p-4 sm:p-5 ">
                       {/* Name */}
-                      <h4 className="font-urbanist font-semibold text-[#162766] text-[15px] sm:text-[16px] mb-1">
+                      <h3 className="font-urbanist font-semibold text-[#162766] text-[15px] sm:text-[16px] mb-1">
                         {item.name}
-                      </h4>
+                      </h3>
 
                       {/* Story */}
                       <p className="font-urbanist text-[#425777] text-[14px] sm:text-[16px] leading-[20px] sm:leading-[24px]">
@@ -794,9 +794,9 @@ const LawsuitsLegalPage = () => {
 
                     <div>
                       {/* Title */}
-                      <h4 className="font-noto-serif text-[#162766] text-[18px] sm:text-[20px] font-medium leading-normal mb-1">
+                      <h3 className="font-noto-serif text-[#162766] text-[18px] sm:text-[20px] font-medium leading-normal mb-1">
                         {item.title}
-                      </h4>
+                      </h3>
                     </div>
                   </li>
                 ))}
@@ -853,7 +853,7 @@ const LawsuitsLegalPage = () => {
                     {content.ctaContent.description}
                   </p>
              
-                    <button onClick={scrollToNextSection} className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors duration-200">
+                    <button onClick={scrollToNextSection} className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors cursor-pointer duration-200">
                       {content.ctaContent.buttonText}
                     </button>
                   

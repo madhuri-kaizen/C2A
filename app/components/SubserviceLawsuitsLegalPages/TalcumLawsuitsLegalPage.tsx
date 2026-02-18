@@ -154,7 +154,7 @@ export const content = {
     mainTitle: "What is the Talcum Powder Lawsuit? ",
     mainParagraphs: [
       "Thousands of individuals and families have filed a talcum powder lawsuit after developing serious cancers linked to long-term use of talcum powder and baby powder products. In recent years, asbestos-contaminated talcum powder has been linked to ovarian cancer in women who used it for daily feminine hygiene. Connect 2 Attorney helps you connect with experienced talcum powder lawyers ",
-      "to explore your legal options quickly and confidentially. The talcum powder lawsuit involves legal claims against manufacturers of talcum powder and baby powder products, including Johnson & Johnson. Plaintiffs allege that these companies knowingly sold talcum powder contaminated with asbestos and failed to provide adequate cancer warnings, putting millions of consumers at risk",
+      "To explore your legal options quickly and confidentially. The talcum powder lawsuit involves legal claims against manufacturers of talcum powder and baby powder products, including Johnson & Johnson. Plaintiffs allege that these companies knowingly sold talcum powder contaminated with asbestos and failed to provide adequate cancer warnings, putting millions of consumers at risk",
       "About Talcum Powder ",
       "Talcum powder is made from talc, a naturally occurring mineral used for its moisture-absorbing properties. For decades, talcum powder and baby powder were marketed as safe for daily hygiene use, including feminine hygiene and infant care. However, talc is often found near asbestos deposits, increasing the risk of contamination during mining.",
     ],
@@ -367,7 +367,7 @@ const LawsuitsLegalPage = () => {
             >
               {content.pageContent.mainTitle}
             </h2>
-            <div className="mb-10 font-urbanist font-medium text-[#425777] text-[16px] lg:text-[18px] leading-[30px] space-y-1 capitalize">
+            <div className="mb-10 font-urbanist font-medium text-[#425777] text-[16px] lg:text-[18px] leading-[30px] space-y-1">
               <p>{content.pageContent.mainParagraphs[0]}</p>
               <br className="lg:hidden" />
 
@@ -453,9 +453,9 @@ const LawsuitsLegalPage = () => {
                     className=" bg-[#F4F6F8] rounded-lg px-4 sm:px-6 py-5"
                   >
                     {/* Title + Number */}
-                    <h4 className="font-noto-serif text-[#162766] text-[20px] sm:text-[24px] font-medium leading-normal mb-2">
+                    <h3 className="font-noto-serif text-[#162766] text-[20px] sm:text-[24px] font-medium leading-normal mb-2">
                       {item.title}
-                    </h4>
+                    </h3>
 
                     {/* Description */}
                     <p className="font-urbanist text-[#425777] text-[16px] sm:text-[18px] font-medium leading-[24px] sm:leading-[27px] capitalize">
@@ -521,7 +521,7 @@ const LawsuitsLegalPage = () => {
                                 "
                   >
                     {/* Title */}
-                    <h4
+                    <h3
                       className="
                                     text-[#162766]
                                     font-noto-serif
@@ -533,7 +533,7 @@ const LawsuitsLegalPage = () => {
                                   "
                     >
                       {item.title}
-                    </h4>
+                    </h3>
 
                     {/* Description */}
                     <p
@@ -635,7 +635,7 @@ const LawsuitsLegalPage = () => {
                     {content.ctaContent.description}
                   </p>
               
-                    <button onClick={scrollToNextSection} className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors duration-200">
+                    <button onClick={scrollToNextSection} className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors cursor-pointer duration-200">
                       {content.ctaContent.buttonText}
                     </button>
                

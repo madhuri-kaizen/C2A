@@ -217,7 +217,7 @@ const MassTortLegalPage = () => {
                     evaluation today.
                   </p>
                   <Link href="/contact-us">
-                    <button className="w-full bg-[#fccb48] text-[#162766] font-semibold uppercase py-3 rounded">
+                    <button className="w-full bg-[#fccb48] text-[#162766] font-semibold uppercase py-3 rounded cursor-pointer">
                       Get a Free Case Review
                     </button>
                   </Link>

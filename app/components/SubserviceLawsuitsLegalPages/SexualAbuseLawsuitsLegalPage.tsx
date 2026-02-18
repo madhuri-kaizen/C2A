@@ -411,7 +411,7 @@ const LawsuitsLegalPage = () => {
               <p>{content.pageContent.mainParagraphs[1]}</p>
               <br />
 
-              <h4 className=" font-bold">
+              <h3 className=" font-bold">
                 {content.pageContent.mainParagraphs[2]}
                 <ul className="list-disc list-outside ml-5 mb-8 marker:text-[#2d3663] marker:font-bold font-urbanist font-bold text-[16px] sm:text-[17px] lg:text-[18px] leading-[22px] sm:leading-[24px] lg:leading-[27px]">
                   <li>{content.pageContent.mainParagraphs[3]}</li>
@@ -419,7 +419,7 @@ const LawsuitsLegalPage = () => {
                   <li>{content.pageContent.mainParagraphs[5]}</li>
                   <li>{content.pageContent.mainParagraphs[6]}</li>
                 </ul>
-              </h4>
+              </h3>
 
               <h3 className="font-bold">
                 {content.pageContent.mainParagraphs[7]}
@@ -760,7 +760,7 @@ const LawsuitsLegalPage = () => {
                     {content.ctaContent.description}
                   </p>
               
-                    <button onClick={scrollToNextSection} className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors duration-200">
+                    <button onClick={scrollToNextSection} className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors cursor-pointer duration-200">
                       {content.ctaContent.buttonText}
                     </button>
              

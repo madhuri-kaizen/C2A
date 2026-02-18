@@ -6,47 +6,144 @@ import Link from "next/link";
 import Image from "next/image";
 
 const MASS_TORT_LAWSUIT_TYPES = [
-  { name: "Ozempic Lawsuit", href: "/mass-tort/ozempic-lawsuit" },
-  { name: "Mesothelioma Lawsuit", href: "/mass-tort/mesothelioma-lawsuit" },
-  { name: "Depo-Provera Lawsuit", href: "/mass-tort/depo-provera-lawsuit" },
-  { name: "Roundup Cancer Lawsuit", href: "/mass-tort/roundup-lawsuit" },
-  { name: "Talcum Powder Lawsuit", href: "/mass-tort/talcum-powder-lawsuit" },
-    { name: "Roblox Addiction Lawsuit", href: "/mass-tort/roblox-addiction-lawsuit" },
-    {
-      name:"Herna Mesh Lawsuit", href: "/mass-tort/hernia-mesh-lawsuit"
-    },
+  {
+    name: "AFFF Firefighting Foam Lawsuit",
+    href: "/mass-tort/afff-firefighting-foam-lawsuit",
+  },
+  {
+    name: "Bard PowerPort Lawsuit",
+    href: "/mass-tort/bard-powerport-lawsuit",
+  },
+  {
+    name: "Depo-Provera Lawsuit",
+    href: "/mass-tort/depo-provera-lawsuit",
+  },
+  {
+    name: "Elmiron Eye Damage Lawsuit",
+    href: "/mass-tort/elmiron-lawsuit",
+  },
+  {
+    name: "Exactech Recall Lawsuit",
+    href: "/mass-tort/exactech-implant-recall-lawsuit",
+  },
+  {
+    name: "Hair Relaxer Cancer Lawsuit",
+    href: "/mass-tort/hair-relaxer-cancer-lawsuit",
+  },
+  {
+    name: "Hernia Mesh Lawsuit",
+    href: "/mass-tort/hernia-mesh-lawsuit",
+  },
+  {
+    name: "Mesothelioma Lawsuit",
+    href: "/mass-tort/mesothelioma-lawsuit",
+  },
+  {
+    name: "NEC Baby Formula Lawsuit",
+    href: "/mass-tort/nec-baby-formula-lawsuit",
+  },
+  {
+    name: "Ozempic Lawsuit",
+    href: "/mass-tort/ozempic-lawsuit",
+  },
+  {
+    name: "Oxbryta Lawsuit",
+    href: "/mass-tort/oxbryta-lawsuit",
+  },
+  {
+    name: "Paraquat Parkinson’s Disease Lawsuit",
+    href: "/mass-tort/paraquat-lawsuit/",
+  },
+  {
+    name: "Paragard IUD Lawsuit",
+    href: "/mass-tort/paragard-iud-lawsuit",
+  },
+  {
+    name: "PFAS Exposure Lawsuit",
+    href: "/mass-tort/pfas-forever-chemicals-lawsuit",
+  },
+  {
+    name: "Philips CPAP and BiPAP Recall Lawsuit",
+    href: "/mass-tort/philips-cpap-bipap-recall-lawsuit",
+  },
+  {
+    name: "Roblox Addiction Lawsuit",
+    href: "/mass-tort/roblox-addiction-lawsuit",
+  },
+  {
+    name: "Roundup Cancer Lawsuit",
+    href: "/mass-tort/roundup-lawsuit",
+  },
+  {
+    name: "Social Media Addiction Lawsuit",
+    href: "/mass-tort/social-media-addiction-lawsuit",
+  },
+  {
+    name: "Suboxone Lawsuit",
+    href: "/mass-tort/suboxone-tooth-decay-lawsuit",
+  },
+  {
+    name: "Talcum Powder Lawsuit",
+    href: "/mass-tort/talcum-powder-lawsuit",
+  },
+  {
+    name: "Toxic Baby Food Autism Lawsuit",
+    href: "/mass-tort/toxic-baby-food-autism-lawsuit",
+  },
+  {
+    name: "Transvaginal Mesh Implant Lawsuit",
+    href: "/mass-tort/transvaginal-mesh-implant-lawsuit",
+  },
+  {
+    name: "Ultra-Processed Food Cancer Lawsuit",
+    href: "/mass-tort/ultra-processed-food-lawsuit",
+  },
+  {
+    name: "Video Game Addiction Lawsuit",
+    href: "/mass-tort/video-game-addiction-lawsuit/",
+  },
+  {
+    name: "Zantac Cancer Lawsuit",
+    href: "/mass-tort/zantac-lawsuit/",
+  },
 ];
 
+
 const CLASS_ACTION_LAWSUIT_TYPES = [
-  {
-    name: "Tesla Autopilot Recall Lawsuit",
-    href: "/class-action/tesla-autopilot-recall-lawsuit",
-  },
+
   {
     name: "MacLaren Sexual Abuse Lawsuit",
     href: "/class-action/maclaren-hall-sex-abuse-lawsuit",
+  },
+    {
+    name: "Tesla Autopilot Recall Lawsuit",
+    href: "/class-action/tesla-autopilot-recall-lawsuit",
   },
 ];
 
 const PERSONAL_INJURY_LAWSUIT_TYPES = [
   {
-    name: "Sexual Abuse Lawsuit",
-    href: "/personal-injury/sexual-abuse-lawsuit",
+    name: "18-Wheeler Accident Lawsuit",
+    href: "/personal-injury/18-wheeler-accident",
   },
   {
     name: "Motor Vehicle Accident Lawsuit",
     href: "/personal-injury/motor-vehicle-accident",
   },
   {
+    name: "Rideshare Sexual Assault Lawsuit",
+    href: "/personal-injury/rideshare-sexual-assault-lawsuit",
+  },
+  {
+    name: "Sexual Abuse Lawsuit",
+    href: "/personal-injury/sexual-abuse-lawsuit",
+  },
+  {
     name: "Slip and Fall Injury Lawsuit",
     href: "/personal-injury/slip-and-fall",
   },
-  {
-    name: "18-Wheeler Accident Lawsuit",
-    href: "/personal-injury/18-wheeler-accident",
-  },
-    {name: "Rideshare Sexual Assault Lawsuit", href: "/personal-injury/rideshare-sexual-assault-lawsuit"},
 ];
+
 
 interface DesktopNavbarProps {
   scrolled: boolean;
@@ -57,9 +154,6 @@ interface MobileNavbarProps {
   isMobileMenuOpen: boolean;
   setIsMobileMenuOpen: (value: boolean) => void;
 }
-
-
-
 
 const DesktopNavbar: React.FC<DesktopNavbarProps> = ({ scrolled }) => {
   const pathname = usePathname();
@@ -299,7 +393,8 @@ const DesktopNavbar: React.FC<DesktopNavbarProps> = ({ scrolled }) => {
 
         <li>
           <Link
-            href="https://legalcaseinfo.com/" target="_blank"
+            href="https://legalcaseinfo.com/"
+            target="_blank"
             className="hover:text-[#182C5B] transition-colors lg:text-[16px]"
             onClick={handleLinkClick}
           >
@@ -354,7 +449,7 @@ const MobileNavbar: React.FC<MobileNavbarProps> = ({
 }) => {
   const pathname = usePathname();
   const [mobileOpenDropdown, setMobileOpenDropdown] = useState<string | null>(
-    null
+    null,
   );
 
   const isActive = (path: string) => {
@@ -384,8 +479,8 @@ const MobileNavbar: React.FC<MobileNavbarProps> = ({
   return (
     <>
       {/* Mobile Navbar Header */}
-    <nav
-  className={`
+      <nav
+        className={`
     lg:hidden
     fixed z-50 bg-white shadow-sm
     flex items-center
@@ -409,15 +504,14 @@ const MobileNavbar: React.FC<MobileNavbarProps> = ({
         `
     }
   `}
->
-
+      >
         {/* Left: Logo */}
         <div className="flex-shrink-0">
           <Link href="/">
-<Image
-  src={isMobileMenuOpen ? "/biggerlogo.svg" : "/logotitle.svg"}
-  alt="Connect2Attorney Logo"
-  className={`
+            <Image
+              src={isMobileMenuOpen ? "/biggerlogo.svg" : "/logotitle.svg"}
+              alt="Connect2Attorney Logo"
+              className={`
     object-contain cursor-pointer transition-all duration-300 ease-out
     ${
       isMobileMenuOpen
@@ -433,15 +527,13 @@ const MobileNavbar: React.FC<MobileNavbarProps> = ({
         `
     }
   `}
-  width={157}
-  height={30}
-  priority
-/>
-
+              width={157}
+              height={30}
+              priority
+            />
           </Link>
         </div>
 
-       
         <button
           onClick={() => {
             const newState = !isMobileMenuOpen;
@@ -567,7 +659,7 @@ const MobileNavbar: React.FC<MobileNavbarProps> = ({
                           type="button"
                           onClick={() =>
                             setMobileOpenDropdown(
-                              isOpenMobile ? null : link.label
+                              isOpenMobile ? null : link.label,
                             )
                           }
                           className={`
@@ -642,7 +734,8 @@ const MobileNavbar: React.FC<MobileNavbarProps> = ({
                 {/* Blogs */}
                 <li>
                   <Link
-                    href="https://legalcaseinfo.com/" target="_blank"
+                    href="https://legalcaseinfo.com/"
+                    target="_blank"
                     onClick={() => setIsMobileMenuOpen(false)}
                     className="block text-[#5A6782]"
                   >
@@ -752,7 +845,7 @@ const Navbar = () => {
   return (
     <div className="relative w-full p-4 mb-12 flex flex-col items-center justify-start gap-3 font-['Urbanist'] ">
       <DesktopNavbar scrolled={scrolled} />
-      <MobileNavbar 
+      <MobileNavbar
         scrolled={scrolled}
         isMobileMenuOpen={isMobileMenuOpen}
         setIsMobileMenuOpen={setIsMobileMenuOpen}

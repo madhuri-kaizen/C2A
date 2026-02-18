@@ -60,7 +60,7 @@ export default function EnquiryButton() {
             }}
             className="hidden lg:block fixed right-0 top-[70%] md:top-1/3 -translate-y-1/2
             z-[9999] w-[40px] h-[116px] flex items-center justify-center  
-            text-[#C4A36E] font-semibold   
+            text-[#C4A36E] font-semibold   cursor-pointer
             bg-transparent overflow-visible group
             hover:scale-105 transition-transform duration-200"
             aria-label="Enquiry"

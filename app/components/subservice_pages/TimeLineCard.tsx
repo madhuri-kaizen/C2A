@@ -79,7 +79,7 @@ const TimeLineCard = ({
               <button
                 key={year}
                 onClick={() => setActiveYear(year)}
-                className={`px-4 py-2 rounded-full text-sm sm:text-base font-semibold transition-all ${
+                className={`px-4 py-2 rounded-full text-sm sm:text-base font-semibold transition-all cursor-pointer ${
                   activeYear === year
                     ? "bg-[#F2C438] text-[#162766]"
                     : "bg-[#162766] text-white hover:brightness-110"
@@ -110,7 +110,7 @@ const TimeLineCard = ({
                   e.stopPropagation();
                   setIsFirstHalfOpen(false);
                 }}
-                className={`w-10 h-10 flex items-center justify-center rounded-[10px] ${glassBtn}`}
+                className={`w-10 h-10 flex items-center justify-center rounded-[10px] cursor-pointer ${glassBtn}`}
               >
                 <X size={16} className="text-[#F2C438]" />
               </button>
@@ -162,7 +162,7 @@ const TimeLineCard = ({
                   e.stopPropagation();
                   setIsSecondHalfOpen(false);
                 }}
-                className={`w-10 h-10 flex items-center justify-center rounded-[10px] ${glassBtn}`}
+                className={`w-10 h-10 flex items-center justify-center rounded-[10px] cursor-pointer ${glassBtn}`}
               >
                 <X size={16} className="text-[#F2C438]" />
               </button>

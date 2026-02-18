@@ -328,7 +328,7 @@ const PersonalInjuryLegalPage: React.FC = () => {
                   </p>
 
                   <Link href="/contact-us">
-                    <button className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors duration-200">
+                    <button className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold cursor-pointer text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors duration-200">
                       Get a Free Case Review
                     </button>
                   </Link>

@@ -250,7 +250,7 @@ const SupportCard = ({ title, description }: SupportCardProps) => {
             font-bold
             uppercase
             py-2.5 px-6
-            rounded-lg
+            rounded-lg cursor-pointer
             transition-all duration-200 ease-out
             hover:shadow-xl hover:-translate-y-[1px]
             active:translate-y-0

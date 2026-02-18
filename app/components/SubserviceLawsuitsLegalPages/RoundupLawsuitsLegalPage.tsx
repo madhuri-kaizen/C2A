@@ -393,7 +393,7 @@ const LawsuitsLegalPage = () => {
             >
               {content.pageContent.mainTitle}
             </h2>
-            <div className="mb-10 font-urbanist font-medium text-[#425777] text-[16px] lg:text-[18px] leading-[30px] space-y-1 capitalize">
+            <div className="mb-10 font-urbanist font-medium text-[#425777] text-[16px] lg:text-[18px] leading-[30px] space-y-1 ">
               <p>{content.pageContent.mainParagraphs[0]}</p>
               <br className="lg:hidden" />
               <p>{content.pageContent.mainParagraphs[1]}</p>
@@ -648,7 +648,7 @@ const LawsuitsLegalPage = () => {
                     "
                   >
                     {/* Title */}
-                    <h4
+                    <h3
                       className="
                         text-[#162766]
                         font-noto-serif
@@ -660,7 +660,7 @@ const LawsuitsLegalPage = () => {
                       "
                     >
                       {item.title}
-                    </h4>
+                    </h3>
 
                     {/* Description */}
                     <p
@@ -775,7 +775,7 @@ const LawsuitsLegalPage = () => {
                     {content.ctaContent.description}
                   </p>
               
-                    <button onClick={scrollToNextSection} className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors duration-200">
+                    <button onClick={scrollToNextSection} className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors cursor-pointer duration-200">
                       {content.ctaContent.buttonText}
                     </button>
              

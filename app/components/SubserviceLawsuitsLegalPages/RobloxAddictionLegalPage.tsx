@@ -682,7 +682,7 @@ const LawsuitsLegalPage = () => {
                                 "
                   >
                     {/* Title */}
-                    <h4
+                    <h3
                       className="
                                     text-[#162766]
                                     font-noto-serif
@@ -694,7 +694,7 @@ const LawsuitsLegalPage = () => {
                                   "
                     >
                       {item.title}
-                    </h4>
+                    </h3>
 
                     {/* Description */}
                     <p
@@ -797,7 +797,7 @@ const LawsuitsLegalPage = () => {
                                 "
                   >
                     {/* Title */}
-                    <h4
+                    <h3
                       className="
                                     text-[#162766]
                                     font-noto-serif
@@ -809,7 +809,7 @@ const LawsuitsLegalPage = () => {
                                   "
                     >
                       {item.title}
-                    </h4>
+                    </h3>
 
                     {/* Description */}
                     <p
@@ -883,7 +883,7 @@ const LawsuitsLegalPage = () => {
 
                   <button
                     onClick={scrollToNextSection}
-                    className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors duration-200"
+                    className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors duration-200 cursor-pointer"
                   >
                     {content.ctaContent.buttonText}
                   </button>

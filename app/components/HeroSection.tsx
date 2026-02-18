@@ -699,7 +699,7 @@ const MobileLanding = ({
             </p>
 
             <button
-              className=" w-40 h-[38px]      
+              className=" w-40 h-[38px]     cursor-pointer
     min-[360px]:w-[180px] min-[360px]:h-[42px] md:px-4 md:py-2 md:w-[220px] md:h-[50px]
     min-[375px]:w-[201px] min-[375px]:h-[45px] bg-[#f2c94c] hover:bg-[#e0b840] transition-colors text-[#1a2b5e] text-[11px] min-[375px]:text-[14px] sm:text-[16px] font-urbanist font-semibold rounded-full flex items-center justify-center gap-3 shadow-lg"
               onClick={() => router.push("/contact-us")}
@@ -954,7 +954,7 @@ const MobileLanding = ({
                 </button>
               </div>
               <button
-                className="min-[360px]:w-[120px] min-[375px]:w-[120px] w-[130px] h-[75px] text-white px-4 sm:px-5 py-3 ml-3 flex items-center gap-2"
+                className="min-[360px]:w-[120px] min-[375px]:w-[120px] w-[130px] h-[75px] text-white px-4 sm:px-5 py-3 ml-3 flex items-center gap-2 cursor-pointer"
                 onClick={scrollToNextSection}
               >
                 <Image
@@ -1128,7 +1128,7 @@ const TabletLanding = ({
 
             <div className="absolute bottom-16 right-0 z-50 scale-90 xl:scale-100 origin-bottom-right translate-y-5 sm:translate-y-7 xl:translate-y-8">
               <button
-                className="w-[245px] h-[87px] text-white px-4 sm:px-5 py-3 flex items-center gap-2 hover:scale-[1.08]"
+                className="w-[245px] h-[87px] text-white px-4 sm:px-5 py-3 flex items-center gap-2 hover:scale-[1.08] cursor-pointer"
                 onClick={scrollToNextSection}
               >
                 <Image
@@ -1299,7 +1299,7 @@ const DesktopLandingHeroCompact = ({
           <div className="mt-5">
             <button
               aria-label="Check if you qualify"
-              className="font-urbanist group flex items-center bg-[#F5C844] text-[#162766] px-1 pl-6 py-1 rounded-full text-[15px] shadow-lg hover:bg-[#e0b533] transition-all w-[243px]"
+              className="font-urbanist group flex items-center bg-[#F5C844] text-[#162766] px-1 pl-6 py-1 rounded-full text-[15px] shadow-lg hover:bg-[#e0b533] transition-all w-[243px] cursor-pointer"
               onClick={() => router.push("/contact-us")}
             >
               <span className="mr-6">Check if you Qualify</span>
@@ -1620,7 +1620,7 @@ const DesktopLandingHeroCompact = ({
 "
             >
               <button
-                className="lg:w-[190px] h-[87px] text-white px-4 py-3 flex items-center gap-2 hover:scale-[1.08] transition-transform duration-200"
+                className="lg:w-[190px] h-[87px] text-white px-4 py-3 flex items-center gap-2 hover:scale-[1.08] transition-transform duration-200 cursor-pointer"
                 onClick={scrollToNextSection}
                 aria-label="Scroll to next section"
               >
@@ -1783,7 +1783,7 @@ const DesktopLandingHeroExpanded: React.FC<Props> = ({
                 aria-label="Check if you qualify"
                 onClick={() => router.push("/contact-us")}
                 className="
-                  group flex items-center justify-center
+                  group flex items-center justify-center cursor-pointer
                   /* LG button - slightly smaller but proportional */
                   lg:h-[46px] lg:px-3 lg:pl-[20px] lg:gap-2.5 lg:w-[240px]
                   /* XL button - original size */
@@ -2067,7 +2067,7 @@ const DesktopLandingHeroExpanded: React.FC<Props> = ({
             className="
               lg:w-[130px] lg:h-[58px]
               xl:w-[160px] xl:h-[71px]
-              2xl:w-[180px] 2xl:h-20
+              2xl:w-[180px] 2xl:h-20 cursor-pointer
               
               hover:scale-[1.05] transition-transform
             "
@@ -2115,7 +2115,11 @@ const LandingPage = () => {
     },
   };
 
-  const configsToUse = chartConfigs.length > 0 ? chartConfigs : CHART_CONFIGS;
+  // const configsToUse = chartConfigs.length > 0 ? chartConfigs : CHART_CONFIGS;
+
+  const configsToUse =
+  chartConfigs.length > 0 ? chartConfigs : [CHART_CONFIGS];
+
 
   useEffect(() => {
     const updateDesktop = () => {
@@ -2184,13 +2188,13 @@ const LandingPage = () => {
   }, [chartConfigs.length, selectedIndex]);
 
   /* PREVENT HYDRATION / FLASH */
-  if (isDesktop === null) {
-    return null;
-  }
+  // if (isDesktop === null) {
+  //   return null;
+  // }
 
-  if (loading) return null;
+  // if (loading) return null;
 
-  const lawsuitsList = chartConfigs.map((c) => ({
+  const lawsuitsList = configsToUse.map((c) => ({
     title: c.title,
     stats: c.bars[c.bars.length - 1],
     statsImage: "/default.svg",
@@ -2202,47 +2206,92 @@ const LandingPage = () => {
   }));
 
   return (
+    // <>
+    //   {/* MOBILE */}
+    //   {!isDesktop && (
+    //     <MobileLanding
+    //       selectedIndex={selectedIndex}
+    //       setSelectedIndex={setSelectedIndex}
+    //       chartConfigs={chartConfigs}
+    //       lawsuitsList={lawsuitsList}
+    //     />
+    //   )}
+
+    //   {/* TABLET */}
+    //   <div className="hidden md:block lg:hidden">
+    //     <TabletLanding
+    //       selectedIndex={selectedIndex}
+    //       setSelectedIndex={setSelectedIndex}
+    //       dropdownOpen={dropdownOpen}
+    //       setDropdownOpen={setDropdownOpen}
+    //       chartConfigs={chartConfigs}
+    //       lawsuitsList={lawsuitsList}
+    //     />
+    //   </div>
+
+    //   {/* DESKTOP HERO SWITCH */}
+    //   {isDesktop &&
+    //     (isTallScreen ? (
+    //       <DesktopLandingHeroExpanded
+    //         selectedIndex={selectedIndex}
+    //         setSelectedIndex={setSelectedIndex}
+    //         chartConfigs={chartConfigs}
+    //         lawsuitsList={lawsuitsList}
+    //       />
+    //     ) : (
+    //       <DesktopLandingHeroCompact
+    //         selectedIndex={selectedIndex}
+    //         setSelectedIndex={setSelectedIndex}
+    //         chartConfigs={chartConfigs}
+    //         lawsuitsList={lawsuitsList}
+    //       />
+    //     ))}
+    // </>
+
     <>
-      {/* MOBILE */}
-      {!isDesktop && (
-        <MobileLanding
-          selectedIndex={selectedIndex}
-          setSelectedIndex={setSelectedIndex}
-          chartConfigs={chartConfigs}
-          lawsuitsList={lawsuitsList}
-        />
-      )}
+  {/* MOBILE */}
+  <div className="block lg:hidden">
+    <MobileLanding
+      selectedIndex={selectedIndex}
+      setSelectedIndex={setSelectedIndex}
+      chartConfigs={configsToUse}
+      lawsuitsList={lawsuitsList}
+    />
+  </div>
 
-      {/* TABLET */}
-      <div className="hidden md:block lg:hidden">
-        <TabletLanding
-          selectedIndex={selectedIndex}
-          setSelectedIndex={setSelectedIndex}
-          dropdownOpen={dropdownOpen}
-          setDropdownOpen={setDropdownOpen}
-          chartConfigs={chartConfigs}
-          lawsuitsList={lawsuitsList}
-        />
-      </div>
+  {/* TABLET */}
+  <div className="hidden md:block lg:hidden">
+    <TabletLanding
+      selectedIndex={selectedIndex}
+      setSelectedIndex={setSelectedIndex}
+      dropdownOpen={dropdownOpen}
+      setDropdownOpen={setDropdownOpen}
+      chartConfigs={configsToUse}
+      lawsuitsList={lawsuitsList}
+    />
+  </div>
 
-      {/* DESKTOP HERO SWITCH */}
-      {isDesktop &&
-        (isTallScreen ? (
-          <DesktopLandingHeroExpanded
-            selectedIndex={selectedIndex}
-            setSelectedIndex={setSelectedIndex}
-            chartConfigs={chartConfigs}
-            lawsuitsList={lawsuitsList}
-          />
-        ) : (
-          <DesktopLandingHeroCompact
-            selectedIndex={selectedIndex}
-            setSelectedIndex={setSelectedIndex}
-            chartConfigs={chartConfigs}
-            lawsuitsList={lawsuitsList}
-          />
-        ))}
-    </>
+  {/* DESKTOP COMPACT */}
+  <div className="hidden lg:block xl:hidden">
+    <DesktopLandingHeroCompact
+      selectedIndex={selectedIndex}
+      setSelectedIndex={setSelectedIndex}
+      chartConfigs={configsToUse}
+      lawsuitsList={lawsuitsList}
+    />
+  </div>
+
+  {/* DESKTOP EXPANDED */}
+  <div className="hidden xl:block">
+    <DesktopLandingHeroExpanded
+      selectedIndex={selectedIndex}
+      setSelectedIndex={setSelectedIndex}
+      chartConfigs={configsToUse}
+      lawsuitsList={lawsuitsList}
+    />
+  </div>
+</>
+
   );
 };
 

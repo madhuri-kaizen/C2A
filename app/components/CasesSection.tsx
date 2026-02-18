@@ -392,7 +392,7 @@ const CasesSectionCompact: React.FC = () => {
           px-3 sm:px-4 md:px-6
           py-2 sm:py-2.5 md:py-3
           rounded-full
-          font-urbanist font-semibold
+          font-urbanist font-semibold cursor-pointer
           text-[14px] md:text-[18px]
           transition-all duration-300
           ${
@@ -559,7 +559,7 @@ const CasesSectionExpanded: React.FC = () => {
           rounded-full
           font-urbanist font-semibold
           text-[14px] md:text-[18px]
-          transition-all duration-300
+          transition-all duration-300 cursor-pointer
           ${
             activeTab === tab
               ? "bg-[#fcc030] text-[#111e4d]"
@@ -623,55 +623,92 @@ const CasesSectionExpanded: React.FC = () => {
   );
 };
 
-const CasesSectionMain = () => {
-  const [isDesktop, setIsDesktop] = useState<boolean | null>(null);
-  const [isTallScreen, setIsTallScreen] = useState<boolean>(false);
+// const CasesSectionMain = () => {
+//   const [isDesktop, setIsDesktop] = useState<boolean | null>(null);
+//   const [isTallScreen, setIsTallScreen] = useState<boolean>(false);
 
-  const [selectedIndex, setSelectedIndex] = useState(0);
-  const [dropdownOpen, setDropdownOpen] = useState(false);
+//   const [selectedIndex, setSelectedIndex] = useState(0);
+//   const [dropdownOpen, setDropdownOpen] = useState(false);
+
+//   useEffect(() => {
+//     const updateDesktop = () => {
+//       const desktop = window.innerWidth >= 1024;
+//       setIsDesktop(desktop);
+
+//       // Update height logic immediately when checking desktop
+//       if (desktop) {
+//         setIsTallScreen(window.innerHeight >= 850);
+//       }
+//     };
+
+//     updateDesktop();
+//     window.addEventListener("resize", updateDesktop);
+//     return () => window.removeEventListener("resize", updateDesktop);
+//   }, []);
+
+//   useEffect(() => {
+//     // Only track height for desktop screens
+//     if (!isDesktop) return;
+
+//     const updateHeight = () => {
+//       setIsTallScreen(window.innerHeight >= 845);
+//     };
+
+//     updateHeight();
+//     window.addEventListener("resize", updateHeight);
+//     return () => window.removeEventListener("resize", updateHeight);
+//   }, [isDesktop]);
+
+//   /* PREVENT HYDRATION / FLASH */
+//   if (isDesktop === null) {
+//     return null;
+//   }
+
+//   return (
+//     <>
+//       {/* MOBILE + TABLET */}
+//       {!isDesktop && <CasesSectionCompact />}
+//       {/* DESKTOP HERO SWITCH */}
+//       {isDesktop &&
+//         (isTallScreen ? <CasesSectionExpanded /> : <CasesSectionCompact />)}
+//     </>
+//   );
+// };
+
+
+const CasesSectionMain = () => {
+  const [isDesktop, setIsDesktop] = useState(false);
+  const [isTallScreen, setIsTallScreen] = useState(false);
 
   useEffect(() => {
-    const updateDesktop = () => {
+    const updateLayout = () => {
       const desktop = window.innerWidth >= 1024;
       setIsDesktop(desktop);
 
-      // Update height logic immediately when checking desktop
       if (desktop) {
-        setIsTallScreen(window.innerHeight >= 850);
+        setIsTallScreen(window.innerHeight >= 845);
       }
     };
 
-    updateDesktop();
-    window.addEventListener("resize", updateDesktop);
-    return () => window.removeEventListener("resize", updateDesktop);
+    updateLayout();
+    window.addEventListener("resize", updateLayout);
+    return () => window.removeEventListener("resize", updateLayout);
   }, []);
-
-  useEffect(() => {
-    // Only track height for desktop screens
-    if (!isDesktop) return;
-
-    const updateHeight = () => {
-      setIsTallScreen(window.innerHeight >= 845);
-    };
-
-    updateHeight();
-    window.addEventListener("resize", updateHeight);
-    return () => window.removeEventListener("resize", updateHeight);
-  }, [isDesktop]);
-
-  /* PREVENT HYDRATION / FLASH */
-  if (isDesktop === null) {
-    return null;
-  }
 
   return (
     <>
       {/* MOBILE + TABLET */}
       {!isDesktop && <CasesSectionCompact />}
-      {/* DESKTOP HERO SWITCH */}
+
+      {/* DESKTOP */}
       {isDesktop &&
-        (isTallScreen ? <CasesSectionExpanded /> : <CasesSectionCompact />)}
+        (isTallScreen ? (
+          <CasesSectionExpanded />
+        ) : (
+          <CasesSectionCompact />
+        ))}
     </>
   );
 };
+
 export default CasesSectionMain;

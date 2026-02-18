@@ -70,7 +70,7 @@ const MassTortInfo = () => {
                 py-3 md:py-2.5 lg:py-4
                 px-6 lg:px-8
                 rounded-lg
-                shadow-lg
+                shadow-lg cursor-pointer
                 w-full max-w-md md:max-w-[240px] lg:w-auto
                 transition-transform hover:-translate-y-1 hover:bg-[#ffd65c]
                 text-[11px] md:text-[11px] lg:text-[16px]

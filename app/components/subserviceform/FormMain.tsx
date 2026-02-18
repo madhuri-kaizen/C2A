@@ -24,6 +24,24 @@ const CASES = [
   "Talcum Powder Lawsuit",
   "Roblox Addiction Lawsuit",
   "Hernia Mesh Lawsuit",
+  "Social Media Addiction Lawsuit",
+  "Video Game Addiction Lawsuit",
+  "Paraquat Parkinson's Disease Lawsuit",
+  "Zantac Cancer Lawsuit",
+  "Bard PowerPort Lawsuit",
+  "NEC Baby Formula Lawsuit",
+  "Hair Relaxer Cancer Lawsuit",
+  "Suboxone Lawsuit",
+  "Oxbryta Lawsuit",
+  "Exactech Recall Lawsuit",
+  "Elmiron Eye Damage Lawsuit",
+  "Paragard IUD Breakage Lawsuit",
+  "Ultra-Processed Food Cancer Lawsuit:",
+  "Toxic Baby Food Autism Lawsuit",
+  "Philips CPAP and BiPAP Recall Lawsuit",
+  "Transvaginal Mesh Implant Lawsuit",
+  "AFFF Firefighting Foam Lawsuit",
+  "PFAS Exposure Lawsuit",
   "Tesla Autopilot Recall Lawsuit",
   "MacLaren Sexual Abuse Lawsuit",
   "Sexual Abuse Lawsuit",
@@ -39,8 +57,26 @@ const SLUG_TO_CASE_MAP: Record<string, string> = {
   "depo-provera-lawsuit": "Depo-Provera Lawsuit",
   "roundup-lawsuit": "Roundup Cancer Lawsuit",
   "roblox-addiction-lawsuit": "Roblox Addiction Lawsuit",
-  "hernia-mesh-lawsuit":"Hernia Mesh Lawsuit",
+  "hernia-mesh-lawsuit": "Hernia Mesh Lawsuit",
   "talcum-powder-lawsuit": "Talcum Powder Lawsuit",
+  "social-media-addiction-lawsuit": "Social Media Addiction Lawsuit",
+  "video-game-addiction-lawsuit": "Video Game Addiction Lawsuit",
+  "paraquat-lawsuit": "Paraquat Parkinson's Disease Lawsuit",
+  "zantac-lawsuit": "Zantac Cancer Lawsuit",
+  "bard-powerport-lawsuit": "Bard PowerPort Lawsuit",
+  "nec-baby-formula-lawsuit": "NEC Baby Formula Lawsuit",
+  "hair-relaxer-cancer-lawsuit": "Hair Relaxer Cancer Lawsuit",
+  "suboxone-tooth-decay-lawsuit": "Suboxone Tooth Decay Lawsuit",
+  "oxbryta-lawsuit": "Oxbryta Lawsuit",
+  "exactech-implant-recall-lawsuit": "Exactech Recall Lawsuit",
+  "elmiron-lawsuit": "Elmiron Eye Damage Lawsuit",
+  "paragard-iud-lawsuit": "Paragard IUD Breakage Lawsuit",
+  "ultra-processed-food-lawsuit": "Ultra-Processed Food Cancer Lawsuit",
+  "afff-firefighting-foam-lawsuit": "AFFF Firefighting Foam Lawsuit",
+  "toxic-baby-food-autism-lawsuit": "Toxic Baby Food Autism Lawsuit",
+  "philips-cpap-bipap-recall-lawsuit": "Philips CPAP and BiPAP Recall Lawsuit",
+  "transvaginal-mesh-implant-lawsuit": "Transvaginal Mesh Implant Lawsuit",
+  "pfas-forever-chemicals-lawsuit": "PFAS Exposure Lawsuit",
   "tesla-autopilot-recall-lawsuit": "Tesla Autopilot Recall Lawsuit",
   "maclaren-hall-sex-abuse-lawsuit": "MacLaren Sexual Abuse Lawsuit",
   "sexual-abuse-lawsuit": "Sexual Abuse Lawsuit",
@@ -887,11 +923,11 @@ export default function Form() {
       try {
         const updateBody = {
           countryName: "USA",
-          brandType:'Internal',
+          brandType: "Internal",
           brandName: "C2A",
           websiteName: "Connect 2 Attorney",
           formname: "Stepper Form",
-          vertical:'General',
+          vertical: "General",
           data: {
             name: `${form.firstName} ${form.lastName}`,
             phone: `+1${normalizePhone(form.phone)}`,
@@ -1086,11 +1122,11 @@ export default function Form() {
 
     const earlyBody = {
       countryName: "USA",
-      brandType:'Internal',
+      brandType: "Internal",
       brandName: "C2A",
       websiteName: "Connect 2 Attorney",
       formname: "Stepper form",
-      vertical:'General',
+      vertical: "General",
       data: {
         name: fullName,
         phone: `+1${cleaned}`,
@@ -1131,11 +1167,11 @@ export default function Form() {
     try {
       const apiBody = {
         countryName: "USA",
-        brandType:'Internal',
+        brandType: "Internal",
         brandName: "C2A",
         websiteName: "Connect 2 Attorney",
         formname: "Stepper Form",
-        vertical:'General',
+        vertical: "General",
         finalSubmit: "true",
         data: {
           name: `${form.firstName} ${form.lastName}`,
@@ -1276,7 +1312,7 @@ export default function Form() {
                 <ProgressBar step={step} />
                 <button
                   type="submit"
-                  className="w-full bg-[#FCCB48] text-[#162766] font-semibold py-2.5 rounded-lg"
+                  className="w-full bg-[#FCCB48] text-[#162766] font-semibold py-2.5 rounded-lg cursor-pointer"
                 >
                   Next
                 </button>
@@ -1304,7 +1340,7 @@ export default function Form() {
                 <button
                   type="button"
                   onClick={() => setDropdownOpen((v) => !v)}
-                  className="w-full h-[45px] px-3 rounded-[8px] border border-[#E2E4EA] flex items-center justify-between font-poppins text-[15px] font-medium text-[#303030]"
+                  className="w-full h-[45px] px-3 rounded-[8px] border border-[#E2E4EA] flex items-center justify-between font-poppins text-[15px] font-medium text-[#303030] cursor-pointer"
                 >
                   <span className="truncate">
                     {caseType || "Choose from the list"}
@@ -1352,7 +1388,7 @@ export default function Form() {
               <ProgressBar step={step} />
               <button
                 onClick={next}
-                className="w-full bg-[#FCCB48] text-[#162766] font-semibold py-2.5 rounded-lg"
+                className="w-full bg-[#FCCB48] text-[#162766] font-semibold py-2.5 rounded-lg cursor-pointer"
               >
                 Next
               </button>
@@ -1379,7 +1415,7 @@ export default function Form() {
                         setDirection("back");
                         setStep(1);
                       }}
-                      className="ml-auto text-[#162766]"
+                      className="ml-auto text-[#162766] cursor-pointer"
                       aria-label="Edit"
                     >
                       <PencilIcon className="w-3.5 h-3.5" />
@@ -1420,8 +1456,10 @@ export default function Form() {
                       <span>
                         I agree to the{" "}
                         <span className="text-[#162766] font-semibold underline cursor-pointer">
-                          <a href="/privacy-policy"> Privacy Policy &amp; Disclaimer</a>
-                         
+                          <a href="/privacy-policy">
+                            {" "}
+                            Privacy Policy &amp; Disclaimer
+                          </a>
                         </span>{" "}
                         and give my express written consent.
                       </span>
@@ -1431,7 +1469,7 @@ export default function Form() {
                         <button
                           type="button"
                           onClick={() => setShowFullConsent(true)}
-                          className="ml-2 text-[#162766] font-semibold underline"
+                          className="ml-2 text-[#162766] font-semibold underline cursor-pointer"
                         >
                           Read more
                         </button>
@@ -1457,7 +1495,7 @@ export default function Form() {
                           <button
                             type="button"
                             onClick={() => setShowFullConsent(false)}
-                            className="ml-2 text-[#162766] font-semibold underline"
+                            className="ml-2 text-[#162766] font-semibold underline cursor-pointer"
                           >
                             Show less
                           </button>

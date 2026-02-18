@@ -553,9 +553,9 @@ const LawsuitsLegalPage = () => {
                     className="bg-[#F4F6F8] rounded-lg px-4 sm:px-6 py-5"
                   >
                     {/* Title + Number */}
-                    <h4 className="font-noto-serif text-[#162766] text-[20px] sm:text-[24px] font-medium leading-normal mb-2">
+                    <h3 className="font-noto-serif text-[#162766] text-[20px] sm:text-[24px] font-medium leading-normal mb-2">
                       {item.title}
-                    </h4>
+                    </h3>
 
                     {/* Description */}
                     <p className="font-urbanist text-[#425777] text-[16px] sm:text-[18px] font-medium leading-[24px] sm:leading-[27px]">
@@ -624,9 +624,9 @@ const LawsuitsLegalPage = () => {
                     className="bg-[#F4F6F8] rounded-lg px-4 sm:px-6 py-5"
                   >
                     {/* Title + Number */}
-                    <h4 className="font-noto-serif text-[#162766] text-[20px] sm:text-[24px] font-medium leading-normal mb-2">
+                    <h3 className="font-noto-serif text-[#162766] text-[20px] sm:text-[24px] font-medium leading-normal mb-2">
                       {item.title}
-                    </h4>
+                    </h3>
 
                     {/* Description */}
                     <p className="font-urbanist text-[#425777] text-[16px] sm:text-[18px] font-medium leading-[24px] sm:leading-[27px]">
@@ -724,7 +724,7 @@ const LawsuitsLegalPage = () => {
                     {content.ctaContent.description}
                   </p>
                  
-                    <button onClick={scrollToNextSection} className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors duration-200">
+                    <button onClick={scrollToNextSection} className="w-full bg-[#fccb48] hover:bg-[#eebb20] text-[#162766] font-poppins font-semibold text-[16px] leading-normal tracking-[0.32px] uppercase text-center py-3 px-4 rounded transition-colors cursor-pointer duration-200">
                       {content.ctaContent.buttonText}
                     </button>
                   
