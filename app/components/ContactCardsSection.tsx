@@ -19,7 +19,7 @@ const ContactCardsSection = () => {
     {
       id: 2,
       title: "Drop us an Email",
-      subtitle: "connect2attorney.com",
+      subtitle: "info@connect2attorney.com ",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
