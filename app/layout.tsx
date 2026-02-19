@@ -1,10 +1,19 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter, Merriweather, Poppins, Playfair_Display,Urbanist,Noto_Serif,Work_Sans } from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Inter,
+  Merriweather,
+  Poppins,
+  Playfair_Display,
+  Urbanist,
+  Noto_Serif,
+  Work_Sans,
+} from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import EnquiryButton from "./components/EnquiryButton";
 import Script from "next/script";
-
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -60,7 +69,6 @@ const workSans = Work_Sans({
 export const metadata: Metadata = {
   title: "Connect2Attorney",
   description: "Connect2Attorney - Your Trusted Legal Connection",
-  
 };
 export default function RootLayout({
   children,
@@ -69,8 +77,43 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-    <body
-  className={`
+      <head>
+        <Script
+          id="gtm-script"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;
+              f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-5F9TG6BZ');
+            `,
+          }}
+        />
+
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-3N2D23T3ZR"
+          strategy="afterInteractive"
+          async
+        />
+
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-3N2D23T3ZR');
+    `,
+          }}
+        />
+      </head>
+      <body
+        className={`
     ${geistSans.variable}
     ${geistMono.variable}
     ${inter.variable}
@@ -82,10 +125,17 @@ export default function RootLayout({
     ${workSans.variable}  
     antialiased
   `}
->
+      >
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-5F9TG6BZ"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
 
-
-              <Script
+        <Script
           id="trustedform-loader"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -113,10 +163,10 @@ export default function RootLayout({
         />
         <Navbar />
         <EnquiryButton />
-        
+
         {children}
 
-           {/*  TrustedForm NoScript Fallback */}
+        {/*  TrustedForm NoScript Fallback */}
         <noscript>
           <img
             src="https://api.trustedform.com/ns.gif"
