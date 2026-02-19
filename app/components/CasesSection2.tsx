@@ -15,50 +15,11 @@ interface CaseItem {
 // Full list of cases to match the "24 Mass Tort Battles" visualization
 const casesData: CaseItem[] = [
   {
-    id: 1,
-    title: "Ozempic\nLawsuit",
-    image: "/sectionimg1.svg",
-    url: "/mass-tort/ozempic-lawsuit",
+    id: 21,
+    title: "AFFF Firefighting Foam Lawsuit",
+    image: "/afff.svg",
+    url: "/mass-tort/afff-firefighting-foam-lawsuitt",
   },
-  {
-    id: 2,
-    title: "Mesothelioma\nLawsuit",
-    image: "/sectionimg2.svg",
-    url: "/mass-tort/mesotheliomaa-lawsuit",
-  },
-  {
-    id: 3,
-    title: "Roundup Cancer\nLawsuit",
-    image: "/sectionimg3.svg",
-    url: "/mass-tort/roundup-lawsuit",
-  },
-  {
-    id: 4,
-    title: "Talcum Powder\nLawsuit",
-    image: "/sectionimg4.svg",
-    url: "/mass-tort/talcum-powder-lawsuit",
-  },
-
-  {
-    id: 5,
-    title: "Depo-Provera\nLawsuit",
-    image: "/depoo.png",
-    url: "/mass-tort/depo-provera-lawsuit",
-  },
-
-  {
-    id: 6,
-    title: "Paraquat\nParkinson's Lawsuit",
-    image: "/paraquat.svg",
-    url: "/mass-tort/paraquat-lawsuit",
-  },
-  {
-    id: 7,
-    title: "Zantac Cancer\nLawsuit",
-    image: "/zantac.svg",
-    url: "/mass-tort/zantac-lawsuit",
-  },
-
   {
     id: 8,
     title: "Bard PowerPort\nLawsuit",
@@ -66,35 +27,10 @@ const casesData: CaseItem[] = [
     url: "/mass-tort/bard-powerport-lawsuit",
   },
   {
-    id: 9,
-    title: "NEC Baby\nFormula Lawsuit",
-    image: "/nec.svg",
-    url: "/mass-tort/nec-baby-formula-lawsuit",
-  },
-
-  {
-    id: 10,
-    title: "Hair Relaxer\nCancer Lawsuit",
-    image: "/hairelaxer.svg",
-    url: "/mass-tort/hair-relaxer-cancer-lawsuit",
-  },
-  {
-    id: 11,
-    title: "Suboxone\nLawsuit",
-    image: "/suboxone.svg",
-    url: "/mass-tort/suboxone-tooth-decay-lawsuit",
-  },
-  {
-    id: 12,
-    title: "Oxybryta Liver\nInjury Lawsuit",
-    image: "/oxbryta.svg",
-    url: "/mass-tort/oxbryta-lawsuit",
-  },
-  {
-    id: 13,
-    title: "Exactech Knee\nAnkle Lawsuit",
-    image: "/exactech.svg",
-    url: "/mass-tort/exactech-implant-recall-lawsuit",
+    id: 5,
+    title: "Depo-Provera\nLawsuit",
+    image: "/depoo.png",
+    url: "/mass-tort/depo-provera-lawsuit",
   },
   {
     id: 14,
@@ -103,10 +39,100 @@ const casesData: CaseItem[] = [
     url: "/mass-tort/elmiron-lawsuit",
   },
   {
+    id: 13,
+    title: "Exactech Knee\nAnkle Lawsuit",
+    image: "/exactech.svg",
+    url: "/mass-tort/exactech-implant-recall-lawsuit",
+  },
+  {
+    id: 10,
+    title: "Hair Relaxer\nCancer Lawsuit",
+    image: "/hairelaxer.svg",
+    url: "/mass-tort/hair-relaxer-cancer-lawsuit",
+  },
+  {
+    id: 9,
+    title: "NEC Baby\nFormula Lawsuit",
+    image: "/nec.svg",
+    url: "/mass-tort/nec-baby-formula-lawsuit",
+  },
+  {
+    id: 12,
+    title: "Oxybryta Liver\nInjury Lawsuit",
+    image: "/oxbryta.svg",
+    url: "/mass-tort/oxbryta-lawsuit",
+  },
+  {
+    id: 1,
+    title: "Ozempic\nLawsuit",
+    image: "/sectionimg1.svg",
+    url: "/mass-tort/ozempic-lawsuit",
+  },
+  {
+    id: 6,
+    title: "Paraquat\nParkinson's Lawsuit",
+    image: "/paraquat.svg",
+    url: "/mass-tort/paraquat-lawsuit",
+  },
+  {
     id: 15,
     title: "Paragard IUD\nBreakage Lawsuit",
     image: "/paragard.svg",
     url: "/mass-tort/paragard-iud-lawsuit",
+  },
+  {
+    id: 23,
+    title: "Philips CPAP and BiPAP Recall Lawsuit",
+    image: "/philips.svg",
+    url: "/mass-tort/philips-cpap-bipap-recall-lawsuit",
+  },
+  {
+    id: 20,
+    title: "PFAS (Forever Chemicals) Exposure Lawsuit",
+    image: "/pfas.svg",
+    url: "/mass-tort/pfas-forever-chemicals-lawsuit",
+  },
+  {
+    id: 19,
+    title: "Roblox Addiction Lawsuit",
+    image: "/roblox.svg",
+    url: "/mass-tort/roblox-addiction-lawsuit",
+  },
+  {
+    id: 3,
+    title: "Roundup Cancer\nLawsuit",
+    image: "/sectionimg3.svg",
+    url: "/mass-tort/roundup-lawsuit",
+  },
+  {
+    id: 18,
+    title: "Social Media Addiction Lawsuit",
+    image: "/socialmedia.svg",
+    url: "/mass-tort/social-media-addiction-lawsuit",
+  },
+  {
+    id: 11,
+    title: "Suboxone\nLawsuit",
+    image: "/suboxone.svg",
+    url: "/mass-tort/suboxone-tooth-decay-lawsuit",
+  },
+  {
+    id: 4,
+    title: "Talcum Powder\nLawsuit",
+    image: "/sectionimg4.svg",
+    url: "/mass-tort/talcum-powder-lawsuit",
+  },
+  {
+    id: 24,
+    title: "Transvaginal Mesh Implant Lawsuit",
+    image: "/transvaginal.svg",
+    url: "/mass-tort/transvaginal-mesh-implant-lawsuit",
+  },
+  {
+    id: 22,
+    title: "Toxic Baby Food Autism Lawsuit",
+    image: "/toxicbaby.svg",
+    url: "/mass-tort/toxic-baby-food-autism-lawsuit",
   },
   {
     id: 16,
@@ -121,95 +147,20 @@ const casesData: CaseItem[] = [
     url: "/mass-tort/ video-game-addiction-lawsuit",
   },
   {
-    id: 18,
-    title: "Social Media Addiction Lawsuit",
-    image: "/socialmedia.svg",
-    url: "/mass-tort/social-media-addiction-lawsuit",
-  },
-
-  {
-    id: 19,
-    title: "Roblox Addiction Lawsuit",
-    image: "/roblox.svg",
-    url: "/mass-tort/roblox-addiction-lawsuit",
-  },
-  {
-    id: 20,
-    title: "PFAS (Forever Chemicals) Exposure Lawsuit",
-    image: "/pfas.svg",
-    url: "/mass-tort/pfas-forever-chemicals-lawsuit",
-  },
-  {
-    id: 21,
-    title: "AFFF Firefighting Foam Lawsuit",
-    image: "/afff.svg",
-    url: "/mass-tort/afff-firefighting-foam-lawsuitt",
-  },
-  {
-    id: 22,
-    title: "Toxic Baby Food Autism Lawsuit",
-    image: "/toxicbaby.svg",
-    url: "/mass-tort/toxic-baby-food-autism-lawsuit",
-  },
-  {
-    id: 23,
-    title: "Philips CPAP and BiPAP Recall Lawsuit",
-    image: "/philips.svg",
-    url: "/mass-tort/philips-cpap-bipap-recall-lawsuit",
-  },
-  {
-    id: 24,
-    title: "Transvaginal Mesh Implant Lawsuit",
-    image: "/transvaginal.svg",
-    url: "/mass-tort/transvaginal-mesh-implant-lawsuit",
-  },
-];
-const mobilecasesData: CaseItem[] = [
-  {
-    id: 1,
-    title: "Ozempic\nLawsuit",
-    image: "/Ozempicardmobile.svg",
-    url: "/mass-tort/ozempic-lawsuit",
-  },
-  {
-    id: 2,
-    title: "Mesothelioma\nLawsuit",
-    image: "/Mesotheliomacarddmobile.svg",
-    url: "/mass-tort/mesotheliomaa-lawsuit",
-  },
-  {
-    id: 3,
-    title: "Roundup Cancer\nLawsuit",
-    image: "/roundupmobile.svg",
-    url: "/mass-tort/roundup-lawsuit",
-  },
-  {
-    id: 4,
-    title: "Talcum Powder\nLawsuit",
-    image: "/Talcumcardmobile.svg",
-    url: "/mass-tort/talcum-powder-lawsuit",
-  },
-
-  {
-    id: 5,
-    title: "Depo-Provera\nLawsuit",
-    image: "/depomobile.svg",
-    url: "/mass-tort/depo-provera-lawsuit",
-  },
-
-  {
-    id: 6,
-    title: "Paraquat\nParkinson's Lawsuit",
-    image: "/paraquatmob.svg",
-    url: "/mass-tort/paraquat-lawsuit",
-  },
-  {
     id: 7,
     title: "Zantac Cancer\nLawsuit",
-    image: "/zantacmob.svg",
+    image: "/zantac.svg",
     url: "/mass-tort/zantac-lawsuit",
   },
+];
 
+const mobilecasesData: CaseItem[] = [
+  {
+    id: 20,
+    title: "AFFF Firefighting Foam Lawsuit",
+    image: "/afffmob.svg",
+    url: "/mass-tort/afff-firefighting-foam-lawsuit",
+  },
   {
     id: 8,
     title: "Bard PowerPort\nLawsuit",
@@ -217,35 +168,10 @@ const mobilecasesData: CaseItem[] = [
     url: "/mass-tort/bard-powerport-lawsuit",
   },
   {
-    id: 9,
-    title: "NEC Baby\nFormula Lawsuit",
-    image: "/necmob.svg",
-    url: "/mass-tort/nec-baby-formula-lawsuit",
-  },
-
-  {
-    id: 10,
-    title: "Hair Relaxer\nCancer Lawsuit",
-    image: "/hairmob.svg",
-    url: "/mass-tort/hair-relaxer-cancer-lawsuit",
-  },
-  {
-    id: 11,
-    title: "Suboxone\nLawsuit",
-    image: "/suboxonemob.svg",
-    url: "/mass-tort/suboxone-tooth-decay-lawsuit",
-  },
-  {
-    id: 12,
-    title: "Oxybryta Liver\nInjury Lawsuit",
-    image: "/oxbrytamob.svg",
-    url: "/mass-tort/oxbryta-lawsuit",
-  },
-  {
-    id: 13,
-    title: "Exactech Knee\nAnkle Lawsuit",
-    image: "/exactechmob.svg",
-    url: "/mass-tort/exactech-implant-recall-lawsuit",
+    id: 5,
+    title: "Depo-Provera\nLawsuit",
+    image: "/depomobile.svg",
+    url: "/mass-tort/depo-provera-lawsuit",
   },
   {
     id: 14,
@@ -254,10 +180,100 @@ const mobilecasesData: CaseItem[] = [
     url: "/mass-tort/elmiron-lawsuit",
   },
   {
+    id: 13,
+    title: "Exactech Knee\nAnkle Lawsuit",
+    image: "/exactechmob.svg",
+    url: "/mass-tort/exactech-implant-recall-lawsuit",
+  },
+  {
+    id: 10,
+    title: "Hair Relaxer\nCancer Lawsuit",
+    image: "/hairmob.svg",
+    url: "/mass-tort/hair-relaxer-cancer-lawsuit",
+  },
+  {
+    id: 9,
+    title: "NEC Baby\nFormula Lawsuit",
+    image: "/necmob.svg",
+    url: "/mass-tort/nec-baby-formula-lawsuit",
+  },
+  {
+    id: 12,
+    title: "Oxybryta Liver\nInjury Lawsuit",
+    image: "/oxbrytamob.svg",
+    url: "/mass-tort/oxbryta-lawsuit",
+  },
+  {
+    id: 1,
+    title: "Ozempic\nLawsuit",
+    image: "/Ozempicardmobile.svg",
+    url: "/mass-tort/ozempic-lawsuit",
+  },
+  {
+    id: 6,
+    title: "Paraquat\nParkinson's Lawsuit",
+    image: "/paraquatmob.svg",
+    url: "/mass-tort/paraquat-lawsuit",
+  },
+  {
     id: 15,
     title: "Paragard IUD\nBreakage Lawsuit",
     image: "/paragardmob.svg",
     url: "/mass-tort/paragard-iud-lawsuit",
+  },
+  {
+    id: 22,
+    title: "Philips CPAP and BiPAP Recall Lawsuit",
+    image: "/philipsmob.svg",
+    url: "/mass-tort/philips-cpap-bipap-recall-lawsuit",
+  },
+  {
+    id: 19,
+    title: "PFAS (Forever Chemicals) Exposure Lawsuit",
+    image: "/pfasmob.svg",
+    url: "/mass-tort/pfas-forever-chemicals-lawsuit",
+  },
+  {
+    id: 24,
+    title: "Roblox Addiction Lawsuit",
+    image: "/robloxmob.svg",
+    url: "/mass-tort/roblox-addiction-lawsuit",
+  },
+  {
+    id: 3,
+    title: "Roundup Cancer\nLawsuit",
+    image: "/roundupmobile.svg",
+    url: "/mass-tort/roundup-lawsuit",
+  },
+  {
+    id: 18,
+    title: "Social Media Addiction Lawsuit",
+    image: "/socialmob.svg",
+    url: "/mass-tort/social-media-addiction-lawsuit",
+  },
+  {
+    id: 11,
+    title: "Suboxone\nLawsuit",
+    image: "/suboxonemob.svg",
+    url: "/mass-tort/suboxone-tooth-decay-lawsuit",
+  },
+  {
+    id: 4,
+    title: "Talcum Powder\nLawsuit",
+    image: "/Talcumcardmobile.svg",
+    url: "/mass-tort/talcum-powder-lawsuit",
+  },
+  {
+    id: 23,
+    title: "Transvaginal Mesh Implant Lawsuit",
+    image: "/transvaginalmob.svg",
+    url: "/mass-tort/transvaginal-mesh-implant-lawsuit",
+  },
+  {
+    id: 21,
+    title: "Toxic Baby Food Autism Lawsuit",
+    image: "/toxicmob.svg",
+    url: "/mass-tort/toxic-baby-food-autism-lawsuit",
   },
   {
     id: 16,
@@ -272,48 +288,13 @@ const mobilecasesData: CaseItem[] = [
     url: "/mass-tort/video-game-addiction-lawsuit",
   },
   {
-    id: 18,
-    title: "Social Media Addiction Lawsuit",
-    image: "/socialmob.svg",
-    url: "/mass-tort/social-media-addiction-lawsuit",
-  },
-  {
-    id: 19,
-    title: "PFAS (Forever Chemicals) Exposure Lawsuit",
-    image: "/pfasmob.svg",
-    url: "/mass-tort/pfas-forever-chemicals-lawsuit",
-  },
-  {
-    id: 20,
-    title: "AFFF Firefighting Foam Lawsuit",
-    image: "/afffmob.svg",
-    url: "/mass-tort/afff-firefighting-foam-lawsuit",
-  },
-  {
-    id: 21,
-    title: "Toxic Baby Food Autism Lawsuit",
-    image: "/toxicmob.svg",
-    url: "/mass-tort/toxic-baby-food-autism-lawsuit",
-  },
-  {
-    id: 22,
-    title: "Philips CPAP and BiPAP Recall Lawsuit",
-    image: "/philipsmob.svg",
-    url: "/mass-tort/philips-cpap-bipap-recall-lawsuit",
-  },
-  {
-    id: 23,
-    title: "Transvaginal Mesh Implant Lawsuit",
-    image: "/transvaginalmob.svg",
-    url: "/mass-tort/transvaginal-mesh-implant-lawsuit",
-  },
-   {
-    id: 24,
-    title: "Roblox Addiction Lawsuit",
-    image: "/robloxmob.svg",
-    url: "/mass-tort/roblox-addiction-lawsuit",
+    id: 7,
+    title: "Zantac Cancer\nLawsuit",
+    image: "/zantacmob.svg",
+    url: "/mass-tort/zantac-lawsuit",
   },
 ];
+
 
 const CasesSection2: React.FC = () => {
   const totalCases = casesData.length;
