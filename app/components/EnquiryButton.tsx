@@ -120,6 +120,7 @@ export default function EnquiryButton() {
               width={80}
               height={80}
               priority
+              fetchPriority="high"
             />
           </div>
 

@@ -33,11 +33,11 @@ const PartnerStatsCard = () => {
       <p
   className="
     text-white
-    font-inter
+    font-urbanist
     text-[12px]
     font-normal
-    leading-normal
-    tracking-[-0.72px]
+    leading-normal 
+    tracking-[0.28px]
     max-w-[190px]
   "
 >
@@ -49,7 +49,7 @@ const PartnerStatsCard = () => {
   className="
     text-white
     text-center
-    font-inter
+    font-urbanist
     text-[50px]
     font-semibold
     leading-[48px]

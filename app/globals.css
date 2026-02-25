@@ -5,7 +5,6 @@
 @theme {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-inter: var(--font-inter);
   --font-merriweather: var(--font-merriweather);
 }
 
@@ -123,7 +122,7 @@ footer {
   animation: slide-in 0.35s ease-out forwards;
 }
 body {
-  font-family: var(--font-inter);
+  font-family: var(--font-urbanist);
 }
 
 .font-urbanist {
@@ -138,12 +137,6 @@ body {
   font-family: var(--font-playfair);
 }
 
-.font-geist {
-  font-family: var(--font-geist-sans);
-}
-.font-work-sans {
-  font-family: var(--font-work-sans);
-}
 /* ================================
    Ultra-minimal line scrollbar
    ================================ */

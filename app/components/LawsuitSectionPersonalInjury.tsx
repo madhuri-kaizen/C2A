@@ -36,7 +36,7 @@ const casesData: CaseItem[] = [
     id: 4,
     title: "18-Wheeler Accident Lawsuit",
     image: "/truckimg.svg",
-    url: "/personal-injury/18-wheeler-accident-lawsuit",
+    url: "/personal-injury/18-wheeler-accident",
   },
 ];
 
@@ -64,7 +64,7 @@ const mobileCasesData: CaseItem[] = [
     id: 4,
     title: "18-Wheeler Accident Lawsuit",
     image: "/truckimgmobile.svg",
-    url: "/personal-injury/18-wheeler-accident-lawsuit",
+    url: "/personal-injury/18-wheeler-accident",
   },
 ];
 

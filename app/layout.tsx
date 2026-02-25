@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import {
-  Geist,
-  Geist_Mono,
+
   Inter,
   Merriweather,
   Poppins,
@@ -15,15 +14,15 @@ import Navbar from "./components/Navbar";
 import EnquiryButton from "./components/EnquiryButton";
 import Script from "next/script";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
 
 const inter = Inter({
   variable: "--font-inter",
@@ -114,8 +113,6 @@ export default function RootLayout({
       </head>
       <body
         className={`
-    ${geistSans.variable}
-    ${geistMono.variable}
     ${inter.variable}
     ${merriweather.variable}
     ${poppins.variable}
@@ -144,7 +141,7 @@ export default function RootLayout({
                 (function () {
                   var tf = document.createElement("script");
                   tf.type = "text/javascript";
-                  tf.async = false;
+                  tf.async = true;
                   tf.src =
                     (document.location.protocol === "https:" ? "https" : "http") +
                     "://api.trustedform.com/trustedform.js" +

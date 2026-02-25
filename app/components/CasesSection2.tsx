@@ -18,7 +18,7 @@ const casesData: CaseItem[] = [
     id: 21,
     title: "AFFF Firefighting Foam Lawsuit",
     image: "/afff.svg",
-    url: "/mass-tort/afff-firefighting-foam-lawsuitt",
+    url: "/mass-tort/afff-firefighting-foam-lawsuit",
   },
   {
     id: 8,
@@ -144,7 +144,7 @@ const casesData: CaseItem[] = [
     id: 17,
     title: "Video Game Addiction Lawsuit",
     image: "/videogame.svg",
-    url: "/mass-tort/ video-game-addiction-lawsuit",
+    url: "/mass-tort/video-game-addiction-lawsuit",
   },
   {
     id: 7,

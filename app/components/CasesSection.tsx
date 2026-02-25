@@ -22,7 +22,7 @@ const casesData: CaseItem[] = [
     id: 2,
     title: "Mesothelioma\nLawsuit",
     image: "/sectionimg2.svg",
-    url: "/mass-tort/mesotheliomaa-lawsuit",
+    url: "/mass-tort/mesothelioma-lawsuit",
   },
   {
     id: 3,
@@ -151,7 +151,7 @@ const tabCasesCompact: Record<string, CaseItem[]> = {
       id: 2,
       title: "Mesothelioma\nLawsuit",
       image: "/sectionimg2.svg",
-      url: "/mass-tort/mesotheliomaa-lawsuit",
+      url: "/mass-tort/mesothelioma-lawsuit",
     },
     {
       id: 3,
@@ -222,7 +222,7 @@ const tabCasesExpanded: Record<string, CaseItem[]> = {
       id: 2,
       title: "Mesothelioma\nLawsuit",
       image: "/img12.svg",
-      url: "/mass-tort/mesotheliomaa-lawsuit",
+      url: "/mass-tort/mesothelioma-lawsuit",
     },
     {
       id: 3,

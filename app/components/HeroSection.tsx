@@ -1,17 +1,18 @@
 "use client";
 import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 import { useRouter } from "next/navigation";
 import { ChevronDown, ChevronUp } from "lucide-react";
-import {
-  BarChart,
-  Bar,
-  Cell,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  ResponsiveContainer,
-} from "recharts";
+// import {
+//   BarChart,
+//   Bar,
+//   Cell,
+//   XAxis,
+//   YAxis,
+//   CartesianGrid,
+//   ResponsiveContainer,
+// } from "recharts";
 import {
   ArrowUpRightIcon,
   BAR_COLORS,
@@ -31,7 +32,6 @@ import {
 
 import { mapChartFromDB } from "./homecomponents/lawsuitData";
 import LawsuitsHeroCard from "./subservice_pages/LawsuitsHeroCard";
-import dynamic from "next/dynamic";
 
 /* ================= TYPES ================= */
 type ChartConfig = {
@@ -253,77 +253,86 @@ const DataGridCompactExtend = ({
   </div>
 );
 
-const ClearBarChart = ({ config }: { config: ChartConfig }) => {
-  const data = config.xLabels.map((label, i) => ({
-    label,
-    value: config.bars[i],
-  }));
+// const ClearBarChart = ({ config }: { config: ChartConfig }) => {
+//   const data = config.xLabels.map((label, i) => ({
+//     label,
+//     value: config.bars[i],
+//   }));
 
-  const maxValue = Math.max(...config.bars);
+//   const maxValue = Math.max(...config.bars);
 
-  // Dynamic rounding based on maxValue size
-  let roundedMax = 0;
-  let step = 0;
+//   // Dynamic rounding based on maxValue size
+//   let roundedMax = 0;
+//   let step = 0;
 
-  if (maxValue <= 100) {
-    roundedMax = Math.ceil(maxValue / 10) * 10;
-    step = roundedMax / 4;
-  } else if (maxValue <= 1000) {
-    roundedMax = Math.ceil(maxValue / 100) * 100;
-    step = roundedMax / 4;
-  } else if (maxValue <= 10000) {
-    roundedMax = Math.ceil(maxValue / 500) * 500;
-    step = roundedMax / 4;
-  } else if (maxValue <= 100000) {
-    roundedMax = Math.ceil(maxValue / 1000) * 1000;
-    step = roundedMax / 4;
-  } else {
-    roundedMax = Math.ceil(maxValue / 10000) * 10000;
-    step = roundedMax / 4;
+//   if (maxValue <= 100) {
+//     roundedMax = Math.ceil(maxValue / 10) * 10;
+//     step = roundedMax / 4;
+//   } else if (maxValue <= 1000) {
+//     roundedMax = Math.ceil(maxValue / 100) * 100;
+//     step = roundedMax / 4;
+//   } else if (maxValue <= 10000) {
+//     roundedMax = Math.ceil(maxValue / 500) * 500;
+//     step = roundedMax / 4;
+//   } else if (maxValue <= 100000) {
+//     roundedMax = Math.ceil(maxValue / 1000) * 1000;
+//     step = roundedMax / 4;
+//   } else {
+//     roundedMax = Math.ceil(maxValue / 10000) * 10000;
+//     step = roundedMax / 4;
+//   }
+
+//   //  Build ticks cleanly
+//   const dynamicTicks = [step, step * 2, step * 3, step * 4];
+
+//   return (
+//     <div className="w-full h-[130px]">
+//       <ResponsiveContainer width="100%" height="100%">
+//         <BarChart
+//           data={data}
+//           barCategoryGap={20}
+//           margin={{ top: 10, right: 10, left: -10, bottom: 0 }}
+//         >
+//           <CartesianGrid stroke="#E6ECFF" vertical={false} />
+
+//           <XAxis
+//             dataKey="label"
+//             tick={{ fontSize: 9, fill: "#162766" }}
+//             tickLine={false}
+//             axisLine={false}
+//           />
+
+//           <YAxis
+//             domain={[0, roundedMax]}
+//             ticks={dynamicTicks}
+//             interval={0}
+//             tickFormatter={(v) => (v >= 1000 ? `${v / 1000}K` : `${v}`)}
+//             tick={{ fontSize: 9, fill: "#162766" }}
+//             tickLine={false}
+//             axisLine={false}
+//             width={45}
+//             tickMargin={4}
+//           />
+
+//           <Bar dataKey="value" radius={[8, 8, 0, 0]}>
+//             {data.map((_, index) => (
+//               <Cell key={index} fill={BAR_COLORS[index % BAR_COLORS.length]} />
+//             ))}
+//           </Bar>
+//         </BarChart>
+//       </ResponsiveContainer>
+//     </div>
+//   );
+// };
+
+
+const ClearBarChart = dynamic(
+  () => import("./homecomponents/ClearBarChartClient"),
+  {
+    ssr: false,
+    loading: () => <div className="w-full h-[130px]" />,
   }
-
-  //  Build ticks cleanly
-  const dynamicTicks = [step, step * 2, step * 3, step * 4];
-
-  return (
-    <div className="w-full h-[130px]">
-      <ResponsiveContainer width="100%" height="100%">
-        <BarChart
-          data={data}
-          barCategoryGap={20}
-          margin={{ top: 10, right: 10, left: -10, bottom: 0 }}
-        >
-          <CartesianGrid stroke="#E6ECFF" vertical={false} />
-
-          <XAxis
-            dataKey="label"
-            tick={{ fontSize: 9, fill: "#162766" }}
-            tickLine={false}
-            axisLine={false}
-          />
-
-          <YAxis
-            domain={[0, roundedMax]}
-            ticks={dynamicTicks}
-            interval={0}
-            tickFormatter={(v) => (v >= 1000 ? `${v / 1000}K` : `${v}`)}
-            tick={{ fontSize: 9, fill: "#162766" }}
-            tickLine={false}
-            axisLine={false}
-            width={45}
-            tickMargin={4}
-          />
-
-          <Bar dataKey="value" radius={[8, 8, 0, 0]}>
-            {data.map((_, index) => (
-              <Cell key={index} fill={BAR_COLORS[index % BAR_COLORS.length]} />
-            ))}
-          </Bar>
-        </BarChart>
-      </ResponsiveContainer>
-    </div>
-  );
-};
+);
 
 const StatisticsCard = ({ chartConfig }: { chartConfig: ChartConfig }) => {
   const totalStats = chartConfig.bars.reduce((sum, val) => sum + val, 0);
@@ -681,6 +690,7 @@ const MobileLanding = ({
             fill
             sizes="100vw"
             priority
+            fetchPriority="high"
           />
         </div>
 
@@ -997,6 +1007,7 @@ const TabletLanding = ({
           alt="Hero background"
           fill
           priority
+          fetchPriority="high"
           className="object-cover"
         />
 
@@ -1243,7 +1254,7 @@ const DesktopLandingHeroCompact = ({
           loop
           muted
           playsInline
-          preload="auto"
+          preload="none"
           className="absolute inset-0 w-full h-full object-contain block [@media(min-width:1168px)]:hidden"
         >
           <source src="/1920x860.mp4" type="video/mp4" />
@@ -1255,7 +1266,7 @@ const DesktopLandingHeroCompact = ({
           loop
           muted
           playsInline
-          preload="auto"
+          preload="none"
           className="absolute inset-0 w-full h-full object-contain hidden [@media(min-width:1168px)]:block [@media(min-width:1280px)]:hidden"
         >
           <source src="/1920x860.mp4" type="video/mp4" />
@@ -1267,7 +1278,7 @@ const DesktopLandingHeroCompact = ({
           loop
           muted
           playsInline
-          preload="auto"
+          preload="none"
           className="absolute inset-0 w-full h-full object-contain hidden [@media(min-width:1280px)]:block"
         >
           <source src="/1920x860.mp4" type="video/mp4" />
@@ -1692,7 +1703,7 @@ const DesktopLandingHeroExpanded: React.FC<Props> = ({
           loop
           muted
           playsInline
-          preload="auto"
+          preload="none"
           className="
             absolute inset-0 w-full h-full object-contain
             block lg:block xl:hidden
@@ -1707,7 +1718,7 @@ const DesktopLandingHeroExpanded: React.FC<Props> = ({
           loop
           muted
           playsInline
-          preload="auto"
+          preload="none"
           className="
             absolute inset-0 w-full h-full object-cover
             hidden xl:block
@@ -2101,7 +2112,7 @@ const LandingPage = () => {
   const [open, setOpen] = useState(false);
 
   const CHART_CONFIGS: ChartConfig = {
-    title: "Talcum Powder Pending MDL Cases",
+    title: "Talcum Powder Lawsuit",
     xAxisLabel: "Month (2025)",
     yAxisLabel: "# of Pending Cases",
     xLabels: ["Apr", "Jul", "Sept"],
