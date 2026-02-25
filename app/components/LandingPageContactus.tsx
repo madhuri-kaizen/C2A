@@ -2752,7 +2752,7 @@ const LandingPageContactus: React.FC<{
           brandName: "C2A",
           websiteName: "Connect 2 Attorney",
           formname: "Contact Page Form",
-          finalSubmit: "true",
+          finalSubmit: true,
           formPath:'https://connect2attorney.com/contact-us',
           data: {
             name: formData.name,

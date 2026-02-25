@@ -1172,7 +1172,7 @@ export default function Form() {
         websiteName: "Connect 2 Attorney",
         formname: "Stepper Form",
         vertical: "General",
-        finalSubmit: "true",
+        finalSubmit: true,
         data: {
           name: `${form.firstName} ${form.lastName}`,
           phone: `+1${normalizePhone(form.phone)}`,

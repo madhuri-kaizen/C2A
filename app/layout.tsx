@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import {
-
   Inter,
   Merriweather,
   Poppins,
@@ -109,6 +108,12 @@ export default function RootLayout({
       gtag('config', 'G-3N2D23T3ZR');
     `,
           }}
+        />
+
+        <Script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="XhJN6Xt+wuHZ7Vq7PrrhsQ"
+          async
         />
       </head>
       <body

@@ -1725,7 +1725,7 @@ const LandingPageContactus: React.FC<{
           formname: "Enquiry Form",
           vertical:'General',
           formPath:'https://connect2attorney.com/',
-          finalSubmit: "true",
+          finalSubmit: true,
           data: {
             name: formData.name,
             email: formData.email,
