@@ -21,7 +21,7 @@ const ContactCard = () => {
         md:min-h-[700px]
         lg:min-h-[820px]
         2xl:min-h-[980px]
-       bg-[url('/LastSection.png')]
+       bg-[url('/LastSection.webp')]
         bg-no-repeat bg-cover bg-bottom
       "
     >

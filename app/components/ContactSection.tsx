@@ -876,7 +876,7 @@ const ContactSection = () => {
         {/* LEFT IMAGE */}
         <div className="hidden lg:flex w-1/2 items-center justify-center p-8">
           <Image
-            src="/HomeForm.png"
+            src="/HomeForm.webp"
             alt="Contact Form"
             width={500}
             height={508}

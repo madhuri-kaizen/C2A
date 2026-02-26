@@ -175,7 +175,7 @@ const HowItWorks: React.FC = () => {
   "
         >
           <Image
-            src="/LegalCase.svg"
+            src="/LegalCase_new.svg"
             alt="Legal Case Review"
             fill
             className="w-full h-full object-cover  rounded-xl transition-transform duration-500 ease-out  group-hover:scale-110"
@@ -195,7 +195,7 @@ const HowItWorks: React.FC = () => {
   "
         >
           <Image
-            src="/Handshake.svg"
+            src="/image24.svg"
             alt="Legal Case Review"
             fill
             className="w-full h-full object-cover  rounded-xl transition-transform duration-500 ease-out  group-hover:scale-110"
@@ -230,7 +230,7 @@ const HowItWorks: React.FC = () => {
     "
           >
             <Image
-              src="/img21.svg"
+              src="/image25.svg"
               alt="Legal Case Review"
               width={338}
               height={200}
@@ -329,7 +329,7 @@ const HowItWorks: React.FC = () => {
 
         <div className="rounded-xl overflow-hidden  w-full h-[200px] min-w-0 hidden md:hidden lg:block overflow-hidden group">
           <Image
-            src="/img22.svg"
+            src="/image31.svg"
             alt="Legal Case Review"
             className="w-full h-full object-cover rounded-xl transition-transform duration-500 ease-out group-hover:scale-110"
             width={338}
@@ -346,7 +346,7 @@ const HowItWorks: React.FC = () => {
  lg:h-[200px]"
         >
           <Image
-            src="/img31.svg"
+            src="/image26.svg"
             alt="Legal Case Review"
             className="w-full h-full object-cover  transition-transform duration-500 ease-out group-hover:scale-110"
             width={338}
@@ -358,7 +358,7 @@ const HowItWorks: React.FC = () => {
 
         <div className="rounded-xl overflow-hidden h-[200px] hidden md:hidden lg:block">
           <Image
-            src="/img32.svg"
+            src="/image27.svg"
             alt="Legal Case Review"
             className="w-full h-full object-cover  transition-transform duration-500 ease-out group-hover:scale-110"
             width={338}

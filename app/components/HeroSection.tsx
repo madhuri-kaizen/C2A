@@ -24,14 +24,20 @@ import {
   // CHART_CONFIGS,
   ChevronDownIcon,
 } from "./homecomponents/lawsuitData";
+// import {
+//   BlueShapeSVG,
+//   LightShapeSVG,
+//   LightShapeSVGExpanded,
+// } from "./homecomponents/svg";
 import {
-  BlueShapeSVG,
-  LightShapeSVG,
-  LightShapeSVGExpanded,
-} from "./homecomponents/svg";
-
+  MobileHeroVideo,
+  TabletHeroVideo,
+  DesktopCompactVideo,
+  DesktopExpandedVideoLG,
+  DesktopExpandedVideoXL,
+} from "./video/HeroVideos";
 import { mapChartFromDB } from "./homecomponents/lawsuitData";
-import LawsuitsHeroCard from "./subservice_pages/LawsuitsHeroCard";
+// import LawsuitsHeroCard from "./subservice_pages/LawsuitsHeroCard";
 
 /* ================= TYPES ================= */
 type ChartConfig = {
@@ -643,7 +649,7 @@ const MobileLanding = ({
             maskSize: "100% 100%",
           }}
         >
-          <video
+          {/* <video
             autoPlay
             loop
             muted
@@ -652,13 +658,14 @@ const MobileLanding = ({
             className="absolute inset-0 w-full h-full object-cover"
           >
             <source src="/herovideo.mp4" type="video/mp4" />
-          </video>
+          </video> */}
+          <MobileHeroVideo />
 
           <div className="absolute inset-0 bg-[#162766]/60" />
         </div>
 
         {/* Masked video background */}
-        <div
+        {/* <div
           className="absolute inset-x-0 top-0 mx-[15px] aspect-[357/358] sm:aspect-[357/260]"
           style={{
             WebkitMaskImage: "url(/HPL.png)",
@@ -681,7 +688,7 @@ const MobileLanding = ({
           </video>
 
           <div className="absolute inset-0 bg-[#162766]/60" />
-        </div>
+        </div> */}
 
         <div className="md:hidden absolute inset-x-0 mx-[15px] bottom-10 min-[360px]:bottom-12 min-[375px]:bottom-[35px] md:bottom-[140px] left-0 h-[346px] md:h-[446px] z-0">
           <Image
@@ -1249,7 +1256,7 @@ const DesktopLandingHeroCompact = ({
       <div className="relative w-full h-[650px] mt-2 overflow-hidden max-w-[1560px]">
         {/* ================= VIDEO BACKGROUND ================= */}
         {/* < 1168 */}
-        <video
+        {/* <video
           autoPlay
           loop
           muted
@@ -1258,10 +1265,10 @@ const DesktopLandingHeroCompact = ({
           className="absolute inset-0 w-full h-full object-contain block [@media(min-width:1168px)]:hidden"
         >
           <source src="/1920x860.mp4" type="video/mp4" />
-        </video>
+        </video> */}
 
         {/* 1168 → 1279 (CUSTOM RANGE) */}
-        <video
+        {/* <video
           autoPlay
           loop
           muted
@@ -1270,10 +1277,10 @@ const DesktopLandingHeroCompact = ({
           className="absolute inset-0 w-full h-full object-contain hidden [@media(min-width:1168px)]:block [@media(min-width:1280px)]:hidden"
         >
           <source src="/1920x860.mp4" type="video/mp4" />
-        </video>
+        </video> */}
 
         {/* >= 1280 */}
-        <video
+        {/* <video
           autoPlay
           loop
           muted
@@ -1282,7 +1289,8 @@ const DesktopLandingHeroCompact = ({
           className="absolute inset-0 w-full h-full object-contain hidden [@media(min-width:1280px)]:block"
         >
           <source src="/1920x860.mp4" type="video/mp4" />
-        </video>
+        </video> */}
+<DesktopCompactVideo className="absolute inset-0 w-full h-full object-contain" />
 
         <div
           className="
@@ -1698,7 +1706,7 @@ const DesktopLandingHeroExpanded: React.FC<Props> = ({
       >
         {/* ================= VIDEO BACKGROUND ================= */}
         {/* LG only (1024-1279) */}
-        <video
+        {/* <video
           autoPlay
           loop
           muted
@@ -1710,10 +1718,11 @@ const DesktopLandingHeroExpanded: React.FC<Props> = ({
           "
         >
           <source src="/1280x503.mp4" type="video/mp4" />
-        </video>
+        </video> */}
+<DesktopExpandedVideoLG className="absolute inset-0 w-full h-full object-contain block lg:block xl:hidden" />
 
         {/* XL+ (1280px+) */}
-        <video
+        {/* <video
           autoPlay
           loop
           muted
@@ -1725,7 +1734,8 @@ const DesktopLandingHeroExpanded: React.FC<Props> = ({
           "
         >
           <source src="/1920x860.mp4" type="video/mp4" />
-        </video>
+        </video> */}
+<DesktopExpandedVideoXL className="absolute inset-0 w-full h-full object-cover hidden xl:block" />
 
         {/* ================= CONTENT GRID ================= */}
         <div

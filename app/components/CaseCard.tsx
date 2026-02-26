@@ -128,6 +128,7 @@ export const CaseCardExpanded: React.FC<CaseCardProps> = ({
           src={image}
           alt={title}
           fill
+          loading="lazy"
           priority={false}
           className="
             object-contain 
@@ -140,6 +141,8 @@ export const CaseCardExpanded: React.FC<CaseCardProps> = ({
           <Image
             src="/CardNotch.png"
             alt="Arrow"
+            loading="lazy"
+            priority={false}
             width={64}
             height={64}
             className="object-contain"
