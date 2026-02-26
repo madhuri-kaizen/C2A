@@ -928,6 +928,7 @@ export default function Form() {
           websiteName: "Connect 2 Attorney",
           formname: "Stepper Form",
           vertical: "General",
+          isPartialSubmission:true,
           data: {
             name: `${form.firstName} ${form.lastName}`,
             phone: `+1${normalizePhone(form.phone)}`,
@@ -1127,7 +1128,7 @@ export default function Form() {
       websiteName: "Connect 2 Attorney",
       formname: "Stepper form",
       vertical: "General",
-      isPartialSubmission :true,
+      isPartialSubmission:true,
       data: {
         name: fullName,
         phone: `+1${cleaned}`,

@@ -59,7 +59,7 @@ export function MobileHeroVideo({ className, style }: VideoProps) {
       className={className ?? "absolute inset-0 w-full h-full object-cover"}
       style={style}
     >
-      <source src="/herovideo.mp4" type="video/mp4" />
+      <source src="/herovideocompress_ultra.mp4" type="video/mp4" />
     </video>
   );
 }
@@ -77,7 +77,7 @@ export function TabletHeroVideo({ className, style }: VideoProps) {
       className={className ?? "absolute inset-0 w-full h-full object-cover"}
       style={style}
     >
-      <source src="/herovideo.mp4" type="video/mp4" />
+      <source src="/herovideocompress_ultra.mp4" type="video/mp4" />
     </video>
   );
 }
@@ -95,7 +95,7 @@ export function DesktopCompactVideo({ className, style }: VideoProps) {
       className={className ?? "absolute inset-0 w-full h-full object-contain"}
       style={style}
     >
-      <source src="/1920x860.mp4" type="video/mp4" />
+      <source src="/1920x860compress_ultra.mp4" type="video/mp4" />
     </video>
   );
 }
@@ -115,7 +115,7 @@ export function DesktopExpandedVideoLG({ className, style }: VideoProps) {
       className={className ?? "absolute inset-0 w-full h-full object-contain block lg:block xl:hidden"}
       style={style}
     >
-      <source src="/1280x503.mp4" type="video/mp4" />
+      <source src="/1280x503compress_ultra.mp4" type="video/mp4" />
     </video>
   );
 }
@@ -133,7 +133,7 @@ export function DesktopExpandedVideoXL({ className, style }: VideoProps) {
       className={className ?? "absolute inset-0 w-full h-full object-cover hidden xl:block"}
       style={style}
     >
-      <source src="/1920x860.mp4" type="video/mp4" />
+      <source src="/1920x860compress_ultra.mp4" type="video/mp4" />
     </video>
   );
 }
