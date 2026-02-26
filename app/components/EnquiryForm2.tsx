@@ -1351,6 +1351,7 @@ const LandingPageContactus: React.FC<{
       formname: "Enquiry Form",
       vertical:'General',
       formPath:'https://connect2attorney.com/',
+      isPartialSubmission:true,
       data: {
         name: fullName,
         phone: `+1${cleaned}`,
@@ -1433,6 +1434,7 @@ const LandingPageContactus: React.FC<{
           formname: "Enquiry Form",
           vertical:'General',
           formPath:'https://connect2attorney.com/',
+          isPartialSubmission:true,
           data: {
             name: formData.name,
             phone: `+1${rawPhone}`,

@@ -1127,6 +1127,7 @@ export default function Form() {
       websiteName: "Connect 2 Attorney",
       formname: "Stepper form",
       vertical: "General",
+      isPartialSubmission :true,
       data: {
         name: fullName,
         phone: `+1${cleaned}`,

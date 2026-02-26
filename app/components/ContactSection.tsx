@@ -512,6 +512,7 @@ const ContactSection = () => {
       formname: "Contact Section Form",
       pageSource: window.location.href,
       vertical:'General',
+      isPartialSubmission:true,
       formPath:'https://connect2attorney.com/',
       data: {
         name: fullName,
@@ -542,6 +543,7 @@ const ContactSection = () => {
       pageSource: window.location.href,
       vertical:'General',
       formPath:'https://connect2attorney.com/',
+      isPartialSubmission:true,
       data: {
         name: `${form.firstName} ${form.lastName}`.trim(),
         phone: `+1${phoneformatted}`,
@@ -804,6 +806,7 @@ const ContactSection = () => {
         vertical:'General',
         formPath:'https://connect2attorney.com/',
         finalSubmit: true,
+        
         data: {
           name: `${form.firstName} ${form.lastName}`.trim(),
           email: form.email,

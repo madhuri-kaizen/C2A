@@ -2395,6 +2395,7 @@ const LandingPageContactus: React.FC<{
       formname: "Contact Page form",
       vertical:'General',
       formPath:'https://connect2attorney.com/contact-us',
+      isPartialSubmission:true,
       data: {
         name: fullName,
         phone: `+1${cleaned}`,
@@ -2479,6 +2480,7 @@ const LandingPageContactus: React.FC<{
           formname: "Contact Page form",
           vertical:'General',
           formPath:'https://connect2attorney.com/contact-us',
+          isPartialSubmission:true,
           data: {
             name: formData.name,
             phone: `+1${rawPhone}`,
