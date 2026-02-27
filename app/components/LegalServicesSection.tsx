@@ -169,7 +169,6 @@ const LegalServicesSection = () => {
             <div className="relative w-full h-[320px] lg:h-[300px] xl:h-[400px]">
               <div className="w-full h-full rounded-tl-[40px] rounded-br-[40px] rounded-tr-[30px] overflow-hidden flex justify-start items-start">
                 <img
-                  src="/AU2Mobile.png"
                   src="/AU2Mobile.webp"
                   alt="Office Meeting"
                   className="block max-w-full max-h-full object-contain"
