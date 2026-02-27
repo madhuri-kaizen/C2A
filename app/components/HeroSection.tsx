@@ -1998,17 +1998,14 @@ const DesktopLandingHeroExpanded: React.FC<Props> = ({
           className="
             absolute flex z-20
             
-            /* Vertical positioning */
             lg:bottom-7
             xl:bottom-8
             2xl:bottom-10
             
-            /* Horizontal positioning */
-            lg:right-[calc(260px+1rem)]  /* Right column width + gap */
-            xl:right-[calc(320px+2rem)]
+            lg:right-[calc(260px+1rem)]  
+            xl:right-[calc(280px+2rem)]
             2xl:right-[calc(360px+2.5rem)]
             
-            /* Gap */
             lg:gap-2
             xl:gap-3
             2xl:gap-4
@@ -2073,11 +2070,11 @@ const DesktopLandingHeroExpanded: React.FC<Props> = ({
         {/* ================= SCROLL BUTTON ================= */}
         <div
           className="
-          absolute bottom-6 right-6 z-30
+          absolute bottom-6 right-1 z-30
           
           /* Scale adjustments */
           lg:scale-[0.75]
-          xl:scale-90
+          xl:scale-85
           2xl:scale-100
           
           origin-bottom-right
