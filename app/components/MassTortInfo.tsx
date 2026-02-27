@@ -23,7 +23,7 @@ const MassTortInfo = () => {
           {/* ================= MOBILE BACKGROUND IMAGE ================= */}
           <div className="absolute inset-0 md:hidden z-0">
             <Image
-              src="/bgimgmasstortbigfull.svg"
+              src="/bgimgmasstortbigfull.webp"
               alt="Mass Tort"
               fill
               priority
@@ -89,7 +89,7 @@ const MassTortInfo = () => {
             <div className="absolute inset-0 z-10 bg-gradient-to-l from-transparent to-[#162766]" />
 
             <Image
-              src="/bgimgmasstortbigfull.svg"
+              src="/bgimgmasstortbigfull.webp"
               alt="Mass Tort"
               fill
               priority

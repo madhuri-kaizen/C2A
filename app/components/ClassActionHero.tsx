@@ -548,7 +548,7 @@ const MobileHero = () => {
     >
       {/* Background */}
       <Image
-        src="/MTH.png"
+        src="/MTH.webp"
         alt="Class action Hero Mobile"
         fill
         priority
@@ -585,7 +585,7 @@ const DesktopHero = () => {
  {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/MTH.png"
+          src="/MTH.webp"
           alt="Personal Injury hero background"
           fill
           priority

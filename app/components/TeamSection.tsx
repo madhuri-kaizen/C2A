@@ -150,7 +150,7 @@ const teamMembers = [
   {
     name: "Candace Martin",
     role: "Director of Operations",
-    img: "/CandanceMartin.jpeg",
+    img: "/CandanceMartin.webp",
     linkedIn: "https://www.linkedin.com/in/candace-martin-853851289/",
   },
   {
