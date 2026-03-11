@@ -928,7 +928,7 @@ export default function Form() {
           websiteName: "Connect 2 Attorney",
           formname: "Stepper Form",
           vertical: "General",
-          isPartialSubmission:true,
+          isPartialSubmission: true,
           data: {
             name: `${form.firstName} ${form.lastName}`,
             phone: `+1${normalizePhone(form.phone)}`,
@@ -1128,7 +1128,7 @@ export default function Form() {
       websiteName: "Connect 2 Attorney",
       formname: "Stepper form",
       vertical: "General",
-      isPartialSubmission:true,
+      isPartialSubmission: true,
       data: {
         name: fullName,
         phone: `+1${cleaned}`,
@@ -1224,6 +1224,69 @@ export default function Form() {
     }
   };
 
+  // const handleSubmit = async () => {
+  //   if (isSubmitting) return;
+  //   setIsSubmitting(true);
+
+  //   try {
+  //     const apiBody = {
+  //       countryName: "USA",
+  //       brandType: "Internal",
+  //       brandName: "C2A",
+  //       websiteName: "Connect 2 Attorney",
+  //       formname: "Stepper Form",
+  //       vertical: "General",
+  //       finalSubmit: true,
+  //       data: {
+  //         name: `${form.firstName} ${form.lastName}`,
+  //         phone: `+1${normalizePhone(form.phone)}`,
+  //         email: form.email,
+  //         zip: form.zip,
+  //         caseType,
+  //         description,
+  //         ipAddress: await getIPAddress(),
+  //         submissionDate: new Date().toISOString(),
+  //         trustedFormCertUrl: certId || "",
+  //         trustedFormToken: tokenUrl || "",
+  //         trustedFormPingUrl: pingUrl || "",
+  //         pageSource: window.location.href,
+  //       },
+  //     };
+
+  //     /* ============================
+  //      1️⃣ EMAILJS (MANDATORY)
+  //   ============================ */
+
+  //     await sendWithEmailJS(apiBody);
+  //     // If this fails → it throws automatically
+
+  //     /* ============================
+  //      2️⃣ CRM (MANDATORY)
+  //   ============================ */
+
+  //     const res = await fetch(`${CRM_API_URL}/${leadId}`, {
+  //       method: "PUT",
+  //       headers: { "Content-Type": "application/json" },
+  //       body: JSON.stringify(apiBody),
+  //     });
+
+  //     if (!res.ok) {
+  //       const errText = await res.text();
+  //       throw new Error(`CRM submission failed: ${errText}`);
+  //     }
+
+  //     /* ============================
+  //      3️⃣ SUCCESS
+  //   ============================ */
+
+  //     setStep(4);
+  //   } catch (err) {
+  //     console.error("Submission Failed:", err);
+  //     // setError("Something went wrong. Please try again.");
+  //   } finally {
+  //     setIsSubmitting(false);
+  //   }
+  // };
   /* ---------------- UI ---------------- */
 
   return (

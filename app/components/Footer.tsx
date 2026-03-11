@@ -70,7 +70,7 @@ const Footer = () => {
   // Data for links to keep JSX clean
   const quickLinks: BaseLink[] = [
     { name: "Home", href: "#", active: true },
-    { name: "About Us", href: "/about-us" },
+    // { name: "About Us", href: "/about-us" },
     { name: "Contact Us", href: "/contact-us" },
     { name: "Mass Tort", href: "/mass-tort" },
     { name: "Class Action", href: "/class-action" },

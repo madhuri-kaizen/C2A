@@ -1583,8 +1583,10 @@ const MobileLanding: React.FC<DesktopLandingProps> = ({
                     <span>
                       I agree to the{" "}
                       <span className="text-[#162766] font-bold underline cursor-pointer">
-                        <a href="/privacy-policy"> Privacy Policy &amp; Disclaimer</a>
-                       
+                        <a href="/privacy-policy">
+                          {" "}
+                          Privacy Policy &amp; Disclaimer
+                        </a>
                       </span>{" "}
                       and give my express written consent
                     </span>
@@ -2176,8 +2178,10 @@ const DesktopLanding: React.FC<DesktopLandingProps> = ({
                       <span>
                         I agree to the{" "}
                         <span className="text-[#162766] font-bold underline cursor-pointer">
-                          <a href="/privacy-policy"> Privacy Policy &amp; Disclaimer</a>
-                          
+                          <a href="/privacy-policy">
+                            {" "}
+                            Privacy Policy &amp; Disclaimer
+                          </a>
                         </span>{" "}
                         and give my express written consent
                       </span>
@@ -2389,13 +2393,13 @@ const LandingPageContactus: React.FC<{
 
     const earlyBody = {
       countryName: "USA",
-      brandType:'Internal',
+      brandType: "Internal",
       brandName: "C2A",
       websiteName: "Connect 2 Attorney",
       formname: "Contact Page form",
-      vertical:'General',
-      formPath:'https://connect2attorney.com/contact-us',
-      isPartialSubmission:true,
+      vertical: "General",
+      formPath: "https://connect2attorney.com/contact-us",
+      isPartialSubmission: true,
       data: {
         name: fullName,
         phone: `+1${cleaned}`,
@@ -2474,13 +2478,13 @@ const LandingPageContactus: React.FC<{
         const rawPhone = formData.phone.replace(/\D/g, "");
         const updateBody = {
           countryName: "USA",
-          brandType:'Internal',
+          brandType: "Internal",
           brandName: "C2A",
           websiteName: "Connect 2 Attorney",
           formname: "Contact Page form",
-          vertical:'General',
-          formPath:'https://connect2attorney.com/contact-us',
-          isPartialSubmission:true,
+          vertical: "General",
+          formPath: "https://connect2attorney.com/contact-us",
+          isPartialSubmission: true,
           data: {
             name: formData.name,
             phone: `+1${rawPhone}`,
@@ -2815,6 +2819,109 @@ const LandingPageContactus: React.FC<{
       leadId,
     ],
   );
+
+  // const handleSubmit = useCallback(
+  //   async (e: React.FormEvent<HTMLFormElement>) => {
+  //     e.preventDefault();
+
+  //     if (!isFormValid || isSubmitting) return;
+
+  //     setIsSubmitting(true);
+  //     setSubmitMessage(null);
+
+  //     try {
+  //       const rawPhone = formData.phone?.replace(/\D/g, "") || "";
+
+  //       const apiBody = {
+  //         countryName: "USA",
+  //         brandType: "Internal",
+  //         brandName: "C2A",
+  //         websiteName: "Connect 2 Attorney",
+  //         formname: "Contact Page Form",
+  //         finalSubmit: true,
+  //         formPath: "https://connect2attorney.com/contact-us",
+  //         data: {
+  //           name: formData.name,
+  //           email: formData.email,
+  //           phone: `+1${rawPhone}`,
+  //           caseType: formData.category,
+  //           description: formData.caseHistory,
+  //           ipAddress: await getIPAddress(),
+  //           trustedFormCertUrl: certId || "",
+  //           trustedFormToken: tokenUrl || "",
+  //           trustedFormPingUrl: pingUrl || "",
+  //           pageSource: window.location.href,
+  //           submissionDate: new Date().toISOString(),
+  //         },
+  //       };
+
+  //       /* ==============================
+  //        EMAILJS — MUST SUCCEED
+  //     ============================== */
+
+  //       await sendWithEmailJS(apiBody); // will throw if fails
+
+  //       /* ==============================
+  //        CRM — MUST SUCCEED
+  //     ============================== */
+
+  //       const crmResponse = await fetch(`${CRM_API_URL}/${leadId}`, {
+  //         method: "PUT",
+  //         headers: { "Content-Type": "application/json" },
+  //         body: JSON.stringify(apiBody),
+  //       });
+
+  //       if (!crmResponse.ok) {
+  //         const errorText = await crmResponse.text();
+  //         throw new Error(`CRM submission failed: ${errorText}`);
+  //       }
+
+  //       const crmData = await crmResponse.json();
+
+  //       if (!crmData) {
+  //         throw new Error("Invalid CRM response");
+  //       }
+
+  //       /* ==============================
+  //        SUCCESS ONLY IF BOTH PASS
+  //     ============================== */
+
+  //       setFormData(initialData);
+  //       setSuccessDialogOpen(true);
+  //       setShowCaptcha(false);
+  //       setCaptchaValid(false);
+  //       setResetTrigger((t) => !t);
+
+  //       setPhoneError("");
+  //       setEmailError("");
+  //       setNameError("");
+
+  //       setSubmitMessage({
+  //         type: "success",
+  //         text: "Form submitted successfully! You should receive a confirmation email shortly.",
+  //       });
+  //     } catch (error) {
+  //       console.error("Form submission error:", error);
+
+  //       setSubmitMessage({
+  //         type: "error",
+  //         text: "There was an error submitting your form. Please try again or contact us directly.",
+  //       });
+  //     } finally {
+  //       setIsSubmitting(false);
+  //     }
+  //   },
+  //   [
+  //     isFormValid,
+  //     isSubmitting,
+  //     formData,
+  //     certId,
+  //     tokenUrl,
+  //     pingUrl,
+  //     initialData,
+  //     leadId,
+  //   ],
+  // );
   const router = useRouter();
 
   useEffect(() => {

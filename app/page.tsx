@@ -48,7 +48,7 @@ export default function Home() {
       <HeroSection />
       <CasesSection />
       <HowItWorks />
-      <AboutUs />
+      {/* <AboutUs /> */}
       <BlogsEducationCard2 />
       <ContactSection />
       <FaqSection faqData={faqData} />

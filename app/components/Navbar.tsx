@@ -186,7 +186,7 @@ const DesktopNavbar: React.FC<DesktopNavbarProps> = ({ scrolled }) => {
 
   const navLinks = [
     { href: "/", label: "Home" },
-    { href: "/about-us", label: "About Us" },
+    // { href: "/about-us", label: "About Us" },
   ];
 
   const dropdownLinks = [
@@ -460,7 +460,7 @@ const MobileNavbar: React.FC<MobileNavbarProps> = ({
 
   const navLinks = [
     { href: "/", label: "Home" },
-    { href: "/about-us", label: "About Us" },
+    // { href: "/about-us", label: "About Us" },
   ];
 
   const dropdownLinks = [

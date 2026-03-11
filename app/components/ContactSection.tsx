@@ -506,14 +506,14 @@ const ContactSection = () => {
   const createEarlyLead = async (fullName: string, email: string) => {
     const body = {
       countryName: "USA",
-      brandType:'Internal',
+      brandType: "Internal",
       brandName: "C2A",
       websiteName: "Connect 2 Attorney",
       formname: "Contact Section Form",
       pageSource: window.location.href,
-      vertical:'General',
-      isPartialSubmission:true,
-      formPath:'https://connect2attorney.com/',
+      vertical: "General",
+      isPartialSubmission: true,
+      formPath: "https://connect2attorney.com/",
       data: {
         name: fullName,
         email,
@@ -536,14 +536,14 @@ const ContactSection = () => {
   const updateLeadPhone = async (phoneformatted: string) => {
     const body = {
       countryName: "USA",
-      brandType:'Internal',
+      brandType: "Internal",
       brandName: "C2A",
       websiteName: "Connect 2 Attorney",
       formname: "Contact Section Form",
       pageSource: window.location.href,
-      vertical:'General',
-      formPath:'https://connect2attorney.com/',
-      isPartialSubmission:true,
+      vertical: "General",
+      formPath: "https://connect2attorney.com/",
+      isPartialSubmission: true,
       data: {
         name: `${form.firstName} ${form.lastName}`.trim(),
         phone: `+1${phoneformatted}`,
@@ -806,7 +806,7 @@ const ContactSection = () => {
         vertical:'General',
         formPath:'https://connect2attorney.com/',
         finalSubmit: true,
-        
+
         data: {
           name: `${form.firstName} ${form.lastName}`.trim(),
           email: form.email,
@@ -862,6 +862,105 @@ const ContactSection = () => {
       setSubmitting(false);
     }
   };
+
+  // const handleSubmit = async (e: React.FormEvent) => {
+  //   e.preventDefault();
+
+  //   if (!isFormValid || submitting) return;
+
+  //   if (!leadId) {
+  //     alert("Lead not created yet. Please enter phone first.");
+  //     return;
+  //   }
+
+  //   setSubmitting(true);
+
+  //   try {
+  //     const phoneformatted = format(form.phone);
+
+  //     const finalBody = {
+  //       countryName: "USA",
+  //       brandType: "Internal",
+  //       brandName: "C2A",
+  //       websiteName: "Connect 2 Attorney",
+  //       formname: "Contact Section Form",
+  //       pageSource: window.location.href,
+  //       vertical: "General",
+  //       formPath: "https://connect2attorney.com/",
+  //       finalSubmit: true,
+
+  //       data: {
+  //         name: `${form.firstName} ${form.lastName}`.trim(),
+  //         email: form.email,
+  //         phone: phoneformatted,
+  //         message: form.message,
+  //         ipAddress: await getIPAddress(),
+
+  //         trustedFormCertUrl: trustedFormData.certId,
+  //         trustedFormToken: trustedFormData.tokenUrl,
+  //         trustedFormPingUrl: trustedFormData.pingUrl,
+
+  //         submissionDate: new Date().toISOString(),
+  //         pageSource: window.location.href,
+  //       },
+  //     };
+
+  //     /* ==============================
+  //      EMAILJS — MUST SUCCEED
+  //   ============================== */
+
+  //     await sendWithEmailJS(finalBody); // throws if fails
+
+  //     /* ==============================
+  //      CRM — MUST SUCCEED
+  //   ============================== */
+
+  //     const res = await fetch(`${CRM_API_URL}/${leadId}`, {
+  //       method: "PUT",
+  //       headers: { "Content-Type": "application/json" },
+  //       body: JSON.stringify(finalBody),
+  //     });
+
+  //     if (!res.ok) {
+  //       const errorText = await res.text();
+  //       throw new Error(`CRM submission failed: ${errorText}`);
+  //     }
+
+  //     const crmData = await res.json();
+
+  //     if (!crmData) {
+  //       throw new Error("Invalid CRM response");
+  //     }
+
+  //     /* ==============================
+  //      SUCCESS
+  //   ============================== */
+
+  //     setSuccess(true);
+
+  //     setTimeout(() => {
+  //       setSuccess(false);
+
+  //       setForm({
+  //         firstName: "",
+  //         lastName: "",
+  //         email: "",
+  //         phone: "",
+  //         message: "",
+  //         consent: false,
+  //         needHelp: false,
+  //       });
+
+  //       setLeadId(null);
+  //       setEarlySent(false);
+  //     }, 2000);
+  //   } catch (err) {
+  //     console.error("Final Submit Failed:", err);
+  //     alert("Submission failed. Please try again.");
+  //   } finally {
+  //     setSubmitting(false);
+  //   }
+  // };
 
   const fields: { name: keyof ContactFormData; label: string }[] = [
     { name: "firstName", label: "First Name" },
@@ -1020,8 +1119,9 @@ const ContactSection = () => {
                   <span>
                     I agree to the{" "}
                     <span className="text-[#162766] font-semibold underline cursor-pointer">
-                      <a href="/privacy-policy">Privacy Policy &amp; Disclaimer</a>
-                      
+                      <a href="/privacy-policy">
+                        Privacy Policy &amp; Disclaimer
+                      </a>
                     </span>{" "}
                     and give my express written consent.
                   </span>

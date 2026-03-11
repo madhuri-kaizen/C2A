@@ -7,7 +7,7 @@ import ContactCard from "../components/ContactCard";
 export const metadata = {
   title: "About Us",
   alternates: {
-    canonical: "https://connect2attorney.com/about-us",
+    canonical: "https://connect2attorney.com/about-uss",
   },
 };
 
