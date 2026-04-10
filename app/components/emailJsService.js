@@ -1,7 +1,7 @@
 import emailjs from '@emailjs/browser';
 
 const SERVICE_ID = 'service_brjo5qt';
-const PUBLIC_KEY = 'DyDZ85E9uwzwSyUoD';
+const PUBLIC_KEY = 'LHN36zibZMdIZeRb7';
 const LAWYER_ADMIN_TEMPLATE_ID = 'template_wp73bg8';
 const LAWYER_TEMPLATE_ID = 'template_lkcnb11';
 
