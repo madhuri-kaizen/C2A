@@ -2397,7 +2397,7 @@ const LandingPageContactus: React.FC<{
       brandName: "C2A",
       websiteName: "Connect 2 Attorney",
       formname: "Contact Page form",
-      vertical: "General",
+      vertical: "general",
       formPath: "https://connect2attorney.com/contact-us",
       isPartialSubmission: true,
       data: {
@@ -2482,7 +2482,7 @@ const LandingPageContactus: React.FC<{
           brandName: "C2A",
           websiteName: "Connect 2 Attorney",
           formname: "Contact Page form",
-          vertical: "General",
+          vertical: "general",
           formPath: "https://connect2attorney.com/contact-us",
           isPartialSubmission: true,
           data: {
@@ -2760,6 +2760,7 @@ const LandingPageContactus: React.FC<{
           formname: "Contact Page Form",
           finalSubmit: true,
           formPath:'https://connect2attorney.com/contact-us',
+          vertical: 'general',
           data: {
             name: formData.name,
             email: formData.email,

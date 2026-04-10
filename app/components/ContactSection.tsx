@@ -511,7 +511,7 @@ const ContactSection = () => {
       websiteName: "Connect 2 Attorney",
       formname: "Contact Section Form",
       pageSource: window.location.href,
-      vertical: "General",
+      vertical: "general",
       isPartialSubmission: true,
       formPath: "https://connect2attorney.com/",
       data: {
@@ -541,7 +541,7 @@ const ContactSection = () => {
       websiteName: "Connect 2 Attorney",
       formname: "Contact Section Form",
       pageSource: window.location.href,
-      vertical: "General",
+      vertical: "general",
       formPath: "https://connect2attorney.com/",
       isPartialSubmission: true,
       data: {
@@ -803,7 +803,7 @@ const ContactSection = () => {
         websiteName: "Connect 2 Attorney",
         formname: "Contact Section Form",
         pageSource: window.location.href,
-        vertical:'General',
+        vertical:'general',
         formPath:'https://connect2attorney.com/',
         finalSubmit: true,
 
@@ -885,7 +885,7 @@ const ContactSection = () => {
   //       websiteName: "Connect 2 Attorney",
   //       formname: "Contact Section Form",
   //       pageSource: window.location.href,
-  //       vertical: "General",
+  //       vertical: "general",
   //       formPath: "https://connect2attorney.com/",
   //       finalSubmit: true,
 

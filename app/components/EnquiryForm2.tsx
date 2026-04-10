@@ -1351,7 +1351,7 @@ const LandingPageContactus: React.FC<{
       brandName: "C2A",
       websiteName: "Connect 2 Attorney",
       formname: "Enquiry Form",
-      vertical: "General",
+      vertical: "general",
       formPath: "https://connect2attorney.com/",
       isPartialSubmission: true,
       data: {
@@ -1434,7 +1434,7 @@ const LandingPageContactus: React.FC<{
           brandName: "C2A",
           websiteName: "Connect 2 Attorney",
           formname: "Enquiry Form",
-          vertical: "General",
+          vertical: "general",
           formPath: "https://connect2attorney.com/",
           isPartialSubmission: true,
           data: {
@@ -1727,7 +1727,7 @@ const LandingPageContactus: React.FC<{
           brandName: "C2A",
           websiteName: "Connect 2 Attorney",
           formname: "Enquiry Form",
-          vertical:'General',
+          vertical:'general',
           formPath:'https://connect2attorney.com/',
           finalSubmit: true,
           data: {
@@ -1809,7 +1809,7 @@ const LandingPageContactus: React.FC<{
   //         brandName: "C2A",
   //         websiteName: "Connect 2 Attorney",
   //         formname: "Enquiry Form",
-  //         vertical: "General",
+  //         vertical: "general",
   //         formPath: "https://connect2attorney.com/",
   //         finalSubmit: true,
   //         data: {

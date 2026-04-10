@@ -5,6 +5,7 @@ import { Toaster } from "react-hot-toast";
 // import toast from "react-hot-toast";
 import { sendWithEmailJS } from "./emailJsService";
 import { usePathname } from "next/navigation";
+import {getVerticalFromCurrentPath} from '../common/common'
 
 const CRM_API_URL =
   "https://crm-internal-backend-ayb9fqawg8b6bjen.canadacentral-01.azurewebsites.net/api/submitformdata";
@@ -927,7 +928,7 @@ export default function Form() {
           brandName: "C2A",
           websiteName: "Connect 2 Attorney",
           formname: "Stepper Form",
-          vertical: "General",
+          vertical: getVerticalFromCurrentPath(),
           isPartialSubmission: true,
           data: {
             name: `${form.firstName} ${form.lastName}`,
@@ -1127,7 +1128,7 @@ export default function Form() {
       brandName: "C2A",
       websiteName: "Connect 2 Attorney",
       formname: "Stepper form",
-      vertical: "General",
+      vertical: getVerticalFromCurrentPath(),
       isPartialSubmission: true,
       data: {
         name: fullName,
@@ -1173,7 +1174,7 @@ export default function Form() {
         brandName: "C2A",
         websiteName: "Connect 2 Attorney",
         formname: "Stepper Form",
-        vertical: "General",
+        vertical: getVerticalFromCurrentPath(),
         finalSubmit: true,
         data: {
           name: `${form.firstName} ${form.lastName}`,
@@ -1235,7 +1236,7 @@ export default function Form() {
   //       brandName: "C2A",
   //       websiteName: "Connect 2 Attorney",
   //       formname: "Stepper Form",
-  //       vertical: "General",
+  //       vertical: getVerticalFromCurrentPath(),
   //       finalSubmit: true,
   //       data: {
   //         name: `${form.firstName} ${form.lastName}`,

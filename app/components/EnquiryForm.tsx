@@ -1499,6 +1499,7 @@ const handleEmailChange = useCallback((value: string) => {
                 brandName: "C2A",
                 websiteName: "Connect 2 Attorney",
                 formname: "Enquiry Form",
+                vertical: 'general',
                 data: {
                   name: submitData.name,
                   email: submitData.email,
@@ -1542,6 +1543,7 @@ const handleEmailChange = useCallback((value: string) => {
                   brandName: "C2A",
                   websiteName: "Connect 2 Attorney",
                   formname: "Enquiry Form",
+                  vertical: 'general',
                   data: {
                     name: submitData.name,
                     email: submitData.email,
