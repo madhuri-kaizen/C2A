@@ -1192,10 +1192,16 @@ export default function Form() {
         },
       };
 
-      const res = await fetch(`${CRM_API_URL}/${leadId}`, {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(apiBody),
+      const res = leadId
+        ? await fetch(`${CRM_API_URL}/${leadId}`, {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(apiBody),
+          })
+        : await fetch(CRM_API_URL, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(apiBody),
       });
 
       if (!res.ok) {

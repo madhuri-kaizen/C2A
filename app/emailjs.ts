@@ -7,6 +7,21 @@ export const USER_TEMPLATE_ID = "template_iiks8gi";
 
 emailjs.init(PUBLIC_KEY);
 
+// Helper function to format date in CST timezone
+const formatCST = (date: Date): string => {
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/Chicago',
+    day: '2-digit',
+    month: 'short',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: true,
+  }).formatToParts(date);
+  const get = (type: string) => parts.find(p => p.type === type)?.value ?? '';
+  return `${get('day')}-${get('month')}-${get('year')}, ${get('hour')}:${get('minute')} ${get('dayPeriod')} (CST)`;
+};
+
 export const sendWithEmailJS = async (apiBody: any) => {
   const d = apiBody.data;
   const currentYear = new Date().getFullYear();
@@ -22,6 +37,7 @@ export const sendWithEmailJS = async (apiBody: any) => {
     ip_address: d.ipAddress,
     source_url: d.pageSource,
     submission_date: d.submissionDate,
+    submission_date_cst: formatCST(new Date()),
     trusted_form_cert_url: d.trustedFormCertUrl,
     trusted_form_ping_url: d.trustedFormPingUrl,
     trusted_form_token: d.trustedFormToken,
