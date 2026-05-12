@@ -1,6 +1,8 @@
 import React from "react";
 import Form from "../subserviceform/FormMain";
+import BardPowerPortLawsuitForm from "../subserviceform/bard-powerport-lawsuit-form";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 type LawsuitsHeroCardProps = {
   heroTitle: React.ReactNode;
@@ -16,7 +18,9 @@ const LawsuitsHeroCard = ({
   imageClassName = "object-cover scale-[1.1] md:scale-[1.12] md:translate-y-[-20px]",
 }: LawsuitsHeroCardProps) => {
 
-  // console.log(heroImage)
+  const pathname = usePathname();
+  const isBardPowerPort = pathname?.includes("bard-powerport-lawsuit");
+
   return (
     <section
       className="
@@ -70,10 +74,10 @@ const LawsuitsHeroCard = ({
           </h1>
         </div>
 
-        {/* Right Form */}
+        {/* Right Form - Conditional Rendering */}
         <div className="w-full lg:w-1/2 flex justify-center">
           <div className="w-full max-w-[460px]">
-            <Form />
+            {isBardPowerPort ? <BardPowerPortLawsuitForm /> : <Form />}
           </div>
         </div>
       </div>
