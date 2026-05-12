@@ -606,9 +606,9 @@ export default function Form() {
           
           <div className="p-5">
             <div className="mb-5 text-center">
-              <h1 className="text-[#162766] font-urbanist text-[24px] font-bold leading-[32px]">Bard PowerPort Lawsuit</h1>
-              <p className="text-[#6E6E6E] font-urbanist text-[14px] font-medium mt-2">
-                Complete the form below to see if you qualify for compensation.
+              <h1 className="text-[#162766] font-urbanist text-[24px] font-bold leading-[32px]">It's easy to get started</h1>
+              <p className="text-[#6E6E6E] font-urbanist text-[13px] font-medium mt-2">
+                Provide a few details about your case and our team will take it from here.
               </p>
             </div>
 
@@ -725,7 +725,7 @@ export default function Form() {
             </div>
           </div>
 
-          <div className="p-4 border-t border-gray-100 bg-white">
+          <div className="p-4 bg-white">
             <button
               type="submit"
               disabled={isSubmitting}
