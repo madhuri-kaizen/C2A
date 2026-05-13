@@ -19,7 +19,8 @@ const LawsuitsHeroCard = ({
 }: LawsuitsHeroCardProps) => {
 
   const pathname = usePathname();
-  const isBardPowerPort = pathname?.includes("bard-powerport-lawsuit");
+  // Use BardPowerPortLawsuitForm for both bard and roblox paths
+  const useBardForm = pathname?.includes("bard-powerport-lawsuit") || pathname?.includes("roblox-addiction-lawsuit");
 
   return (
     <section
@@ -77,7 +78,7 @@ const LawsuitsHeroCard = ({
         {/* Right Form - Conditional Rendering */}
         <div className="w-full lg:w-1/2 flex justify-center">
           <div className="w-full max-w-[460px]">
-            {isBardPowerPort ? <BardPowerPortLawsuitForm /> : <Form />}
+            {useBardForm ? <BardPowerPortLawsuitForm /> : <Form />}
           </div>
         </div>
       </div>

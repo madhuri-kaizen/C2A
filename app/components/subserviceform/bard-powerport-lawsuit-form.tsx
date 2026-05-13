@@ -6,7 +6,20 @@ import { usePathname } from "next/navigation";
 import { getVerticalFromCurrentPath } from '../common/common';
 
 const CRM_API_URL = "https://crm-internal-backend-ayb9fqawg8b6bjen.canadacentral-01.azurewebsites.net/api/submitformdata";
-const CAGSYS_API_URL = "/api/cagsys"; // Using Next.js proxy
+
+// API configurations for different paths
+const API_CONFIGS: Record<string, { cagsysUrl: string; cid: string; fid: string }> = {
+  "/mass-tort/bard-powerport-lawsuit": {
+    cagsysUrl: "/api/cagsys",
+    cid: "47",
+    fid: "3170"
+  },
+  "/mass-tort/roblox-addiction-lawsuit": {
+    cagsysUrl: "/api/cagsys-roblox",
+    cid: "61",
+    fid: "3170"
+  }
+};
 
 const EMAILJS_ENABLED = true;
 
@@ -15,7 +28,7 @@ const EMAILJS_ENABLED = true;
 // Allowed states from the image
 const ALLOWED_STATES = [
   "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DC", "DE", "FL", "GA", "HI", "ID",
-  "IL", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE",
+  "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE",
   "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC",
   "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"
 ];
@@ -132,182 +145,21 @@ const checkboxClass = `
   checked:after:block
 `;
 
-/* ---------------- Custom Captcha Component - COMMENTED OUT ----------------
-interface CustomCaptchaProps {
-  onCaptchaChange?: (value: boolean) => void;
-  resetTrigger?: boolean;
-  disabled?: boolean;
-}
-
-const CustomCaptcha: React.FC<CustomCaptchaProps> = ({
-  onCaptchaChange,
-  resetTrigger,
-  disabled = false,
-}) => {
-  const [captchaText, setCaptchaText] = useState("");
-  const [userInput, setUserInput] = useState("");
-  const [isValid, setIsValid] = useState(false);
-  const [audioEnabled, setAudioEnabled] = useState(false);
-  const [charOffsets, setCharOffsets] = useState<number[]>([]);
-  const [isSpeaking, setIsSpeaking] = useState(false);
-  const isSpeakingRef = useRef(false);
-  const speechSynthRef = useRef<SpeechSynthesis | null>(null);
-
-  const generateCaptcha = () => {
-    if (isSpeakingRef.current) {
-      window.speechSynthesis.cancel();
-      setIsSpeaking(false);
-      isSpeakingRef.current = false;
-    }
-    const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-    let result = "";
-    const offsets: number[] = [];
-    for (let i = 0; i < 6; i++) {
-      result += chars.charAt(Math.floor(Math.random() * chars.length));
-      offsets.push(parseFloat((Math.random() * 10 - 5).toFixed(2)));
-    }
-    setCaptchaText(result);
-    setCharOffsets(offsets);
-    setUserInput("");
-    setIsValid(false);
-    onCaptchaChange?.(false);
-  };
-
-  useEffect(() => {
-    generateCaptcha();
-    speechSynthRef.current = window.speechSynthesis;
-    return () => {
-      if (speechSynthRef.current && isSpeakingRef.current) {
-        speechSynthRef.current.cancel();
-      }
-    };
-  }, []);
-
-  useEffect(() => {
-    if (resetTrigger) generateCaptcha();
-  }, [resetTrigger]);
-
-  useEffect(() => {
-    const timer = setInterval(() => generateCaptcha(), 60000);
-    return () => {
-      clearInterval(timer);
-      if (speechSynthRef.current && isSpeakingRef.current) {
-        speechSynthRef.current.cancel();
-      }
-    };
-  }, []);
-
-  const speakCaptcha = () => {
-    if (!("speechSynthesis" in window) || !captchaText) return;
-    window.speechSynthesis.cancel();
-    isSpeakingRef.current = true;
-    setIsSpeaking(true);
-    const voices = window.speechSynthesis.getVoices();
-    let selectedVoice: SpeechSynthesisVoice | null = null;
-    if (voices.length > 0) {
-      selectedVoice = voices.find((voice) => voice.lang === "en-US") || voices[0];
-    }
-    let currentIndex = 0;
-    const speakNextChar = () => {
-      if (currentIndex < captchaText.length && isSpeakingRef.current) {
-        const char = captchaText[currentIndex];
-        const utterance = new SpeechSynthesisUtterance(char);
-        utterance.rate = 0.5;
-        utterance.pitch = 0.9;
-        utterance.volume = 1.0;
-        utterance.lang = "en-US";
-        if (selectedVoice) utterance.voice = selectedVoice;
-        utterance.onend = () => {
-          currentIndex++;
-          if (currentIndex < captchaText.length && isSpeakingRef.current) {
-            setTimeout(speakNextChar, 200);
-          } else {
-            isSpeakingRef.current = false;
-            setIsSpeaking(false);
-          }
-        };
-        utterance.onerror = () => {
-          isSpeakingRef.current = false;
-          setIsSpeaking(false);
-        };
-        window.speechSynthesis.speak(utterance);
-      } else {
-        isSpeakingRef.current = false;
-        setIsSpeaking(false);
-      }
-    };
-    speakNextChar();
-  };
-
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value;
-    setUserInput(value);
-    const valid = value.toLowerCase() === captchaText.toLowerCase();
-    setIsValid(valid);
-    onCaptchaChange?.(valid);
-  };
-
-  const handleAudioToggle = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setAudioEnabled(e.target.checked);
-    if (!e.target.checked && isSpeakingRef.current) {
-      window.speechSynthesis.cancel();
-      isSpeakingRef.current = false;
-      setIsSpeaking(false);
-    }
-  };
-
-  return (
-    <div className="mt-3">
-      <div className="flex items-center gap-2">
-        <div className="bg-gray-100 px-3 py-2 rounded font-mono text-[14px] tracking-wider select-none relative overflow-hidden min-w-[120px]">
-          <div className="absolute inset-0 opacity-30" style={{ backgroundImage: `repeating-linear-gradient(0deg, #ccc, #ccc 1px, transparent 1px, transparent 5px)`, backgroundSize: "100% 10px", backgroundPosition: "0 50%" }} />
-          <div className="relative z-10 flex justify-center">
-            {captchaText.split("").map((char, index) => (
-              <span key={index} style={{ transform: `translateY(${charOffsets[index] || 0}px)`, display: "inline-block", textShadow: "1px 1px 1px rgba(0,0,0,0.25)" }} className="mx-[1px]">
-                {char}
-              </span>
-            ))}
-          </div>
-        </div>
-        <div className="flex gap-1">
-          <button type="button" onClick={generateCaptcha} disabled={disabled} className={`w-8 h-8 text-[13px] text-gray-600 border border-gray-300 rounded flex items-center justify-center ${disabled ? "opacity-50 cursor-not-allowed" : "hover:bg-gray-50"}`} title="Refresh CAPTCHA">↻</button>
-          {audioEnabled && (
-            <button type="button" onClick={speakCaptcha} disabled={disabled || isSpeaking} className={`w-8 h-8 text-[13px] border border-gray-300 rounded flex items-center justify-center ${disabled || isSpeaking ? "opacity-50 cursor-not-allowed" : "hover:bg-gray-50"}`} title={isSpeaking ? "Speaking..." : "Listen to CAPTCHA"}> 🔊 </button>
-          )}
-        </div>
-      </div>
-      <div className="flex items-center gap-2 mt-2">
-        <input type="checkbox" id="enableAudio" checked={audioEnabled} onChange={handleAudioToggle} disabled={disabled} className="w-3.5 h-3.5" />
-        <label htmlFor="enableAudio" className={`text-[11px] ${disabled ? "text-gray-400" : "text-gray-600"}`}>Enable audio</label>
-      </div>
-      <div className="mt-2">
-        <input type="text" value={userInput} onChange={handleInputChange} disabled={disabled} placeholder="Enter CAPTCHA" className={`w-full h-[36px] px-3 text-[13px] border rounded-md focus:outline-none focus:ring-1 ${disabled ? "bg-gray-100 cursor-not-allowed border-gray-300" : userInput !== "" && !isValid ? "border-red-500 focus:ring-red-500" : "border-gray-300 focus:ring-blue-500"}`} />
-        {userInput !== "" && !isValid && !disabled && <p className="text-red-500 text-[11px] mt-1">CAPTCHA does not match.</p>}
-        {isValid && !disabled && <p className="text-green-500 text-[11px] mt-1">✓ Verified</p>}
-      </div>
-    </div>
-  );
-};
-*/
-
 /* ---------------- Main Form Component ---------------- */
-export default function Form() {
+export default function BardPowerPortLawsuitForm() {
   const [form, setForm] = useState({
     firstName: "",
     lastName: "",
     phone: "",
     email: "",
     zip: "",
-    portAcath: "", // "Yes" or "No"
+    questionResponse: "", // "Yes" or "No" - dynamic question
   });
   const [state, setState] = useState<string>("");
   const [ipAddress, setIpAddress] = useState<string>("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [consentChecked, setConsentChecked] = useState(false);
-  // CAPTCHA removed - always considered verified
-  // const [captchaVerified, setCaptchaVerified] = useState(false);
-  // const [captchaResetTrigger, setCaptchaResetTrigger] = useState(false);
   const [showFullConsent, setShowFullConsent] = useState(false);
   const [leadId, setLeadId] = useState<number | null>(null);
   const [submitted, setSubmitted] = useState(false);
@@ -318,6 +170,33 @@ export default function Form() {
   const [tokenUrl, setTokenUrl] = useState<string>("");
 
   const pathname = usePathname();
+  
+  // Get current API config based on path
+  const currentApiConfig = API_CONFIGS[pathname || "/mass-tort/bard-powerport-lawsuit"] || API_CONFIGS["/mass-tort/bard-powerport-lawsuit"];
+  
+  // Check if current path is Roblox
+  const isRoblox = pathname?.includes("roblox-addiction-lawsuit");
+  
+  // Get question text based on path
+  const getQuestionText = () => {
+    if (isRoblox) {
+      return "Were you or someone you love sexually abused or assaulted on Roblox? You may be entitled to compensation.";
+    }
+    return "Have you or a loved one had a Port-a-Cath implanted for cancer treatment, chemotherapy or immunotherapy, that broke or caused an infection? You may be entitled to compensation.";
+  };
+
+  // Get the field name for CRM based on path
+  const getQuestionFieldName = () => {
+    return isRoblox ? "RobloxAbuse" : "PortACath";
+  };
+
+  // Get form name based on path
+  const getFormName = () => {
+    if (isRoblox) {
+      return "Roblox Abuse Lawsuit Form";
+    }
+    return "Bard PowerPort Lawsuit Form";
+  };
 
   // Fetch IP on mount
   useEffect(() => {
@@ -423,7 +302,7 @@ export default function Form() {
     else if (form.zip.length !== 5) newErrors.zip = "Please enter a valid 5-digit zip code";
     else if (!state) newErrors.zip = "Invalid zip code or state not supported";
     
-    if (!form.portAcath) newErrors.portAcath = "Please select Yes or No";
+    if (!form.questionResponse) newErrors.questionResponse = "Please select Yes or No";
     
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
@@ -445,39 +324,46 @@ export default function Form() {
     } else if (field === "zip") {
       const cleaned = value.replace(/\D/g, "").slice(0, 5);
       setForm(prev => ({ ...prev, zip: cleaned }));
-    } else if (field === "portAcath") {
-      setForm(prev => ({ ...prev, portAcath: value }));
-      if (errors.portAcath) setErrors(prev => ({ ...prev, portAcath: "" }));
+    } else if (field === "questionResponse") {
+      setForm(prev => ({ ...prev, questionResponse: value }));
+      if (errors.questionResponse) setErrors(prev => ({ ...prev, questionResponse: "" }));
     }
   };
 
   const generateUniqueSessionId = () => `CR_${Date.now()}_${Math.random().toString(36).substring(2, 10)}`;
   const uniqueSessionId = useRef(generateUniqueSessionId());
 
-  // Submit to Cagsys API - ONLY REQUIRED FIELDS
-  const submitToCagsys = async (phoneDigits: string) => {
-    const cagsysPayload = new URLSearchParams();
-    cagsysPayload.append("fname", form.firstName);
-    cagsysPayload.append("lname", form.lastName);
-    cagsysPayload.append("phone", phoneDigits);
-    cagsysPayload.append("state", state);
-    cagsysPayload.append("email", form.email);
-    cagsysPayload.append("IPAddress", ipAddress);
-    cagsysPayload.append("PortACath", form.portAcath === "Yes" ? "Yes" : "No");
+  // Submit to Cagsys API - with dynamic URL based on path
+ // Submit to Cagsys API - with dynamic URL and field name based on path
+const submitToCagsys = async (phoneDigits: string) => {
+  const cagsysPayload = new URLSearchParams();
+  cagsysPayload.append("fname", form.firstName);
+  cagsysPayload.append("lname", form.lastName);
+  cagsysPayload.append("phone", phoneDigits);
+  cagsysPayload.append("state", state);
+  cagsysPayload.append("email", form.email);
+  cagsysPayload.append("IPAddress", ipAddress);
+  
+  // Use dynamic field name for Cagsys based on URL
+  if (isRoblox) {
+    cagsysPayload.append("RobloxAbuse", form.questionResponse === "Yes" ? "Yes" : "No");
+  } else {
+    cagsysPayload.append("PortACath", form.questionResponse === "Yes" ? "Yes" : "No");
+  }
 
-    const response = await fetch(CAGSYS_API_URL, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-      },
-      body: cagsysPayload.toString(),
-    });
+  const response = await fetch(currentApiConfig.cagsysUrl, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+    },
+    body: cagsysPayload.toString(),
+  });
 
-    if (!response.ok) {
-      throw new Error(`Cagsys submission failed: ${response.status}`);
-    }
-    return response;
-  };
+  if (!response.ok) {
+    throw new Error(`Cagsys submission failed: ${response.status}`);
+  }
+  return response;
+};
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -486,24 +372,19 @@ export default function Form() {
       setErrors(prev => ({ ...prev, consent: "Please agree to the Privacy Policy" }));
       return;
     }
-    // CAPTCHA check removed - always pass
-    // if (!captchaVerified) {
-    //   setErrors(prev => ({ ...prev, captcha: "Please complete CAPTCHA verification" }));
-    //   return;
-    // }
     
     setIsSubmitting(true);
     
     try {
       const phoneDigits = normalizePhone(form.phone);
       
-      // Prepare payload for CRM
+      // Prepare payload for CRM with dynamic field name
       const crmPayload = {
         countryName: "USA",
         brandType: "Internal",
         brandName: "C2A",
         websiteName: "Connect 2 Attorney",
-        formname: "Bard PowerPort Lawsuit Form",
+        formname: getFormName(),
         vertical: getVerticalFromCurrentPath(),
         finalSubmit: true,
         data: {
@@ -513,7 +394,7 @@ export default function Form() {
           state: state,
           zip: form.zip,
           ipAddress: ipAddress,
-          PortACath: form.portAcath === "Yes" ? "Yes" : "No",
+          [getQuestionFieldName()]: form.questionResponse === "Yes" ? "Yes" : "No", // Dynamic field name
           submissionDate: new Date().toISOString(),
           trustedFormCertUrl: certId || "",
           trustedFormToken: tokenUrl || "",
@@ -559,10 +440,12 @@ export default function Form() {
       }
 
       // Send email via EmailJS (best effort)
-      try {
-        await sendWithEmailJS(crmPayload);
-      } catch (emailErr) {
-        console.warn("EmailJS failed (data still saved):", emailErr);
+      if (EMAILJS_ENABLED) {
+        try {
+          await sendWithEmailJS(crmPayload);
+        } catch (emailErr) {
+          console.warn("EmailJS failed (data still saved):", emailErr);
+        }
       }
 
       // Show success state
@@ -585,7 +468,7 @@ export default function Form() {
               <img src="/success_check.svg" alt="Submission successful" className="w-20 h-20 mb-3" />
               <h2 className="font-urbanist text-[#162766] font-medium text-lg sm:text-xl md:text-2xl leading-tight mb-2">Thank You!</h2>
               <p className="font-urbanist text-[#6E6E6E] font-medium text-[14px] leading-normal text-center max-w-[280px]">
-                We've received your request regarding the Bard PowerPort Lawsuit and will begin processing it shortly.
+                We've received your request and will begin processing it shortly.
               </p>
             </div>
           </div>
@@ -655,19 +538,19 @@ export default function Form() {
                 <div className="text-[12px] text-green-600 -mt-2">State: {state}</div>
               )}
 
-              {/* Port-a-Cath Question */}
+              {/* Dynamic Question based on URL */}
               <div className="mt-2">
                 <label className="block text-[#303030] font-medium text-[14px] mb-2">
-                  Have you or a loved one had a Port-a-Cath implanted for cancer treatment, chemotherapy or immunotherapy, that broke or caused an infection? You may be entitled to compensation. *
+                  {getQuestionText()} *
                 </label>
                 <div className="flex gap-4">
                   <label className="flex items-center gap-2 cursor-pointer">
                     <input
                       type="radio"
-                      name="portAcath"
+                      name="questionResponse"
                       value="Yes"
-                      checked={form.portAcath === "Yes"}
-                      onChange={(e) => handleInputChange("portAcath", e.target.value)}
+                      checked={form.questionResponse === "Yes"}
+                      onChange={(e) => handleInputChange("questionResponse", e.target.value)}
                       className="w-4 h-4 accent-[#FCCB48]"
                     />
                     <span className="text-[14px]">Yes</span>
@@ -675,16 +558,16 @@ export default function Form() {
                   <label className="flex items-center gap-2 cursor-pointer">
                     <input
                       type="radio"
-                      name="portAcath"
+                      name="questionResponse"
                       value="No"
-                      checked={form.portAcath === "No"}
-                      onChange={(e) => handleInputChange("portAcath", e.target.value)}
+                      checked={form.questionResponse === "No"}
+                      onChange={(e) => handleInputChange("questionResponse", e.target.value)}
                       className="w-4 h-4 accent-[#FCCB48]"
                     />
                     <span className="text-[14px]">No</span>
                   </label>
                 </div>
-                {errors.portAcath && <p className="text-red-500 text-[11px] mt-1">{errors.portAcath}</p>}
+                {errors.questionResponse && <p className="text-red-500 text-[11px] mt-1">{errors.questionResponse}</p>}
               </div>
 
               {/* Consent */}
@@ -719,8 +602,6 @@ export default function Form() {
                   </div>
                 </label>
                 {errors.consent && <p className="text-red-500 text-[11px]">{errors.consent}</p>}
-
-                {/* CAPTCHA Section - COMPLETELY REMOVED */}
               </div>
             </div>
           </div>
