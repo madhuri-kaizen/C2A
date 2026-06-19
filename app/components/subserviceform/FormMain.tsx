@@ -55,7 +55,6 @@ const CASES = [
 const SLUG_TO_CASE_MAP: Record<string, string> = {
   "ozempic-lawsuit": "Ozempic Lawsuit",
   "mesothelioma-lawsuit": "Mesothelioma Lawsuit",
-  "mesothelioma-lawsuit-kq": "Mesothelioma Lawsuit",
   "depo-provera-lawsuit": "Depo-Provera Lawsuit",
   "roundup-lawsuit": "Roundup Cancer Lawsuit",
   "roblox-addiction-lawsuit": "Roblox Addiction Lawsuit",
