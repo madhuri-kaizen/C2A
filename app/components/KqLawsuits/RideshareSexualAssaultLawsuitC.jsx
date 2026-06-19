@@ -133,7 +133,6 @@ const RideshareSexualAssaultLawsuitC = () => {
   const META_PIXEL_ID = "1657036335514037";//3008360769359573 //1679236040107644 input pixel id 
   
   // Refs for tracking
-  let initialLandingUrl = useRef(null);
   const adTrackingRef = useRef({
     gclid: null,
     gbraid: null,
@@ -198,10 +197,7 @@ const toggleFaq = (key) =>
 
   const getSourceUrl = () => {
     if (typeof window === "undefined") return "Unknown";
-    if (!initialLandingUrl.current) {
-      initialLandingUrl.current = window.location.href;
-    }
-    return initialLandingUrl.current;
+  return window.location.href;
   };
 
   const getIPAddress = async () => {

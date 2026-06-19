@@ -148,8 +148,6 @@ const MobileThankYou = () => {
 const DepoProveraLawsuitC = () => {
   // Meta Pixel ID
   const META_PIXEL_ID = "2677390219306317";
-
-  let initialLandingUrl = useRef(null);
   const adTrackingRef = useRef({
     gclid: null,
     gbraid: null,
@@ -215,10 +213,7 @@ const DepoProveraLawsuitC = () => {
 
   const getSourceUrl = () => {
     if (typeof window === "undefined") return "Unknown";
-    if (!initialLandingUrl.current) {
-      initialLandingUrl.current = window.location.href;
-    }
-    return initialLandingUrl.current;
+  return window.location.href;
   };
 
   const getIPAddress = async () => {

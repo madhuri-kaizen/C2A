@@ -85,6 +85,17 @@ const formatEmail = (input: string): string => {
   return cleaned;
 };
 
+const getPathUrl = () => {
+  if (typeof window === "undefined") return "";
+
+  try {
+    const url = new URL(window.location.href);
+    return `${url.origin}${url.pathname}`;
+  } catch {
+    return window.location.href;
+  }
+};
+
 const validateEmail = (input: string) => {
   if (!input) return { isValid: false, reason: "empty" };
   const email = String(input).trim().toLowerCase();
@@ -377,6 +388,7 @@ const submitToCagsys = async (phoneDigits: string) => {
     
     try {
       const phoneDigits = normalizePhone(form.phone);
+      const pathUrl = getPathUrl();
       
       // Prepare payload for CRM with dynamic field name
       const crmPayload = {
@@ -400,6 +412,8 @@ const submitToCagsys = async (phoneDigits: string) => {
           trustedFormToken: tokenUrl || "",
           trustedFormPingUrl: pingUrl || "",
           pageSource: window.location.href,
+          pathUrl,
+          path_url: pathUrl,
           uniqueSessionId: uniqueSessionId.current,
         }
       };

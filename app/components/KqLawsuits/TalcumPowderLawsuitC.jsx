@@ -132,7 +132,6 @@ const TalcumPowderLawsuitC = () => {
   const META_PIXEL_ID = "1945952946309172"; //938309692057838 input pixel id 
   
   // Refs for tracking
-  let initialLandingUrl = useRef(null);
   const adTrackingRef = useRef({
     gclid: null,
     gbraid: null,
@@ -199,10 +198,7 @@ const toggleFaq = (key) =>
 
   const getSourceUrl = () => {
     if (typeof window === "undefined") return "Unknown";
-    if (!initialLandingUrl.current) {
-      initialLandingUrl.current = window.location.href;
-    }
-    return initialLandingUrl.current;
+  return window.location.href;
   };
 
   const getIPAddress = async () => {

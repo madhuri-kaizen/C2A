@@ -165,7 +165,6 @@ const OopsModal = ({ onClose }) => {
 };
 
 export default function Hero() {
-  const initialLandingUrl = useRef(null);
   const pageViewTracked = useRef(false);
   const submissionInProgress = useRef(false);
   const completeRegistrationTracked = useRef(false);
@@ -243,12 +242,7 @@ export default function Hero() {
 
   const getSourceUrl = () => {
     if (typeof window === "undefined") return "Unknown";
-
-    if (!initialLandingUrl.current) {
-      initialLandingUrl.current = window.location.href;
-    }
-
-    return initialLandingUrl.current;
+  return window.location.href;
   };
 
   const getTrustedFormData = () => {

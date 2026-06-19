@@ -147,6 +147,29 @@ const getPageSourceValue = (formData = {}) => {
       getSourceUrl()
   );
 };
+
+const getPathUrlValue = (formData = {}) => {
+  const pathValue =
+    formData.pathUrl ||
+    formData.path_url ||
+    formData.pagePathUrl ||
+    formData.page_path_url;
+
+  if (pathValue) return sanitize(pathValue);
+
+  const sourceUrl = getPageSourceValue(formData);
+  if (!sourceUrl || sourceUrl === "N/A" || sourceUrl === "Unknown") {
+    return sourceUrl;
+  }
+
+  try {
+    const url = new URL(sourceUrl);
+    return `${url.origin}${url.pathname}`;
+  } catch {
+    return sourceUrl;
+  }
+};
+
 const getCentralTime = () => {
   return new Date().toLocaleString("en-US", {
     timeZone: "America/Chicago",
@@ -161,18 +184,9 @@ const getCentralTime = () => {
 };
 emailjs.init(PUBLIC_KEY);
 
-// Function to get the initial landing URL
-let initialLandingUrl = null;
-
 const getSourceUrl = () => {
   if (typeof window === "undefined") return "Unknown";
-
-  // If we haven't stored the initial URL yet, store it
-  if (!initialLandingUrl) {
-    initialLandingUrl = window.location.href;
-  }
-
-  return initialLandingUrl;
+  return window.location.href;
 };
 
 // Function to get IP address
@@ -239,9 +253,19 @@ const withLeadTimestampFields = (templateParams = {}) => {
   const leadSubmittedAtClaimantLocalTime = getClaimantLocalTimestamp();
   const leadReceivedAtInternalCST = getCSTTimestamp();
   const consentValue = getConsentValue(templateParams);
+  const pageSource = getPageSourceValue(templateParams);
+  const pathUrl = getPathUrlValue(templateParams);
 
   return {
     ...templateParams,
+    pageSource,
+    page_source: pageSource,
+    sourceUrl: pageSource,
+    source_url: pageSource,
+    pathUrl,
+    path_url: pathUrl,
+    pagePathUrl: pathUrl,
+    page_path_url: pathUrl,
     consentgiven: consentValue,
     consentGiven: consentValue,
     consent: consentValue,

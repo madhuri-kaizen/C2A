@@ -8,6 +8,32 @@ export const USER_TEMPLATE_ID = "template_iiks8gi";
 
 emailjs.init(PUBLIC_KEY);
 
+type EmailJsLeadData = {
+  name?: string;
+  email?: string;
+  phone?: string;
+  zip?: string;
+  caseType?: string;
+  description?: string;
+  ipAddress?: string;
+  pageSource?: string;
+  path_url?: string;
+  pathUrl?: string;
+  pagePathUrl?: string;
+  submissionDate?: string;
+  trustedFormCertUrl?: string;
+  trustedFormPingUrl?: string;
+  trustedFormToken?: string;
+};
+
+type EmailJsApiBody = {
+  countryName?: string;
+  brandName?: string;
+  websiteName?: string;
+  formname?: string;
+  data: EmailJsLeadData;
+};
+
 // Formats a date as "25-Apr-2026, 11:00 PM (EST)" in the claimant's local timezone
 const formatClaimantLocal = (dateInput: Date | string | undefined): string => {
   const date = dateInput ? new Date(dateInput) : new Date();
@@ -44,9 +70,32 @@ const formatCST = (date: Date): string => {
   return `${get('day')}-${get('month')}-${get('year')}, ${get('hour')}:${get('minute')} ${get('dayPeriod')} (CST)`;
 };
 
-export const sendWithEmailJS = async (apiBody: any) => {
+const getCurrentBrowserUrl = () => {
+  if (typeof window === 'undefined') return '';
+  return window.location.href;
+};
+
+const getPathUrl = (urlValue?: string) => {
+  const sourceUrl = urlValue || getCurrentBrowserUrl();
+  if (!sourceUrl) return '';
+
+  try {
+    const url = new URL(sourceUrl);
+    return `${url.origin}${url.pathname}`;
+  } catch {
+    return sourceUrl;
+  }
+};
+
+export const sendWithEmailJS = async (apiBody: EmailJsApiBody) => {
   const data = apiBody.data;
   const currentYear = new Date().getFullYear();
+  const sourceUrl = data.pageSource || getCurrentBrowserUrl();
+  const pathUrl =
+    data.pathUrl ||
+    data.path_url ||
+    data.pagePathUrl ||
+    getPathUrl(sourceUrl);
 
   // ============================
   // ADMIN EMAIL (FULL DATA)
@@ -60,7 +109,10 @@ export const sendWithEmailJS = async (apiBody: any) => {
     description: data.description,
 
     ip_address: data.ipAddress,
-    source_url: data.pageSource,
+    source_url: sourceUrl,
+    path_url: pathUrl,
+    pathUrl,
+    page_path_url: pathUrl,
     submission_date: formatClaimantLocal(data.submissionDate),
     submission_date_cst: formatCST(new Date()),
 
@@ -86,6 +138,10 @@ export const sendWithEmailJS = async (apiBody: any) => {
     zip: data.zip,
     case_type: data.caseType,
     description: data.description,
+    source_url: sourceUrl,
+    path_url: pathUrl,
+    pathUrl,
+    page_path_url: pathUrl,
     submission_date: formatClaimantLocal(data.submissionDate),
         year: currentYear,
 

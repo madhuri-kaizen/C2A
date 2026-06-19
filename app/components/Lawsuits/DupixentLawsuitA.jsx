@@ -145,7 +145,6 @@ const DupixentLawsuitA = () => {
 
     const [uniqueSessionId] = useState(generateSessionId);
     // Refs for tracking
-    let initialLandingUrl = useRef(null);
     const adTrackingRef = useRef({
         gclid: null,
         gbraid: null,
@@ -190,10 +189,7 @@ const DupixentLawsuitA = () => {
 
     const getSourceUrl = () => {
         if (typeof window === "undefined") return "Unknown";
-        if (!initialLandingUrl.current) {
-            initialLandingUrl.current = window.location.href;
-        }
-        return initialLandingUrl.current;
+  return window.location.href;
     };
 
     const getIPAddress = async () => {

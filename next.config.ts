@@ -168,6 +168,15 @@ const nextConfig: NextConfig = {
 
     ];
   },
+
+  async rewrites() {
+    return [
+      {
+        source: "/mesothelioma-lawsuit-kq",
+        destination: "/mass-tort/mesothelioma-lawsuit-kq",
+      },
+    ];
+  },
 };
 
 export default nextConfig;

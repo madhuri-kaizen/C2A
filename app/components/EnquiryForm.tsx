@@ -258,19 +258,11 @@ const CustomCaptcha: React.FC<CustomCaptchaProps> = ({
     </div>
   );
 };
-
-// Function to get the initial landing URL
-let initialLandingUrl: string | null = null;
-
 const getSourceUrl = () => {
   if (typeof window === "undefined") return "Unknown";
 
   // If we haven't stored the initial URL yet, store it
-  if (!initialLandingUrl) {
-    initialLandingUrl = window.location.href;
-  }
-
-  return initialLandingUrl;
+  return window.location.href;
 };
 
 // Function to get IP address

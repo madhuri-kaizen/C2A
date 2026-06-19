@@ -129,7 +129,6 @@ const OzempicLawsuit = () => {
   const META_PIXEL_ID = "1218027373653622"; //last one : 1409965080153428
   
   // Refs for tracking
-  let initialLandingUrl = useRef(null);
   const adTrackingRef = useRef({
     gclid: null,
     gbraid: null,
@@ -189,10 +188,7 @@ const OzempicLawsuit = () => {
 
   const getSourceUrl = () => {
     if (typeof window === "undefined") return "Unknown";
-    if (!initialLandingUrl.current) {
-      initialLandingUrl.current = window.location.href;
-    }
-    return initialLandingUrl.current;
+  return window.location.href;
   };
 
   const getIPAddress = async () => {

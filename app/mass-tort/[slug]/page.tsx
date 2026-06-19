@@ -13,6 +13,7 @@ type MassTortSlug = (typeof VALID_SLUGS)[number];
 export const VALID_SLUGS = [
   "ozempic-lawsuit",
   "mesothelioma-lawsuit",
+  "mesothelioma-lawsuit-kq",
   "depo-provera-lawsuit",
   "roundup-lawsuit",
   "talcum-powder-lawsuit",
@@ -54,6 +55,8 @@ export async function generateMetadata({
   const { slug } = await params; //  REQUIRED
 
   const titleMap: Record<string, string> = {
+    "mesothelioma-lawsuit-kq":
+      "Mesothelioma Lawsuit: Asbestos Exposure Claims & Compensation Guide",
     "ozempic-lawsuit": "Ozempic Lawsuit – Side Effects, Claims & Legal Help",
     "mesothelioma-lawsuit":
       "Mesothelioma Lawsuit – Asbestos Exposure & Compensation",
@@ -121,8 +124,18 @@ export async function generateMetadata({
 
   return {
     title: titleMap[slug],
+    robots:
+      slug === "mesothelioma-lawsuit-kq"
+        ? {
+            index: false,
+            follow: false,
+          }
+        : undefined,
     alternates: {
-      canonical: `https://connect2attorney.com/mass-tort/${slug}`,
+      canonical:
+        slug === "mesothelioma-lawsuit-kq"
+          ? "https://connect2attorney.com/mesothelioma-lawsuit-kq"
+          : `https://connect2attorney.com/mass-tort/${slug}`,
     },
   };
 }

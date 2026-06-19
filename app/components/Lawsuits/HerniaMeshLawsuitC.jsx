@@ -134,7 +134,6 @@ const HerniaMeshLawsuitC = () => {
   const META_PIXEL_ID = "876938471705266"; //1258482306235882 input pixel id 
   
   // Refs for tracking
-  let initialLandingUrl = useRef(null);
   const adTrackingRef = useRef({
     gclid: null,
     gbraid: null,
@@ -200,10 +199,7 @@ const toggleFaq = (key) =>
 
   const getSourceUrl = () => {
     if (typeof window === "undefined") return "Unknown";
-    if (!initialLandingUrl.current) {
-      initialLandingUrl.current = window.location.href;
-    }
-    return initialLandingUrl.current;
+  return window.location.href;
   };
 
   const getIPAddress = async () => {

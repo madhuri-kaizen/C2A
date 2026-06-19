@@ -125,7 +125,6 @@ const DepoProveraLawsuitD = () => {
   const META_PIXEL_ID = "939384558797518"; //1409965080153428 input pixel id 
   
   // Refs for tracking
-  let initialLandingUrl = useRef(null);
   const adTrackingRef = useRef({
     gclid: null,
     gbraid: null,
@@ -181,10 +180,7 @@ const DepoProveraLawsuitD = () => {
 
   const getSourceUrl = () => {
     if (typeof window === "undefined") return "Unknown";
-    if (!initialLandingUrl.current) {
-      initialLandingUrl.current = window.location.href;
-    }
-    return initialLandingUrl.current;
+  return window.location.href;
   };
 
   const getIPAddress = async () => {

@@ -17,17 +17,20 @@ const sanitize = (value) => {
 
 emailjs.init(PUBLIC_KEY);
 
-let initialLandingUrl = null;
-
 const getSourceUrl = () => {
   if (typeof window === "undefined") return "Unknown";
- 
-  // If we haven't stored the initial URL yet, store it
-  if (!initialLandingUrl) {
-    initialLandingUrl = window.location.href;
+  return window.location.href;
+};
+
+const getPathUrl = (urlValue = getSourceUrl()) => {
+  if (!urlValue || urlValue === "Unknown") return urlValue || "Unknown";
+
+  try {
+    const url = new URL(urlValue);
+    return `${url.origin}${url.pathname}`;
+  } catch {
+    return urlValue;
   }
- 
-  return initialLandingUrl;
 };
 
 const getIPAddress = async () => {
@@ -60,6 +63,7 @@ export const sendFormAdmin = async (formData) => {
   try {
     const ipAddress = await getIPAddress();
     const sourceUrl = getSourceUrl();
+    const pathUrl = getPathUrl(sourceUrl);
     const timestamp = getTimestamp();
 
     const templateParams = {
@@ -75,6 +79,10 @@ export const sendFormAdmin = async (formData) => {
       submission_date: timestamp,
       ip_address: ipAddress,
       page_source: sourceUrl,
+      source_url: sourceUrl,
+      pathUrl,
+      path_url: pathUrl,
+      page_path_url: pathUrl,
       
       // TrustedForm certification data
       trusted_form_cert_url: sanitize(formData.certId),
@@ -94,6 +102,8 @@ export const sendFormUser = async (formData) => {
   try {
     const timestamp = getTimestamp();
     const currentYear = new Date().getFullYear();
+    const sourceUrl = getSourceUrl();
+    const pathUrl = getPathUrl(sourceUrl);
 
     const templateParams = {
       // Basic user information - matching user template variables
@@ -102,6 +112,11 @@ export const sendFormUser = async (formData) => {
       phone: sanitize(formData.phone),
       concern: sanitize(formData.category),
       submission_date: timestamp,
+      page_source: sourceUrl,
+      source_url: sourceUrl,
+      pathUrl,
+      path_url: pathUrl,
+      page_path_url: pathUrl,
       state: sanitize(formData.state),
       case_details: sanitize(formData.caseHistory),
       year: currentYear

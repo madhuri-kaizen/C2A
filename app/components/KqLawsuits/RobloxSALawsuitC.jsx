@@ -132,7 +132,6 @@ const RobloxSALawsuitC = () => {
   const META_PIXEL_ID = ""; //800190089764645 input pixel id 
   
   // Refs for tracking
-  let initialLandingUrl = useRef(null);
   const adTrackingRef = useRef({
     gclid: null,
     gbraid: null,
@@ -197,10 +196,7 @@ const toggleFaq = (key) =>
 
   const getSourceUrl = () => {
     if (typeof window === "undefined") return "Unknown";
-    if (!initialLandingUrl.current) {
-      initialLandingUrl.current = window.location.href;
-    }
-    return initialLandingUrl.current;
+  return window.location.href;
   };
 
   const getIPAddress = async () => {

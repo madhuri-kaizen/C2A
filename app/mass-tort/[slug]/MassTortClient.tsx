@@ -10,6 +10,7 @@ import SupportCard from "@/app/components/subservice_pages/SupportCard";
 
 import OzempicLawsuitsLegalPage from "@/app/components/SubserviceLawsuitsLegalPages/OzempicLawsuitsLegalPage";
 import MesoLawsuitsLegalPage from "@/app/components/SubserviceLawsuitsLegalPages/MesoLawsuitsLegalPage";
+import MesoLawsuitsLegalPageKq from "@/app/components/SubserviceLawsuitsLegalPages/MesoLawsuitsLegalPageKq";
 import DepoLawsuitsLegalPage from "@/app/components/SubserviceLawsuitsLegalPages/DepoLawsuitsLegalPage";
 import RoundupLawsuitsLegalPage from "@/app/components/SubserviceLawsuitsLegalPages/RoundupLawsuitsLegalPage";
 import TalcumLawsuitsLegalPage from "@/app/components/SubserviceLawsuitsLegalPages/TalcumLawsuitsLegalPage";
@@ -63,6 +64,7 @@ import { pfasTimelineData } from "@/app/components/timelines/pfasTimelineData";
 type MassTortSlug =
   | "ozempic-lawsuit"
   | "mesothelioma-lawsuit"
+  | "mesothelioma-lawsuit-kq"
   | "depo-provera-lawsuit"
   | "roundup-lawsuit"
   | "talcum-powder-lawsuit"
@@ -93,6 +95,9 @@ const HERO_TITLES: Record<MassTortSlug, string> = {
     "Ozempic Lawsuit: Side Effects, Updates & How to File a Claim",
 
   "mesothelioma-lawsuit":
+    "Mesothelioma Lawsuit: Asbestos Exposure Claims & Compensation Guide",
+
+  "mesothelioma-lawsuit-kq":
     "Mesothelioma Lawsuit: Asbestos Exposure Claims & Compensation Guide",
 
   "depo-provera-lawsuit":
@@ -198,6 +203,39 @@ const FAQ_BY_SLUG: Record<
   ],
 
   "mesothelioma-lawsuit": [
+    {
+      question: "Can you file a wrongful death mesothelioma lawsuit?",
+      answer:
+        "Yes. If a loved one passed away from mesothelioma, family members may file a claim for funeral costs, lost support, and other damages.",
+    },
+    {
+      question: "How long does it take to settle a mesothelioma lawsuit?",
+      answer:
+        "Most cases settle within 6 to 18 months, but timelines vary based on the case and court schedule.",
+    },
+    {
+      question: "How do you prove mesothelioma in a lawsuit?",
+      answer:
+        "You need medical records, a confirmed diagnosis, and evidence of asbestos exposure linked to a job, product, or location.",
+    },
+    {
+      question: "How should I file a mesothelioma claim?",
+      answer:
+        "Start by contacting an experienced attorney. They will guide you through eligibility, paperwork, and the legal process.",
+    },
+    {
+      question: "Who can be held responsible for asbestos exposure?",
+      answer:
+        "Companies that made or used asbestos products, employers, or property owners may be legally responsible.",
+    },
+    {
+      question: "Can you still file a claim if exposure happened decades ago?",
+      answer:
+        "Yes. Mesothelioma often appears years later, and most states allow claims if they are filed within the legal time limit after diagnosis.",
+    },
+  ],
+
+  "mesothelioma-lawsuit-kq": [
     {
       question: "Can you file a wrongful death mesothelioma lawsuit?",
       answer:
@@ -911,6 +949,10 @@ export default function MassTortClient({ slug }: { slug: MassTortSlug }) {
       title: "Ozempic Lawsuit Timeline",
       data: ozempicTimelineData,
     },
+    "mesothelioma-lawsuit-kq": {
+      title: "Mesothelioma Lawsuit Timeline",
+      data: mesotheliomaTimelineData,
+    },
     "depo-provera-lawsuit": {
       title: "Depo Provera Lawsuit Timeline",
       data: depoTimelineData,
@@ -1021,6 +1063,7 @@ export default function MassTortClient({ slug }: { slug: MassTortSlug }) {
   const HERO_IMAGE_BY_SLUG: Record<MassTortSlug, string> = {
     "ozempic-lawsuit": "/ozempic_bg_dark_new.png",
     "mesothelioma-lawsuit": "/meso_bg_dark.png",
+    "mesothelioma-lawsuit-kq": "/meso_bg_dark.png",
     "depo-provera-lawsuit": "/depo_bg_dark.png",
     "roundup-lawsuit": "/roundup_bg_dark.png",
     "talcum-powder-lawsuit": "/talc_bg_dark.png",
@@ -1049,6 +1092,7 @@ export default function MassTortClient({ slug }: { slug: MassTortSlug }) {
   const LEGAL_PAGE_BY_SLUG: Record<MassTortSlug, ReactNode> = {
     "ozempic-lawsuit": <OzempicLawsuitsLegalPage />,
     "mesothelioma-lawsuit": <MesoLawsuitsLegalPage />,
+    "mesothelioma-lawsuit-kq": <MesoLawsuitsLegalPageKq />,
     "depo-provera-lawsuit": <DepoLawsuitsLegalPage />,
     "roundup-lawsuit": <RoundupLawsuitsLegalPage />,
     "talcum-powder-lawsuit": <TalcumLawsuitsLegalPage />,
@@ -1088,6 +1132,12 @@ export default function MassTortClient({ slug }: { slug: MassTortSlug }) {
     },
 
     "mesothelioma-lawsuit": {
+      title: "Get Legal Support from Connect2Attorney",
+      description:
+        "You don’t have to face a mesothelioma challenge. If asbestos exposure caused your illness, Connect2Attorney can help you:",
+    },
+
+    "mesothelioma-lawsuit-kq": {
       title: "Get Legal Support from Connect2Attorney",
       description:
         "You don’t have to face a mesothelioma challenge. If asbestos exposure caused your illness, Connect2Attorney can help you:",

@@ -55,6 +55,7 @@ const CASES = [
 const SLUG_TO_CASE_MAP: Record<string, string> = {
   "ozempic-lawsuit": "Ozempic Lawsuit",
   "mesothelioma-lawsuit": "Mesothelioma Lawsuit",
+  "mesothelioma-lawsuit-kq": "Mesothelioma Lawsuit",
   "depo-provera-lawsuit": "Depo-Provera Lawsuit",
   "roundup-lawsuit": "Roundup Cancer Lawsuit",
   "roblox-addiction-lawsuit": "Roblox Addiction Lawsuit",
@@ -89,16 +90,20 @@ const SLUG_TO_CASE_MAP: Record<string, string> = {
 
 /* ---------------- Utils ---------------- */
 
-let initialLandingUrl: string | null = null;
-
 const getSourceUrl = () => {
   if (typeof window === "undefined") return "";
+  return window.location.href;
+};
 
-  if (!initialLandingUrl) {
-    initialLandingUrl = window.location.href;
+const getPathUrl = () => {
+  if (typeof window === "undefined") return "";
+
+  try {
+    const url = new URL(window.location.href);
+    return `${url.origin}${url.pathname}`;
+  } catch {
+    return window.location.href;
   }
-
-  return initialLandingUrl;
 };
 
 const getIPAddress = async () => {
@@ -922,6 +927,9 @@ export default function Form() {
       earlyLeadLock.current = true;
 
       try {
+        const sourceUrl = getSourceUrl();
+        const pathUrl = getPathUrl();
+
         const updateBody = {
           countryName: "USA",
           brandType: "Internal",
@@ -939,7 +947,9 @@ export default function Form() {
             trustedFormCertUrl: certId || "",
             trustedFormToken: tokenUrl || "",
             trustedFormPingUrl: pingUrl || "",
-            pageSource: window.location.href,
+            pageSource: sourceUrl,
+            pathUrl,
+            path_url: pathUrl,
           },
         };
 
@@ -1121,6 +1131,8 @@ export default function Form() {
 
   const createEarlyLead = async (fullName: string, phoneDigits: string) => {
     const cleaned = phoneDigits.replace(/\D/g, "");
+    const sourceUrl = getSourceUrl();
+    const pathUrl = getPathUrl();
 
     const earlyBody = {
       countryName: "USA",
@@ -1138,7 +1150,9 @@ export default function Form() {
         trustedFormCertUrl: certId || "",
         trustedFormToken: tokenUrl || "",
         trustedFormPingUrl: pingUrl || "",
-        pageSource: window.location.href,
+        pageSource: sourceUrl,
+        pathUrl,
+        path_url: pathUrl,
       },
     };
 
@@ -1168,6 +1182,9 @@ export default function Form() {
     setIsSubmitting(true);
 
     try {
+      const sourceUrl = getSourceUrl();
+      const pathUrl = getPathUrl();
+
       const apiBody = {
         countryName: "USA",
         brandType: "Internal",
@@ -1188,7 +1205,9 @@ export default function Form() {
           trustedFormCertUrl: certId || "",
           trustedFormToken: tokenUrl || "",
           trustedFormPingUrl: pingUrl || "",
-          pageSource: window.location.href,
+          pageSource: sourceUrl,
+          pathUrl,
+          path_url: pathUrl,
         },
       };
 
