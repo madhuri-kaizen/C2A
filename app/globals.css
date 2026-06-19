@@ -169,3 +169,31 @@ body {
 .modern-scroll::-webkit-scrollbar-thumb:hover {
   background-color: rgba(22, 39, 102, 0.6);
 }
+
+/* Campaign landers keep their own header but hide the global site navbar. */
+body:has(.lander-page) > .site-navbar {
+  display: none !important;
+}
+
+/* Keep header branding consistent across normal and KQ A/B/C/D/E landers. */
+.lettered-lander header img[alt*="Connect to Attorney"] {
+  width: 260px !important;
+  height: 36px !important;
+  object-fit: contain;
+}
+
+.lettered-lander header a {
+  font-size: 18px !important;
+}
+
+.lettered-lander header > div > div > span:first-child {
+  font-size: 14px !important;
+}
+
+.lettered-lander header > div > div > span:first-child span {
+  font-size: 17px !important;
+}
+
+.lettered-lander header > div > div > span:last-child {
+  font-size: 22px !important;
+}

@@ -163,7 +163,9 @@ export default function RootLayout({
             `,
           }}
         />
-        <Navbar />
+        <div className="site-navbar">
+          <Navbar />
+        </div>
         <EnquiryButton />
 
         {children}

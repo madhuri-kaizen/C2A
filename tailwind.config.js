@@ -4,10 +4,11 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
   theme: {
     extend: {
       screens: {
-        xl15: "1408px", //  1.5xl breakpoint (between xl and 2xl)
+        xl15: "1408px",
       },
 
       colors: {
@@ -15,12 +16,16 @@ module.exports = {
           100: "#f2c438",
           200: "#f2c338",
         },
+
         white: "#fff",
+
         darkslateblue: "#162766",
+
         gray: {
           100: "#808080",
           200: "rgba(255, 255, 255, 0.3)",
         },
+
         lavender: "#dde6ff",
         gainsboro: "#dee1e8",
         lightslategray: "#858eae",
@@ -28,6 +33,9 @@ module.exports = {
       },
 
       spacing: {
+        /* GLOBAL FIX */
+        "120": "120px",
+
         "num-91": "91px",
         "num-86": "86px",
         "num-643": "643px",
@@ -39,10 +47,26 @@ module.exports = {
         "noto-serif": "Noto Serif",
         urbanist: "Urbanist",
         "font-awesome-5-free": "Font Awesome 5 Free",
+
         inter: ["var(--font-inter)", "Inter", "sans-serif"],
-        merriweather: ["var(--font-merriweather)", "Merriweather", "serif"],
-        poppins: ["var(--font-poppins)", "Poppins", "sans-serif"],
-        playfair: ["var(--font-playfair)", "Playfair Display", "serif"],
+
+        merriweather: [
+          "var(--font-merriweather)",
+          "Merriweather",
+          "serif",
+        ],
+
+        poppins: [
+          "var(--font-poppins)",
+          "Poppins",
+          "sans-serif",
+        ],
+
+        playfair: [
+          "var(--font-playfair)",
+          "Playfair Display",
+          "serif",
+        ],
       },
 
       borderRadius: {
@@ -67,11 +91,17 @@ module.exports = {
 
       keyframes: {
         marquee: {
-          "0%": { transform: "translateX(0%)" },
-          "100%": { transform: "translateX(-50%)" },
+          "0%": {
+            transform: "translateX(0%)",
+          },
+
+          "100%": {
+            transform: "translateX(-50%)",
+          },
         },
       },
     },
   },
+
   plugins: [],
 };
