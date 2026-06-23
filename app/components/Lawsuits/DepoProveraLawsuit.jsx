@@ -30,7 +30,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={logo} alt="Connect to Attorney" className="h-9" />
+        <img src={logo} alt="Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -342,7 +342,7 @@ const DepoProveraLawsuit = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formPath: "/depo-provera-lawsuit-a",
         vertical: LEAD_GENERATION_VERTICALS.DEPO_PROVERA,
         formname: "Depo-Provera Lawsuit Lander A",
@@ -433,7 +433,7 @@ const DepoProveraLawsuit = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formname: "Depo-Provera Lawsuit Lander A",
         isPartialSubmission: true,
         vertical: LEAD_GENERATION_VERTICALS.DEPO_PROVERA,
@@ -552,7 +552,7 @@ const DepoProveraLawsuit = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formname: "Depo-Provera Lawsuit Lander A",
         vertical: LEAD_GENERATION_VERTICALS.DEPO_PROVERA,
         finalSubmit: true,
@@ -613,7 +613,7 @@ const DepoProveraLawsuit = () => {
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: 'Connect to Attorney',
+  //         websiteName: 'Connect2Attorney',
   //         vertical: 'Depo-Provera & Brain Tumor Lawsuit',
   //         formPath: '/depo-provera-lawsuit-a',
   //         formname: 'Depo-Provera Lawsuit lander',
@@ -657,7 +657,7 @@ const DepoProveraLawsuit = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         vertical: LEAD_GENERATION_VERTICALS.DEPO_PROVERA,
         formname: "Depo-Provera Lawsuit Lander Form A",
         formPath: "/depo-provera-lawsuit-a",
@@ -1117,7 +1117,7 @@ const DepoProveraLawsuit = () => {
           <div className=" mx-auto px-20 py-4 flex items-center justify-between">
             <img
               src={logo}
-              alt="Connect to Attorney"
+              alt="Connect2Attorney"
               className="w-[215.833px] h-[25px] object-contain"
             />
 
@@ -1131,7 +1131,7 @@ const DepoProveraLawsuit = () => {
 
               <span className="text-[#9AA4BF] text-lg">|</span>
 
-              <span className="text-lg font-bold"> (866) 376 0014</span>
+              <span className="text-lg font-bold"> (888) 202 1350</span>
             </div>
           </div>
         </header>
@@ -1172,7 +1172,7 @@ py-20
 
       "
                 >
-                  Depo-Provera Lawsuit: Check Your Eligibility With  Connect to Attorney
+                  Depo-Provera Lawsuit: Check Your Eligibility With  Connect2Attorney
                 </h1>
 
                 <p
@@ -1186,7 +1186,7 @@ py-20
 
 "
                 >
-                  At  Connect to Attorney, we help you quickly find out whether you meet
+                  At  Connect2Attorney, we help you quickly find out whether you meet
                   the criteria for a Depo-Provera lawsuit and connect you
                   confidentially and at no cost with experienced attorneys who
                   can review your case.
@@ -1657,7 +1657,7 @@ bg-[#F8D216]
 "
             >
               What Happens When You Contact <br />
-               Connect to Attorney?
+               Connect2Attorney?
             </h2>
 
             <div className="w-[48px] h-[3px] bg-[#F8D216] mx-auto mt-3 mb-6 rounded-full" />
@@ -1673,7 +1673,7 @@ bg-[#F8D216]
     mx-auto
 "
             >
-              When you reach out to  Connect to Attorney for a Depo-Provera <br />{" "}
+              When you reach out to  Connect2Attorney for a Depo-Provera <br />{" "}
               lawsuit review, the process is simple and fast:
             </p>
 
@@ -1846,15 +1846,15 @@ bg-[#F8D216]
               >
                 {[
                   {
-                    text: "I didn't realize Depo-Provera use could cause a brain tumor.  Connect to Attorney explained my legal options clearly and connected me with the right attorney, informed, confident, and supported.",
+                    text: "I didn't realize Depo-Provera use could cause a brain tumor.  Connect2Attorney explained my legal options clearly and connected me with the right attorney, informed, confident, and supported.",
                     name: "Emily R.",
                   },
                   {
-                    text: "After my Depo-Provera diagnosis,  Connect to Attorney guided me through eligibility and connected me with a supportive attorney. The process was simple and reassuring during a very difficult time.",
+                    text: "After my Depo-Provera diagnosis,  Connect2Attorney guided me through eligibility and connected me with a supportive attorney. The process was simple and reassuring during a very difficult time.",
                     name: "Sarah M.",
                   },
                   {
-                    text: "Diagnosed with meningioma after Depo-Provera use, I contacted  Connect to Attorney. They quickly lined up my options and connected me with an attorney and guided me toward justice and compensation.",
+                    text: "Diagnosed with meningioma after Depo-Provera use, I contacted  Connect2Attorney. They quickly lined up my options and connected me with an attorney and guided me toward justice and compensation.",
                     name: "Nicole D.",
                   },
                 ].map((item, idx) => (
@@ -1930,7 +1930,7 @@ bg-[#F8D216]
 
     "
               >
-                Why Trust  Connect to Attorney?
+                Why Trust  Connect2Attorney?
               </h2>
 
               <div className="w-[44px] h-[3px] bg-[#F4C430] mt-4 mb-6 mx-auto" />
@@ -1951,7 +1951,7 @@ bg-[#F8D216]
     mb-3
   "
               >
-                 Connect to Attorney focuses on helping people affected by dangerous or
+                 Connect2Attorney focuses on helping people affected by dangerous or
                 harmful products connect with legal professionals who understand
                 complex litigation like the Depo-Provera lawsuit.
               </p>
@@ -2088,7 +2088,7 @@ bg-[#F8D216]
         <div className="flex items-center justify-between px-4 py-3 bg-white">
           <img
             src={logo}
-            alt="Connect to Attorney"
+            alt="Connect2Attorney"
             className="w-[215.833px] h-[25px] object-contain"
           />
 
@@ -2117,7 +2117,7 @@ bg-[#F8D216]
                   z-50
                 "
               >
-                (866) 376 0014
+                (888) 202 1350
               </div>
             )}
           </div>
@@ -2137,7 +2137,7 @@ bg-[#F8D216]
             <br />
             Check Your Eligibility
             <br />
-            With  Connect to Attorney
+            With  Connect2Attorney
           </h1>
 
           <p
@@ -2149,7 +2149,7 @@ bg-[#F8D216]
     mb-6
 "
           >
-            At  Connect to Attorney, we help you quickly find out whether you meet the
+            At  Connect2Attorney, we help you quickly find out whether you meet the
             key criteria for a Depo-Provera lawsuit & connect you with
             experienced attorneys who can review your case, confidentially and
             at no cost.
@@ -2553,7 +2553,7 @@ bg-[#F8D216]
     leading-[32px]
   "
           >
-            What Happens <br /> When You Contact  Connect to Attorney?
+            What Happens <br /> When You Contact  Connect2Attorney?
           </h2>
 
           <div className="w-[40px] h-[3px] bg-[#F8D216] mx-auto mt-3 mb-4" />
@@ -2572,7 +2572,7 @@ bg-[#F8D216]
   "
           >
             {" "}
-            When you reach out to  Connect to Attorney for a Depo-Provera lawsuit
+            When you reach out to  Connect2Attorney for a Depo-Provera lawsuit
             review, the process is simple and fast:
           </p>
 
@@ -2775,7 +2775,7 @@ bg-[#F8D216]
   "
             >
               "I didn't know my Depo-Provera use could cause a brain tumor.
-               Connect to Attorney explained claims clearly and connected me with the
+               Connect2Attorney explained claims clearly and connected me with the
               right attorney. I felt informed, confident, and supported."
             </p>
 
@@ -2827,7 +2827,7 @@ bg-[#F8D216]
     mb-5
   "
             >
-              "After my Depo-Provera diagnosis,  Connect to Attorney guided me through
+              "After my Depo-Provera diagnosis,  Connect2Attorney guided me through
               eligibility and connected me with a supportive attorney. The
               process was simple, respectful, and reassuring during a very
               difficult time."
@@ -2881,7 +2881,7 @@ bg-[#F8D216]
   "
             >
               "Diagnosed with meningioma after Depo-SubQ Provera, I turned to
-               Connect to Attorney. They quickly linked me to an experienced attorney
+               Connect2Attorney. They quickly linked me to an experienced attorney
               and guided me toward justice and potential financial recovery."
             </p>
 
@@ -2929,7 +2929,7 @@ bg-[#F8D216]
 "
           >
             Why Trust <br />
-             Connect to Attorney?
+             Connect2Attorney?
           </h2>
 
           <div className="w-[32px] h-[2px] bg-[#F8D216] mx-auto mb-5" />
@@ -2954,7 +2954,7 @@ bg-[#F8D216]
   "
           >
             {" "}
-             Connect to Attorney focuses on helping people affected by dangerous or
+             Connect2Attorney focuses on helping people affected by dangerous or
             harmful products connect with legal professionals who understand
             complex litigation like the Depo-Provera lawsuit.
           </p>

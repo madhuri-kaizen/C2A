@@ -43,7 +43,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={tylogo} alt="  Connect to Attorney" className="h-9" />
+        <img src={tylogo} alt="  Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -336,7 +336,7 @@ const createEarlyLead = async ({ fullName, phone, email = "" }) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "  Connect to Attorney",
+      websiteName: "  Connect2Attorney",
       formPath: "/talcum-powder-lawsuit-c",
       vertical: LEAD_GENERATION_VERTICALS.TALCUM,
       formname: "Talcum Powder Lawsuit Lander C",
@@ -432,7 +432,7 @@ const createEarlyLead = async ({ fullName, phone, email = "" }) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "  Connect to Attorney",
+      websiteName: "  Connect2Attorney",
       formname: "Talcum Powder Lawsuit Lander C",
       isPartialSubmission: true,
       vertical: LEAD_GENERATION_VERTICALS.TALCUM,
@@ -560,7 +560,7 @@ const createEarlyLead = async ({ fullName, phone, email = "" }) => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "  Connect to Attorney",
+        websiteName: "  Connect2Attorney",
 formname: "Talcum Powder Lawsuit Lander C",
                 finalSubmit: true,
         deleteFromWebsiteLogs:true,
@@ -627,7 +627,7 @@ formname: "Talcum Powder Lawsuit Lander C",
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: '  Connect to Attorney',
+  //         websiteName: '  Connect2Attorney',
   //         vertical: LEAD_GENERATION_VERTICALS.TALCUM,
   //         formPath: '/talcum-powder-lawsuit-c',
   //         formname: 'Talcum Powder Lawsuit lander C',
@@ -671,7 +671,7 @@ formname: "Talcum Powder Lawsuit Lander C",
         countryName: 'USA',
         brandType: "Internal",
         brandName: 'Project 6',
-        websiteName: '  Connect to Attorney',
+        websiteName: '  Connect2Attorney',
         vertical: LEAD_GENERATION_VERTICALS.TALCUM,
         formPath: '/talcum-powder-lawsuit-c',
         formname: 'Talcum Powder Lawsuit Lander Form C',
@@ -981,7 +981,7 @@ formname: "Talcum Powder Lawsuit Lander C",
        <div className="mx-auto px-20 py-3 flex items-center justify-between">
             <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -1032,7 +1032,7 @@ formname: "Talcum Powder Lawsuit Lander C",
                 </span>
 
                 <span className="text-[14px] tracking-wide">
-                     (866) 376 0014
+                     (888) 202 1350
                 </span>
                 </a> 
 
@@ -1784,7 +1784,7 @@ bg-[#F8D216]
                   <p className="font-lato text-[#162766] text-[18px] font-medium leading-normal mb-4 max-w-[500px]">
                     <br />
                  Facing cancer is hard enough. If talcum powder played a role, you shouldn't have to fight major 
-                    manufacturers alone.  ConnecttoAttorney helps connect you with legal professionals who can 
+                    manufacturers alone.  Connect2Attorney helps connect you with legal professionals who can 
                     review your situation and explain your options—fast and confidentially. 
                   </p>
 
@@ -2177,7 +2177,7 @@ bg-[#F8D216]
     <div className="relative z-10 flex items-center justify-between px-4 py-3 bg-[#162766]">
     <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -2212,7 +2212,7 @@ bg-[#F8D216]
         `}
     >
         <a href="tel:18882021350" className="font-semibold">
-         (866) 376 0014
+         (888) 202 1350
         </a>
     </div>
 
@@ -2918,7 +2918,7 @@ bg-[#F8D216]
   "
 >
                 Facing cancer is hard enough. If talcum powder played a role, 
-                you shouldn't have to fight major manufacturers alone.  ConnecttoAttorney 
+                you shouldn't have to fight major manufacturers alone.  Connect2Attorney 
                 helps connect you with legal professionals who can review your situation 
                 and explain your options—fast and confidentially. 
                 </p>

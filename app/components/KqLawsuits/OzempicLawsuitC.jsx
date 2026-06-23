@@ -43,7 +43,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={tylogo} alt="Connect to Attorney" className="h-9" />
+        <img src={tylogo} alt="Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -981,7 +981,7 @@ formname: "Ozempic Lawsuit Lander C KQ",
        <div className="mx-auto px-20 py-3 flex items-center justify-between">
             <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -1032,7 +1032,7 @@ formname: "Ozempic Lawsuit Lander C KQ",
                 </span>
 
                 <span className="text-[14px] tracking-wide">
-                     (866) 376 0014
+                     (888) 202 1350
                 </span>
                 </a> 
 
@@ -2092,7 +2092,7 @@ bg-[#F8D216]
     <div className="relative z-10 flex items-center justify-between px-4 py-3 bg-[#162766]">
     <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -2127,7 +2127,7 @@ bg-[#F8D216]
         `}
     >
         <a href="tel:18882021350" className="font-semibold">
-         (866) 376 0014
+         (888) 202 1350
         </a>
     </div>
 

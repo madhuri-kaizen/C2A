@@ -42,7 +42,7 @@ const ThankYouPage = () => {
     return (
         <div className="relative w-full h-screen bg-white overflow-hidden">
             <div className="pt-10 flex justify-center">
-                <img src={logo} alt="Connect to Attorney" className="h-9" />
+                <img src={logo} alt="Connect2Attorney" className="h-9" />
             </div>
 
             <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -314,7 +314,7 @@ const DupixentLawsuitA = () => {
                 countryName: "USA",
                 brandType: "Internal",
                 brandName: "Project 6",
-                websiteName: "Connect to Attorney",
+                websiteName: "Connect2Attorney",
                 formPath: "/dupixent-lawsuit-a",
                 vertical: LEAD_GENERATION_VERTICALS.DUPIXENT,
                 formname: "Dupixent Lawsuit A Lander",
@@ -410,7 +410,7 @@ const DupixentLawsuitA = () => {
                 countryName: "USA",
                 brandType: "Internal",
                 brandName: "Project 6",
-                websiteName: "Connect to Attorney",
+                websiteName: "Connect2Attorney",
                 formname: "Dupixent Lawsuit A Lander",
                 isPartialSubmission: true,
                 vertical: LEAD_GENERATION_VERTICALS.DUPIXENT,
@@ -539,7 +539,7 @@ const DupixentLawsuitA = () => {
                     countryName: "USA",
                     brandType: "Internal",
                     brandName: "Project 6",
-                    websiteName: "Connect to Attorney",
+                    websiteName: "Connect2Attorney",
                     formname: "Dupixent Lawsuit A Lander",
                             finalSubmit: true,
         deleteFromWebsiteLogs:true,
@@ -607,7 +607,7 @@ const DupixentLawsuitA = () => {
     //         countryName: 'USA',
     //         brandType: "Internal",
     //         brandName: 'Project 6',
-    //         websiteName: 'Connect to Attorney',
+    //         websiteName: 'Connect2Attorney',
     //         vertical: 'DupixentLawsuitA & Brain Tumor Lawsuit',
     //         formPath: '/depo-provera-lawsuit-a',
     //         formname: 'DupixentLawsuitA Lawsuit lander',
@@ -651,7 +651,7 @@ const DupixentLawsuitA = () => {
                 countryName: "USA",
                 brandType: "Internal",
                 brandName: "Project 6",
-                websiteName: "Connect to Attorney",
+                websiteName: "Connect2Attorney",
                 vertical: LEAD_GENERATION_VERTICALS.DUPIXENT,
                 formname: "Dupixent Lawsuit A Lander Form",
                 formPath: '/dupixent-lawsuit-a',
@@ -1109,7 +1109,7 @@ const DupixentLawsuitA = () => {
                 {/* ===== HEADER ===== */}
                 <header className="w-full bg-white border-b border-gray-200">
                     <div className=" mx-auto px-20 py-4 flex items-center justify-between">
-                        <img src={logo} alt="Connect to Attorney" className="h-8" />
+                        <img src={logo} alt="Connect2Attorney" className="h-8" />
 
                        <div className="flex items-center gap-4 text-[#162766]">
               <span className="text-[11px] text-[#7A869E] leading-tight text-right">
@@ -1121,7 +1121,7 @@ const DupixentLawsuitA = () => {
 
               <span className="text-[#9AA4BF] text-lg">|</span>
 
-              <span className="text-lg font-bold"> (866) 376 0014</span>
+              <span className="text-lg font-bold"> (888) 202 1350</span>
             </div> 
                     </div>
                 </header>
@@ -1152,7 +1152,7 @@ py-20
                         <div className="pt-20 pb-5 mt-20 text-white flex justify-center">
                             <div className=" max-w-[720px]">
                                 <h1 className="text-[52px] leading-tight font-semibold mb-4">
-                                    Dupixent Lawsuit: Check Your Eligibility with Connect to Attorney
+                                    Dupixent Lawsuit: Check Your Eligibility with Connect2Attorney
                                 </h1>
 
                                 <p className="text-[18px] text-gray-300 mb-4 leading-relaxed tracking-wide">
@@ -1530,7 +1530,7 @@ bg-[#F8D216]
                         <div className="w-[48px] h-[3px] bg-[#F8D216] mx-auto mt-3 mb-6 rounded-full" />
 
                         <p className="text-[18px] text-[#4B5563] max-w-[620px] mx-auto leading-relaxed">
-                            When you reach out to Connect to Attorney for a Dupixent lawsuit<br /> review, we make the process simple, secure, and focused<br />
+                            When you reach out to Connect2Attorney for a Dupixent lawsuit<br /> review, we make the process simple, secure, and focused<br />
                             on your situation:
                         </p>
 
@@ -1627,15 +1627,15 @@ bg-[#F8D216]
                             >
                                 {[
                                     {
-                                        text: " I didn’t realize my symptoms could be linked to Dupixent. Connect to Attorney helped me understand my options clearly and connected me with the right attorney. I finally felt informed and supported.”  ",
+                                        text: " I didn’t realize my symptoms could be linked to Dupixent. Connect2Attorney helped me understand my options clearly and connected me with the right attorney. I finally felt informed and supported.”  ",
                                         name: "Emily R.",
                                     },
                                     {
-                                        text: "After my diagnosis, I had so many questions. Connect to Attorney guided me through the eligibility process and made everything simple during a difficult time.",
+                                        text: "After my diagnosis, I had so many questions. Connect2Attorney guided me through the eligibility process and made everything simple during a difficult time.",
                                         name: "Sarah M.",
                                     },
                                     {
-                                        text: "I didn’t know my symptoms could be linked to Dupixent. Connect to Attorney helped me understand my options and take the right next step.",
+                                        text: "I didn’t know my symptoms could be linked to Dupixent. Connect2Attorney helped me understand my options and take the right next step.",
                                         name: "Michael T.",
                                     },
                                 ].map((item, idx) => (
@@ -1671,13 +1671,13 @@ bg-[#F8D216]
                     <div className="max-w-[1200px] mx-auto px-6  grid grid-cols-2 gap-16 items-stretch">
                         <div>
                             <h2 className="text-[41px] leading-[44px] font-semibold text-[#1B2B6B]">
-                                Why Trust Connect to Attorney?
+                                Why Trust Connect2Attorney?
                             </h2>
 
                             <div className="w-[44px] h-[3px] bg-[#F4C430] mt-4 mb-6 mx-auto" />
 
                             <p className="text-[18px] leading-[26px] text-[#555555] max-w-[540px] mb-3">
-                                Connect to Attorney focuses on helping individuals affected by dangerous or harmful drugs like Dupixent. Connect with legal professionals who understand complex cases such as Dupixent lawsuit claims.
+                                Connect2Attorney focuses on helping individuals affected by dangerous or harmful drugs like Dupixent. Connect with legal professionals who understand complex cases such as Dupixent lawsuit claims.
                             </p>
 
                             <ul className="space-y-2 text-[16px] leading-[26px] text-[#555555] max-w-[560px]">
@@ -1779,7 +1779,7 @@ bg-[#F8D216]
                                 },
                                 {
                                     question: "How do I start a Dupixent lawsuit with Be With Law?",
-                                    answer: "You can begin by submitting a free case review. Connect to Attorney will evaluate your eligibility and connect you with an attorney experienced in handling Dupixent Lymphoma lawsuit claims.",
+                                    answer: "You can begin by submitting a free case review. Connect2Attorney will evaluate your eligibility and connect you with an attorney experienced in handling Dupixent Lymphoma lawsuit claims.",
                                 },
                             ].map((faq, index) => {
                                 const isOpen = openIndex === index;
@@ -1892,7 +1892,7 @@ bg-[#F8D216]
             {/* ================= MOBILE VIEW ================= */}
             <div className=" lg:hidden w-full bg-[#0F2357]">
                 <div className="flex items-center justify-between px-4 py-3 bg-white">
-                    <img src={logo} alt="Connect to Attorney" className="h-7" />
+                    <img src={logo} alt="Connect2Attorney" className="h-7" />
 
                     <div className="relative">
             <img
@@ -1919,7 +1919,7 @@ bg-[#F8D216]
                   z-50
                 "
               >
-                 (866) 376 0014
+                 (888) 202 1350
               </div>
             )}
           </div> 
@@ -1937,7 +1937,7 @@ bg-[#F8D216]
                         <br />
                         Check Your Eligibility
                         <br />
-                        With  Connect to Attorney
+                        With  Connect2Attorney
                     </h1>
 
                     <p className="text-[16px] leading-[22px] mb-6">
@@ -2297,7 +2297,7 @@ bg-[#F8D216]
     mx-auto
     mb-10
   "
->                        When you reach out to Connect to Attorney for a Dupixent lawsuit review, we make the process simple, secure, and focused
+>                        When you reach out to Connect2Attorney for a Dupixent lawsuit review, we make the process simple, secure, and focused
                         on your situation:
                     </p>
 
@@ -2423,7 +2423,7 @@ bg-[#F8D216]
     mb-5
   "
 >
-                            “I didn’t realize my symptoms could be linked to Dupixent. Connect to Attorney helped me understand my options clearly and connected me with the right attorney. I finally felt informed and supported.”
+                            “I didn’t realize my symptoms could be linked to Dupixent. Connect2Attorney helped me understand my options clearly and connected me with the right attorney. I finally felt informed and supported.”
                         </p>
 
                         <div className="w-[24px] h-[2px] bg-[#F8D216] mx-auto mb-3" />
@@ -2466,7 +2466,7 @@ bg-[#F8D216]
     mb-5
   "
 >
-                            “After my diagnosis, I had so many questions. Connect to Attorney guided me through the eligibility process and made everything simple during a difficult time.”
+                            “After my diagnosis, I had so many questions. Connect2Attorney guided me through the eligibility process and made everything simple during a difficult time.”
                         </p>
 
                         <div className="w-[24px] h-[2px] bg-[#F8D216] mx-auto mb-3" />
@@ -2508,7 +2508,7 @@ bg-[#F8D216]
     mb-5
   "
 >
-                            “I didn’t know my symptoms could be linked to Dupixent. Connect to Attorney helped me understand my options and take the right next step.”
+                            “I didn’t know my symptoms could be linked to Dupixent. Connect2Attorney helped me understand my options and take the right next step.”
                         </p>
 
                         <div className="w-[24px] h-[2px] bg-[#F8D216] mx-auto mb-3" />
@@ -2545,7 +2545,7 @@ bg-[#F8D216]
     mb-3
 ">
                         Why Trust <br />
-                         Connect to Attorney?
+                         Connect2Attorney?
                     </h2>
 
                     <div className="w-[32px] h-[2px] bg-[#F8D216] mx-auto mb-5" />
@@ -2559,7 +2559,7 @@ bg-[#F8D216]
                     </div>
 
                     <p className="text-[18px] leading-[22px] text-[#4B5563] mb-5">
-                        Connect to Attorney focuses on helping individuals affected by dangerous or harmful drugs like Dupixent. Connect with legal professionals who understand complex cases such as Dupixent lawsuit claims.
+                        Connect2Attorney focuses on helping individuals affected by dangerous or harmful drugs like Dupixent. Connect with legal professionals who understand complex cases such as Dupixent lawsuit claims.
                     </p>
 
                     <div className="w-full h-[1px] bg-[#E5E7EB] mb-5" />
@@ -2661,7 +2661,7 @@ bg-[#F8D216]
                             },
                             {
                                 question: "How do I start a Dupixent lawsuit with Be With Law?",
-                                answer: "You can begin by submitting a free case review. Connect to Attorney will evaluate your eligibility and connect you with an attorney experienced in handling Dupixent Lymphoma lawsuit claims.",
+                                answer: "You can begin by submitting a free case review. Connect2Attorney will evaluate your eligibility and connect you with an attorney experienced in handling Dupixent Lymphoma lawsuit claims.",
                             },
                         ].map((faq, index) => {
                             const isOpen = openIndex === index;

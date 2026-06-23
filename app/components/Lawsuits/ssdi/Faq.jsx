@@ -7,7 +7,7 @@ const faqs = [
   {
     question: "How long does it take to get SSDI benefits?",
     answer:
-      "The process can take several months, depending on the complexity of your case and whether your application is approved or denied. With Connect to Attorney helping you, we’ll aim to reduce delays and streamline the process.",
+      "The process can take several months, depending on the complexity of your case and whether your application is approved or denied. With Connect2Attorney helping you, we’ll aim to reduce delays and streamline the process.",
   },
   {
     question: "What are the chances of getting approved for SSDI?",
@@ -17,7 +17,7 @@ const faqs = [
   {
     question: "What happens if my SSDI application is denied?",
     answer:
-      "If your application is denied, don’t worry. Connect to Attorney will help you appeal the decision and continue fighting for the benefits you deserve. ",
+      "If your application is denied, don’t worry. Connect2Attorney will help you appeal the decision and continue fighting for the benefits you deserve. ",
   },
   {
     question: "How do I know if I qualify for SSDI?",

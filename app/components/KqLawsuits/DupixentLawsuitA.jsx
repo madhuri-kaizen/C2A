@@ -40,7 +40,7 @@ const ThankYouPage = () => {
     return (
         <div className="relative w-full h-screen bg-white overflow-hidden">
             <div className="pt-10 flex justify-center">
-                <img src={logo} alt="Connect to Attorney" className="h-9" />
+                <img src={logo} alt="Connect2Attorney" className="h-9" />
             </div>
 
             <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -1107,7 +1107,7 @@ const DupixentLawsuitA = () => {
                 {/* ===== HEADER ===== */}
                 <header className="w-full bg-white border-b border-gray-200">
                     <div className=" mx-auto px-20 py-4 flex items-center justify-between">
-                        <img src={logo} alt="Connect to Attorney" className="h-8" />
+                        <img src={logo} alt="Connect2Attorney" className="h-8" />
 
                        <div className="flex items-center gap-4 text-[#162766]">
               <span className="text-[11px] text-[#7A869E] leading-tight text-right">
@@ -1119,7 +1119,7 @@ const DupixentLawsuitA = () => {
 
               <span className="text-[#9AA4BF] text-lg">|</span>
 
-              <span className="text-lg font-bold"> (866) 376 0014</span>
+              <span className="text-lg font-bold"> (888) 202 1350</span>
             </div> 
                     </div>
                 </header>
@@ -1890,7 +1890,7 @@ bg-[#F8D216]
             {/* ================= MOBILE VIEW ================= */}
             <div className=" lg:hidden w-full bg-[#0F2357]">
                 <div className="flex items-center justify-between px-4 py-3 bg-white">
-                    <img src={logo} alt="Connect to Attorney" className="h-7" />
+                    <img src={logo} alt="Connect2Attorney" className="h-7" />
 
                     <div className="relative">
             <img
@@ -1917,7 +1917,7 @@ bg-[#F8D216]
                   z-50
                 "
               >
-                 (866) 376 0014
+                 (888) 202 1350
               </div>
             )}
           </div> 

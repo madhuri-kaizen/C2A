@@ -15,7 +15,7 @@ export default function Fas() {
 
         {/* SUBHEADING */}
         <p className="font-lato text-[#404040] text-[14px] sm:text-[16px] leading-[24px] sm:leading-[28px]">
-          We take the guesswork out of the SSDI process. With Connect to Attorney, you will receive:
+          We take the guesswork out of the SSDI process. With Connect2Attorney, you will receive:
         </p>
 
         {/* SPACE */}

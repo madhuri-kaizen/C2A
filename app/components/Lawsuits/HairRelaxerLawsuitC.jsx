@@ -43,7 +43,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={tylogo} alt="  Connect to Attorney" className="h-9" />
+        <img src={tylogo} alt="  Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -334,7 +334,7 @@ const createEarlyLead = async ({ fullName, phone, email = "" }) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "  Connect to Attorney",
+      websiteName: "  Connect2Attorney",
       formPath: "/hair-relaxer-lawsuit-c",
       vertical: LEAD_GENERATION_VERTICALS.HAIR_RELAXER,
       formname: "Hair Relaxer Lawsuit Lander C",
@@ -430,7 +430,7 @@ const createEarlyLead = async ({ fullName, phone, email = "" }) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "  Connect to Attorney",
+      websiteName: "  Connect2Attorney",
       formname: "Hair Relaxer Lawsuit Lander C",
       isPartialSubmission: true,
       vertical: LEAD_GENERATION_VERTICALS.HAIR_RELAXER,
@@ -558,7 +558,7 @@ const createEarlyLead = async ({ fullName, phone, email = "" }) => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "  Connect to Attorney",
+        websiteName: "  Connect2Attorney",
 formname: "Hair Relaxer Lawsuit Lander C",
                 finalSubmit: true,
         deleteFromWebsiteLogs:true,
@@ -625,7 +625,7 @@ formname: "Hair Relaxer Lawsuit Lander C",
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: '  Connect to Attorney',
+  //         websiteName: '  Connect2Attorney',
   //         vertical: 'Hair Relaxer Lawsuit',
   //         formPath: '/hair-relaxer-lawsuit-c',
   //         formname: 'Hair Relaxer Lawsuit lander C',
@@ -669,7 +669,7 @@ formname: "Hair Relaxer Lawsuit Lander C",
         countryName: 'USA',
         brandType: "Internal",
         brandName: 'Project 6',
-        websiteName: '  Connect to Attorney',
+        websiteName: '  Connect2Attorney',
         vertical: LEAD_GENERATION_VERTICALS.HAIR_RELAXER,
         formPath: '/hair-relaxer-lawsuit-c',
         formname: 'Hair Relaxer Lawsuit Form C',
@@ -979,7 +979,7 @@ formname: "Hair Relaxer Lawsuit Lander C",
        <div className="mx-auto px-20 py-3 flex items-center justify-between">
             <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -1030,7 +1030,7 @@ formname: "Hair Relaxer Lawsuit Lander C",
                 </span>
 
                 <span className="text-[14px] tracking-wide">
-                     (866) 376 0014
+                     (888) 202 1350
                 </span>
                 </a> 
 
@@ -1773,7 +1773,7 @@ bg-[#F8D216]
                 <div className="pr-10">
                   <p className="font-lato text-[#162766] text-[18px] font-medium leading-normal mb-4 max-w-[500px]">
                     <br />
-                                         A cancer diagnosis changes everything: your body, your confidence, your family life, your future plans. If hair relaxers were part of your routine for years, you deserve to know whether you may qualify for a claim.  ConnecttoAttorney helps connect eligible individuals with attorneys who review hair relaxer cancer cases. We keep the process private, simple, and focused on your criteria. 
+                                         A cancer diagnosis changes everything: your body, your confidence, your family life, your future plans. If hair relaxers were part of your routine for years, you deserve to know whether you may qualify for a claim.  Connect2Attorney helps connect eligible individuals with attorneys who review hair relaxer cancer cases. We keep the process private, simple, and focused on your criteria. 
 
                   </p>
 
@@ -1981,7 +1981,7 @@ bg-[#F8D216]
     mb-6
   "
 >
-                    Why do people choose  ConnecttoAttorney? 
+                    Why do people choose  Connect2Attorney? 
                     </h3>
 
                     <ul className="space-y-4 text-[15px] sm:text-[16px] md:text-[17px] leading-relaxed text-[#162766] list-disc pl-5  max-w-[720px]">
@@ -2105,7 +2105,7 @@ bg-[#F8D216]
     <div className="relative z-10 flex items-center justify-between px-4 py-3 bg-[#162766]">
     <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -2140,7 +2140,7 @@ bg-[#F8D216]
         `}
     >
         <a href="tel:18882021350" className="font-semibold">
-         (866) 376 0014
+         (888) 202 1350
         </a>
     </div>
 
@@ -2780,7 +2780,7 @@ bg-[#F8D216]
     mb-8
   "
 >
-                A cancer diagnosis changes everything: your body, your confidence, your family life, your future plans. If hair relaxers were part of your routine for years, you deserve to know whether you may qualify for a claim.  ConnecttoAttorney helps connect eligible individuals with attorneys who review hair relaxer cancer cases. We keep the process private, simple, and focused on your criteria.  
+                A cancer diagnosis changes everything: your body, your confidence, your family life, your future plans. If hair relaxers were part of your routine for years, you deserve to know whether you may qualify for a claim.  Connect2Attorney helps connect eligible individuals with attorneys who review hair relaxer cancer cases. We keep the process private, simple, and focused on your criteria.  
                 </p>
 
                 <p className="text-[16px] font-lato leading-[22px] mb-6">
@@ -2949,7 +2949,7 @@ bg-[#F8D216]
             <div className="bg-[#EBEEFF] px-4 py-6 mb-6 rounded-b-lg text-[#162766]">
 
             <h3 className="text-[20px] font-lato leading-[26px] font-semibold mb-5">
-               Why do people choose  ConnecttoAttorney? 
+               Why do people choose  Connect2Attorney? 
             </h3>
 
 

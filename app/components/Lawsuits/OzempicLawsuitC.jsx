@@ -45,7 +45,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={tylogo} alt="Connect to Attorney" className="h-9" />
+        <img src={tylogo} alt="Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -338,7 +338,7 @@ const createEarlyLead = async ({ fullName, phone, email = "" }) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "Connect to Attorney",
+      websiteName: "Connect2Attorney",
       formPath: "/ozempic-lawsuit-c",
       vertical: LEAD_GENERATION_VERTICALS.OZEMPIC,
       formname: "Ozempic Lawsuit Lander C",
@@ -434,7 +434,7 @@ const createEarlyLead = async ({ fullName, phone, email = "" }) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "Connect to Attorney",
+      websiteName: "Connect2Attorney",
       formname: "Ozempic Lawsuit Lander C",
       isPartialSubmission: true,
       vertical: LEAD_GENERATION_VERTICALS.OZEMPIC,
@@ -562,7 +562,7 @@ const createEarlyLead = async ({ fullName, phone, email = "" }) => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
 formname: "Ozempic Lawsuit Lander C",
                 finalSubmit: true,
         deleteFromWebsiteLogs:true,
@@ -629,7 +629,7 @@ formname: "Ozempic Lawsuit Lander C",
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: 'Connect to Attorney',
+  //         websiteName: 'Connect2Attorney',
   //         vertical: LEAD_GENERATION_VERTICALS.OZEMPIC,
   //         formPath: '/ozempic-lawsuit-c',
   //         formname: 'Ozempic Lawsuit lander C',
@@ -673,7 +673,7 @@ formname: "Ozempic Lawsuit Lander C",
         countryName: 'USA',
           brandType: "Internal",
           brandName: 'Project 6',
-          websiteName: 'Connect to Attorney',
+          websiteName: 'Connect2Attorney',
           vertical: LEAD_GENERATION_VERTICALS.OZEMPIC,
           formPath: '/ozempic-lawsuit-c',
           formname: 'Ozempic Lawsuit Form C',
@@ -983,7 +983,7 @@ formname: "Ozempic Lawsuit Lander C",
        <div className="mx-auto px-20 py-3 flex items-center justify-between">
             <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -1034,7 +1034,7 @@ formname: "Ozempic Lawsuit Lander C",
                 </span>
 
                 <span className="text-[14px] tracking-wide">
-                     (866) 376 0014
+                     (888) 202 1350
                 </span>
                 </a> 
 
@@ -1753,7 +1753,7 @@ bg-[#F8D216]
                 <div className="pr-10">
                   <p className="font-lato text-[#162766] text-[18px] font-medium leading-normal mb-4 max-w-[500px]">
                     <br />
-                    When your health is on the line, you shouldn’t have to fight a pharmaceutical company alone.  Connect to Attorney helps connect you with attorneys who review Ozempic injury claims and can tell you, clearly, whether you may qualify. 
+                    When your health is on the line, you shouldn’t have to fight a pharmaceutical company alone.  Connect2Attorney helps connect you with attorneys who review Ozempic injury claims and can tell you, clearly, whether you may qualify. 
                   </p>
 
                   <p className="font-lato text-[#162766] text-[16px] font-normal leading-[24px] mb-6">
@@ -1969,7 +1969,7 @@ bg-[#F8D216]
     mb-6
   "
 >
-                    Why do people choose  Connect to Attorney? 
+                    Why do people choose  Connect2Attorney? 
                     </h3>
 
                     <p className="text-[16px] font-lato leading-[1.65] text-[#162766] mb-6">
@@ -2094,7 +2094,7 @@ bg-[#F8D216]
     <div className="relative z-10 flex items-center justify-between px-4 py-3 bg-[#162766]">
     <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -2129,7 +2129,7 @@ bg-[#F8D216]
         `}
     >
         <a href="tel:18882021350" className="font-semibold">
-         (866) 376 0014
+         (888) 202 1350
         </a>
     </div>
 
@@ -2757,7 +2757,7 @@ bg-[#F8D216]
     mb-8
   "
 >
-                When your health is on the line, you shouldn’t have to fight a pharmaceutical company alone.  Connect to Attorney helps connect you with attorneys who review Ozempic injury claims and can tell you, clearly, whether you may qualify. 
+                When your health is on the line, you shouldn’t have to fight a pharmaceutical company alone.  Connect2Attorney helps connect you with attorneys who review Ozempic injury claims and can tell you, clearly, whether you may qualify. 
                 </p>
 
                 <p className="text-[16px] font-lato leading-[22px] mb-8">
@@ -2928,7 +2928,7 @@ bg-[#F8D216]
             <div className="bg-[#EBEEFF] px-4 py-6 mb-6 rounded-b-lg text-[#162766]">
 
             <h3 className="text-[20px] font-lato leading-[26px] font-semibold mb-5">
-               Why do people choose  Connect to Attorney? 
+               Why do people choose  Connect2Attorney? 
             </h3>
 
             <p className="text-[16px] font-lato leading-[22px] mb-6">

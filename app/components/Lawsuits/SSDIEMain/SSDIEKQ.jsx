@@ -534,7 +534,7 @@ export default function SSDIEKQ() {
           countryName: "USA",
           brandType: "Internal",
           brandName: "Project 6",
-          websiteName: "Connect to Attorney",
+          websiteName: "Connect2Attorney",
           formname: "SSDI EKQ Landing Page",
           vertical: "SSDI",
           formPath: window.location.pathname,
@@ -600,7 +600,7 @@ export default function SSDIEKQ() {
           <div className="flex items-center justify-between">
             <img
               src={Logo}
-              alt="Connect to Attorney"
+              alt="Connect2Attorney"
               className="w-[140px] h-auto"
             />
 
@@ -646,7 +646,7 @@ export default function SSDIEKQ() {
           <div className="flex justify-start">
             <img
               src={Logo}
-              alt="Connect to Attorney"
+              alt="Connect2Attorney"
               className="w-[160px] h-auto"
             />
           </div>
@@ -893,16 +893,16 @@ export default function SSDIEKQ() {
         </div>
         <div className="border-[0.2px] border-[#EDC14A] opacity-50 mb-5"></div>
         <p className="text-[#ffffff] font-[400] text-[9px] sm:text-[10px] leading-[15px] font-[Arial] mb-4">
-          ConnecttoAttorney.com is a website dedicated to serving the public as an
+          Connect2Attorney.com is a website dedicated to serving the public as an
           informational resource, providing accurate content about various
-          medical treatments and associated side effects. ConnecttoAttorney.com also
+          medical treatments and associated side effects. Connect2Attorney.com also
           connects users with its legal partners, who can evaluate whether an
           individual has a legal case as a result of side effects or
           complications caused by a medical treatment.
         </p>
 
         <p className="text-[#ffffff] font-[400] text-[9px] sm:text-[10px] leading-[15px] font-[Arial] mb-4">
-          ConnecttoAttorney.com is not affiliated with any pharmaceutical companies or
+          Connect2Attorney.com is not affiliated with any pharmaceutical companies or
           drug manufacturers and does not accept advertising or host online
           advertisements.
         </p>
@@ -910,9 +910,9 @@ export default function SSDIEKQ() {
         <p className="text-[#ffffff] text-[9px] sm:text-[10px] leading-[15px] font-[Arial] font-normal mb-4">
           <span className="font-bold">Consent to Contact</span>
           <br />
-          By submitting this form, you consent to be contacted by a ConnecttoAttorney
+          By submitting this form, you consent to be contacted by a Connect2Attorney
           representative or a representative from the appropriate service
-          provider. Any information provided to ConnecttoAttorney.com will be shared
+          provider. Any information provided to Connect2Attorney.com will be shared
           with the service provider.
         </p>
         <p className="text-[#ffffff] text-[9px] sm:text-[10px] leading-[15px] font-[Arial] font-normal mb-4">
@@ -920,18 +920,18 @@ export default function SSDIEKQ() {
             Updated with Latest Information
           </span>
           <br />
-          ConnecttoAttorney.com is continually updated to ensure current information about medications and medical devices and associated side effects is provided to the public. The information on the site is meant to complement a doctor or healthcare professional's advice and should not be used in place of medical advice. It is important to note that most, if not all, drugs or medical devices discussed on ConnecttoAttorney.com are FDA approved.
+          Connect2Attorney.com is continually updated to ensure current information about medications and medical devices and associated side effects is provided to the public. The information on the site is meant to complement a doctor or healthcare professional's advice and should not be used in place of medical advice. It is important to note that most, if not all, drugs or medical devices discussed on Connect2Attorney.com are FDA approved.
         </p>
         <p className="text-[#ffffff] font-[400] text-[9px] sm:text-[10px] leading-[15px] font-[Arial] mb-4">
-          Content found on ConnecttoAttorney.com should not be taken as medical advice and site visitors are encouraged to speak with a medical professional for medical treatment, information and recommendations. Furthermore, site visitors should not discontinue use of a drug or medical device without first seeking the advice of medical professional.
+          Content found on Connect2Attorney.com should not be taken as medical advice and site visitors are encouraged to speak with a medical professional for medical treatment, information and recommendations. Furthermore, site visitors should not discontinue use of a drug or medical device without first seeking the advice of medical professional.
         </p>
         <p className="text-[#ffffff] font-[400] text-[9px] sm:text-[10px] leading-[15px] font-[Arial] mb-5">
-          Additionally, the legal information on ConnecttoAttorney.com should not be taken as legal advice, as the content on the site is meant to provide general legal information and is not intended to provide information about a specific visitor's situation. The information on ConnecttoAttorney.com is not an offer to create an attorney-client relationship or perform legal services. Visitors should not act or refrain from acting due to information found on this site without the guidance of a qualified and licensed attorney.
+          Additionally, the legal information on Connect2Attorney.com should not be taken as legal advice, as the content on the site is meant to provide general legal information and is not intended to provide information about a specific visitor's situation. The information on Connect2Attorney.com is not an offer to create an attorney-client relationship or perform legal services. Visitors should not act or refrain from acting due to information found on this site without the guidance of a qualified and licensed attorney.
         </p>
         <div className="border-[0.2px] border-[#EDC14A] opacity-50"></div>
         <div className="mt-5 flex flex-col sm:flex-row justify-between items-center gap-3 text-gray-300">
           <p className="text-[#7A9AC5] font-[400] text-[9.907px] font-[Arial] mb-4">
-            © 2017–2026 ConnecttoAttorney.com. All rights reserved.
+            © 2017–2026 Connect2Attorney.com. All rights reserved.
           </p>
 
           <div className="flex gap-6">

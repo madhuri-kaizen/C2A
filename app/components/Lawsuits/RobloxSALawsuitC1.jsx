@@ -43,7 +43,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={tylogo} alt="  Connect to Attorney" className="h-9" />
+        <img src={tylogo} alt="  Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -334,7 +334,7 @@ const createEarlyLead = async ({ fullName, phone, email = "" }) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "  Connect to Attorney",
+      websiteName: "  Connect2Attorney",
       formPath: "/roblox-sa-lawsuit-c-1",
       vertical: LEAD_GENERATION_VERTICALS.ROBLOX,
       formname: "Roblox Sexual Abuse Lawsuit Lander C 1",
@@ -430,7 +430,7 @@ const createEarlyLead = async ({ fullName, phone, email = "" }) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "  Connect to Attorney",
+      websiteName: "  Connect2Attorney",
       formname: "Roblox Sexual Abuse Lawsuit Lander C",
       isPartialSubmission: true,
       vertical: LEAD_GENERATION_VERTICALS.ROBLOX,
@@ -558,7 +558,7 @@ const createEarlyLead = async ({ fullName, phone, email = "" }) => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "  Connect to Attorney",
+        websiteName: "  Connect2Attorney",
 formname: "Roblox Sexual Abuse Lawsuit Lander C",
                 finalSubmit: true,
         deleteFromWebsiteLogs:true,
@@ -625,7 +625,7 @@ formname: "Roblox Sexual Abuse Lawsuit Lander C",
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: '  Connect to Attorney',
+  //         websiteName: '  Connect2Attorney',
   //         vertical: LEAD_GENERATION_VERTICALS.ROBLOX,
   //         formPath: '/roblox-sa-lawsuit-c',
   //         formname: 'Roblox Sexual Abuse Lawsuit lander C',
@@ -669,7 +669,7 @@ formname: "Roblox Sexual Abuse Lawsuit Lander C",
         countryName: 'USA',
         brandType: "Internal",
         brandName: 'Project 6',
-        websiteName: '  Connect to Attorney',
+        websiteName: '  Connect2Attorney',
         vertical: LEAD_GENERATION_VERTICALS.ROBLOX,
         formPath: '/roblox-sa-lawsuit-c-1',
         formname: 'Roblox Sexual Abuse Lawsuit Lander Form C 1',
@@ -980,7 +980,7 @@ formname: "Roblox Sexual Abuse Lawsuit Lander C",
        <div className="mx-auto px-20 py-3 flex items-center justify-between">
             <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -1031,7 +1031,7 @@ formname: "Roblox Sexual Abuse Lawsuit Lander C",
                 </span>
 
                 <span className="text-[14px] tracking-wide">
-                     (866) 376 0014
+                     (888) 202 1350
                 </span>
                 </a> 
 
@@ -1804,7 +1804,7 @@ We keep the intake private and parent-guided                    </span>
     leading-[30px]
     max-w-[480px]
 ">
-                     ConnecttoAttorney screens cases using strict criteria: Roblox-first contact, child under 17 when it began, 
+                     Connect2Attorney screens cases using strict criteria: Roblox-first contact, child under 17 when it began, 
                     adult abuser involvement, qualifying abuse (grooming/sextortion/assault), and documented 
                     harm or treatment. If it fits, we connect you with an attorney for a free case review.
                 </div>
@@ -2032,7 +2032,7 @@ We keep the intake private and parent-guided                    </span>
     <div className="relative z-10 flex items-center justify-between px-4 py-3 bg-[#162766]">
     <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -2067,7 +2067,7 @@ We keep the intake private and parent-guided                    </span>
         `}
     >
         <a href="tel:18882021350" className="font-semibold">
-         (866) 376 0014
+         (888) 202 1350
         </a>
     </div>
 
@@ -2751,7 +2751,7 @@ We keep the intake private and parent-guided                    </span>
 
   {/* ===== MAIN PARAGRAPH ===== */}
   <p className="text-[16px] font-lato leading-[26px] text-white max-w-[320px] mx-auto mb-20">
-     ConnecttoAttorney screens cases using strict criteria: Roblox-first contact,
+     Connect2Attorney screens cases using strict criteria: Roblox-first contact,
     child under 17 when it began, adult abuser involvement, qualifying abuse
     (grooming/sextortion/assault), and documented harm or treatment. If it fits,
     we connect you with an attorney for a free case review.

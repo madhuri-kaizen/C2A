@@ -12,7 +12,7 @@ export default function Hta() {
           {/* HEADING */}
           <h2 className="font-lato text-[#0A1F8F] text-[26px] leading-[36px] sm:text-[35px] sm:leading-[45px] font-bold">
             How to Apply for <br />
-            SSDI with Connect to Attorney?
+            SSDI with Connect2Attorney?
           </h2>
 
           {/* SPACE */}

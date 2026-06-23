@@ -43,7 +43,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={tylogo} alt="  Connect to Attorney" className="h-9" />
+        <img src={tylogo} alt="  Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -334,7 +334,7 @@ const createEarlyLead = async ({ fullName, phone, email = "" }) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "  Connect to Attorney",
+      websiteName: "  Connect2Attorney",
       formPath: "/social-media-addiction-lawsuit-c",
       vertical:LEAD_GENERATION_VERTICALS.SOCIAL_MEDIA_ADDICTION,
       formname: "Social Media Addiction Lawsuit Lander C",
@@ -430,7 +430,7 @@ const createEarlyLead = async ({ fullName, phone, email = "" }) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "  Connect to Attorney",
+      websiteName: "  Connect2Attorney",
       formname: "Social Media Addiction Lawsuit Lander C",
       isPartialSubmission: true,
       vertical:LEAD_GENERATION_VERTICALS.SOCIAL_MEDIA_ADDICTION,
@@ -558,7 +558,7 @@ const createEarlyLead = async ({ fullName, phone, email = "" }) => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "  Connect to Attorney",
+        websiteName: "  Connect2Attorney",
 formname: "Social Media Addiction Lawsuit Lander C",
                 finalSubmit: true,
         deleteFromWebsiteLogs:true,
@@ -625,7 +625,7 @@ formname: "Social Media Addiction Lawsuit Lander C",
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: '  Connect to Attorney',
+  //         websiteName: '  Connect2Attorney',
   //         vertical: LEAD_GENERATION_VERTICALS.SOCIAL_MEDIA_ADDICTION,
   //         formPath: '/social-media-addiction-lawsuit-c',
   //         formname: 'Social Media Addiction Lawsuit lander C',
@@ -669,7 +669,7 @@ formname: "Social Media Addiction Lawsuit Lander C",
         countryName: 'USA',
         brandType: "Internal",
         brandName: 'Project 6',
-        websiteName: '  Connect to Attorney',
+        websiteName: '  Connect2Attorney',
         vertical: LEAD_GENERATION_VERTICALS.SOCIAL_MEDIA_ADDICTION,
         formPath: '/social-media-addiction-lawsuit-c',
         formname: 'Social Media Addiction Lawsuit Form C',
@@ -979,7 +979,7 @@ formname: "Social Media Addiction Lawsuit Lander C",
        <div className="mx-auto px-20 py-3 flex items-center justify-between">
             <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -1030,7 +1030,7 @@ formname: "Social Media Addiction Lawsuit Lander C",
                 </span>
 
                 <span className="text-[14px] tracking-wide">
-                     (866) 376 0014
+                     (888) 202 1350
                 </span>
                 </a> 
 
@@ -1813,7 +1813,7 @@ bg-[#F8D216]
     leading-[30px]
     max-w-[480px]
 ">
-                     ConnecttoAttorney helps families take the first step with a private, criteria-based screening. 
+                     Connect2Attorney helps families take the first step with a private, criteria-based screening. 
                     We focus on what typically matters most: age when use began, 3+ hours/day across platforms, 
                     harm after 2012, documented medical or therapy treatment, and a parent/guardian who can 
                     sign and support records. If your situation appears to match, we can connect you with 
@@ -2041,7 +2041,7 @@ bg-[#F8D216]
     <div className="relative z-10 flex items-center justify-between px-4 py-3 bg-[#162766]">
     <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -2076,7 +2076,7 @@ bg-[#F8D216]
         `}
     >
         <a href="tel:18882021350" className="font-semibold">
-         (866) 376 0014
+         (888) 202 1350
         </a>
     </div>
 
@@ -2775,7 +2775,7 @@ bg-[#F8D216]
 
             {/* ===== MAIN PARAGRAPH ===== */}
             <p className="text-[16px] font-lato leading-[26px] text-white max-w-[320px] mx-auto">
-                 ConnecttoAttorney helps families take the first step with a private, criteria-based screening. 
+                 Connect2Attorney helps families take the first step with a private, criteria-based screening. 
                 We focus on what typically matters most: age when use began, 3+ hours/day across platforms, harm after 2012, documented medical or therapy treatment, and a parent/guardian who can sign and support records. If your situation appears to match, we can connect you with an attorney for a free case review—before state deadlines limit your options. 
             </p>
 

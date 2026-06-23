@@ -34,7 +34,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={logo} alt="Connect to Attorney" className="h-9" />
+        <img src={logo} alt="Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -346,7 +346,7 @@ const DepoProveraLawsuitB = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formPath: "/depo-provera-lawsuit-b",
         vertical: LEAD_GENERATION_VERTICALS.DEPO_PROVERA,
         formname: "Depo-Provera Lawsuit Lander B",
@@ -437,7 +437,7 @@ const DepoProveraLawsuitB = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formname: "Depo-Provera Lawsuit Lander B",
         isPartialSubmission: true,
         vertical: LEAD_GENERATION_VERTICALS.DEPO_PROVERA,
@@ -555,7 +555,7 @@ const DepoProveraLawsuitB = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formname: "Depo-Provera Lawsuit Lander B",
         finalSubmit: true,
         deleteFromWebsiteLogs: true,
@@ -615,7 +615,7 @@ const DepoProveraLawsuitB = () => {
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: 'Connect to Attorney',
+  //         websiteName: 'Connect2Attorney',
   //         vertical: 'Depo-Provera & Brain Tumor Lawsuit',
   //         formPath: '/depo-provera-lawsuit-b',
   //         formname: 'Depo-Provera Lawsuit Lander B',
@@ -659,7 +659,7 @@ const DepoProveraLawsuitB = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         vertical: LEAD_GENERATION_VERTICALS.DEPO_PROVERA,
         formname: "Depo-Provera Lawsuit Lander B Form",
         formPath: "/depo-provera-lawsuit-b",
@@ -1119,7 +1119,7 @@ const DepoProveraLawsuitB = () => {
           <div className="mx-auto px-20 py-3 flex items-center justify-between">
             <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -1169,7 +1169,7 @@ const DepoProveraLawsuitB = () => {
                 </svg>
               </span>
 
-              <span className="text-[14px] tracking-wide">(866) 376 0014</span>
+              <span className="text-[14px] tracking-wide">(888) 202 1350</span>
             </a>
           </div>
         </header>
@@ -1214,7 +1214,7 @@ py-20
                   <span className="text-[#F8D216]">Your Eligibility</span> for
                   Compensation
                   <br />
-                  with  Connect to Attorney
+                  with  Connect2Attorney
                 </h1>
 
                 <p
@@ -1229,13 +1229,13 @@ py-20
                 >
                   If you or a loved one used the Depo-Provera birth control shot
                   and were later diagnosed with a brain tumor, you may be
-                  entitled to financial compensation.  Connect to Attorney helps you
+                  entitled to financial compensation.  Connect2Attorney helps you
                   quickly understand your legal options and connect with
                   experienced Depo-Provera lawsuit lawyers.
                   <br />
                   <br />
                   <span className="font-bold">
-                    Why choose  Connect to Attorney for your Depo-Provera lawsuit?
+                    Why choose  Connect2Attorney for your Depo-Provera lawsuit?
                   </span>
                   <br />
                   <br />
@@ -1760,7 +1760,7 @@ text-[#4B5563]
  max-w-[720px]
 "
               >
-                 Connect to Attorney helps affected individuals connect with qualified
+                 Connect2Attorney helps affected individuals connect with qualified
                 lawyers handling Depo-Provera brain tumor claims.
               </p>
             </div>
@@ -1830,7 +1830,7 @@ mb-4
 
 "
               >
-                To qualify for a Depo-Provera lawsuit through  Connect to Attorney, you
+                To qualify for a Depo-Provera lawsuit through  Connect2Attorney, you
                 must meet all of the following eligibility criteria:
               </p>
 
@@ -2201,7 +2201,7 @@ transition-colors
         <div className="flex items-center justify-between px-4 py-3 bg-white">
           <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -2230,7 +2230,7 @@ transition-colors
                   z-50
                 "
               >
-                (866) 376 0014
+                (888) 202 1350
               </div>
             )}
           </div>
@@ -2251,7 +2251,7 @@ transition-colors
             <br />
             <span className="text-[#F8D216]">Check Your Eligibility</span>
             <br />
-            With  Connect to Attorney
+            With  Connect2Attorney
           </h1>
 
           <p
@@ -2266,7 +2266,7 @@ transition-colors
           >
             If you or a loved one used the Depo-Provera birth control shot and
             were later diagnosed with a brain tumor, you may be entitled to
-            financial compensation.  Connect to Attorney helps you quickly understand
+            financial compensation.  Connect2Attorney helps you quickly understand
             your legal options and connect with experienced Depo-Provera lawsuit
             lawyers.
           </p>
@@ -2715,7 +2715,7 @@ mb-2"
     leading-[24px]
   "
           >
-             Connect to Attorney helps affected individuals connect with qualified
+             Connect2Attorney helps affected individuals connect with qualified
             lawyers handling Depo-Provera brain tumor claims.
           </p>
         </div>
@@ -2765,7 +2765,7 @@ md:leading-[46px]
     mb-4
   "
           >
-            To qualify for a Depo-Provera lawsuit through  Connect to Attorney, you must
+            To qualify for a Depo-Provera lawsuit through  Connect2Attorney, you must
             meet all of the following eligibility criteria:
           </p>
 

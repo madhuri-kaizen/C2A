@@ -41,7 +41,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={logo} alt="  Connect to Attorney" className="h-9" />
+        <img src={logo} alt="  Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -1126,7 +1126,7 @@ const TalcumPowderLawsuit = () => {
           <div className=" mx-auto px-20 py-4 flex items-center justify-between">
             <img
               src={logo}
-              alt="Connect to Attorney"
+              alt="Connect2Attorney"
               className="w-[215.833px] h-[25px] object-contain"
             />
 
@@ -1140,7 +1140,7 @@ const TalcumPowderLawsuit = () => {
 
               <span className="text-[#9AA4BF] text-lg">|</span>
 
-              <span className="text-lg font-bold"> (866) 376 0014</span>
+              <span className="text-lg font-bold"> (888) 202 1350</span>
             </div>
           </div>
         </header>
@@ -2164,7 +2164,7 @@ font-semibold
         <div className="flex items-center justify-between px-4 py-3 bg-white">
           <img
             src={logo}
-            alt="Connect to Attorney"
+            alt="Connect2Attorney"
             className="w-[215.833px] h-[25px] object-contain"
           />
 
@@ -2193,7 +2193,7 @@ font-semibold
                   z-50
                 "
               >
-                (866) 376 0014
+                (888) 202 1350
               </div>
             )}
           </div>

@@ -43,7 +43,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={logo} alt="  Connect to Attorney" className="h-9" />
+        <img src={logo} alt="  Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -332,7 +332,7 @@ const getUSTimezone = (tz) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "  Connect to Attorney",
+      websiteName: "  Connect2Attorney",
       formPath: "/social-media-addiction-lawsuit-b",
       vertical:LEAD_GENERATION_VERTICALS.SOCIAL_MEDIA_ADDICTION,
       formname: "Social Media Addiction Lawsuit Form B",
@@ -428,7 +428,7 @@ const getUSTimezone = (tz) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "  Connect to Attorney",
+      websiteName: "  Connect2Attorney",
       formname: "Social Media Addiction Lawsuit Form B",
       isPartialSubmission: true,
       vertical:LEAD_GENERATION_VERTICALS.SOCIAL_MEDIA_ADDICTION,
@@ -556,7 +556,7 @@ const getUSTimezone = (tz) => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "  Connect to Attorney",
+        websiteName: "  Connect2Attorney",
 formname: "Social Media Addiction Lawsuit Form B",
                 finalSubmit: true,
         deleteFromWebsiteLogs:true,
@@ -624,7 +624,7 @@ formname: "Social Media Addiction Lawsuit Form B",
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: '  Connect to Attorney',
+  //         websiteName: '  Connect2Attorney',
   //         vertical: LEAD_GENERATION_VERTICALS.SOCIAL_MEDIA_ADDICTION,
   //         formPath: '/social-media-addiction-lawsuit-b',
   //         formname: 'Social Media Addiction Lawsuit Form B',
@@ -668,7 +668,7 @@ formname: "Social Media Addiction Lawsuit Form B",
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "  Connect to Attorney",
+        websiteName: "  Connect2Attorney",
         vertical:LEAD_GENERATION_VERTICALS.SOCIAL_MEDIA_ADDICTION,
         formname: "Social Media Addiction Lawsuit Form B Form",
         formPath: '/social-media-addiction-lawsuit-b',
@@ -1129,7 +1129,7 @@ formname: "Social Media Addiction Lawsuit Form B",
        <div className="mx-auto px-20 py-3 flex items-center justify-between">
             <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -1180,7 +1180,7 @@ formname: "Social Media Addiction Lawsuit Form B",
                 </span>
 
                 <span className="text-[14px] tracking-wide">
-                     (866) 376 0014
+                     (888) 202 1350
                 </span>
                 </a> 
 
@@ -1228,14 +1228,14 @@ py-20
                   <br />
                    Compensation with
                    <br />
-                    ConnecttoAttorney
+                    Connect2Attorney
                 </h1>
 
                 <p className="text-[13.5px] text-gray-300 mb-4 leading-relaxed tracking-wide">
-                  If your child started using social media as a minor and later experienced serious harm, like self-harm, suicidal ideation, substance abuse, an eating disorder, or online predator abuse, you may have legal options.  ConnecttoAttorney helps families verify eligibility fast and connect with an attorney for a free, confidential case review.
+                  If your child started using social media as a minor and later experienced serious harm, like self-harm, suicidal ideation, substance abuse, an eating disorder, or online predator abuse, you may have legal options.  Connect2Attorney helps families verify eligibility fast and connect with an attorney for a free, confidential case review.
                   <br />
                   <br />
-                  <span className="font-bold">Why choose  ConnecttoAttorney for a social media addiction lawsuit?</span>
+                  <span className="font-bold">Why choose  Connect2Attorney for a social media addiction lawsuit?</span>
                   <br />
                   <br />
                   ✅ Confidential eligibility screening designed for parents and guardians. <br />
@@ -1710,7 +1710,7 @@ leading-tight font-semibold text-[#162766] mb-4">
      max-w-[720px]
 
 ">
-                     ConnecttoAttorney helps parents quickly check whether their situation meets high-intent criteria and, if it does, connect with an attorney for a free case review.
+                     Connect2Attorney helps parents quickly check whether their situation meets high-intent criteria and, if it does, connect with an attorney for a free case review.
                 </p>
 
                 </div>
@@ -1778,7 +1778,7 @@ mb-4
 
 
 ">
-                    To qualify through  ConnecttoAttorney, your child’s situation must match key eligibility criteria used by attorneys reviewing teen social media addiction claims.
+                    To qualify through  Connect2Attorney, your child’s situation must match key eligibility criteria used by attorneys reviewing teen social media addiction claims.
                 </p>
 
                 <ul className="    font-lato
@@ -2132,7 +2132,7 @@ leading-relaxed
         <div className="flex items-center justify-between px-4 py-3 bg-white">
           <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -2161,7 +2161,7 @@ leading-relaxed
                   z-50
                 "
               >
-                 (866) 376 0014
+                 (888) 202 1350
               </div>
             )}
           </div> 
@@ -2177,7 +2177,7 @@ leading-relaxed
 
 ">
             Social Media Addiction Lawsuit: <span className="text-[#F8D216]">Check Eligibility </span>
-             for Compensation with  ConnecttoAttorney
+             for Compensation with  Connect2Attorney
           </h1>
 
           <p className=" font-lato
@@ -2188,7 +2188,7 @@ leading-relaxed
     mb-6
 
 ">
-            If your child started using social media as a minor and later experienced serious harm, like self-harm, suicidal ideation, substance abuse, an eating disorder, or online predator abuse, you may have legal options.  ConnecttoAttorney helps families verify eligibility fast and connect with an attorney for a free, confidential case review. 
+            If your child started using social media as a minor and later experienced serious harm, like self-harm, suicidal ideation, substance abuse, an eating disorder, or online predator abuse, you may have legal options.  Connect2Attorney helps families verify eligibility fast and connect with an attorney for a free, confidential case review. 
           </p>
 
           
@@ -2574,7 +2574,7 @@ leading-relaxed
     mb-4
   "
 >
-             ConnecttoAttorney helps parents quickly check whether their situation meets high-intent criteria and, if it does, connect with an attorney for a free case review. 
+             Connect2Attorney helps parents quickly check whether their situation meets high-intent criteria and, if it does, connect with an attorney for a free case review. 
           </p>
 
         </div>
@@ -2618,7 +2618,7 @@ leading-relaxed
     mb-4
   "
 >
-            To qualify through  ConnecttoAttorney, your child’s situation must match key eligibility criteria used by attorneys reviewing teen social media addiction claims. 
+            To qualify through  Connect2Attorney, your child’s situation must match key eligibility criteria used by attorneys reviewing teen social media addiction claims. 
           </p>
 
           {/* Eligibility list */}

@@ -30,7 +30,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={logo} alt="Connect to Attorney" className="h-9" />
+        <img src={logo} alt="Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -282,7 +282,7 @@ export default function Hero() {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "Connect to Attorney",
+      websiteName: "Connect2Attorney",
       formPath: "/ssdi-a",
       vertical: "SSDI",
       formname: "SSDI Eligibility Landing Page A",

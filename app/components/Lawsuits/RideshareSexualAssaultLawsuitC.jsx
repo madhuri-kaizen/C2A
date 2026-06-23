@@ -44,7 +44,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={tylogo} alt="  Connect to Attorney" className="h-9" />
+        <img src={tylogo} alt="  Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -335,7 +335,7 @@ const createEarlyLead = async ({ fullName, phone, email = "" }) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "  Connect to Attorney",
+      websiteName: "  Connect2Attorney",
       formPath: "/rideshare-sa-lawsuit-c",
       vertical: LEAD_GENERATION_VERTICALS.RIDESHARE,
       formname: "Rideshare Sexual Assault Lawsuit Lander C",
@@ -431,7 +431,7 @@ const createEarlyLead = async ({ fullName, phone, email = "" }) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "  Connect to Attorney",
+      websiteName: "  Connect2Attorney",
       formname: "Rideshare Sexual Assault Lawsuit Lander C",
       isPartialSubmission: true,
       vertical: LEAD_GENERATION_VERTICALS.RIDESHARE,
@@ -559,7 +559,7 @@ const createEarlyLead = async ({ fullName, phone, email = "" }) => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "  Connect to Attorney",
+        websiteName: "  Connect2Attorney",
 formname: "Rideshare Sexual Assault Lawsuit Lander C",
                 finalSubmit: true,
         deleteFromWebsiteLogs:true,
@@ -626,7 +626,7 @@ formname: "Rideshare Sexual Assault Lawsuit Lander C",
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: '  Connect to Attorney',
+  //         websiteName: '  Connect2Attorney',
   //         vertical: LEAD_GENERATION_VERTICALS.RIDESHARE,
   //         formPath: '/rideshare-sa-lawsuit-c',
   //         formname: 'Rideshare Sexual Assault Lawsuit lander C',
@@ -670,7 +670,7 @@ formname: "Rideshare Sexual Assault Lawsuit Lander C",
         countryName: 'USA',
         brandType: "Internal",
         brandName: 'Project 6',
-        websiteName: '  Connect to Attorney',
+        websiteName: '  Connect2Attorney',
         vertical: LEAD_GENERATION_VERTICALS.RIDESHARE,
         formPath: '/rideshare-sa-lawsuit-c',
         formname: 'Rideshare Sexual Assault Lawsuit Lander Form C',
@@ -980,7 +980,7 @@ formname: "Rideshare Sexual Assault Lawsuit Lander C",
        <div className="mx-auto px-20 py-3 flex items-center justify-between">
             <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -1031,7 +1031,7 @@ formname: "Rideshare Sexual Assault Lawsuit Lander C",
                 </span>
 
                 <span className="text-[14px] tracking-wide">
-                     (866) 376 0014
+                     (888) 202 1350
                 </span>
                 </a> 
 
@@ -1887,7 +1887,7 @@ bg-[#F8D216]
     leading-[30px]
     max-w-[480px]
 ">
-                     ConnecttoAttorney helps screen rideshare sexual assault cases and connect eligible survivors with attorneys. Eligibility often depends on driver involvement, physical contact, receipt verification, reporting, and state deadlines. If your incident matches the criteria, you may be able to pursue compensation.  
+                     Connect2Attorney helps screen rideshare sexual assault cases and connect eligible survivors with attorneys. Eligibility often depends on driver involvement, physical contact, receipt verification, reporting, and state deadlines. If your incident matches the criteria, you may be able to pursue compensation.  
                 </div>
 
                 </div>
@@ -2008,7 +2008,7 @@ bg-[#F8D216]
     mb-6
   "
 >
-                    Why survivors choose  ConnecttoAttorney? 
+                    Why survivors choose  Connect2Attorney? 
                     </h3>
                     <p className="text-[16px] font-lato leading-[1.65] text-[#162766] mb-6">
                         We keep the process clear and respectful, especially when you’re dealing with trauma and stress. Our screening is designed around high-intent criteria, including:
@@ -2123,7 +2123,7 @@ bg-[#F8D216]
     <div className="relative z-10 flex items-center justify-between px-4 py-3 bg-[#162766]">
     <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -2158,7 +2158,7 @@ bg-[#F8D216]
         `}
     >
         <a href="tel:18882021350" className="font-semibold">
-         (866) 376 0014
+         (888) 202 1350
         </a>
     </div>
 
@@ -2911,7 +2911,7 @@ bg-[#F8D216]
 
             {/* ===== MAIN PARAGRAPH ===== */}
             <p className="text-[18px] font-lato leading-[28px] text-white max-w-[320px] mx-auto">
-                 ConnecttoAttorney helps screen rideshare sexual assault cases and connect eligible survivors with attorneys. Eligibility often depends on driver involvement, physical contact, receipt verification, reporting, and state deadlines. If your incident matches the criteria, you may be able to pursue compensation.  
+                 Connect2Attorney helps screen rideshare sexual assault cases and connect eligible survivors with attorneys. Eligibility often depends on driver involvement, physical contact, receipt verification, reporting, and state deadlines. If your incident matches the criteria, you may be able to pursue compensation.  
             </p>
 
       </section>
@@ -3003,7 +3003,7 @@ bg-[#F8D216]
             <div className="bg-[#EBEEFF] px-4 py-6 mb-6 rounded-b-lg text-[#162766]">
 
             <h3 className="text-[20px] font-lato leading-[26px] font-semibold mb-5">
-               Why survivors choose  ConnecttoAttorney? 
+               Why survivors choose  Connect2Attorney? 
             </h3>
 
             <p className="text-[16px] font-lato leading-[1.65] text-[#162766] mb-6">

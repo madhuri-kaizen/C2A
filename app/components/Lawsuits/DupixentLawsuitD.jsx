@@ -48,7 +48,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={tylogo} alt="Connect to Attorney" className="h-9" />
+        <img src={tylogo} alt="Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -340,7 +340,7 @@ const DupixentLawsuitD = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formPath: "/dupixent-lawsuit-d",
         vertical: LEAD_GENERATION_VERTICALS.DUPIXENT,
         formname: "Dupixent Lawsuit D Lander",
@@ -436,7 +436,7 @@ const DupixentLawsuitD = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formname: "Dupixent Lawsuit Lander D",
         isPartialSubmission: true,
         vertical: LEAD_GENERATION_VERTICALS.DUPIXENT,
@@ -565,7 +565,7 @@ const DupixentLawsuitD = () => {
           countryName: "USA",
           brandType: "Internal",
           brandName: "Project 6",
-          websiteName: "Connect to Attorney",
+          websiteName: "Connect2Attorney",
           formname: "Dupixent Lawsuit Lander D",
                   finalSubmit: true,
         deleteFromWebsiteLogs:true,
@@ -633,7 +633,7 @@ const DupixentLawsuitD = () => {
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: 'Connect to Attorney',
+  //         websiteName: 'Connect2Attorney',
   //         vertical: 'Depo-Provera & Brain Tumor Lawsuit',
   //         formPath: '/depo-provera-lawsuit-c',
   //         formname: 'Depo-Provera Lawsuit lander C',
@@ -677,7 +677,7 @@ const DupixentLawsuitD = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         vertical: LEAD_GENERATION_VERTICALS.DUPIXENT,
         formname: "Dupixent Lawsuit Lander Form D",
         formPath: '/dupixent-lawsuit-d',
@@ -1119,7 +1119,7 @@ const DupixentLawsuitD = () => {
         {/* ===== HEADER ===== */}
         <header className="w-full bg-[#FFFFFF]  ">
           <div className="mx-auto px-20 py-3 flex items-center justify-between">
-            <img src={LightLogo} alt="Connect to Attorney" className="h-7" />
+            <img src={LightLogo} alt="Connect2Attorney" className="h-7" />
 
             <a
                 href="tel:18882021350"
@@ -1168,7 +1168,7 @@ const DupixentLawsuitD = () => {
                 </span>
 
                 <span className="text-[14px] tracking-wide">
-                     (866) 376 0014
+                     (888) 202 1350
                 </span>
                 </a> 
 
@@ -1872,7 +1872,7 @@ bg-[#F8D216]
                 </h2>
 
                 <p className=" font-lato text-[#162766] text-[24px] font-medium leading-[28.8px] mb-6  ">
-                  A serious diagnosis can bring confusion, stress, and uncertainty. You shouldn’t have to navigate this alone. At Connect to Attorney, we help you take the next step with confidence by connecting you with attorneys who understand Dupixent lawsuit claims.
+                  A serious diagnosis can bring confusion, stress, and uncertainty. You shouldn’t have to navigate this alone. At Connect2Attorney, we help you take the next step with confidence by connecting you with attorneys who understand Dupixent lawsuit claims.
                 </p>
 
                 <p className="text-[18px] leading-[30px] text-[#162766] pb-4 font-bold">
@@ -2084,8 +2084,8 @@ bg-[#F8D216]
                   answer: "The deadline depends on your state’s statute of limitations, so it’s important to check your eligibility as soon as possible. ",
                 },
                 {
-                  question: "How can Connect to Attorney help me with my claim?",
-                  answer: "Connect to Attorney offers a free case review, evaluates your eligibility, and connects you with attorneys experienced in handling Dupixent Lymphoma lawsuit claims. ",
+                  question: "How can Connect2Attorney help me with my claim?",
+                  answer: "Connect2Attorney offers a free case review, evaluates your eligibility, and connects you with attorneys experienced in handling Dupixent Lymphoma lawsuit claims. ",
                 },
               ].map((faq, index) => {
                 const isOpen = openIndex === index;
@@ -2198,7 +2198,7 @@ bg-[#F8D216]
         <div className="relative z-10 flex items-center justify-between px-4 py-3 bg-[#162766]">
           <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -2232,7 +2232,7 @@ bg-[#F8D216]
         `}
         >
           <a href="tel:18882021350" className="font-semibold">
-             (866) 376 0014
+             (888) 202 1350
           </a>
         </div>
 
@@ -2927,7 +2927,7 @@ bg-[#F8D216]
 
         {/* ===== INTRO PARAGRAPH ===== */}
         <p className="text-[16px] font-lato font-normal leading-[22px] text-[#162766] mt-8 mb-4">
-          A serious diagnosis can bring confusion, stress, and uncertainty. You shouldn’t have to navigate this alone. At Connect to Attorney, we help you take the next step with confidence by connecting you with attorneys who understand Dupixent lawsuit claims.
+          A serious diagnosis can bring confusion, stress, and uncertainty. You shouldn’t have to navigate this alone. At Connect2Attorney, we help you take the next step with confidence by connecting you with attorneys who understand Dupixent lawsuit claims.
         </p>
 
         {/* ===== WAIT LINE ===== */}
@@ -3123,8 +3123,8 @@ bg-[#F8D216]
                 answer: "The deadline depends on your state’s statute of limitations, so it’s important to check your eligibility as soon as possible. ",
               },
               {
-                question: "How can Connect to Attorney help me with my claim?",
-                answer: "Connect to Attorney offers a free case review, evaluates your eligibility, and connects you with attorneys experienced in handling Dupixent Lymphoma lawsuit claims. ",
+                question: "How can Connect2Attorney help me with my claim?",
+                answer: "Connect2Attorney offers a free case review, evaluates your eligibility, and connects you with attorneys experienced in handling Dupixent Lymphoma lawsuit claims. ",
               },
             ].map((faq, index) => {
               const isOpen = openIndex === index;

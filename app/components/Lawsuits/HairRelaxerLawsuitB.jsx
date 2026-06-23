@@ -47,7 +47,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={logo} alt="Connect to Attorney" className="h-9" />
+        <img src={logo} alt="Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -359,7 +359,7 @@ const HairRelaxerLawsuitB = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formPath: "/hair-relaxer-lawsuit-b",
         vertical: LEAD_GENERATION_VERTICALS.HAIR_RELAXER,
         formname: "Hair Relaxer Lawsuit Form B",
@@ -450,7 +450,7 @@ const HairRelaxerLawsuitB = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formname: "Hair Relaxer Lawsuit Form B",
         isPartialSubmission: true,
         vertical: LEAD_GENERATION_VERTICALS.HAIR_RELAXER,
@@ -568,7 +568,7 @@ const HairRelaxerLawsuitB = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formname: "Hair Relaxer Lawsuit Form B",
         finalSubmit: true,
         deleteFromWebsiteLogs: true,
@@ -628,7 +628,7 @@ const HairRelaxerLawsuitB = () => {
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: 'Connect to Attorney',
+  //         websiteName: 'Connect2Attorney',
   //         vertical: 'Hair Relaxer Lawsuit',
   //         formPath: '/hair-relaxer-lawsuit-b',
   //         formname: 'Hair Relaxer Lawsuit Form B',
@@ -672,7 +672,7 @@ const HairRelaxerLawsuitB = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         vertical: LEAD_GENERATION_VERTICALS.HAIR_RELAXER,
         formname: "Hair Relaxer Lawsuit Form B Form",
         formPath: "/hair-relaxer-lawsuit-b",
@@ -1132,7 +1132,7 @@ const HairRelaxerLawsuitB = () => {
           <div className="mx-auto px-20 py-3 flex items-center justify-between">
             <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -1182,7 +1182,7 @@ const HairRelaxerLawsuitB = () => {
                 </svg>
               </span>
 
-              <span className="text-[14px] tracking-wide">(866) 376 0014</span>
+              <span className="text-[14px] tracking-wide">(888) 202 1350</span>
             </a>
           </div>
         </header>
@@ -1227,7 +1227,7 @@ py-20
                   <span className="text-[#F8D216]">You Qualify</span> for
                   Compensation
                   <br />
-                  With ConnecttoAttorney
+                  With Connect2Attorney
                 </h1>
 
                 <p
@@ -1250,7 +1250,7 @@ py-20
                 >
                   If you or a loved one developed uterine, ovarian, or
                   endometrial cancer after long-term use of chemical hair
-                  relaxers, ConnecttoAttorney can help you take the first step toward
+                  relaxers, Connect2Attorney can help you take the first step toward
                   justice and financial compensation.
                   <br />
                   <br />
@@ -1261,7 +1261,7 @@ py-20
                   <br />
                   <br />
                   <span className="font-bold">
-                    Why start your hair relaxer claim with ConnecttoAttorney?
+                    Why start your hair relaxer claim with Connect2Attorney?
                   </span>
                   <br />
                   <br />
@@ -1811,7 +1811,7 @@ leading-tight font-semibold text-[#162766] mb-4"
                 long-term hair relaxer use and uterine, ovarian, and endometrial
                 cancers. As a result, affected individuals are filing hair
                 relaxer lawsuits to seek compensation for medical costs and
-                other damages, and ConnecttoAttorney helps connect eligible claimants
+                other damages, and Connect2Attorney helps connect eligible claimants
                 with experienced nationwide attorneys.
               </p>
             </div>
@@ -2287,7 +2287,7 @@ leading-relaxed
         <div className="flex items-center justify-between px-4 py-3 bg-white">
           <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -2316,7 +2316,7 @@ leading-relaxed
                   z-50
                 "
               >
-                (866) 376 0014
+                (888) 202 1350
               </div>
             )}
           </div>
@@ -2338,7 +2338,7 @@ leading-relaxed
             <br />
             <span className="text-[#F8D216]">You Qualify</span> for Compensation
             <br />
-            With ConnecttoAttorney
+            With Connect2Attorney
           </h1>
 
           <p
@@ -2352,7 +2352,7 @@ leading-relaxed
 "
           >
             If you or a loved one developed uterine, ovarian, or endometrial
-            cancer after long-term use of chemical hair relaxers, ConnecttoAttorney
+            cancer after long-term use of chemical hair relaxers, Connect2Attorney
             can help you take the first step toward justice and financial
             compensation.
           </p>
@@ -2829,7 +2829,7 @@ leading-relaxed
             long-term hair relaxer use and uterine, ovarian, and endometrial
             cancers. As a result, affected individuals are filing hair relaxer
             lawsuits to seek compensation for medical costs and other damages,
-            and ConnecttoAttorney helps connect eligible claimants with experienced
+            and Connect2Attorney helps connect eligible claimants with experienced
             nationwide attorneys.
           </p>
         </div>

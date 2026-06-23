@@ -11,7 +11,7 @@ export default function Navbar() {
         <div className="flex items-center">
           <img
             src={logo}
-            alt="Connect to Attorney"
+            alt="Connect2Attorney"
             className="h-[22px] sm:h-[26px] w-auto object-contain"
           />
         </div>

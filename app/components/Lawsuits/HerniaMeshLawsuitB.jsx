@@ -43,7 +43,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={logo} alt="Connect to Attorney" className="h-9" />
+        <img src={logo} alt="Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -332,7 +332,7 @@ const getUSTimezone = (tz) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "Connect to Attorney",
+      websiteName: "Connect2Attorney",
       formPath: "/hernia-mesh-lawsuit-b",
       vertical: LEAD_GENERATION_VERTICALS.HERNIA_MESH,
       formname: "Hernia Mesh Lawsuit Form B",
@@ -428,7 +428,7 @@ const getUSTimezone = (tz) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "Connect to Attorney",
+      websiteName: "Connect2Attorney",
       formname: "Hernia Mesh Lawsuit Form B",
       isPartialSubmission: true,
       vertical: LEAD_GENERATION_VERTICALS.HERNIA_MESH,
@@ -556,7 +556,7 @@ const getUSTimezone = (tz) => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
 formname: "Hernia Mesh Lawsuit Form B",
                 finalSubmit: true,
         deleteFromWebsiteLogs:true,
@@ -624,7 +624,7 @@ formname: "Hernia Mesh Lawsuit Form B",
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: 'Connect to Attorney',
+  //         websiteName: 'Connect2Attorney',
   //         vertical: LEAD_GENERATION_VERTICALS.HAIR_RELAXER,
   //         formPath: '/hernia-mesh-lawsuit-b',
   //         formname: 'Hernia Mesh Lawsuit Form B',
@@ -668,7 +668,7 @@ formname: "Hernia Mesh Lawsuit Form B",
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         vertical: LEAD_GENERATION_VERTICALS.HERNIA_MESH,
         formname: "Hernia Mesh Lawsuit Form B",
         formPath: '/hernia-mesh-lawsuit-b',
@@ -1129,7 +1129,7 @@ formname: "Hernia Mesh Lawsuit Form B",
        <div className="mx-auto px-20 py-3 flex items-center justify-between">
             <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -1180,7 +1180,7 @@ formname: "Hernia Mesh Lawsuit Form B",
                 </span>
 
                 <span className="text-[14px] tracking-wide">
-                     (866) 376 0014
+                     (888) 202 1350
                 </span>
                 </a> 
 
@@ -1227,17 +1227,17 @@ py-20
                   <br />
                    the Right Lawyer with
                   <br />
-                    Connect to Attorney
+                    Connect2Attorney
                 </h1>
 
                 <p className="text-[13.5px] text-gray-300 mb-4 leading-relaxed tracking-wide">
                   If you or a loved one experienced serious complications after hernia mesh surgery, 
-                  you may qualify to file a hernia mesh lawsuit. At  Connect to Attorney, we help you 
+                  you may qualify to file a hernia mesh lawsuit. At  Connect2Attorney, we help you 
                   quickly determine whether you are eligible and connect you with experienced hernia
                   mesh lawsuit attorneys who understand these complex product liability claims. 
                   <br />
                   <br />
-                  <span className="font-bold">Why start your hernia mesh claim with  Connect to Attorney?</span>
+                  <span className="font-bold">Why start your hernia mesh claim with  Connect2Attorney?</span>
                   <br />
                   <br />
                   ✅ Fast and confidential case review <br />
@@ -1849,7 +1849,7 @@ mb-4
 
 
 ">
-                    Even if you are unsure whether your mesh brand is involved,  Connect to Attorney can help verify your situation and guide you through your next steps.  
+                    Even if you are unsure whether your mesh brand is involved,  Connect2Attorney can help verify your situation and guide you through your next steps.  
                 </p>
 
                 <button
@@ -2155,7 +2155,7 @@ leading-relaxed
         <div className="flex items-center justify-between px-4 py-3 bg-white">
           <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -2184,7 +2184,7 @@ leading-relaxed
                   z-50
                 "
               >
-                 (866) 376 0014
+                 (888) 202 1350
               </div>
             )}
           </div> 
@@ -2205,7 +2205,7 @@ leading-relaxed
             <br />
             Find the Right Lawyer with
             <br />
-             Connect to Attorney
+             Connect2Attorney
           </h1>
 
           <p className=" font-lato
@@ -2216,7 +2216,7 @@ leading-relaxed
     mb-6
 
 ">
-            If you or a loved one experienced serious complications after hernia mesh surgery, you may qualify to file a hernia mesh lawsuit. At  Connect to Attorney, we help you quickly determine whether you are eligible & connect you with experienced hernia mesh lawsuit attorneys who understand these complex product liability claims.  
+            If you or a loved one experienced serious complications after hernia mesh surgery, you may qualify to file a hernia mesh lawsuit. At  Connect2Attorney, we help you quickly determine whether you are eligible & connect you with experienced hernia mesh lawsuit attorneys who understand these complex product liability claims.  
           </p>
 
           
@@ -2686,7 +2686,7 @@ leading-relaxed
             </p>
 
             <p>
-             Even if you are unsure whether your mesh brand is involved,  Connect to Attorney 
+             Even if you are unsure whether your mesh brand is involved,  Connect2Attorney 
              can help verify your situation and guide you through your next steps. 
             </p>
           </div>

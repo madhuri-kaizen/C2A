@@ -44,7 +44,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={logo} alt="  Connect to Attorney" className="h-9" />
+        <img src={logo} alt="  Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -333,7 +333,7 @@ const getUSTimezone = (tz) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "  Connect to Attorney",
+      websiteName: "  Connect2Attorney",
       formPath: "/roblox-sa-lawsuit-b",
       vertical: LEAD_GENERATION_VERTICALS.ROBLOX,
       formname: "Roblox Sex Abuse Lawsuit Form B",
@@ -429,7 +429,7 @@ const getUSTimezone = (tz) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "  Connect to Attorney",
+      websiteName: "  Connect2Attorney",
       formname: "Roblox Sex Abuse Lawsuit Form B",
       isPartialSubmission: true,
       vertical: LEAD_GENERATION_VERTICALS.ROBLOX,
@@ -557,7 +557,7 @@ const getUSTimezone = (tz) => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "  Connect to Attorney",
+        websiteName: "  Connect2Attorney",
 formname: "Roblox Sex Abuse Lawsuit Form B",
                 finalSubmit: true,
         deleteFromWebsiteLogs:true,
@@ -625,7 +625,7 @@ formname: "Roblox Sex Abuse Lawsuit Form B",
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: '  Connect to Attorney',
+  //         websiteName: '  Connect2Attorney',
   //         vertical: 'Roblox Sex Abuse Lawsuit',
   //         formPath: '/roblox-sa-lawsuit-b',
   //         formname: 'Roblox Sex Abuse Lawsuit Form B',
@@ -669,7 +669,7 @@ formname: "Roblox Sex Abuse Lawsuit Form B",
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "  Connect to Attorney",
+        websiteName: "  Connect2Attorney",
         vertical: LEAD_GENERATION_VERTICALS.ROBLOX,
         formname: "Roblox Sex Abuse Lawsuit Form B",
         formPath: '/roblox-sa-lawsuit-b',
@@ -1130,7 +1130,7 @@ formname: "Roblox Sex Abuse Lawsuit Form B",
        <div className="mx-auto px-20 py-3 flex items-center justify-between">
             <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -1181,7 +1181,7 @@ formname: "Roblox Sex Abuse Lawsuit Form B",
                 </span>
 
                 <span className="text-[14px] tracking-wide">
-                     (866) 376 0014
+                     (888) 202 1350
                 </span>
                 </a> 
 
@@ -1229,14 +1229,14 @@ py-20
                   <br />
                    Compensation with
                    <br />
-                    ConnecttoAttorney
+                    Connect2Attorney
                 </h1>
 
                 <p className="text-[13.5px] text-gray-300 mb-4 leading-relaxed tracking-wide">
-                  If your child met an adult through Roblox and was groomed, sextorted, or sexually abused (online or in person), your family may have legal options.  ConnecttoAttorney connects you with experienced attorneys who specialize in Roblox sex abuse lawsuits and fight for the justice you deserve. 
+                  If your child met an adult through Roblox and was groomed, sextorted, or sexually abused (online or in person), your family may have legal options.  Connect2Attorney connects you with experienced attorneys who specialize in Roblox sex abuse lawsuits and fight for the justice you deserve. 
                   <br />
                   <br />
-                  <span className="font-bold">Why do families choose  ConnecttoAttorney for a Roblox sex abuse lawsuit? </span>
+                  <span className="font-bold">Why do families choose  Connect2Attorney for a Roblox sex abuse lawsuit? </span>
                   <br />
                   <br />
                   ✅ Parent-friendly intake designed for sensitive cases  <br />
@@ -1703,7 +1703,7 @@ leading-tight font-semibold text-[#162766] mb-4">
      max-w-[720px]
 
 ">
-                     ConnecttoAttorney helps families check eligibility quickly and, if qualified, connect with an attorney for a free, confidential case review. 
+                     Connect2Attorney helps families check eligibility quickly and, if qualified, connect with an attorney for a free, confidential case review. 
                 </p>
 
                 </div>
@@ -2125,7 +2125,7 @@ leading-relaxed
         <div className="flex items-center justify-between px-4 py-3 bg-white">
           <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -2154,7 +2154,7 @@ leading-relaxed
                   z-50
                 "
               >
-                 (866) 376 0014
+                 (888) 202 1350
               </div>
             )}
           </div> 
@@ -2170,7 +2170,7 @@ leading-relaxed
 
 ">
             Roblox Child Sex Abuse Lawsuit: <span className="text-[#F8D216]">Check Eligibility </span>
-             for Compensation with  ConnecttoAttorney
+             for Compensation with  Connect2Attorney
           </h1>
 
           <p className=" font-lato
@@ -2181,7 +2181,7 @@ leading-relaxed
     mb-6
 
 ">
-            If your child met an adult through Roblox and was groomed, sextorted, or sexually abused (online or in person), your family may have legal options.  ConnecttoAttorney connects you with experienced attorneys who specialize in Roblox sex abuse lawsuits and fight for the justice you deserve.  
+            If your child met an adult through Roblox and was groomed, sextorted, or sexually abused (online or in person), your family may have legal options.  Connect2Attorney connects you with experienced attorneys who specialize in Roblox sex abuse lawsuits and fight for the justice you deserve.  
           </p>
 
         </div>
@@ -2566,7 +2566,7 @@ leading-relaxed
     mb-4
   "
 >
-             ConnecttoAttorney helps families check eligibility quickly and, if qualified, connect with an attorney for a free, confidential case review. 
+             Connect2Attorney helps families check eligibility quickly and, if qualified, connect with an attorney for a free, confidential case review. 
           </p>
 
         </div>

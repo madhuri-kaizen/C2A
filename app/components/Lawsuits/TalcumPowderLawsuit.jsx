@@ -43,7 +43,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={logo} alt="  Connect to Attorney" className="h-9" />
+        <img src={logo} alt="  Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -355,7 +355,7 @@ const TalcumPowderLawsuit = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "  Connect to Attorney",
+        websiteName: "  Connect2Attorney",
         formPath: "/talcum-powder-lawsuit-a",
         vertical: LEAD_GENERATION_VERTICALS.TALCUM,
         formname: "Talcum Powder Lawsuit Lander Form A",
@@ -446,7 +446,7 @@ const TalcumPowderLawsuit = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "  Connect to Attorney",
+        websiteName: "  Connect2Attorney",
         formname: "Talcum Powder Lawsuit Lander Form A",
         isPartialSubmission: true,
         vertical: LEAD_GENERATION_VERTICALS.TALCUM,
@@ -564,7 +564,7 @@ const TalcumPowderLawsuit = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "  Connect to Attorney",
+        websiteName: "  Connect2Attorney",
         formname: "Talcum Powder Lawsuit Lander Form A",
         finalSubmit: true,
         deleteFromWebsiteLogs: true,
@@ -624,7 +624,7 @@ const TalcumPowderLawsuit = () => {
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: '  Connect to Attorney',
+  //         websiteName: '  Connect2Attorney',
   //         vertical: LEAD_GENERATION_VERTICALS.TALCUM,
   //         formPath: '/talcum-powder-lawsuit-a',
   //         formname: 'Talcum Powder Lawsuit Lander Form',
@@ -668,7 +668,7 @@ const TalcumPowderLawsuit = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "  Connect to Attorney",
+        websiteName: "  Connect2Attorney",
         vertical: LEAD_GENERATION_VERTICALS.TALCUM,
         formname: "Talcum Powder Lawsuit Lander Form A",
         formPath: "/talcum-powder-lawsuit-a",
@@ -1128,7 +1128,7 @@ const TalcumPowderLawsuit = () => {
           <div className=" mx-auto px-20 py-4 flex items-center justify-between">
             <img
               src={logo}
-              alt="Connect to Attorney"
+              alt="Connect2Attorney"
               className="w-[215.833px] h-[25px] object-contain"
             />
 
@@ -1142,7 +1142,7 @@ const TalcumPowderLawsuit = () => {
 
               <span className="text-[#9AA4BF] text-lg">|</span>
 
-              <span className="text-lg font-bold"> (866) 376 0014</span>
+              <span className="text-lg font-bold"> (888) 202 1350</span>
             </div>
           </div>
         </header>
@@ -1213,7 +1213,7 @@ py-20
                 >
                   If you or a loved one developed ovarian cancer or other health
                   issues after using talcum powder, you may be entitled to
-                  compensation.  ConnecttoAttorney connects you with experienced
+                  compensation.  Connect2Attorney connects you with experienced
                   attorneys who specialize in talcum powder lawsuits, helping
                   you protect your rights and pursue the justice you deserve.
                 </p>
@@ -1736,7 +1736,7 @@ bg-[#F8D216]
 "
             >
               What Happens When You Contact <br />
-               ConnecttoAttorney?
+               Connect2Attorney?
             </h2>
 
             <div className="w-[48px] h-[3px] bg-[#F8D216] mx-auto mt-3 mb-6 rounded-full" />
@@ -1752,7 +1752,7 @@ bg-[#F8D216]
     mx-auto
 "
             >
-              When you reach out to  ConnecttoAttorney for a talcum powder <br />{" "}
+              When you reach out to  Connect2Attorney for a talcum powder <br />{" "}
               lawsuit review, the process is simple and fast:
             </p>
 
@@ -1927,15 +1927,15 @@ mb-7
               >
                 {[
                   {
-                    text: " ConnecttoAttorney helped me understand my talcum powder lawsuit options. They connected me with an experienced attorney who treated me with care and helped me pursue the compensation I deserved.",
+                    text: " Connect2Attorney helped me understand my talcum powder lawsuit options. They connected me with an experienced attorney who treated me with care and helped me pursue the compensation I deserved.",
                     name: "Janet P.",
                   },
                   {
-                    text: "After using talcum powder for years and being diagnosed with ovarian cancer,  ConnecttoAttorney connected me with a knowledgeable attorney. Their support made filing my claim clear, simple and stress-free.",
+                    text: "After using talcum powder for years and being diagnosed with ovarian cancer,  Connect2Attorney connected me with a knowledgeable attorney. Their support made filing my claim clear, simple and stress-free.",
                     name: "Lisa K.",
                   },
                   {
-                    text: "I never knew my talcum powder use could lead to cancer.  ConnecttoAttorney guided me through the legal process and helped me take the first step toward justice and compensation.",
+                    text: "I never knew my talcum powder use could lead to cancer.  Connect2Attorney guided me through the legal process and helped me take the first step toward justice and compensation.",
                     name: "Maria S.",
                   },
                 ].map((item, idx) => (
@@ -2011,7 +2011,7 @@ font-semibold
 
     "
               >
-                Why Trust  ConnecttoAttorney?
+                Why Trust  Connect2Attorney?
               </h2>
 
               <div className="w-[44px] h-[3px] bg-[#F4C430] mt-4 mb-6 mx-auto" />
@@ -2032,7 +2032,7 @@ font-semibold
     mb-3
   "
               >
-  ConnecttoAttorney focuses on helping people affected by dangerous or harmful products connect with legal professionals who understand complex litigation like the talcum powder lawsuit. 
+  Connect2Attorney focuses on helping people affected by dangerous or harmful products connect with legal professionals who understand complex litigation like the talcum powder lawsuit. 
               </p>
 
               <ul
@@ -2166,7 +2166,7 @@ font-semibold
         <div className="flex items-center justify-between px-4 py-3 bg-white">
           <img
             src={logo}
-            alt="Connect to Attorney"
+            alt="Connect2Attorney"
             className="w-[215.833px] h-[25px] object-contain"
           />
 
@@ -2195,7 +2195,7 @@ font-semibold
                   z-50
                 "
               >
-                (866) 376 0014
+                (888) 202 1350
               </div>
             )}
           </div>
@@ -2229,7 +2229,7 @@ font-semibold
           >
             If you or a loved one developed ovarian cancer or other health
             issues after using talcum powder, you may be entitled to
-            compensation.  ConnecttoAttorney connects you with experienced attorneys
+            compensation.  Connect2Attorney connects you with experienced attorneys
             who specialize in talcum powder lawsuits, helping you protect your
             rights and pursue the justice you deserve.
           </p>
@@ -2669,7 +2669,7 @@ font-semibold
     leading-[32px]
   "
           >
-            What Happens <br /> When You Contact <br />  ConnecttoAttorney?
+            What Happens <br /> When You Contact <br />  Connect2Attorney?
           </h2>
 
           <div className="w-[40px] h-[3px] bg-[#F8D216] mx-auto mt-3 mb-4" />
@@ -2688,7 +2688,7 @@ font-semibold
   "
           >
             {" "}
-            When you reach out to  ConnecttoAttorney for a Talcum Powder lawsuit
+            When you reach out to  Connect2Attorney for a Talcum Powder lawsuit
             review, the process is simple and fast:
           </p>
 
@@ -2880,7 +2880,7 @@ font-semibold
     mb-5
   "
             >
-              " ConnecttoAttorney helped me understand my talcum powder lawsuit
+              " Connect2Attorney helped me understand my talcum powder lawsuit
               options. They connected me with an experienced attorney who
               treated me with care and helped me pursue the compensation I
               deserved."
@@ -2935,7 +2935,7 @@ font-semibold
   "
             >
               "After using talcum powder for years and being diagnosed with
-              ovarian cancer,  ConnecttoAttorney connected me with a knowledgeable
+              ovarian cancer,  Connect2Attorney connected me with a knowledgeable
               attorney. Their support made filing my claim clear, simple and
               stress-free."
             </p>
@@ -2988,7 +2988,7 @@ font-semibold
   "
             >
               "I never knew my talcum powder use could lead to cancer.
-               ConnecttoAttorney guided me through the legal process and helped me
+               Connect2Attorney guided me through the legal process and helped me
               take the first step towards justice and compensation."
             </p>
 
@@ -3036,7 +3036,7 @@ font-semibold
 "
           >
             Why Trust <br />
-             ConnecttoAttorney?
+             Connect2Attorney?
           </h2>
 
           <div className="w-[32px] h-[2px] bg-[#F8D216] mx-auto mb-5" />
@@ -3061,7 +3061,7 @@ font-semibold
   "
           >
             {" "}
-             ConnecttoAttorney focuses on helping people affected by dangerous or
+             Connect2Attorney focuses on helping people affected by dangerous or
             harmful products connect with legal professionals who understand
             complex litigation like the talcum powder lawsuit.
           </p>

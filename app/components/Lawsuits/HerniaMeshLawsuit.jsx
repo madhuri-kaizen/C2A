@@ -40,7 +40,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={logo} alt="Connect to Attorney" className="h-9" />
+        <img src={logo} alt="Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -329,7 +329,7 @@ const getUSTimezone = (tz) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "Connect to Attorney",
+      websiteName: "Connect2Attorney",
       formPath: "/hernia-mesh-lawsuit-a",
       vertical: LEAD_GENERATION_VERTICALS.HERNIA_MESH,
       formname: "Hernia Mesh Lawsuit Form A",
@@ -425,7 +425,7 @@ const getUSTimezone = (tz) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "Connect to Attorney",
+      websiteName: "Connect2Attorney",
       formname: "Hernia Mesh Lawsuit Form A",
       isPartialSubmission: true,
       vertical: LEAD_GENERATION_VERTICALS.HERNIA_MESH,
@@ -553,7 +553,7 @@ const getUSTimezone = (tz) => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
 formname: "Hernia Mesh Lawsuit Form A",
                 finalSubmit: true,
         deleteFromWebsiteLogs:true,
@@ -621,7 +621,7 @@ formname: "Hernia Mesh Lawsuit Form A",
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: 'Connect to Attorney',
+  //         websiteName: 'Connect2Attorney',
   //         vertical: LEAD_GENERATION_VERTICALS.HAIR_RELAXER,
   //         formPath: '/hernia-mesh-lawsuit-a',
   //         formname: 'Hernia Mesh Lawsuit Form',
@@ -665,7 +665,7 @@ formname: "Hernia Mesh Lawsuit Form A",
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         vertical: LEAD_GENERATION_VERTICALS.HERNIA_MESH,
         formname: "Hernia Mesh Lawsuit Form A",
         formPath: '/hernia-mesh-lawsuit-a',
@@ -1126,7 +1126,7 @@ formname: "Hernia Mesh Lawsuit Form A",
           <div className=" mx-auto px-20 py-4 flex items-center justify-between">
              <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -1140,7 +1140,7 @@ formname: "Hernia Mesh Lawsuit Form A",
 
               <span className="text-[#9AA4BF] text-lg">|</span>
 
-              <span className="text-lg font-bold"> (866) 376 0014</span>
+              <span className="text-lg font-bold"> (888) 202 1350</span>
             </div> 
           </div>
         </header>
@@ -1206,7 +1206,7 @@ py-20
 
 ">
                   Have you suffered complications from a hernia mesh implant? 
-                   Connect to Attorney makes it easy to connect with experienced 
+                   Connect2Attorney makes it easy to connect with experienced 
                   attorneys who will fight for your compensation and guide you 
                   through every step of the legal process.
                 </p>
@@ -1646,7 +1646,7 @@ bg-[#F8D216]
 
 ">
               What Happens When You Contact <br />
-               Connect to Attorney?
+               Connect2Attorney?
             </h2>
 
             <div className="w-[48px] h-[3px] bg-[#F8D216] mx-auto mt-3 mb-6 rounded-full" />
@@ -1660,7 +1660,7 @@ bg-[#F8D216]
     max-w-[620px]
     mx-auto
 ">
-              When you reach out to  Connect to Attorney for a hernia mesh <br /> lawsuit review, the
+              When you reach out to  Connect2Attorney for a hernia mesh <br /> lawsuit review, the
               process is simple and fast:
             </p>
 
@@ -1811,15 +1811,15 @@ mb-7">
               >
                 {[
                   {
-                    text: "After complications from hernia mesh surgery,  Connect to Attorney guided me to an experienced attorney. Their support made the legal process simple and gave me confidence in seeking compensation.",
+                    text: "After complications from hernia mesh surgery,  Connect2Attorney guided me to an experienced attorney. Their support made the legal process simple and gave me confidence in seeking compensation.",
                     name: "Robert L.",
                   },
                   {
-                    text: "I suffered severe pain from defective hernia mesh.  Connect to Attorney connected me with a skilled attorney who explained my options and helped me take the first step toward justice.",
+                    text: "I suffered severe pain from defective hernia mesh.  Connect2Attorney connected me with a skilled attorney who explained my options and helped me take the first step toward justice.",
                     name: "Angela M.",
                   },
                   {
-                    text: " Connect to Attorney made my hernia mesh lawsuit process clear and stress-free. Their team connected me with the right attorney and helped me pursue compensation for my medical complications.",
+                    text: " Connect2Attorney made my hernia mesh lawsuit process clear and stress-free. Their team connected me with the right attorney and helped me pursue compensation for my medical complications.",
                     name: "David R.",
                   },
                 ].map((item, idx) => (
@@ -1883,7 +1883,7 @@ font-semibold
     leading-[48px]
 
  ">
-                Why Trust  Connect to Attorney?
+                Why Trust  Connect2Attorney?
               </h2>
 
               <div className="w-[44px] h-[3px] bg-[#F4C430] mt-4 mb-6 mx-auto" />
@@ -1898,7 +1898,7 @@ font-semibold
     mx-auto
     mb-3
 ">
-                 Connect to Attorney focuses on helping people affected by dangerous or harmful
+                 Connect2Attorney focuses on helping people affected by dangerous or harmful
                 products connect with legal professionals who understand complex litigation like
                 the hernia mesh lawsuit.
               </p>
@@ -2026,7 +2026,7 @@ font-semibold
         <div className="flex items-center justify-between px-4 py-3 bg-white">
           <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -2055,7 +2055,7 @@ font-semibold
                   z-50
                 "
               >
-                 (866) 376 0014
+                 (888) 202 1350
               </div>
             )}
           </div> 
@@ -2084,7 +2084,7 @@ font-semibold
     mb-6
 ">
             Have you suffered complications from a hernia mesh implant?
-             Connect to Attorney makes it easy to connect with experienced attorneys 
+             Connect2Attorney makes it easy to connect with experienced attorneys 
             who will fight for your compensation and guide you through every step of the legal process.
           </p>
 
@@ -2436,7 +2436,7 @@ font-semibold
   "
 >
 
-            What Happens <br /> When You Contact  Connect to Attorney?
+            What Happens <br /> When You Contact  Connect2Attorney?
           </h2>
 
           <div className="w-[40px] h-[3px] bg-[#F8D216] mx-auto mt-3 mb-4" />
@@ -2453,7 +2453,7 @@ font-semibold
     mx-auto
     mb-10
   "
->            When you reach out to  Connect to Attorney for a hernia mesh lawsuit review, the
+>            When you reach out to  Connect2Attorney for a hernia mesh lawsuit review, the
             process is simple and fast:
           </p>
 
@@ -2635,7 +2635,7 @@ font-semibold
     mb-5
   "
 >
-              After complications from hernia mesh surgery,  Connect to Attorney guided me to an
+              After complications from hernia mesh surgery,  Connect2Attorney guided me to an
               experienced attorney. Their support made the legal process simple and gave me confidence
               in seeking compensation.
             </p>
@@ -2680,7 +2680,7 @@ font-semibold
     mb-5
   "
 >
-              I suffered severe pain from defective hernia mesh.  Connect to Attorney connected me with a 
+              I suffered severe pain from defective hernia mesh.  Connect2Attorney connected me with a 
               skilled attorney who explained my options and helped me take the first step toward justice.
             </p>
 
@@ -2723,7 +2723,7 @@ font-semibold
     mb-5
   "
 >
-               Connect to Attorney made my hernia mesh lawsuit process clear and stress-free. Their team
+               Connect2Attorney made my hernia mesh lawsuit process clear and stress-free. Their team
               connected me with the right attorney and helped me pursue compensation for my medical complications.
             </p>
 
@@ -2761,7 +2761,7 @@ font-semibold
     mb-3
 ">
             Why Trust <br />
-             Connect to Attorney?
+             Connect2Attorney?
           </h2>
 
           <div className="w-[32px] h-[2px] bg-[#F8D216] mx-auto mb-5" />
@@ -2784,7 +2784,7 @@ font-semibold
     leading-[28px]
     mb-5
   "
->             Connect to Attorney focuses on helping people affected by dangerous or harmful products
+>             Connect2Attorney focuses on helping people affected by dangerous or harmful products
             connect with legal professionals who understand complex litigation like the
             hernia mesh lawsuit.
           </p>

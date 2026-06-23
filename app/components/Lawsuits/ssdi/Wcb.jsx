@@ -20,7 +20,7 @@ export default function Wcb() {
 
           {/* HEADING */}
           <h2 className="font-lato text-[#0A1F8F] text-[26px] leading-[36px] sm:text-[35px] sm:leading-[45px] font-bold">
-            Why Choose Connect to Attorney <br />
+            Why Choose Connect2Attorney <br />
             for Your SSDI Claim?
           </h2>
 
@@ -29,7 +29,7 @@ export default function Wcb() {
 
           {/* SUBTEXT */}
           <p className="font-lato text-[#404040] text-[15px] sm:text-[16px] leading-[25px] sm:leading-[28px]">
-            At Connect to Attorney, we make the SSDI process simple, fast, & effective so that you can focus on your health and well-being.
+            At Connect2Attorney, we make the SSDI process simple, fast, & effective so that you can focus on your health and well-being.
           </p>
 
           {/* SPACE */}

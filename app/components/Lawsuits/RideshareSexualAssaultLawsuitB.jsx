@@ -43,7 +43,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={logo} alt="  Connect to Attorney" className="h-9" />
+        <img src={logo} alt="  Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -332,7 +332,7 @@ const getUSTimezone = (tz) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "  Connect to Attorney",
+      websiteName: "  Connect2Attorney",
       formPath: "/rideshare-sa-lawsuit-b",
       vertical: LEAD_GENERATION_VERTICALS.RIDESHARE,
       formname: "Rideshare Sexual Assault Lawsuit Form B",
@@ -428,7 +428,7 @@ const getUSTimezone = (tz) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "  Connect to Attorney",
+      websiteName: "  Connect2Attorney",
       formname: "Rideshare Sexual Assault Lawsuit Form B",
       isPartialSubmission: true,
       vertical: LEAD_GENERATION_VERTICALS.RIDESHARE,
@@ -556,7 +556,7 @@ const getUSTimezone = (tz) => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "  Connect to Attorney",
+        websiteName: "  Connect2Attorney",
 formname: "Rideshare Sexual Assault Lawsuit Form B",
                 finalSubmit: true,
         deleteFromWebsiteLogs:true,
@@ -624,7 +624,7 @@ formname: "Rideshare Sexual Assault Lawsuit Form B",
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: '  Connect to Attorney',
+  //         websiteName: '  Connect2Attorney',
   //         vertical: LEAD_GENERATION_VERTICALS.RIDESHARE,
   //         formPath: '/rideshare-sa-lawsuit-b',
   //         formname: 'Rideshare Sexual Assault Lawsuit Form B',
@@ -668,7 +668,7 @@ formname: "Rideshare Sexual Assault Lawsuit Form B",
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "  Connect to Attorney",
+        websiteName: "  Connect2Attorney",
         vertical: LEAD_GENERATION_VERTICALS.RIDESHARE,
         formname: "Rideshare Sexual Assault Lawsuit Form B",
         formPath: '/rideshare-sa-lawsuit-b',
@@ -1128,7 +1128,7 @@ return (
        <div className="mx-auto px-20 py-3 flex items-center justify-between">
             <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -1179,7 +1179,7 @@ return (
                 </span>
 
                 <span className="text-[14px] tracking-wide">
-                     (866) 376 0014
+                     (888) 202 1350
                 </span>
                 </a> 
 
@@ -1229,10 +1229,10 @@ py-20
                 </h1>
 
                 <p className="text-[13.5px] text-gray-300 mb-4 leading-relaxed tracking-wide">
-                  If you’re a male or female passenger harmed by sexual assault by a rideshare driver, you may have options through the Uber sexual assault lawsuit or a related Lyft sexual assault lawsuit.  ConnecttoAttorney screens cases privately and, if eligible, connects you with an Uber assault lawyer / Lyft assault lawyer.
+                  If you’re a male or female passenger harmed by sexual assault by a rideshare driver, you may have options through the Uber sexual assault lawsuit or a related Lyft sexual assault lawsuit.  Connect2Attorney screens cases privately and, if eligible, connects you with an Uber assault lawyer / Lyft assault lawyer.
                   <br />
                   <br />
-                  <span className="font-bold">Why choose  ConnecttoAttorney for your rideshare sexual assault lawsuit?</span>
+                  <span className="font-bold">Why choose  Connect2Attorney for your rideshare sexual assault lawsuit?</span>
                   <br />
                   <br />
                   ✅ Fast, confidential intake (no pressure) <br />
@@ -1812,7 +1812,7 @@ mb-4
 
 
 ">
-                    To qualify through  ConnecttoAttorney, your claim must meet all of the following:
+                    To qualify through  Connect2Attorney, your claim must meet all of the following:
                 </p>
 
                 <ul className="    font-lato
@@ -2167,7 +2167,7 @@ leading-relaxed
         <div className="flex items-center justify-between px-4 py-3 bg-white">
           <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -2196,7 +2196,7 @@ leading-relaxed
                   z-50
                 "
               >
-                 (866) 376 0014
+                 (888) 202 1350
               </div>
             )}
           </div> 
@@ -2226,7 +2226,7 @@ leading-relaxed
     mb-6
 
 ">
-            If you’re a male or female passenger harmed by sexual assault by a rideshare driver, you may have options through the Uber sexual assault lawsuit or a related Lyft sexual assault lawsuit.  ConnecttoAttorney screens cases privately and, if eligible, connects you with an Uber assault lawyer / Lyft assault lawyer. 
+            If you’re a male or female passenger harmed by sexual assault by a rideshare driver, you may have options through the Uber sexual assault lawsuit or a related Lyft sexual assault lawsuit.  Connect2Attorney screens cases privately and, if eligible, connects you with an Uber assault lawyer / Lyft assault lawyer. 
           </p>
 
           
@@ -2728,7 +2728,7 @@ leading-relaxed
     mb-4
   "
 >
-            To qualify through  ConnecttoAttorney, your claim must meet all of the following:  
+            To qualify through  Connect2Attorney, your claim must meet all of the following:  
           </p>
 
           {/* Eligibility list */}

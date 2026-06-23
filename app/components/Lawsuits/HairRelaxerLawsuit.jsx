@@ -43,7 +43,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={logo} alt="Connect to Attorney" className="h-9" />
+        <img src={logo} alt="Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -355,7 +355,7 @@ const HairRelaxerLawsuit = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formPath: "/hair-relaxer-lawsuit-a",
         vertical: LEAD_GENERATION_VERTICALS.HAIR_RELAXER,
         formname: "Hair Relaxer Lawsuit Form A",
@@ -446,7 +446,7 @@ const HairRelaxerLawsuit = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formname: "Hair Relaxer Lawsuit Form A",
         isPartialSubmission: true,
         vertical: LEAD_GENERATION_VERTICALS.HAIR_RELAXER,
@@ -564,7 +564,7 @@ const HairRelaxerLawsuit = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formname: "Hair Relaxer Lawsuit Form A",
         finalSubmit: true,
         deleteFromWebsiteLogs: true,
@@ -624,7 +624,7 @@ const HairRelaxerLawsuit = () => {
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: 'Connect to Attorney',
+  //         websiteName: 'Connect2Attorney',
   //         vertical: 'Hair Relaxer Lawsuit',
   //         formPath: '/hair-relaxer-lawsuit-a',
   //         formname: 'Hair Relaxer Lawsuit Form',
@@ -668,7 +668,7 @@ const HairRelaxerLawsuit = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         vertical: LEAD_GENERATION_VERTICALS.HAIR_RELAXER,
         formname: "Hair Relaxer Lawsuit Form A",
         formPath: "/hair-relaxer-lawsuit-a",
@@ -1128,7 +1128,7 @@ const HairRelaxerLawsuit = () => {
           <div className=" mx-auto px-20 py-4 flex items-center justify-between">
              <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -1142,7 +1142,7 @@ const HairRelaxerLawsuit = () => {
 
               <span className="text-[#9AA4BF] text-lg">|</span>
 
-              <span className="text-lg font-bold"> (866) 376 0014</span>
+              <span className="text-lg font-bold"> (888) 202 1350</span>
             </div>
           </div>
         </header>
@@ -1218,7 +1218,7 @@ py-20
                     If you or a loved one were diagnosed in 2010 or later with
                     uterine cancer, ovarian cancer, or endometrial cancer after
                     using chemical hair relaxers, you may be entitled to
-                    compensation.  Connect to Attorney helps connect eligible individuals
+                    compensation.  Connect2Attorney helps connect eligible individuals
                     with experienced attorneys who focus on hair relaxer cancer
                     claims and can guide you through the next steps.
                   </p>
@@ -1730,7 +1730,7 @@ bg-[#F8D216]
 "
             >
               What Happens When You Contact <br />
-               Connect to Attorney?
+               Connect2Attorney?
             </h2>
 
             <div className="w-[48px] h-[3px] bg-[#F8D216] mx-auto mt-3 mb-6 rounded-full" />
@@ -1746,7 +1746,7 @@ bg-[#F8D216]
     mx-auto
 "
             >
-              When you reach out to  Connect to Attorney for a hair relaxer <br />{" "}
+              When you reach out to  Connect2Attorney for a hair relaxer <br />{" "}
               cancer lawsuit review, the process is simple and fast:
             </p>
 
@@ -1921,15 +1921,15 @@ mb-7
               >
                 {[
                   {
-                    text: " Connect to Attorney reviewed my case with care, focusing on my diagnosis date, age, product history, and brand, then connected me to an attorney confidently and quickly.",
+                    text: " Connect2Attorney reviewed my case with care, focusing on my diagnosis date, age, product history, and brand, then connected me to an attorney confidently and quickly.",
                     name: "Tamara L.",
                   },
                   {
-                    text: "After my cancer diagnosis, I felt lost.  Connect to Attorney reviewed relaxer history, confirmed I qualified, and connected me with a lawyer who explained each step.",
+                    text: "After my cancer diagnosis, I felt lost.  Connect2Attorney reviewed relaxer history, confirmed I qualified, and connected me with a lawyer who explained each step.",
                     name: "Angela B.",
                   },
                   {
-                    text: "After years of relaxer use, my diagnosis shocked me.  Connect to Attorney made intake fast, clarified eligibility, and helped me take the first step toward accountability.",
+                    text: "After years of relaxer use, my diagnosis shocked me.  Connect2Attorney made intake fast, clarified eligibility, and helped me take the first step toward accountability.",
                     name: "Monique S.",
                   },
                 ].map((item, idx) => (
@@ -2005,7 +2005,7 @@ font-semibold
 
  "
               >
-                Why Trust  Connect to Attorney?
+                Why Trust  Connect2Attorney?
               </h2>
 
               <div className="w-[44px] h-[3px] bg-[#F4C430] mt-4 mb-6 mx-auto" />
@@ -2022,7 +2022,7 @@ font-semibold
     mb-3
 "
               >
-                 Connect to Attorney focuses on helping people affected by dangerous or
+                 Connect2Attorney focuses on helping people affected by dangerous or
                 harmful products connect with legal professionals who understand
                 complex litigation like the hair relaxer lawsuit.
               </p>
@@ -2159,7 +2159,7 @@ font-semibold
         <div className="flex items-center justify-between px-4 py-3 bg-white">
           <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -2188,7 +2188,7 @@ font-semibold
                   z-50
                 "
               >
-                (866) 376 0014
+                (888) 202 1350
               </div>
             )}
           </div>
@@ -2226,7 +2226,7 @@ font-semibold
           >
             If you or a loved one were diagnosed in 2010 or later with uterine
             cancer, ovarian cancer, or endometrial cancer after using chemical
-            hair relaxers, you may be entitled to compensation.  Connect to Attorney
+            hair relaxers, you may be entitled to compensation.  Connect2Attorney
             helps connect eligible individuals with experienced attorneys who
             focus on hair relaxer cancer claims and can guide you through the
             next steps.
@@ -2656,7 +2656,7 @@ font-semibold
     leading-[32px]
   "
           >
-            What Happens <br /> When You Contact <br />  Connect to Attorney?
+            What Happens <br /> When You Contact <br />  Connect2Attorney?
           </h2>
 
           <div className="w-[40px] h-[3px] bg-[#F8D216] mx-auto mt-3 mb-4" />
@@ -2675,7 +2675,7 @@ font-semibold
   "
           >
             {" "}
-            When you reach out to  Connect to Attorney for a hair relaxer cancer lawsuit
+            When you reach out to  Connect2Attorney for a hair relaxer cancer lawsuit
             review, the process is simple and fast:
           </p>
 
@@ -2867,7 +2867,7 @@ font-semibold
     mb-5
   "
             >
-               Connect to Attorney reviewed my case with care, focusing on my diagnosis
+               Connect2Attorney reviewed my case with care, focusing on my diagnosis
               date, age, product history, and brand, then connected me to an
               attorney confidently and quickly.
             </p>
@@ -2920,7 +2920,7 @@ font-semibold
     mb-5
   "
             >
-              After my cancer diagnosis, I felt lost.  Connect to Attorney reviewed
+              After my cancer diagnosis, I felt lost.  Connect2Attorney reviewed
               relaxer history, confirmed I qualified, and connected me with a
               lawyer who explained each step.
             </p>
@@ -2972,7 +2972,7 @@ font-semibold
     mb-5
   "
             >
-              After years of relaxer use, my diagnosis shocked me.  Connect to Attorney
+              After years of relaxer use, my diagnosis shocked me.  Connect2Attorney
               made intake fast, clarified eligibility, and helped me take the
               first step toward accountability.
             </p>
@@ -3021,7 +3021,7 @@ font-semibold
 "
           >
             Why Trust <br />
-             Connect to Attorney?
+             Connect2Attorney?
           </h2>
 
           <div className="w-[32px] h-[2px] bg-[#F8D216] mx-auto mb-5" />
@@ -3046,7 +3046,7 @@ font-semibold
   "
           >
             {" "}
-             Connect to Attorney focuses on helping people affected by dangerous or
+             Connect2Attorney focuses on helping people affected by dangerous or
             harmful products connect with legal professionals who understand
             complex litigation like the hair relaxer lawsuit.
           </p>

@@ -37,7 +37,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={logo} alt="Connect to Attorney" className="h-9" />
+        <img src={logo} alt="Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -350,7 +350,7 @@ const DynamicLander = ({ templateData }) => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formPath: "/dynamic-lander",
         vertical: LEAD_GENERATION_VERTICALS.OZEMPIC,
         formname: "Dynamic Lander",
@@ -429,7 +429,7 @@ const DynamicLander = ({ templateData }) => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formname: "Dynamic Lander",
         isPartialSubmission: true,
         vertical: LEAD_GENERATION_VERTICALS.OZEMPIC,
@@ -540,7 +540,7 @@ const DynamicLander = ({ templateData }) => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formname: "Dynamic Lander",
         finalSubmit: true,
         deleteFromWebsiteLogs: true,
@@ -588,7 +588,7 @@ const DynamicLander = ({ templateData }) => {
         countryName: 'USA',
         brandType: "Internal",
         brandName: 'Project 6',
-        websiteName: 'Connect to Attorney',
+        websiteName: 'Connect2Attorney',
         vertical: LEAD_GENERATION_VERTICALS.OZEMPIC,
         formPath: '/dynamic-lander',
         formname: 'Dynamic Lander',
@@ -1063,7 +1063,7 @@ const DynamicLander = ({ templateData }) => {
           <div className="mx-auto px-20 py-3 flex items-center justify-between">
             <img
               src={logo}
-              alt="Connect to Attorney"
+              alt="Connect2Attorney"
               className="w-[215.833px] h-[25px] object-contain"
             />
 
@@ -1121,7 +1121,7 @@ const DynamicLander = ({ templateData }) => {
               </span>
 
               <span className="text-[14px] tracking-wide">
-                (866) 376 0014
+                (888) 202 1350
               </span>
             </a>
           </div>
@@ -1650,7 +1650,7 @@ const DynamicLander = ({ templateData }) => {
         <div className="flex items-center justify-between px-4 py-3 bg-white">
           <img
             src={logo}
-            alt="Connect to Attorney"
+            alt="Connect2Attorney"
             className="w-[215.833px] h-[25px] object-contain"
           />
           {/*

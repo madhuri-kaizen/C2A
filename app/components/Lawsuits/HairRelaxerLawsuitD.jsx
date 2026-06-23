@@ -36,7 +36,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={logo} alt="  Connect to Attorney" className="h-9" />
+        <img src={logo} alt="  Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -318,7 +318,7 @@ const HairRelaxerLawsuitD = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "  Connect to Attorney",
+        websiteName: "  Connect2Attorney",
         formPath: "/hair-relaxer-lawsuit-d",
         vertical: LEAD_GENERATION_VERTICALS.HAIR_RELAXER,
         formname: "Hair Relaxer Lawsuit D Lander",
@@ -414,7 +414,7 @@ const HairRelaxerLawsuitD = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "  Connect to Attorney",
+        websiteName: "  Connect2Attorney",
         formname: "Hair Relaxer Lawsuit Lander D",
         isPartialSubmission: true,
         vertical: LEAD_GENERATION_VERTICALS.HAIR_RELAXER,
@@ -542,7 +542,7 @@ const HairRelaxerLawsuitD = () => {
           countryName: "USA",
           brandType: "Internal",
           brandName: "Project 6",
-          websiteName: "  Connect to Attorney",
+          websiteName: "  Connect2Attorney",
           formname: "Hair Relaxer Lawsuit Lander D",
                   finalSubmit: true,
         deleteFromWebsiteLogs:true,
@@ -609,7 +609,7 @@ const HairRelaxerLawsuitD = () => {
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: '  Connect to Attorney',
+  //         websiteName: '  Connect2Attorney',
   //         vertical: 'Hair Relaxer Lawsuit',
   //         formPath: '/hair-relaxer-lawsuit-d',
   //         formname: 'Hair Relaxer Lawsuit lander D',
@@ -653,7 +653,7 @@ const HairRelaxerLawsuitD = () => {
         countryName: 'USA',
         brandType: "Internal",
         brandName: 'Project 6',
-        websiteName: '  Connect to Attorney',
+        websiteName: '  Connect2Attorney',
         vertical: LEAD_GENERATION_VERTICALS.HAIR_RELAXER,
         formPath: '/hair-relaxer-lawsuit-d',
         formname: 'Hair Relaxer Lawsuit Form D',
@@ -963,7 +963,7 @@ const HairRelaxerLawsuitD = () => {
           <div className="mx-auto px-20 py-3 flex items-center justify-between">
             <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -1021,7 +1021,7 @@ const HairRelaxerLawsuitD = () => {
                 </span>
 
                 <span className="text-[14px] tracking-wide">
-                     (866) 376 0014
+                     (888) 202 1350
                 </span>
                 </a> 
           </div>
@@ -1694,7 +1694,7 @@ bg-[#F8D216]
         <div className="flex items-center justify-between px-4 py-3 bg-white">
           <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 

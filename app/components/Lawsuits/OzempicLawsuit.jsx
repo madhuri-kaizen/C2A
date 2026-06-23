@@ -38,7 +38,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={logo} alt="Connect to Attorney" className="h-9" />
+        <img src={logo} alt="Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -327,7 +327,7 @@ const getUSTimezone = (tz) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "Connect to Attorney",
+      websiteName: "Connect2Attorney",
       formPath: "/ozempic-lawsuit-a",
       vertical: LEAD_GENERATION_VERTICALS.OZEMPIC,
       formname: "Ozempic Lawsuit lander A",
@@ -423,7 +423,7 @@ const getUSTimezone = (tz) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "Connect to Attorney",
+      websiteName: "Connect2Attorney",
       formname: "Ozempic Lawsuit lander A",
       isPartialSubmission: true,
       vertical: LEAD_GENERATION_VERTICALS.OZEMPIC,
@@ -551,7 +551,7 @@ const getUSTimezone = (tz) => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
 formname: "Ozempic Lawsuit lander A",
                 finalSubmit: true,
         deleteFromWebsiteLogs:true,
@@ -619,7 +619,7 @@ formname: "Ozempic Lawsuit lander A",
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: 'Connect to Attorney',
+  //         websiteName: 'Connect2Attorney',
   //         vertical: LEAD_GENERATION_VERTICALS.OZEMPIC,
   //         formPath: '/ozempic-lawsuit-a',
   //         formname: 'Ozempic Lawsuit lander',
@@ -663,7 +663,7 @@ formname: "Ozempic Lawsuit lander A",
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         vertical: LEAD_GENERATION_VERTICALS.OZEMPIC,
         formname: "Ozempic Lawsuit lander Form A",
         formPath: '/ozempic-lawsuit-a',
@@ -1124,7 +1124,7 @@ formname: "Ozempic Lawsuit lander A",
           <div className=" mx-auto px-20 py-4 flex items-center justify-between">
              <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -1138,7 +1138,7 @@ formname: "Ozempic Lawsuit lander A",
 
               <span className="text-[#9AA4BF] text-lg">|</span>
 
-              <span className="text-lg font-bold"> (866) 376 0014</span>
+              <span className="text-lg font-bold"> (888) 202 1350</span>
             </div>
           </div>
         </header>
@@ -1204,7 +1204,7 @@ py-20
 
 ">
                   If you or a loved one experienced severe side effects from Ozempic,
-                  you may be entitled to compensation.  Connect to Attorney 
+                  you may be entitled to compensation.  Connect2Attorney 
                   connects you with trusted attorneys who specialize in Ozempic 
                   lawsuits, guiding you through every step to protect your rights.
                 </p>
@@ -1648,7 +1648,7 @@ bg-[#F8D216]
 
 ">
               What Happens When You Contact <br />
-               Connect to Attorney?
+               Connect2Attorney?
             </h2>
 
             <div className="w-[48px] h-[3px] bg-[#F8D216] mx-auto mt-3 mb-6 rounded-full" />
@@ -1662,7 +1662,7 @@ bg-[#F8D216]
     max-w-[620px]
     mx-auto
 ">
-              When you reach out to  Connect to Attorney for an Ozempic <br /> lawsuit review, the
+              When you reach out to  Connect2Attorney for an Ozempic <br /> lawsuit review, the
               process is simple and fast:
             </p>
 
@@ -1812,15 +1812,15 @@ mb-7">
               >
                 {[
                   {
-                    text: " Connect to Attorney supported me after my Ozempic complications. They connected me with an attorney who handled my case professionally and helped me pursue the compensaion I deserved.",
+                    text: " Connect2Attorney supported me after my Ozempic complications. They connected me with an attorney who handled my case professionally and helped me pursue the compensaion I deserved.",
                     name: "Lisa K.",
                   },
                   {
-                    text: "After experiencing severe side effects from Ozempic,  Connect to Attorney connected me with a knowledgeable attorney. Their guidance made the claim process simple, clear, and stress-free.",
+                    text: "After experiencing severe side effects from Ozempic,  Connect2Attorney connected me with a knowledgeable attorney. Their guidance made the claim process simple, clear, and stress-free.",
                     name: "Jennifer T.",
                   },
                   {
-                    text: "I didn't know Ozempic could cause serious health issues.  Connect to Attorney helped me understand my legal options and guided me to an experienced attorney for my lawsuit.",
+                    text: "I didn't know Ozempic could cause serious health issues.  Connect2Attorney helped me understand my legal options and guided me to an experienced attorney for my lawsuit.",
                     name: "Michael R.",
                   },
                 ].map((item, idx) => (
@@ -1884,7 +1884,7 @@ font-semibold
     leading-[48px]
 
  ">
-                Why Trust  Connect to Attorney?
+                Why Trust  Connect2Attorney?
               </h2>
 
               <div className="w-[44px] h-[3px] bg-[#F4C430] mt-4 mb-6 mx-auto" />
@@ -1899,7 +1899,7 @@ font-semibold
     mx-auto
     mb-3
 ">
-                 Connect to Attorney focuses on helping people affected by dangerous or harmful
+                 Connect2Attorney focuses on helping people affected by dangerous or harmful
                 products connect with legal professionals who understand complex litigation like
                 the Ozempic lawsuit.
               </p>
@@ -2027,7 +2027,7 @@ font-semibold
         <div className="flex items-center justify-between px-4 py-3 bg-white">
           <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -2056,7 +2056,7 @@ font-semibold
                   z-50
                 "
               >
-                 (866) 376 0014
+                 (888) 202 1350
               </div>
             )}
           </div>
@@ -2083,7 +2083,7 @@ font-semibold
     mb-6
 ">
             If you or a loved one experienced severe side effects from Ozempic, you may be entitled to compensation.
-             Connect to Attorney connects you with trusted attorneys who specialize in
+             Connect2Attorney connects you with trusted attorneys who specialize in
             Ozempic lawsuits, guiding you through every step to protect your rights.
           </p>
 
@@ -2436,7 +2436,7 @@ font-semibold
   "
 >
 
-            What Happens <br /> When You Contact <br />  Connect to Attorney?
+            What Happens <br /> When You Contact <br />  Connect2Attorney?
           </h2>
 
           <div className="w-[40px] h-[3px] bg-[#F8D216] mx-auto mt-3 mb-4" />
@@ -2453,7 +2453,7 @@ font-semibold
     mx-auto
     mb-10
   "
->            When you reach out to  Connect to Attorney for an Ozempic lawsuit review, the
+>            When you reach out to  Connect2Attorney for an Ozempic lawsuit review, the
             process is simple and fast:
           </p>
 
@@ -2634,7 +2634,7 @@ font-semibold
     mb-5
   "
 >
-               Connect to Attorney supported me after my Ozempic complications. They handled my case 
+               Connect2Attorney supported me after my Ozempic complications. They handled my case 
               professionally and helped me pursue the compensation I deserved.
             </p>
 
@@ -2678,7 +2678,7 @@ font-semibold
     mb-5
   "
 >
-              After experiencing severe side effects from Ozempic,  Connect to Attorney connected me with a
+              After experiencing severe side effects from Ozempic,  Connect2Attorney connected me with a
               knowledgeable attorney. Their guidance made the claim process simple, clear, and stress-free.
             </p>
 
@@ -2721,7 +2721,7 @@ font-semibold
     mb-5
   "
 >
-              I didn't know Ozempic could cause serious health issues.  Connect to Attorney helped me
+              I didn't know Ozempic could cause serious health issues.  Connect2Attorney helped me
               understand my legal options and guided me to an experienced attorney for my lawsuit.
             </p>
 
@@ -2759,7 +2759,7 @@ font-semibold
     mb-3
 ">
             Why Trust <br />
-             Connect to Attorney?
+             Connect2Attorney?
           </h2>
 
           <div className="w-[32px] h-[2px] bg-[#F8D216] mx-auto mb-5" />
@@ -2782,7 +2782,7 @@ font-semibold
     leading-[28px]
     mb-5
   "
->             Connect to Attorney focuses on helping people affected by dangerous or harmful products
+>             Connect2Attorney focuses on helping people affected by dangerous or harmful products
             connect with legal professionals who understand complex litigation like the
             Ozempic lawsuit.
           </p>

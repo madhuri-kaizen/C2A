@@ -43,7 +43,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={logo} alt="Connect to Attorney" className="h-9" />
+        <img src={logo} alt="Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -332,7 +332,7 @@ const getUSTimezone = (tz) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "Connect to Attorney",
+      websiteName: "Connect2Attorney",
       formPath: "/ozempic-lawsuit-b",
       vertical: LEAD_GENERATION_VERTICALS.OZEMPIC,
       formname: "Ozempic Lawsuit lander B",
@@ -428,7 +428,7 @@ const getUSTimezone = (tz) => {
       countryName: "USA",
       brandType: "Internal",
       brandName: "Project 6",
-      websiteName: "Connect to Attorney",
+      websiteName: "Connect2Attorney",
       formname: "Ozempic Lawsuit lander B",
       isPartialSubmission: true,
       vertical: LEAD_GENERATION_VERTICALS.OZEMPIC,
@@ -556,7 +556,7 @@ const getUSTimezone = (tz) => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
 formname: "Ozempic Lawsuit lander B",
                 finalSubmit: true,
         deleteFromWebsiteLogs:true,
@@ -624,7 +624,7 @@ formname: "Ozempic Lawsuit lander B",
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: 'Connect to Attorney',
+  //         websiteName: 'Connect2Attorney',
   //         vertical: LEAD_GENERATION_VERTICALS.OZEMPIC,
   //         formPath: '/ozempic-lawsuit-b',
   //         formname: 'Ozempic Lawsuit lander B',
@@ -668,7 +668,7 @@ formname: "Ozempic Lawsuit lander B",
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         vertical: LEAD_GENERATION_VERTICALS.OZEMPIC,
         formname: "Ozempic Lawsuit lander B Form",
         formPath: '/ozempic-lawsuit-b',
@@ -1129,7 +1129,7 @@ formname: "Ozempic Lawsuit lander B",
        <div className="mx-auto px-20 py-3 flex items-center justify-between">
             <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -1180,7 +1180,7 @@ formname: "Ozempic Lawsuit lander B",
                 </span>
 
                 <span className="text-[14px] tracking-wide">
-                     (866) 376 0014
+                     (888) 202 1350
                 </span>
                 </a> 
 
@@ -1238,7 +1238,7 @@ py-20
                   Anterior Ischemic Optic Neuropathy (NAION), after taking Ozempic. 
                   <br />
                   <br />
-                  <span className="font-bold">At  Connect to Attorney, we help you:</span>
+                  <span className="font-bold">At  Connect2Attorney, we help you:</span>
                   <br />
                   <br />
                   ✅ Understand your legal rights and options if you are harmed by Ozempic. <br />
@@ -1713,7 +1713,7 @@ leading-tight font-semibold text-[#162766] mb-4">
 
 ">
                     An Ozempic lawsuit claims patients were not adequately warned about these risks. 
-                     Connect to Attorney helps affected individuals check eligibility and connect with 
+                     Connect2Attorney helps affected individuals check eligibility and connect with 
                     qualified attorneys to pursue compensation for medical costs and long-term complications.
                 </p>
 
@@ -2155,7 +2155,7 @@ leading-relaxed
         <div className="flex items-center justify-between px-4 py-3 bg-white">
           <img
   src={logo}
-  alt="Connect to Attorney"
+  alt="Connect2Attorney"
   className="w-[215.833px] h-[25px] object-contain"
 />
 
@@ -2184,7 +2184,7 @@ leading-relaxed
                   z-50
                 "
               >
-                 (866) 376 0014
+                 (888) 202 1350
               </div>
             )}
           </div> 
@@ -2586,7 +2586,7 @@ leading-relaxed
     mb-4
   "
 >
-            An Ozempic lawsuit claims patients were not adequately warned about these risks.  Connect to Attorney helps affected individuals check eligibility and connect with qualified attorneys to pursue compensation for medical costs and long-term complications. 
+            An Ozempic lawsuit claims patients were not adequately warned about these risks.  Connect2Attorney helps affected individuals check eligibility and connect with qualified attorneys to pursue compensation for medical costs and long-term complications. 
           </p>
 
         </div>

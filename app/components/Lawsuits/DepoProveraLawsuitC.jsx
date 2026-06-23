@@ -35,7 +35,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={tylogo} alt="Connect to Attorney" className="h-9" />
+        <img src={tylogo} alt="Connect2Attorney" className="h-9" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -348,7 +348,7 @@ const DepoProveraLawsuitC = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formPath: "/depo-provera-lawsuit-c",
         vertical: LEAD_GENERATION_VERTICALS.DEPO_PROVERA,
         formname: "Depo-Provera Lawsuit Lander C",
@@ -439,7 +439,7 @@ const DepoProveraLawsuitC = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formname: "Depo-Provera Lawsuit Lander C",
         isPartialSubmission: true,
         vertical: LEAD_GENERATION_VERTICALS.DEPO_PROVERA,
@@ -557,7 +557,7 @@ const DepoProveraLawsuitC = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         formname: "Depo-Provera Lawsuit Lander C",
         finalSubmit: true,
         deleteFromWebsiteLogs: true,
@@ -616,7 +616,7 @@ const DepoProveraLawsuitC = () => {
   //         countryName: 'USA',
   //         brandType: "Internal",
   //         brandName: 'Project 6',
-  //         websiteName: 'Connect to Attorney',
+  //         websiteName: 'Connect2Attorney',
   //         vertical: 'Depo-Provera & Brain Tumor Lawsuit',
   //         formPath: '/depo-provera-lawsuit-c',
   //         formname: 'Depo-Provera Lawsuit lander C',
@@ -660,7 +660,7 @@ const DepoProveraLawsuitC = () => {
         countryName: "USA",
         brandType: "Internal",
         brandName: "Project 6",
-        websiteName: "Connect to Attorney",
+        websiteName: "Connect2Attorney",
         vertical: LEAD_GENERATION_VERTICALS.DEPO_PROVERA,
         formname: "Depo-Provera Lawsuit Lander Form C",
         formPath: "/depo-provera-lawsuit-c",
@@ -1100,7 +1100,7 @@ const DepoProveraLawsuitC = () => {
           <div className="  mx-auto px-20 py-3 flex items-center justify-between">
             <img
               src={logo}
-              alt="Connect to Attorney"
+              alt="Connect2Attorney"
               className="w-[215.833px] h-[25px] object-contain"
             />
 
@@ -1150,7 +1150,7 @@ const DepoProveraLawsuitC = () => {
                 </svg>
               </span>
 
-              <span className="text-[14px] tracking-wide">(866) 376 0014</span>
+              <span className="text-[14px] tracking-wide">(888) 202 1350</span>
             </a>
           </div>
         </header>
@@ -1925,7 +1925,7 @@ bg-[#F8D216]
                     <br />
                     If you used the Depo-Provera shot and later faced a
                     meningioma diagnosis, you shouldn’t have to navigate this
-                    alone.  Connect to Attorney helps you take action by connecting you
+                    alone.  Connect2Attorney helps you take action by connecting you
                     with attorneys who understand Depo-Provera claims and can
                     evaluate your case quickly.
                   </p>
@@ -2284,7 +2284,7 @@ bg-[#F8D216]
         <div className="relative z-10 flex items-center justify-between px-4 py-3 bg-[#162766]">
           <img
             src={logo}
-            alt="Connect to Attorney"
+            alt="Connect2Attorney"
             className="w-[215.833px] h-[25px] object-contain"
           />
         </div>
@@ -2308,7 +2308,7 @@ bg-[#F8D216]
         `}
         >
           <a href="tel:18882021350" className="font-semibold">
-            (866) 376 0014
+            (888) 202 1350
           </a>
         </div>
 
@@ -3021,7 +3021,7 @@ bg-[#F8D216]
   "
           >
             If you used the Depo-Provera shot and later faced a meningioma
-            diagnosis, you shouldn’t have to navigate this alone.  Connect to Attorney
+            diagnosis, you shouldn’t have to navigate this alone.  Connect2Attorney
             helps you take action by connecting you with attorneys who
             understand Depo-Provera claims and can evaluate your case quickly.
           </p>

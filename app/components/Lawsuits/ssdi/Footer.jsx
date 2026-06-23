@@ -13,7 +13,7 @@ export default function Footer() {
           {/* LOGO */}
           <img
             src={logo}
-            alt="Connect to Attorney"
+            alt="Connect2Attorney"
             className="h-[28px] sm:h-[32px] object-contain"
           />
 
