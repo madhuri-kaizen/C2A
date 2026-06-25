@@ -981,7 +981,7 @@ formname: "Hernia Mesh Lawsuit Lander C",
             <img
   src={logo}
   alt="Connect2Attorney"
-  className="w-[215.833px] h-[25px] object-contain"
+  className="w-[180px] sm:w-[216px] h-auto object-contain"
 />
 
              <a
@@ -1106,7 +1106,7 @@ py-20
     [text-shadow:5px_5px_20px_rgba(0,0,0,0.40)]
   "
 >
-                  If you had hernia repair surgery using a surgical mesh implant and later suffered mesh failure, chronic pain, infection, adhesion, bowel complications, or revision surgery, you may qualify for compensation. Deadlines may apply; check now. 
+                  If you had hernia repair surgery using a surgical mesh implant and later suffered mesh failure, chronic pain, infection, adhesion, bowel complications, or revision surgery, you may qualify for compensation. Deadlines may apply, Check Now.
                 </p>
 
               </div>
@@ -2061,7 +2061,7 @@ bg-[#F8D216]
     <img
   src={logo}
   alt="Connect2Attorney"
-  className="w-[215.833px] h-[25px] object-contain"
+  className="w-[180px] sm:w-[216px] h-auto object-contain"
 />
 
     {/* Hamburger */}

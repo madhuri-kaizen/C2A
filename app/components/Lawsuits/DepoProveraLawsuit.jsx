@@ -1118,7 +1118,7 @@ const DepoProveraLawsuit = () => {
             <img
               src={logo}
               alt="Connect2Attorney"
-              className="w-[215.833px] h-[25px] object-contain"
+              className="w-[180px] sm:w-[216px] h-auto object-contain"
             />
 
             <div className="flex items-center gap-4 text-[#162766]">
@@ -2089,7 +2089,7 @@ bg-[#F8D216]
           <img
             src={logo}
             alt="Connect2Attorney"
-            className="w-[215.833px] h-[25px] object-contain"
+            className="w-[180px] sm:w-[216px] h-auto object-contain"
           />
 
           <div className="relative">

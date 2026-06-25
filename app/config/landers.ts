@@ -208,6 +208,7 @@ export const LANDERS: Record<string, ComponentType> = {
   "ssdi-a-1":SSDILawsuit1,
   "ssdi-a-kq": KqSSDILawsuit,
   "ssdi-e": SSDIE,
+  "ssdi-e-1": SSDIE1,
   "ssdi-e-kq": SSDIEKQ,
   "ssdi-rig": SSDIRIG,
 

@@ -267,9 +267,9 @@ const DesktopNavbar: React.FC<DesktopNavbarProps> = ({ scrolled }) => {
             src="/logotitle.svg"
             alt="Connect2Attorney Logo"
             className="
-              w-[130px] h-[25px]
-              xs:w-[156px] xs:h-[30px]
-              xl:w-[236px] xl:h-[45px]
+              w-[180px] h-auto
+              xl:w-[260px]
+              2xl:w-[286px]
               object-contain cursor-pointer transition-all duration-300 ease-out
             "
             width={300}
@@ -511,21 +511,20 @@ const MobileNavbar: React.FC<MobileNavbarProps> = ({
         <div className="flex-shrink-0">
           <Link href="/">
             <Image
-              src={isMobileMenuOpen ? "/biggerlogo.svg" : "/logotitle.svg"}
+              src="/logotitle.svg"
               alt="Connect2Attorney Logo"
               className={`
     object-contain cursor-pointer transition-all duration-300 ease-out
     ${
       isMobileMenuOpen
         ? `
-          w-[180px] h-[36px]
-          xs:w-[210px] xs:h-[42px]
-          md:w-[240px] md:h-[48px]
+          w-[210px] h-auto
+          xs:w-[230px]
+          md:w-[260px]
         `
         : `
-          w-[156.75px] h-[30px]
-          aspect-[156.75/30]
-          xl:w-[236px] xl:h-[45px]
+          w-[180px] h-auto
+          xs:w-[196px]
         `
     }
   `}

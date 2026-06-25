@@ -1125,7 +1125,7 @@ formname: "Ozempic Lawsuit lander A",
              <img
   src={logo}
   alt="Connect2Attorney"
-  className="w-[215.833px] h-[25px] object-contain"
+  className="w-[180px] sm:w-[216px] h-auto object-contain"
 />
 
             <div className="flex items-center gap-4 text-[#162766]">
@@ -2028,7 +2028,7 @@ font-semibold
           <img
   src={logo}
   alt="Connect2Attorney"
-  className="w-[215.833px] h-[25px] object-contain"
+  className="w-[180px] sm:w-[216px] h-auto object-contain"
 />
 
           <div className="relative">

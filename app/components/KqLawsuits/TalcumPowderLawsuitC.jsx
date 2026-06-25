@@ -980,7 +980,7 @@ formname: "Talcum Powder Lawsuit Lander C KQ",
             <img
   src={logo}
   alt="Connect2Attorney"
-  className="w-[215.833px] h-[25px] object-contain"
+  className="w-[180px] sm:w-[216px] h-auto object-contain"
 />
 
              <a
@@ -2176,7 +2176,7 @@ bg-[#F8D216]
     <img
   src={logo}
   alt="Connect2Attorney"
-  className="w-[215.833px] h-[25px] object-contain"
+  className="w-[180px] sm:w-[216px] h-auto object-contain"
 />
 
     {/* Hamburger */}

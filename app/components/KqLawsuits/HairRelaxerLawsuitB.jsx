@@ -1131,7 +1131,7 @@ const HairRelaxerLawsuitB = () => {
             <img
   src={logo}
   alt="Connect2Attorney"
-  className="w-[215.833px] h-[25px] object-contain"
+  className="w-[180px] sm:w-[216px] h-auto object-contain"
 />
 
             <a
@@ -2286,7 +2286,7 @@ leading-relaxed
           <img
   src={logo}
   alt="Connect2Attorney"
-  className="w-[215.833px] h-[25px] object-contain"
+  className="w-[180px] sm:w-[216px] h-auto object-contain"
 />
 
           <div className="relative">

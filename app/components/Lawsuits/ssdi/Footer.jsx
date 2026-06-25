@@ -1,6 +1,8 @@
 "use client";
 
-const logo = "/Form/bwllogo.png";
+import Link from "next/link";
+
+const logo = "/logotitle.svg";
 const phoneIcon = "/Form/phone1.svg";
 export default function Footer() {
   return (
@@ -14,7 +16,7 @@ export default function Footer() {
           <img
             src={logo}
             alt="Connect2Attorney"
-            className="h-[28px] sm:h-[32px] object-contain"
+            className="w-[170px] sm:w-[260px] h-auto object-contain"
           />
 
           {/* CTA BUTTON */}
@@ -54,25 +56,25 @@ export default function Footer() {
 
           {/* COPYRIGHT */}
           <p className="text-[#0A1F8F] font-lato text-[14px] sm:text-[15px] font-semibold text-center sm:text-left">
-            © Copyright 2026 all reserve by AFFF Lawsuit expert.
+            © Copyright 2026 Connect2Attorney.
           </p>
 
           {/* LINKS */}
           <div className="flex items-center gap-[20px]">
 
-            <a
-              href="/Disclaimer"
+            <Link
+              href="/disclaimer"
               className="text-[#0A1F8F] font-lato text-[13px] sm:text-[13.5px] font-bold tracking-[0.1px]"
             >
               Disclaimer
-            </a>
+            </Link>
 
-            <a
-              href="/PrivacyPolicy"
+            <Link
+              href="/privacy-policy"
               className="text-[#0A1F8F] font-lato text-[13px] sm:text-[13.5px] font-bold tracking-[0.1px]"
             >
               Privacy Policy
-            </a>
+            </Link>
 
           </div>
 

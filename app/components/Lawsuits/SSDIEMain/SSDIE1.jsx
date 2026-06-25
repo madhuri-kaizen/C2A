@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 const Logo  = "/logotitle.svg";
 const phoneIcon = "/phone.svg";
 const ShieldLock = "/shield-lock.svg";
@@ -527,7 +528,7 @@ export default function SSDIEKQ2() {
   };
 
   return (
-    <div className="bg-white text-[#07177F]">
+    <div className="min-h-screen flex flex-col bg-white text-[#07177F]">
       {/* <input type="hidden" id="xxTrustedFormCertUrl" name="xxTrustedFormCertUrl" />
       <input type="hidden" id="xxTrustedFormCertToken" name="xxTrustedFormCertToken" />
       <input type="hidden" id="xxTrustedFormPingUrl" name="xxTrustedFormPingUrl" /> */}
@@ -545,7 +546,7 @@ export default function SSDIEKQ2() {
             <img
               src={Logo}
               alt="Connect2Attorney"
-              className="w-[140px] h-auto"
+              className="w-[180px] sm:w-[216px] h-auto object-contain"
             />
 
             <div className="flex items-center gap-2 text-xs font-[700] text-[#1B5E20]">
@@ -591,7 +592,7 @@ export default function SSDIEKQ2() {
             <img
               src={Logo}
               alt="Connect2Attorney"
-              className="w-[160px] h-auto"
+              className="w-[180px] sm:w-[216px] h-auto object-contain"
             />
           </div>
 
@@ -646,7 +647,7 @@ export default function SSDIEKQ2() {
         </div>
       </div>
 
-      <main className="text-center px-5 pt-6 sm:pt-6 pb-14 min-h-[420px]">
+      <main className="flex-1 text-center px-5 pt-6 sm:pt-6 pb-14 min-h-[420px]">
         {!showFinalForm ? (
           <>
             <h1 className="font-serif text-[28px] sm:text-[34px] md:text-[38px] font-normal text-[#0A1F8F] leading-tight">
@@ -831,7 +832,7 @@ export default function SSDIEKQ2() {
         )}
       </main>
 
-      <footer className="bg-[#071654] text-white px-5 sm:px-10 py-8 text-[10px] leading-relaxed">
+      <footer className="mt-auto bg-[#071654] text-white px-5 sm:px-10 py-8 text-[11px] sm:text-xs leading-relaxed">
         <div className="flex flex-col sm:flex-row justify-between items-center gap-3 mb-5">
           {/* <div className="text-[#FFF] font-[Arial] text-[13.869px] font-bold leading-normal flex items-center gap-2">
             <span>
@@ -845,12 +846,12 @@ export default function SSDIEKQ2() {
             USA Best Benefits
           </div> */}
 
-          <div className="text-[10px] text-gray-300">
+          <div className="text-[11px] sm:text-xs text-white">
             🔒 256-BIT SSL SECURED
           </div>
         </div>
         <div className="border-[0.2px] border-[#EDC14A] opacity-50 mb-5"></div>
-        <p className="text-[#6B88B2] font-[400] text-[9px] sm:text-[10px] leading-[15px] font-[Arial] mb-4">
+        <p className="text-white font-[400] text-[11px] sm:text-xs leading-[18px] font-[Arial] mb-4">
           Connect2Attorney.com is a website dedicated to serving the public as an
           informational resource, providing accurate content about various
           medical treatments and associated side effects. Connect2Attorney.com also
@@ -859,13 +860,13 @@ export default function SSDIEKQ2() {
           complications caused by a medical treatment.
         </p>
 
-        <p className="text-[#6B88B2] font-[400] text-[9px] sm:text-[10px] leading-[15px] font-[Arial] mb-4">
+        <p className="text-white font-[400] text-[11px] sm:text-xs leading-[18px] font-[Arial] mb-4">
           Connect2Attorney.com is not affiliated with any pharmaceutical companies or
           drug manufacturers and does not accept advertising or host online
           advertisements.
         </p>
 
-        <p className="text-[#6B88B2] text-[9px] sm:text-[10px] leading-[15px] font-[Arial] font-normal mb-4">
+        <p className="text-white text-[11px] sm:text-xs leading-[18px] font-[Arial] font-normal mb-4">
           <span className="font-bold">Consent to Contact</span>
           <br />
           By submitting this form, you consent to be contacted by a Connect2Attorney
@@ -873,32 +874,32 @@ export default function SSDIEKQ2() {
           provider. Any information provided to Connect2Attorney.com will be shared
           with the service provider.
         </p>
-        <p className="text-[#6B88B2] text-[9px] sm:text-[10px] leading-[15px] font-[Arial] font-normal mb-4">
+        <p className="text-white text-[11px] sm:text-xs leading-[18px] font-[Arial] font-normal mb-4">
           <span>
             Updated with Latest Information
           </span>
           <br />
           Connect2Attorney.com is continually updated to ensure current information about medications and medical devices and associated side effects is provided to the public. The information on the site is meant to complement a doctor or healthcare professional’s advice and should not be used in place of medical advice. It is important to note that most, if not all, drugs or medical devices discussed on Connect2Attorney.com are FDA approved.
         </p>
-        <p className="text-[#6B88B2] font-[400] text-[9px] sm:text-[10px] leading-[15px] font-[Arial] mb-4">
+        <p className="text-white font-[400] text-[11px] sm:text-xs leading-[18px] font-[Arial] mb-4">
           Content found on Connect2Attorney.com should not be taken as medical advice and site visitors are encouraged to speak with a medical professional for medical treatment, information and recommendations. Furthermore, site visitors should not discontinue use of a drug or medical device without first seeking the advice of medical professional.
         </p>
-        <p className="text-[#6B88B2] font-[400] text-[9px] sm:text-[10px] leading-[15px] font-[Arial] mb-5">
+        <p className="text-white font-[400] text-[11px] sm:text-xs leading-[18px] font-[Arial] mb-5">
           Additionally, the legal information on Connect2Attorney.com should not be taken as legal advice, as the content on the site is meant to provide general legal information and is not intended to provide information about a specific visitor’s situation. The information on Connect2Attorney.com is not an offer to create an attorney-client relationship or perform legal services. Visitors should not act or refrain from acting due to information found on this site without the guidance of a qualified and licensed attorney.
         </p>
         <div className="border-[0.2px] border-[#EDC14A] opacity-50"></div>
-        <div className="mt-5 flex flex-col sm:flex-row justify-between items-center gap-3 text-gray-300">
-          <p className="text-[#7A9AC5] font-[400] text-[9.907px] font-[Arial] mb-4">
+        <div className="mt-5 flex flex-col sm:flex-row justify-between items-center gap-3 text-white">
+          <p className="text-white font-[400] text-[11px] sm:text-xs font-[Arial] mb-4">
             © 2017–2026 Connect2Attorney.com. All rights reserved.
           </p>
 
           <div className="flex gap-6">
-            <a href="/Disclaimer" className="text-[#7A9AC5] font-[400] text-[9.907px] font-[Arial]">
+            <Link href="/disclaimer" className="text-white font-[400] text-[11px] sm:text-xs font-[Arial]">
               Disclaimer
-            </a>
-            <a href="/PrivacyPolicy" className="text-[#7A9AC5] font-[400] text-[9.907px] font-[Arial]">
+            </Link>
+            <Link href="/privacy-policy" className="text-white font-[400] text-[11px] sm:text-xs font-[Arial]">
               Privacy Policy
-            </a>
+            </Link>
           </div>
         </div>
       </footer>

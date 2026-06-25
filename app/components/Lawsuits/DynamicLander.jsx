@@ -1064,7 +1064,7 @@ const DynamicLander = ({ templateData }) => {
             <img
               src={logo}
               alt="Connect2Attorney"
-              className="w-[215.833px] h-[25px] object-contain"
+              className="w-[180px] sm:w-[216px] h-auto object-contain"
             />
 
             <a
@@ -1651,7 +1651,7 @@ const DynamicLander = ({ templateData }) => {
           <img
             src={logo}
             alt="Connect2Attorney"
-            className="w-[215.833px] h-[25px] object-contain"
+            className="w-[180px] sm:w-[216px] h-auto object-contain"
           />
           {/*
           

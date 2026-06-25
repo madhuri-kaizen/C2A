@@ -12,7 +12,7 @@ export default function Navbar() {
           <img
             src={logo}
             alt="Connect2Attorney"
-            className="h-[18px] sm:h-[22px] w-auto object-contain"
+            className="w-[180px] sm:w-[216px] h-auto object-contain"
           />
         </div>
 

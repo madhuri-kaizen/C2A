@@ -979,7 +979,7 @@ formname: "Roblox Sexual Abuse Lawsuit Lander C KQ",
             <img
   src={logo}
   alt="Connect2Attorney"
-  className="w-[215.833px] h-[25px] object-contain"
+  className="w-[180px] sm:w-[216px] h-auto object-contain"
 />
 
              <a
@@ -2031,7 +2031,7 @@ We keep the intake private and parent-guided                    </span>
     <img
   src={logo}
   alt="Connect2Attorney"
-  className="w-[215.833px] h-[25px] object-contain"
+  className="w-[180px] sm:w-[216px] h-auto object-contain"
 />
 
     {/* Hamburger */}

@@ -55,7 +55,7 @@ const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={logo} alt="Connect2Attorney" className="h-6" />
+        <img src={logo} alt="Connect2Attorney" className="w-[190px] sm:w-[260px] h-auto" />
       </div>
 
       <div className="mt-[90px] pb-[220px] flex flex-col items-center text-center px-6 z-10 relative">
@@ -96,7 +96,7 @@ const MobileThankYou = () => {
   return (
     <div className="lg:hidden relative w-full min-h-screen bg-white overflow-hidden">
       <div className="pt-10 flex justify-center">
-        <img src={logo} className="h-6" alt="logo" />
+        <img src={logo} className="w-[190px] h-auto" alt="logo" />
       </div>
 
       <div className="mt-20 px-6 text-center relative z-10 pb-48">

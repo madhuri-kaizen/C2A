@@ -177,8 +177,9 @@ body:has(.lander-page) > .site-navbar {
 
 /* Keep header branding consistent across normal and KQ A/B/C/D/E landers. */
 .lettered-lander header img[alt*="Connect2Attorney"] {
-  width: 260px !important;
-  height: 36px !important;
+  width: 300px !important;
+  height: auto !important;
+  max-height: 58px !important;
   object-fit: contain;
 }
 
