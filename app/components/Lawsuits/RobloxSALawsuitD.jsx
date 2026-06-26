@@ -1053,16 +1053,16 @@ const RobloxSALawsuitD = () => {
             {/* ===== LEFT CONTENT ===== */}
             <div className="pt-0 mt-20 text-white flex justify-center">
               <div className=" max-w-[720px]">
-                <h1 className="text-[30px] font-jakarta leading-snug font-normal mb-4">
+                <h1 className="text-[38px] font-jakarta leading-snug font-normal mb-4">
                   Roblox Sex Abuse Lawsuit: Get Your Free, <span className="bg-[#162766] text-[#F8D216] px-3 py-[3px] rounded-md inline-block">
                     Confidential Case Review
                   </span>
 
                 </h1>
 
-                 <ul className="mt-6 space-y-4 text-[15px] sm:text-[16px] md:text-[17px] lg:text-[18px] xl:text-[19px] text-white">
+                 <ul className="mt-6 space-y-5 text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] xl:text-[22px] text-white">
                   <li className="flex items-start gap-3">
-                                       <span className=" text-[#F8D216] text-[14px] leading-none">➜</span>
+                                       <span className=" text-[#F8D216] text-[20px] leading-none">➜</span>
 
                     <span>
                       Start with what you remember, we’ll guide the rest.
@@ -1070,7 +1070,7 @@ const RobloxSALawsuitD = () => {
                   </li>
 
                   <li className="flex items-start gap-3">
-                                       <span className=" text-[#F8D216] text-[14px] leading-none">➜</span>
+                                       <span className=" text-[#F8D216] text-[20px] leading-none">➜</span>
 
                     <span>
                       Confidential, family-first screening.
@@ -1078,7 +1078,7 @@ const RobloxSALawsuitD = () => {
                   </li>
 
                   <li className="flex items-start gap-3">
-                                       <span className=" text-[#F8D216] text-[14px] leading-none">➜</span>
+                                       <span className=" text-[#F8D216] text-[20px] leading-none">➜</span>
 
                     <span>
                       If eligible, we connect you to a lawyer for a free case review.
@@ -2018,9 +2018,9 @@ bg-[#F8D216]
       <div className=" lg:hidden w-full bg-[#162766]">
         <div className=" max-w-[720px] px-4 py-10 text-white font-jakarta">
 
-          <ul className="space-y-7 text-[14px]">
+          <ul className="space-y-7 text-[18px] leading-[26px]">
             <li className="flex items-start gap-3">
-                                 <span className=" text-[#F8D216] text-[14px] leading-none">➜</span>
+                                 <span className=" text-[#F8D216] text-[20px] leading-none">➜</span>
 
               <span>
                 Start with what you remember, we’ll guide the rest.
@@ -2028,13 +2028,13 @@ bg-[#F8D216]
             </li>
 
             <li className="flex items-start gap-3">
-                                 <span className=" text-[#F8D216] text-[14px] leading-none">➜</span>
+                                 <span className=" text-[#F8D216] text-[20px] leading-none">➜</span>
 
               Confidential, family-first screening.
             </li>
 
             <li className="flex items-start gap-3">
-                                 <span className=" text-[#F8D216] text-[14px] leading-none">➜</span>
+                                 <span className=" text-[#F8D216] text-[20px] leading-none">➜</span>
 
               If eligible, we connect you to a lawyer for a free case review.
             </li>

@@ -26,6 +26,19 @@ const CRM_API_URL =
 
 const META_PIXEL_ID = ""; //1293225752464496
 
+const states = [
+  "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado",
+  "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho",
+  "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana",
+  "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota",
+  "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada",
+  "New Hampshire", "New Jersey", "New Mexico", "New York",
+  "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon",
+  "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota",
+  "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington",
+  "West Virginia", "Wisconsin", "Wyoming",
+];
+
 const ThankYouPage = () => {
   return (
     <div className="relative w-full h-screen bg-white overflow-hidden">
@@ -599,19 +612,24 @@ export default function Hero() {
                   State
                 </label>
 
-                <input
-                  type="text"
-                  placeholder="Enter your state"
+                <select
                   value={formData.state}
                   onChange={(e) =>
                     setFormData({ ...formData, state: e.target.value })
                   }
-                  className={`w-full border rounded-md px-3 py-2 text-[15px] ${
+                  className={`w-full border rounded-md px-3 py-2 text-[15px] bg-white ${
                     touched.state && errors.state
                       ? "border-red-500"
                       : "border-[#D7DBEA]"
                   }`}
-                />
+                >
+                  <option value="">Select Your State</option>
+                  {states.map((state) => (
+                    <option key={state} value={state}>
+                      {state}
+                    </option>
+                  ))}
+                </select>
 
                 {touched.state && errors.state && (
                   <span className="text-[11px] text-red-500">
